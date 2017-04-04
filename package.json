@@ -1,0 +1,32 @@
+{
+  "name": "vp-350org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chihsuan/vp-350org.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chihsuan/vp-350org/issues"
+  },
+  "homepage": "https://github.com/chihsuan/vp-350org#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "d3": "^4.7.4"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-uglify": "^2.0.0"
+  }
+}
