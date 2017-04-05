@@ -104,8 +104,7 @@ section {
 }
 
 #idea {
-  height: 320px;
-  padding: 100px;
+  padding: 80px;
   color: #fff;
 }
 
@@ -118,7 +117,7 @@ section {
 }
 
 #bank-vis {
-  height: 300px;
+
 }
 
 
@@ -130,11 +129,6 @@ section {
 
 #site-footer {
   padding: 7rem;
-}
-
-.nobullet {
-  padding-left: 0.7em !important;
-  text-indent: -0.7em;
   li {
     margin: 0;
     list-style-type: none;
@@ -143,9 +137,42 @@ section {
     text-decoration: none;
     color: rgba(255,255,255,0.75);
     font-weight: bold;
-    
+
     &:hover {
       color: rgba(255,255,255,0.3);
     }
   }
+}
+
+#bank-treemap {
+  width: 100%;
+}
+
+.bank-treemap-rect {
+  fill: #ffa902;
+  stroke: #fff;
+}
+
+.proj-treemap-rect {
+  fill: #17292e;
+  stroke: #fff;
+}
+
+text {
+  fill: #fff;
+}
+
+.arrow-down {
+  text-align: center;
+  font-size: 7rem;
+  margin: 45px;
+}
+
+#flow {
+  padding: 40px;
+}
+
+#action {
+  height: 400px;
+  width: 100%;
 }
