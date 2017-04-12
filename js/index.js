@@ -70,7 +70,7 @@
 	      .attr('class', 'map-title')
 	      .attr('y', function() {
 	        if (isMobile) {
-	          return '200px';
+	          return '120px';
 	        }
 	        return height/2;
 	      })
@@ -92,7 +92,7 @@
 	      });
 
     	var scale = d3.scale.linear()
-                .domain([100, d3.max(pointData, function(d) { return d.capacity_mw; })])
+                .domain([0, d3.max(pointData, function(d) { return d.capacity_mw; })])
                 .range([5, 18]);
 	     
 	    svg.selectAll("circle")
@@ -104,35 +104,23 @@
 					return scale(d.capacity_mw);
 				});
 
+      var legandX = 30;
+      var legandY = height - 25;
+
+
 			svg.append('circle')
-				.attr("cx", width/3*2)
-				.attr("cy", height - 100)
+				.attr("cx", legandX)
+				.attr("cy", legandY)
 				.attr("r", '8px')
 				.attr("fill", "red");
 
 			svg.append('text')
-				.attr("x", width/3*2 + 20)
-				.attr("y", height - 94)
+				.attr("x", legandX + 13)
+				.attr("y", legandY + 3)
 				.attr("r", "8px")
 				.attr("fill", "red")
 				.text('Fossil Project Capacity');
 
-
-
-	    // var centroids = features.map(function (feature){
-	    //   return {
-	    //     name: feature.properties.name,
-	    //     center: path.centroid(feature),
-	    //   }
-	    // });
-
-	    // svg.selectAll('.place-label')
-	    //   .data(centroids)
-	    // .enter().append('text')
-	    //   .attr('class', 'place-label')
-	    //   .text(function(d) { return d.name; })
-	    //   .attr('x', function (d){ return d.center[0]; })
-	    //   .attr('y', function (d){ return d.center[1]; });
 		});
   });
 
@@ -158,6 +146,12 @@
       });
     }
 
+    var bankTotal = bankArray.reduce(function(a, b) {
+      return { value: a.value + b.value }; 
+    });
+	document.getElementById('bank-invest-total').innerText = bankTotal.value + ' (mio USD)';   	
+	document.getElementById('proj-total').innerText = '520000 (KgCO2)';
+
     var bankTreemap = d3.layout.treemap()
       .size([width, 500]);
 
@@ -174,7 +168,7 @@
       .enter().append('g')
       .on('mousemove', function(d) {
         mousemove(d, '<strong>Bank Name:' + d.name + '</strong>' +  
-                     '<p>Investing Amount: ' + d.value.toFixed(2) + '</p>');
+                     '<p>Investing Amount(mio USD): ' + d.value.toFixed(2) + '</p>');
       })
       .on('mouseout', mouseout);
 
@@ -307,11 +301,7 @@
       }
     });
 
-
   });
-
-
-
 
 })(window);
 
