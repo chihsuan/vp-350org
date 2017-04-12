@@ -82,7 +82,8 @@ h1, h2, h3, h4, h5 {
   top: 0;
   position: relative;
   margin: 0;
-  height: 100%;
+  min-height: 100%;
+  display: block;
 
   .countries {
     fill: rgba(255,255,255,.75);
@@ -114,14 +115,13 @@ h1, h2, h3, h4, h5 {
 }
 
 section {
-  margin-top: 20px;
+  margin-top: 50px;
   font-size: 16px;
 }
 
 #intro {
-  padding: 50px 0;
   font-size: 2.3rem;
-  height: 200px;
+  max-height: 200px;
 }
 
 #idea {
@@ -183,6 +183,12 @@ text {
   font-weight: 500;
 }
 
+#proj-treemap {
+  text {
+    fill: rgba(255, 255, 255, 0.74);
+  }
+}
+
 .arrow-down {
   text-align: center;
   font-size: 7rem;
@@ -210,8 +216,8 @@ path.link {
 }
 
 circle {
-  fill: #ccc;
-  stroke: #fff;
+  fill: rgba(193, 39, 45, 0.6);
+  stroke: #b52626;
   stroke-width: 1.5px;
 }
 
@@ -270,7 +276,7 @@ circle {
 }
 
 .action-block {
-  margin: 55px auto;
+  margin: 90px auto;
   float: initial;
 }
 
@@ -285,4 +291,15 @@ circle {
 .table-wrap {
   width: 80%;
   margin: auto;
+}
+
+@media only screen and (max-width: 720px) {
+  #idea {
+    padding: 30px;
+    text-align: center;
+  }
+  #east-asia-map .map-title {
+    font-size: 5rem;
+  }
+
 }

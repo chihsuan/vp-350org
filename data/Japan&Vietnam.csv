@@ -1,0 +1,352 @@
+tracker_id,country,plant,unit,combustion_technology,coal_type,emission_factor,capacity_mw,status,year,year_spread,retired,planned_retire,latitude,longitude,efficiency,capacity_factor,emissions_yr_mt,lifetime,lifetime_spread,emissions_lifetime_mt
+G107151,Vietnam,Na Duong power station,Na Duong-1 power station Unit 1,SUBCR,LIG,101000,50,operating,2004,0,,,21.698111,106.975852,0.382504459,0.64,8449574.711,46,14,388680436.7
+G107152,Vietnam,Na Duong power station,Na Duong-1 power station Unit 2,SUBCR,LIG,101000,50,operating,2004,0,,,21.698111,106.975852,0.382504459,0.64,8449574.711,46,14,388680436.7
+G100084,Japan,Aichi Refinery power station,Aichi Refinery 4,SUBCR,SUB,96100,40,operating,1986,0,,,35.180189,136.913508,0.392130806,0.64,6273824.86,46,14,288595943.6
+G106803,Japan,Meinan Kyodo Energy power station,Meinan Kyodo Energy power station,SUBCR,SUB,96100,31,permitted,2018,0,,,34.85,136.916667,0.392130806,0.64,4862214.267,46,14,223661856.3
+G107185,Japan,Nagoya power station,Nagoya power station Unit 1,SUBCR,SUB,96100,149,operating,2000,0,,,34.843989,136.926917,0.392130806,0.64,23369997.61,46,14,1075019890
+G107186,Japan,Nagoya power station,Nagoya power station Unit 2,SUBCR,SUB,96100,110,construction,2017,0,,,34.85,136.916667,0.392130806,0.64,17253018.37,46,14,793638844.8
+G107187,Japan,Nagoya Tokai power station,Nagoya Tokai power station Unit 1,SUBCR,SUB,96100,149,operating,1990,0,,,35.027313,136.865863,0.392130806,0.64,23369997.61,46,14,1075019890
+G109766,Japan,Suzukawa Energy Center,Suzukawa Energy Center,SUBCR,SUB,96100,112,operating,2016,0,,,35.16667,138.68333,0.392130806,0.64,17566709.61,46,14,808068642
+G109873,Japan,Taketoyo power station,Taketoyo power station Unit 5,ULTRA,SUB,96100,1070,pre,2022,0,,,34.845,136.961667,0.412514782,0.64,159531931.7,46,14,7338468859
+G101518,Japan,Chogoku Air Water Yamaguchi co-fire power station,Chogoku Air Water Yamaguchi co-fire power station,SUBCR,SUB,96100,112,pre,2018,0,,,34.05,131.566667,0.392130806,0.64,17566709.61,46,14,808068642
+G102827,Japan,Fukuyama Works power station,Fukuyama Works power station Unit 1,SUBCR,SUB,96100,35,operating,1966,0,,,34.478865,133.441571,0.392130806,0.64,5489596.753,46,14,252521450.6
+G102828,Japan,Fukuyama Works power station,Fukuyama Works power station Unit 3,SUBCR,SUB,96100,33,operating,1989,0,,,34.478865,133.441571,0.392130806,0.64,5175905.51,46,14,238091653.5
+G102829,Japan,Fukuyama Works power station,Fukuyama Works power station Unit 4,SUBCR,SUB,96100,30,operating,1997,0,,,34.478865,133.441571,0.392130806,0.64,4705368.645,46,14,216446957.7
+G105448,Japan,Kaita power station,Kaita power station,SUBCR,SUB,96100,112,pre,2019,0,,,34.366667,132.533333,0.392130806,0.64,17566709.61,46,14,808068642
+G106954,Japan,Misumi power station,Misumi power station Unit 2,ULTRA,SUB,96100,1000,permitted,2022,0,,,34.7797,131.9215,0.412514782,0.64,149095263.3,46,14,6858382111
+G106960,Japan,Mizushima Energy Center,Mizushima Energy Center,unknown,SUB,96100,112,construction,2017,0,,,34.583333,133.766667,0.391590805,0.64,17590933.98,46,14,809182963.3
+G107280,Japan,Nanyo Complex power station,Nanyo Complex power station Unit 3,SUBCR,SUB,96100,116,operating,1982,0,,,34.055538,131.757956,0.392130806,0.64,18194092.1,46,14,836928236.4
+G107281,Japan,Nanyo Complex power station,Nanyo Complex power station Unit 4,SUBCR,SUB,96100,145,operating,1989,0,,,34.055538,131.757956,0.392130806,0.64,22742615.12,46,14,1046160295
+G107282,Japan,Nanyo Complex power station,Nanyo Complex power station Unit 5,SUBCR,SUB,96100,220,operating,2008,0,,,34.055538,131.757956,0.392130806,0.64,34506036.73,46,14,1587277690
+G107692,Japan,Osaki CoolGen Project,Osaki CoolGen Project,IGCC,SUB,96100,166,construction,2017,0,,,34.2680271,132.9152298,0.453284043,0.64,22523766.63,46,14,1036093265
+G107693,Japan,Osaki power station,Osaki power station Unit 1,SUBCR,SUB,96100,215,operating,2000,0,,,34.259035,132.873166,0.392130806,0.64,33721808.62,46,14,1551203197
+G109282,Japan,Shin Tokuyama power station,Shin Tokuyama power station Unit 4,SUBCR,SUB,96100,125,operating,1987,0,,,34.060321,131.789899,0.392130806,0.64,19605702.69,46,14,901862323.7
+G110416,Japan,Ube power station,Ube power station Unit 1,ULTRA,SUB,96100,600,pre,2023,0,,,33.95,131.25,0.412514782,0.64,89457157.97,46,14,4115029267
+G110417,Japan,Ube power station,Ube power station Unit 2,ULTRA,SUB,96100,600,pre,2025,0,,,33.95,131.25,0.412514782,0.64,89457157.97,46,14,4115029267
+G106913,Japan,Miike Mine power station,Miike Mine 1,SUBCR,SUB,96100,47,operating,1983,0,,,33.6,130.583333,0.392130806,0.64,7371744.211,46,14,339100233.7
+G106915,Japan,Mikawa power station,Mikawa 1,SUBCR,SUB,96100,47,operating,2005,0,,,33.6,130.583333,0.392130806,0.64,7371744.211,46,14,339100233.7
+G107638,Japan,Omuta Works power station,Omuta Works 3,SUBCR,SUB,96100,50,operating,1983,0,,,33.6,130.583333,0.392130806,0.64,7842281.076,46,14,360744929.5
+G107639,Japan,Omuta Works power station,Omuta Works 4,SUBCR,SUB,96100,35,operating,1996,0,,,33.6,130.583333,0.392130806,0.64,5489596.753,46,14,252521450.6
+G110696,Japan,Wakamatsu Repower power station,Wakamatsu Repower 1,SUBCR,SUB,96100,70,operating,1994,0,,,33.6,130.583333,0.392130806,0.64,10979193.51,46,14,505042901.3
+G109695,Japan,Summit Onahama power station,Summit Onahama 1,SUBCR,SUB,96100,50,operating,2004,0,,,36.23,140.28,0.392130806,0.64,7842281.076,46,14,360744929.5
+G107704,Japan,Otake Plant power station,Otake Plant 6,SUBCR,SUB,96100,70,operating,2003,0,,,34.433333,132.75,0.392130806,0.64,10979193.51,46,14,505042901.3
+G106037,Japan,Kushiro Mill Npi power station,Kushiro Mill Npi 8,SUBCR,SUB,96100,57,operating,1986,0,,,42.983333,144.383333,0.392130806,0.64,8940200.426,46,14,411249219.6
+G106038,Japan,Kushiro power station,Kushiro power station,SUBCR,SUB,96100,112,pre,2019,0,,,42.983333,144.383333,0.392130806,0.64,17566709.61,46,14,808068642
+G109289,Japan,Shiraoi Mill power station,Shiraoi Mill 4,SUBCR,SUB,96100,63,operating,1975,0,,,44,143,0.392130806,0.64,9881274.155,46,14,454538611.1
+G107589,Japan,NSC Muroran Works power station,NSC Muroran Works power station Unit 3,SUBCR,SUB,96100,50,operating,1994,0,,,42.350715,140.992951,0.392130806,0.64,7842281.076,46,14,360744929.5
+G107590,Japan,NSC Muroran Works power station,NSC Muroran Works power station Unit 5,SUBCR,SUB,96100,145,operating,2001,0,,,42.350715,140.992951,0.392130806,0.64,22742615.12,46,14,1046160295
+G109278,Japan,Shin Ebetsu power station,Shin Ebetsu power station Unit 2,SUBCR,SUB,96100,125,operating,1964,0,,,44,143,0.392130806,0.64,19605702.69,46,14,901862323.7
+G109279,Japan,Shin Ebetsu power station,Shin Ebetsu power station Unit 3,SUBCR,SUB,96100,125,operating,1965,0,,,44,143,0.392130806,0.64,19605702.69,46,14,901862323.7
+G110233,Japan,Tomakomai Mill power station,Tomakomai Mill power station Unit 14,SUBCR,SUB,96100,35,operating,1981,0,,,42.636177,141.588279,0.392130806,0.64,5489596.753,46,14,252521450.6
+G110234,Japan,Tomakomai Mill power station,Tomakomai Mill power station Unit 15,SUBCR,SUB,96100,38,operating,1990,0,,,42.636177,141.588279,0.392130806,0.64,5960133.617,46,14,274166146.4
+G100089,Japan,Akita power station,Akita power station Unit 1,ULTRA,SUB,96100,650,pre,2024,0,,,39.718611,140.1025,0.412514782,0.64,96911921.14,46,14,4457948372
+G100090,Japan,Akita power station,Akita power station Unit 2,ULTRA,SUB,96100,650,pre,2024,0,,,39.718611,140.1025,0.412514782,0.64,96911921.14,46,14,4457948372
+G107490,Japan,Nippon Paper Akita power station,Nippon Paper Akita power station,SUBCR,SUB,96100,112,pre,2018,0,,,39.720028,140.102583,0.392130806,0.64,17566709.61,46,14,808068642
+G107167,Japan,Nadahama Works power station,Nadahama Works 1,SUBCR,SUB,96100,30,retired,1968,0,,,34.690817,135.183078,0.392130806,0.64,4705368.645,46,14,216446957.7
+G107168,Japan,Nadahama Works power station,Nadahama Works 1R,SUBCR,SUB,96100,30,operating,2009,0,,,34.690817,135.183078,0.392130806,0.64,4705368.645,46,14,216446957.7
+G107169,Japan,Nadahama Works power station,Nadahama Works 2,SUBCR,SUB,96100,45,operating,1995,0,,,34.690817,135.183078,0.392130806,0.64,7058052.968,46,14,324670436.5
+G100091,Japan,Ako Cement Plant power station,Ako Cement Plant power station Unit 1,SUBCR,SUB,96100,102,operating,1997,0,,,34.752983,134.364278,0.392130806,0.64,15998253.39,46,14,735919656.1
+G100092,Japan,Ako power station,Ako power station Unit 1,SUPERC,SUB,96100,600,cancelled,2020,0,,,34.751667,134.393056,0.405794063,0.64,90938738.08,46,14,4183181952
+G100093,Japan,Ako power station,Ako power station Unit 2,SUPERC,SUB,96100,600,cancelled,2020,0,,,34.751667,134.393056,0.405794063,0.64,90938738.08,46,14,4183181952
+G103893,Japan,Hirohata Works power station,Hirohata Works power station Unit 6,SUBCR,SUB,96100,145,operating,1996,0,,,34.787808,134.623711,0.392130806,0.64,22742615.12,46,14,1046160295
+G103894,Japan,Hirohata Works power station,Hirohata Works power station Unit 7,SUBCR,SUB,96100,145,operating,1999,0,,,34.787808,134.623711,0.392130806,0.64,22742615.12,46,14,1046160295
+G105797,Japan,Kobe Works power station,Kobe Works power station Unit 1,ULTRA,SUB,96100,650,pre,2021,0,,,34.7043722,135.2463126,0.412514782,0.64,96911921.14,46,14,4457948372
+G105798,Japan,Kobe Works power station,Kobe Works power station Unit 2,ULTRA,SUB,96100,650,pre,2022,0,,,34.7043722,135.2463126,0.412514782,0.64,96911921.14,46,14,4457948372
+G109285,Japan,Shinko Kobe power station,Shinko Kobe power station Unit 1,SUPERC,SUB,96100,700,operating,2002,0,,,34.703167,135.239426,0.405794063,0.64,106095194.4,46,14,4880378944
+G109286,Japan,Shinko Kobe power station,Shinko Kobe power station Unit 2,SUPERC,SUB,96100,700,operating,2004,0,,,34.703167,135.239426,0.405794063,0.64,106095194.4,46,14,4880378944
+G109865,Japan,Takasago power station,Takasago power station New unit 1,ULTRA,SUB,96100,600,pre,2021,0,,,34.754038,134.7663581,0.412514782,0.64,89457157.97,46,14,4115029267
+G109866,Japan,Takasago power station,Takasago power station New unit 2,ULTRA,SUB,96100,600,pre,2027,0,,,34.754038,134.7663581,0.412514782,0.64,89457157.97,46,14,4115029267
+G111424,Japan,Yokkaichi power station,Yokkaichi power station,SUBCR,SUB,96100,112,pre,2019,0,,,34.966667,136.616667,0.392130806,0.64,17566709.61,46,14,808068642
+G101457,Japan,Chiba power station,Chiba power station Unit 1,ULTRA,SUB,96100,1000,pre,2025,0,,,35.433333,139.95,0.412514782,0.64,149095263.3,46,14,6858382111
+G101458,Japan,Chiba power station,Chiba power station Unit 2,ULTRA,SUB,96100,1000,pre,2026,0,,,35.433333,139.95,0.412514782,0.64,149095263.3,46,14,6858382111
+G104828,Japan,Ichihara power station,Ichihara power station,ULTRA,SUB,96100,1000,pre,2024,0,,,35.5,140.116667,0.412514782,0.64,149095263.3,46,14,6858382111
+G105024,Japan,JFE Steel power station,JFE Steel power station,ULTRA,SUB,96100,1070,announced,2020,0,,,35.605,140.123333,0.412514782,0.64,159531931.7,46,14,7338468859
+G105674,Japan,KEPCO Chiba power station,KEPCO Chiba power station,unknown,SUB,96100,1000,announced,,,,,35.605,140.123333,0.391590805,0.64,157061910.6,46,14,7224847887
+G107691,Japan,Osaka Gas Kashima power station,Osaka Gas Kashima power station,unknown,SUB,96100,112,announced,2017,0,,,35.966667,140.65,0.391590805,0.64,17590933.98,46,14,809182963.3
+G109693,Japan,Sumitomo Metals Kashima power station,Sumitomo Metals Kashima power station Unit 1,SUPERC,SUB,96100,507,operating,2007,0,,,35.947067,140.688737,0.405794063,0.64,76843233.68,46,14,3534788749
+G109694,Japan,Sumitomo Metals Kashima power station,Sumitomo Metals Kashima power station Unit 2,ULTRA,SUB,96100,645,construction,2020,0,,,35.947067,140.688737,0.412514782,0.64,96166444.82,46,14,4423656462
+G111425,Japan,Yokosuka power station,Yokosuka power station Unit 1,ULTRA,SUB,96100,650,pre,2023,0,,,35.215556,139.716389,0.412514782,0.64,96911921.14,46,14,4457948372
+G111426,Japan,Yokosuka power station,Yokosuka power station Unit 2,ULTRA,SUB,96100,650,pre,2024,0,,,35.215556,139.716389,0.412514782,0.64,96911921.14,46,14,4457948372
+G105809,Japan,Koichi Cement Plant power station,Koichi Cement Plant 1,SUBCR,SUB,96100,61,operating,1999,0,,,3.433333,133.433333,0.392130806,0.64,9567582.912,46,14,440108814
+G110302,Japan,Tosa Works power station,Tosa Works 1,SUBCR,SUB,96100,30,operating,1997,0,,,3.433333,133.433333,0.392130806,0.64,4705368.645,46,14,216446957.7
+G111343,Japan,Yatsushiro Mill power station,Yatsushiro Mill 5,SUBCR,SUB,96100,70,operating,1993,0,,,32.716667,130.666667,0.392130806,0.64,10979193.51,46,14,505042901.3
+G103883,Japan,Hibikinada power station,Hibikinada power station,SUBCR,SUB,96100,112,permitted,2018,0,,,33.883333,130.883333,0.392130806,0.64,17566709.61,46,14,808068642
+G105745,Japan,Kin power station,Kin power station Unit 1,SUBCR,SUB,96100,220,operating,2002,0,,,26.446606,127.921757,0.392130806,0.64,34506036.73,46,14,1587277690
+G105746,Japan,Kin power station,Kin power station Unit 2,SUBCR,SUB,96100,220,operating,2003,0,,,26.446606,127.921757,0.392130806,0.64,34506036.73,46,14,1587277690
+G107615,Japan,Oita IPP power station,Oita IPP power station Unit 1,SUBCR,SUB,96100,330,operating,2002,0,,,33.269064,131.649396,0.392130806,0.64,51759055.1,46,14,2380916535
+G110208,Japan,Tobata power station,Tobata power station Unit 2,SUBCR,SUB,96100,156,operating,1971,0,,,33.927769,130.84714,0.392130806,0.64,24467916.96,46,14,1125524180
+G111344,Japan,Yawata Works power station,Yawata Works power station Unit 7,SUBCR,SUB,96100,149,operating,1999,0,,,33.898217,130.889125,0.392130806,0.64,23369997.61,46,14,1075019890
+G109287,Japan,Shiohama Chemical New power station,Shiohama Chemical New 1,SUBCR,SUB,96100,34,operating,2008,0,,,34.9411109,136.6319847,0.392130806,0.64,5332751.131,46,14,245306552
+G109288,Japan,Shiohama Chemical New power station,Shiohama Chemical New 2,SUBCR,SUB,96100,34,operating,2008,0,,,34.9411109,136.6319847,0.392130806,0.64,5332751.131,46,14,245306552
+G104914,Japan,Ishinomaki Mill power station,Ishinomaki Mill 6,SUBCR,SUB,96100,98,operating,1987,0,,,38.4188302,141.2917328,0.392130806,0.64,15370870.91,46,14,707060061.8
+G104926,Japan,Iwanuma Mill power station,Iwanuma Mill 4,SUBCR,SUB,96100,63,operating,1991,0,,,38.0897829,140.8607769,0.392130806,0.64,9881274.155,46,14,454538611.1
+G107492,Japan,Nobeoka Plant power station,Nobeoka Plant power station Unit 1,SUBCR,SUB,96100,50,operating,2006,0,,,38.35,140.966667,0.392130806,0.64,7842281.076,46,14,360744929.5
+G107493,Japan,Nobeoka Plant power station,Nobeoka Plant power station Unit 2,SUBCR,SUB,96100,60,pre,2018,0,,,38.35,140.966667,0.392130806,0.64,9410737.291,46,14,432893915.4
+G101568,Japan,Chuo Works power station,Chuo Works 7R,SUBCR,SUB,96100,78,operating,2007,0,,,38.35,140.966667,0.392130806,0.64,12233958.48,46,14,562762090
+G107435,Japan,Niihama Nishi power station,Niihama Nishi power station Unit 3,SUBCR,SUB,96100,150,operating,2008,0,,,33.954611,133.249236,0.392130806,0.64,23526843.23,46,14,1082234788
+G107592,Japan,Nyugawa power station,Nyugawa Rebuild power station Unit 1,SUBCR,SUB,96100,250,operating,2003,0,,,33.933984,133.115368,0.392130806,0.64,39211405.38,46,14,1803724647
+G108716,Japan,Saijo power station,Saijo power station Unit 1 Replacement,ULTRA,SUB,96100,500,pre,2023,0,,,33.9327,133.1677,0.412514782,0.64,74547631.64,46,14,3429191056
+G109267,Japan,Shikoku Tachibana-wan power station,Shikoku Tachibana-wan power station Unit 1,SUPERC,SUB,96100,700,operating,2000,0,,,33.864231,134.654624,0.405794063,0.64,106095194.4,46,14,4880378944
+G110301,Japan,Tosa power station,Tosa power station Unit 1,SUBCR,SUB,96100,150,operating,2005,0,,,33.534087,133.557483,0.392130806,0.64,23526843.23,46,14,1082234788
+G103524,Japan,Hachinohe Mill power station,Hachinohe Mill power station Unit 6,SUBCR,SUB,96100,35,operating,1988,0,,,40.567959,141.478536,0.392130806,0.64,5489596.753,46,14,252521450.6
+G103525,Japan,Hachinohe Mill power station,Hachinohe Mill power station Unit 7,SUBCR,SUB,96100,55,operating,1995,0,,,40.567959,141.478536,0.392130806,0.64,8626509.183,46,14,396819422.4
+G103895,Japan,Hirono Thermal Power Station,Hirono power station IGCC,IGCC,SUB,96100,540,pre,2021,0,,,37.232652,141.013799,0.453284043,0.64,73270084.22,46,14,3370423874
+G104925,Japan,Iwaki power station,Iwaki power station,SUBCR,SUB,96100,112,pre,2018,0,,,37.0505,140.887722,0.392130806,0.64,17566709.61,46,14,808068642
+G105505,Japan,Kamaishi Works power station,Kamaishi Works power station Unit 1,SUBCR,SUB,96100,149,operating,2000,0,,,39.268586,141.876928,0.392130806,0.64,23369997.61,46,14,1075019890
+G105547,Japan,Kansai Sendai power station,Kansai Sendai power station,unknown,SUB,96100,112,construction,2017,0,,,38.266667,140.866667,0.391590805,0.64,17590933.98,46,14,809182963.3
+G106524,Japan,M.Setek Soma power station,M.Setek Soma power station,SUBCR,SUB,96100,112,construction,2018,0,,,37.796667,140.919639,0.392130806,0.64,17566709.61,46,14,808068642
+G106559,Japan,Maeda co-fired power station,Maeda co-fired power station,unknown,SUB,96100,112,announced,,,,,38.9,140.683333,0.391590805,0.64,17590933.98,46,14,809182963.3
+G107196,Japan,Nakoso power station,Nakoso power station Unit 10,IGCC,SUB,96100,250,operating,2013,0,,,36.9128,140.8128,0.453284043,0.64,33921335.29,46,14,1560381423
+G107197,Japan,Nakoso power station,Nakoso power station Unit 11,IGCC,SUB,96100,540,pre,2020,0,,,36.9128,140.8128,0.453284043,0.64,73270084.22,46,14,3370423874
+G107491,Japan,Nippon Paper Ishinomaki power station,Nippon Paper Ishinomaki power station,SUBCR,SUB,96100,149,construction,2018,0,,,38.4188302,141.2917328,0.392130806,0.64,23369997.61,46,14,1075019890
+G107676,Japan,Orix Soma power station,Orix Soma power station,SUBCR,SUB,96100,112,permitted,2018,0,,,37.796667,140.919639,0.392130806,0.64,17566709.61,46,14,808068642
+G109493,Japan,Soma Core power station,Soma Core power station,SUBCR,SUB,96100,112,pre,2018,0,,,37.796667,140.919639,0.392130806,0.64,17566709.61,46,14,808068642
+G109495,Japan,Soma Kyodo power station,Soma Kyodo power station,unknown,SUB,96100,1000,announced,2023,0,,,37.875278,140.921944,0.391590805,0.64,157061910.6,46,14,7224847887
+G110242,Japan,Tonda power station,Tonda 09,SUBCR,SUB,96100,40,operating,1963,0,,,38.433333,140.133333,0.392130806,0.64,6273824.86,46,14,288595943.6
+G103887,Japan,Hikari Works power station,Hikari Works 1,SUBCR,SUB,96100,50,operating,1989,0,,,34.066667,131.5,0.392130806,0.64,7842281.076,46,14,360744929.5
+G109920,Vietnam,Tan Thanh power station,Tan Thanh Unit 1,unknown,SUB,96100,600,cancelled,,,,,10.590556,107.048056,0.391590805,0.64,94237146.35,46,14,4334908732
+G109921,Vietnam,Tan Thanh power station,Tan Thanh Unit 2,unknown,SUB,96100,600,cancelled,,,,,10.590556,107.048056,0.391590805,0.64,94237146.35,46,14,4334908732
+G109922,Vietnam,Tan Thanh power station,Tan Thanh Unit 3,unknown,SUB,96100,600,cancelled,,,,,10.590556,107.048056,0.391590805,0.64,94237146.35,46,14,4334908732
+G109923,Vietnam,Tan Thanh power station,Tan Thanh Unit 4,unknown,SUB,96100,600,cancelled,,,,,10.590556,107.048056,0.391590805,0.64,94237146.35,46,14,4334908732
+G109506,Vietnam,Son Dong power station,Son Dong power station Unit 1,SUBCR,SUB,96100,110,operating,2010,0,,,21.179288,106.780143,0.392130806,0.64,17253018.37,46,14,793638844.8
+G109507,Vietnam,Son Dong power station,Son Dong power station Unit 2,SUBCR,SUB,96100,110,operating,2010,0,,,21.179288,106.780143,0.392130806,0.64,17253018.37,46,14,793638844.8
+G109508,Vietnam,Son My power station,Son My 1,unknown,SUB,96100,600,cancelled,,,,,10.75,107.667,0.391590805,0.64,94237146.35,46,14,4334908732
+G109509,Vietnam,Son My power station,Son My 2,unknown,SUB,96100,600,cancelled,,,,,10.75,107.667,0.391590805,0.64,94237146.35,46,14,4334908732
+G109510,Vietnam,Son My power station,Son My 3,unknown,SUB,96100,600,cancelled,,,,,10.75,107.667,0.391590805,0.64,94237146.35,46,14,4334908732
+G109511,Vietnam,Son My power station,Son My 4,unknown,SUB,96100,600,cancelled,,,,,10.75,107.667,0.391590805,0.64,94237146.35,46,14,4334908732
+G109512,Vietnam,Son My power station,Son My 5,unknown,SUB,96100,600,cancelled,,,,,10.75,107.667,0.391590805,0.64,94237146.35,46,14,4334908732
+G109513,Vietnam,Son My power station,Son My 6,unknown,SUB,96100,600,cancelled,,,,,10.75,107.667,0.391590805,0.64,94237146.35,46,14,4334908732
+G110615,Vietnam,Vinh Tan power station,Vinh Tan-3 Unit 1,SUPERC,SUB,96100,660,pre,2022,0,,,11.317,108.808,0.405794063,0.64,100032611.9,46,14,4601500147
+G110616,Vietnam,Vinh Tan power station,Vinh Tan-3 Unit 2,SUPERC,SUB,96100,660,pre,2023,0,,,11.317,108.808,0.405794063,0.64,100032611.9,46,14,4601500147
+G110617,Vietnam,Vinh Tan power station,Vinh Tan-3 Unit 3,SUPERC,SUB,96100,660,pre,2023,0,,,11.317,108.808,0.405794063,0.64,100032611.9,46,14,4601500147
+G110619,Vietnam,Vinh Tan power station,Vinh Tan-4 Unit 1,ULTRA,SUB,96100,600,construction,2018,0,,,11.317,108.808,0.412514782,0.64,89457157.97,46,14,4115029267
+G110620,Vietnam,Vinh Tan power station,Vinh Tan-4 Unit 2,ULTRA,SUB,96100,600,construction,2018,0,,,11.317,108.808,0.412514782,0.64,89457157.97,46,14,4115029267
+G110618,Vietnam,Vinh Tan power station,Vinh Tan-4 Unit 3,unknown,SUB,96100,600,construction,2019,0,,,11.317,108.808,0.391590805,0.64,94237146.35,46,14,4334908732
+G107414,Vietnam,Nhon Trach Formosa power station,Nhon Trach Formosa power station,unknown,SUB,96100,150,operating,2004,0,,,10.71513,106.92495,0.391590805,0.64,23559286.59,46,14,1083727183
+G110053,Vietnam,Than Ve Dan power station,Than Ve Dan power station,unknown,SUB,96100,60,construction,2016,0,,,11.116667,107.183333,0.391590805,0.64,9423714.635,46,14,433490873.2
+G103517,Vietnam,Ha Tinh Formosa Plastics Steel Complex power station,Ha Tinh Formosa Plastics Steel Complex power station Unit 1,unknown,SUB,96100,150,operating,2015,0,,,18.02883,106.44555,0.391590805,0.64,23559286.59,46,14,1083727183
+G103518,Vietnam,Ha Tinh Formosa Plastics Steel Complex power station,Ha Tinh Formosa Plastics Steel Complex power station Unit 10,unknown,SUB,96100,150,pre,2020,0,,,18.02883,106.44555,0.391590805,0.64,23559286.59,46,14,1083727183
+G103519,Vietnam,Ha Tinh Formosa Plastics Steel Complex power station,Ha Tinh Formosa Plastics Steel Complex power station Unit 2,unknown,SUB,96100,150,construction,2016,0,,,18.02883,106.44555,0.391590805,0.64,23559286.59,46,14,1083727183
+G103520,Vietnam,Ha Tinh Formosa Plastics Steel Complex power station,Ha Tinh Formosa Plastics Steel Complex power station Unit 5,unknown,SUB,96100,150,construction,2016,0,,,18.02883,106.44555,0.391590805,0.64,23559286.59,46,14,1083727183
+G103521,Vietnam,Ha Tinh Formosa Plastics Steel Complex power station,Ha Tinh Formosa Plastics Steel Complex power station Unit 6,unknown,SUB,96100,150,pre,2020,0,,,18.02883,106.44555,0.391590805,0.64,23559286.59,46,14,1083727183
+G103522,Vietnam,Ha Tinh Formosa Plastics Steel Complex power station,Ha Tinh Formosa Plastics Steel Complex power station Unit 7,unknown,SUB,96100,150,pre,2020,0,,,18.02883,106.44555,0.391590805,0.64,23559286.59,46,14,1083727183
+G110670,Vietnam,Vung Ang power station,Vung Ang-2 Unit 1,SUBCR,SUB,96100,660,pre,2021,0,,,18.09792,106.38123,0.392130806,0.64,103518110.2,46,14,4761833069
+G110671,Vietnam,Vung Ang power station,Vung Ang-2 Unit 2,SUBCR,SUB,96100,660,pre,2022,0,,,18.09792,106.38123,0.392130806,0.64,103518110.2,46,14,4761833069
+G110672,Vietnam,Vung Ang power station,Vung Ang-3 Unit 1,unknown,SUB,96100,600,pre,2024,0,,,18.09792,106.38123,0.391590805,0.64,94237146.35,46,14,4334908732
+G110673,Vietnam,Vung Ang power station,Vung Ang-3 Unit 2,unknown,SUB,96100,600,pre,2025,0,,,18.09792,106.38123,0.391590805,0.64,94237146.35,46,14,4334908732
+G112738,Vietnam,Vung Ang power station,Vung Ang-3 Unit 3,unknown,SUB,96100,600,pre,2029,0,,,18.09792,106.38123,0.391590805,0.64,94237146.35,46,14,4334908732
+G112739,Vietnam,Vung Ang power station,Vung Ang-3 Unit 4,unknown,SUB,96100,600,pre,2030,0,,,18.09792,106.38123,0.391590805,0.64,94237146.35,46,14,4334908732
+G103550,Vietnam,Hai Phong Thermal Power Station,Hai Phong-3 Unit 1,unknown,SUB,96100,600,pre,2025,0,,,20.94191,106.76005,0.391590805,0.64,94237146.35,46,14,4334908732
+G103551,Vietnam,Hai Phong Thermal Power Station,Hai Phong-3 Unit 2,unknown,SUB,96100,600,pre,2026,0,,,20.94191,106.76005,0.391590805,0.64,94237146.35,46,14,4334908732
+G103552,Vietnam,Hai Phong Thermal Power Station,Hai Phong-3 Unit 3,unknown,SUB,96100,600,cancelled,2025,0,,,20.94191,106.76005,0.391590805,0.64,94237146.35,46,14,4334908732
+G103553,Vietnam,Hai Phong Thermal Power Station,Hai Phong-3 Unit 4,unknown,SUB,96100,600,cancelled,2025,0,,,20.94191,106.76005,0.391590805,0.64,94237146.35,46,14,4334908732
+G109514,Vietnam,Song Hau Thermal Power Plant,Song Hau-1 Unit 1,SUPERC,SUB,96100,600,construction,2019,0,,,9.95266,105.86071,0.405794063,0.64,90938738.08,46,14,4183181952
+G109515,Vietnam,Song Hau Thermal Power Plant,Song Hau-1 Unit 2,SUPERC,SUB,96100,600,construction,2019,0,,,9.95266,105.86071,0.405794063,0.64,90938738.08,46,14,4183181952
+G109516,Vietnam,Song Hau Thermal Power Plant,Song Hau-2 Unit 1,SUPERC,SUB,96100,1000,pre,2021,0,,,9.95266,105.86071,0.405794063,0.64,151564563.5,46,14,6971969919
+G109517,Vietnam,Song Hau Thermal Power Plant,Song Hau-2 Unit 2,SUPERC,SUB,96100,1000,pre,2022,0,,,9.95266,105.86071,0.405794063,0.64,151564563.5,46,14,6971969919
+G109518,Vietnam,Song Hau Thermal Power Plant,Song Hau-3 Unit 1,SUPERC,SUB,96100,1000,cancelled,,,,,9.95266,105.86071,0.405794063,0.64,151564563.5,46,14,6971969919
+G109519,Vietnam,Song Hau Thermal Power Plant,Song Hau-3 Unit 2,SUPERC,SUB,96100,1000,cancelled,,,,,9.95266,105.86071,0.405794063,0.64,151564563.5,46,14,6971969919
+G110554,Vietnam,Van Phong power station,Van Phong-2 Unit 1,unknown,SUB,96100,660,cancelled,,,,,12.47704,109.29244,0.391590805,0.64,103660861,46,14,4768399605
+G110555,Vietnam,Van Phong power station,Van Phong-2 Unit 2,unknown,SUB,96100,660,cancelled,,,,,12.47704,109.29244,0.391590805,0.64,103660861,46,14,4768399605
+G102925,Vietnam,Ganh Dau power station,Ganh Dau Unit 1,SUBCR,SUB,96100,100,cancelled,,,,,10.228889,103.957222,0.392130806,0.64,15684562.15,46,14,721489859
+G102926,Vietnam,Ganh Dau power station,Ganh Dau Unit 2,SUBCR,SUB,96100,100,cancelled,,,,,10.228889,103.957222,0.392130806,0.64,15684562.15,46,14,721489859
+G105735,Vietnam,Kien Luong power station,Kien Luong-1 Unit 1,SUPERC,SUB,96100,600,cancelled,,,,,10.3,104.661,0.405794063,0.64,90938738.08,46,14,4183181952
+G105736,Vietnam,Kien Luong power station,Kien Luong-1 Unit 2,SUPERC,SUB,96100,600,cancelled,,,,,10.3,104.661,0.405794063,0.64,90938738.08,46,14,4183181952
+G105737,Vietnam,Kien Luong power station,Kien Luong-2 Unit 1,SUPERC,SUB,96100,600,cancelled,,,,,10.3,104.661,0.405794063,0.64,90938738.08,46,14,4183181952
+G105738,Vietnam,Kien Luong power station,Kien Luong-2 Unit 2,SUPERC,SUB,96100,600,cancelled,,,,,10.3,104.661,0.405794063,0.64,90938738.08,46,14,4183181952
+G105739,Vietnam,Kien Luong power station,Kien Luong-3 Unit 1,SUPERC,SUB,96100,1000,cancelled,,,,,10.3,104.661,0.405794063,0.64,151564563.5,46,14,6971969919
+G105740,Vietnam,Kien Luong power station,Kien Luong-3 Unit 2,SUPERC,SUB,96100,1000,cancelled,,,,,10.3,104.661,0.405794063,0.64,151564563.5,46,14,6971969919
+G107153,Vietnam,Na Duong power station,Na Duong-2 power station Unit 1,CFB,SUB,96100,110,construction,2019,0,,,21.6975,106.9765,0.392130806,0.64,17253018.37,46,14,793638844.8
+G102474,Vietnam,__c Giang Lˆo Cai power station,__c Giang Lˆo Cai power station Unit 1,unknown,SUB,96100,50,announced,,,,,22.382222,104.177222,0.391590805,0.64,7853095.529,46,14,361242394.3
+G112740,Vietnam,__c Giang Lˆo Cai power station,__c Giang Lˆo Cai power station Unit 2,unknown,SUB,96100,50,announced,,,,,22.382222,104.177222,0.391590805,0.64,7853095.529,46,14,361242394.3
+G101180,Vietnam,Can Duoc power station (KEPCO and Vinakobalt),Can Duoc power station (KEPCO and Vinakobalt),unknown,SUB,96100,1600,shelved,,,,,10.539167,106.609167,0.391590805,0.64,251299056.9,46,14,11559756619
+G107206,Vietnam,Nam Dinh power station,Nam Dinh-1 Unit 1,unknown,SUB,96100,600,pre,2021,0,,,20.1012,106.21355,0.391590805,0.64,94237146.35,46,14,4334908732
+G107207,Vietnam,Nam Dinh power station,Nam Dinh-1 Unit 2,unknown,SUB,96100,600,pre,2022,0,,,20.1012,106.21355,0.391590805,0.64,94237146.35,46,14,4334908732
+G107208,Vietnam,Nam Dinh power station,Nam Dinh-2 Unit 1,unknown,SUB,96100,600,cancelled,2021,0,,,20.1012,106.21355,0.391590805,0.64,94237146.35,46,14,4334908732
+G107209,Vietnam,Nam Dinh power station,Nam Dinh-2 Unit 2,unknown,SUB,96100,600,cancelled,2021,0,,,20.1012,106.21355,0.391590805,0.64,94237146.35,46,14,4334908732
+G108410,Vietnam,Quynh Lap power station,Quynh Lap-1 Unit 2,unknown,SUB,96100,600,construction,2020,0,,,19.27563,105.78019,0.391590805,0.64,94237146.35,46,14,4334908732
+G108411,Vietnam,Quynh Lap power station,Quynh Lap-2 Unit 1,unknown,SUB,96100,600,announced,2022,0,,,19.27563,105.78019,0.391590805,0.64,94237146.35,46,14,4334908732
+G108412,Vietnam,Quynh Lap power station,Quynh Lap-2 Unit 2,unknown,SUB,96100,600,announced,2023,0,,,19.27563,105.78019,0.391590805,0.64,94237146.35,46,14,4334908732
+G107971,Vietnam,Phu Yen power station,Phu Yen Unit 1,unknown,SUB,96100,600,cancelled,,,,,13.201,109.167,0.391590805,0.64,94237146.35,46,14,4334908732
+G107972,Vietnam,Phu Yen power station,Phu Yen Unit 2,unknown,SUB,96100,600,cancelled,,,,,13.201,109.167,0.391590805,0.64,94237146.35,46,14,4334908732
+G107973,Vietnam,Phu Yen power station,Phu Yen Unit 3,unknown,SUB,96100,600,cancelled,,,,,13.201,109.167,0.391590805,0.64,94237146.35,46,14,4334908732
+G107974,Vietnam,Phu Yen power station,Phu Yen Unit 4,unknown,SUB,96100,600,cancelled,,,,,13.201,109.167,0.391590805,0.64,94237146.35,46,14,4334908732
+G107494,Vietnam,Nong Son power station,Nong Son 1,SUBCR,SUB,96100,30,operating,2014,0,,,15.583333,107.916667,0.392130806,0.64,4705368.645,46,14,216446957.7
+G102487,Vietnam,Dung Quat power station,Dung Quat 1,unknown,SUB,96100,600,cancelled,2020,0,,,15.333,108.667,0.391590805,0.64,94237146.35,46,14,4334908732
+G102488,Vietnam,Dung Quat power station,Dung Quat 2,unknown,SUB,96100,600,cancelled,2020,0,,,15.333,108.667,0.391590805,0.64,94237146.35,46,14,4334908732
+G103542,Vietnam,Hai Ha CHP power station,Hai Ha CHP power station Unit 1,unknown,SUB,96100,150,announced,2019,0,,,21.4507117,105.5125559,0.391590805,0.64,23559286.59,46,14,1083727183
+G103543,Vietnam,Hai Ha CHP power station,Hai Ha CHP power station Unit 2,unknown,SUB,96100,750,announced,2022,0,,,21.4507117,105.5125559,0.391590805,0.64,117796432.9,46,14,5418635915
+G103544,Vietnam,Hai Ha CHP power station,Hai Ha CHP power station Unit 3,unknown,SUB,96100,600,announced,2025,0,,,21.4507117,105.5125559,0.391590805,0.64,94237146.35,46,14,4334908732
+G103545,Vietnam,Hai Ha CHP power station,Hai Ha CHP power station Unit 4,unknown,SUB,96100,600,announced,2028,0,,,21.4507117,105.5125559,0.391590805,0.64,94237146.35,46,14,4334908732
+G106395,Vietnam,Long Phu Power Centre,Long Phu Phase 1 Unit 1,SUPERC,SUB,96100,600,construction,2018,0,,,9.71985,106.08257,0.405794063,0.64,90938738.08,46,14,4183181952
+G106396,Vietnam,Long Phu Power Centre,Long Phu Phase 1 Unit 2,SUPERC,SUB,96100,600,construction,2019,0,,,9.71985,106.08257,0.405794063,0.64,90938738.08,46,14,4183181952
+G106397,Vietnam,Long Phu Power Centre,Long Phu Phase 2 Unit 1,SUPERC,SUB,96100,660,pre,2021,0,,,9.71985,106.08257,0.405794063,0.64,100032611.9,46,14,4601500147
+G106398,Vietnam,Long Phu Power Centre,Long Phu Phase 2 Unit 2,SUPERC,SUB,96100,660,pre,2022,0,,,9.71985,106.08257,0.405794063,0.64,100032611.9,46,14,4601500147
+G106399,Vietnam,Long Phu Power Centre,Long Phu Phase 3 Unit 1,SUPERC,SUB,96100,600,pre,2021,0,,,9.71985,106.08257,0.405794063,0.64,90938738.08,46,14,4183181952
+G106400,Vietnam,Long Phu Power Centre,Long Phu Phase 3 Unit 2,SUPERC,SUB,96100,600,pre,2022,0,,,9.71985,106.08257,0.405794063,0.64,90938738.08,46,14,4183181952
+G112737,Vietnam,Long Phu Power Centre,Long Phu Phase 3 Unit 3,SUPERC,SUB,96100,600,pre,2022,0,,,9.71985,106.08257,0.405794063,0.64,90938738.08,46,14,4183181952
+G110043,Vietnam,Thai Binh Power Center,Thai Binh Phase 2 Unit 1,SUPERC,SUB,96100,600,construction,2017,0,,,20.48121,106.56212,0.405794063,0.64,90938738.08,46,14,4183181952
+G110044,Vietnam,Thai Binh Power Center,Thai Binh Phase 2 Unit 2,SUPERC,SUB,96100,600,construction,2018,0,,,20.48121,106.56212,0.405794063,0.64,90938738.08,46,14,4183181952
+G107412,Vietnam,Nghi Son power station,Nghi Son Phase 2 Unit 1,unknown,SUB,96100,600,permitted,2021,0,,,19.31581,105.80026,0.391590805,0.64,94237146.35,46,14,4334908732
+G107413,Vietnam,Nghi Son power station,Nghi Son Phase 2 Unit 2,unknown,SUB,96100,600,permitted,2022,0,,,19.31581,105.80026,0.391590805,0.64,94237146.35,46,14,4334908732
+G109916,Vietnam,Tan Phuoc power station,Tan Phuoc-1 Unit 1,unknown,SUB,96100,600,announced,2027,0,,,10.366667,106.666667,0.391590805,0.64,94237146.35,46,14,4334908732
+G109917,Vietnam,Tan Phuoc power station,Tan Phuoc-1 Unit 2,unknown,SUB,96100,600,announced,2028,0,,,10.366667,106.666667,0.391590805,0.64,94237146.35,46,14,4334908732
+G109918,Vietnam,Tan Phuoc power station,Tan Phuoc-2 Unit 1,unknown,SUB,96100,600,announced,2028,0,,,10.366667,106.666667,0.391590805,0.64,94237146.35,46,14,4334908732
+G109919,Vietnam,Tan Phuoc power station,Tan Phuoc-2 Unit 2,unknown,SUB,96100,600,announced,2029,0,,,10.366667,106.666667,0.391590805,0.64,94237146.35,46,14,4334908732
+G102534,Vietnam,Duyen Hai Power Generation Complex,Duyen Hai-3 Extension,unknown,SUB,96100,660,construction,2019,0,,,9.58517,106.52809,0.391590805,0.64,103660861,46,14,4768399605
+G103904,Vietnam,Hoa Dau Long Son power station,Hoa Dau Long Son power station Unit 1,unknown,SUB,96100,75,construction,2017,0,,,10.590556,107.048056,0.391590805,0.64,11779643.29,46,14,541863591.5
+G103905,Vietnam,Hoa Dau Long Son power station,Hoa Dau Long Son power station Unit 2,unknown,SUB,96100,75,construction,2018,0,,,10.590556,107.048056,0.391590805,0.64,11779643.29,46,14,541863591.5
+G103906,Vietnam,Hoa Dau Long Son power station,Hoa Dau Long Son power station Unit 3,unknown,SUB,96100,75,construction,2018,0,,,10.590556,107.048056,0.391590805,0.64,11779643.29,46,14,541863591.5
+G108478,Vietnam,Rang Dong CHP power station,Rang Dong CHP power station,unknown,SUB,96100,100,announced,2025,0,,,,,0.391590805,0.64,15706191.06,46,14,722484788.7
+G103745,Japan,Hekinan power station,Hekinan power station Unit 1,SUPERC,BIT,94600,700,operating,1991,0,,,34.834612,136.9593356,0.398449588,0.64,106364271,46,14,4892756466
+G103746,Japan,Hekinan power station,Hekinan power station Unit 2,SUPERC,BIT,94600,700,operating,1992,0,,,34.834612,136.9593356,0.398449588,0.64,106364271,46,14,4892756466
+G103747,Japan,Hekinan power station,Hekinan power station Unit 3,SUPERC,BIT,94600,700,operating,1993,0,,,34.834612,136.9593356,0.398449588,0.64,106364271,46,14,4892756466
+G103748,Japan,Hekinan power station,Hekinan power station Unit 4,SUPERC,BIT,94600,1000,operating,2001,0,,,34.834612,136.9593356,0.398449588,0.64,151948958.6,46,14,6989652095
+G103749,Japan,Hekinan power station,Hekinan power station Unit 5,SUPERC,BIT,94600,1000,operating,2002,0,,,34.834612,136.9593356,0.398449588,0.64,151948958.6,46,14,6989652095
+G107213,Japan,Nanao-Ohta Shinko power station,Nanao-Ohta Shinko power station Unit 1,SUPERC,BIT,94600,500,operating,1995,0,,,37.066393,137.003701,0.398449588,0.64,75974479.29,46,14,3494826047
+G107214,Japan,Nanao-Ohta Shinko power station,Nanao-Ohta Shinko power station Unit 2,ULTRA,BIT,94600,700,operating,1998,0,,,37.066393,137.003701,0.405360213,0.64,104550961.4,46,14,4809344224
+G110304,Japan,Toyama Shinko power station,Toyama Shinko power station Unit 1,SUBCR,BIT,94600,250,operating,1971,0,,2017,36.76566,137.128677,0.385007591,0.64,39313510.62,46,14,1808421489
+G110305,Japan,Toyama Shinko power station,Toyama Shinko power station Unit 2,SUBCR,BIT,94600,250,operating,1972,0,,,36.76566,137.128677,0.385007591,0.64,39313510.62,46,14,1808421489
+G110348,Japan,Tsuruga power station,Tsuruga power station Unit 1,SUPERC,BIT,94600,500,operating,1991,0,,,35.672485,136.082365,0.398449588,0.64,75974479.29,46,14,3494826047
+G110349,Japan,Tsuruga power station,Tsuruga power station Unit 2,SUPERC,BIT,94600,700,operating,2000,0,,,35.672485,136.082365,0.398449588,0.64,106364271,46,14,4892756466
+G106953,Japan,Misumi power station,Misumi power station Unit 1,SUPERC,BIT,94600,1000,operating,1998,0,,,34.780789,131.921768,0.398449588,0.64,151948958.6,46,14,6989652095
+G106961,Japan,Mizushima power station,Mizushima power station Unit 2,SUBCR,BIT,94600,156,operating,1963,0,,,34.507803,133.7445,0.385007591,0.64,24531630.63,46,14,1128455009
+G109280,Japan,Shin Onoda power station,Shin Onoda power station Unit 1,SUPERC,BIT,94600,500,operating,1986,0,,,33.968866,131.162559,0.398449588,0.64,75974479.29,46,14,3494826047
+G109281,Japan,Shin Onoda power station,Shin Onoda power station Unit 2,SUPERC,BIT,94600,500,operating,1987,0,,,33.968866,131.162559,0.398449588,0.64,75974479.29,46,14,3494826047
+G109869,Japan,Takehara power station,Takehara New Unit 1,ULTRA,BIT,94600,600,construction,2020,0,,,34.3373,132.9572,0.405360213,0.64,89615109.76,46,14,4122295049
+G109870,Japan,Takehara power station,Takehara power station Unit 1,SUBCR,BIT,94600,250,operating,1967,0,,,34.3373,132.9572,0.385007591,0.64,39313510.62,46,14,1808421489
+G109871,Japan,Takehara power station,Takehara power station Unit 2,SUBCR,BIT,94600,350,operating,1974,0,,,34.3373,132.9572,0.385007591,0.64,55038914.87,46,14,2531790084
+G109872,Japan,Takehara power station,Takehara power station Unit 3,SUPERC,BIT,94600,700,operating,1983,0,,,34.3373,132.9572,0.398449588,0.64,106364271,46,14,4892756466
+G107189,Japan,Naie power station,Naie power station Unit 1,SUBCR,BIT,94600,175,operating,1968,0,,,43.422257,141.844158,0.385007591,0.64,27519457.44,46,14,1265895042
+G107190,Japan,Naie power station,Naie power station Unit 2,SUBCR,BIT,94600,175,operating,1970,0,,,43.422257,141.844158,0.385007591,0.64,27519457.44,46,14,1265895042
+G109710,Japan,Sunagawa Daini power station,Sunagawa Daini power station Unit 3,SUBCR,BIT,94600,125,operating,1977,0,,,43.464715,141.891161,0.385007591,0.64,19656755.31,46,14,904210744.3
+G109711,Japan,Sunagawa Daini power station,Sunagawa Daini power station Unit 4,SUBCR,BIT,94600,125,operating,1982,0,,,43.464715,141.891161,0.385007591,0.64,19656755.31,46,14,904210744.3
+G110235,Japan,Tomato-atsuma power station,Tomato-atsuma power station Unit 1,SUBCR,BIT,94600,350,operating,1980,0,,,42.6110284,141.8065439,0.385007591,0.64,55038914.87,46,14,2531790084
+G110236,Japan,Tomato-atsuma power station,Tomato-atsuma power station Unit 2,SUPERC,BIT,94600,600,operating,1985,0,,,42.6110284,141.8065439,0.398449588,0.64,91169375.15,46,14,4193791257
+G110237,Japan,Tomato-atsuma power station,Tomato-atsuma power station Unit 4,ULTRA,BIT,94600,700,operating,2002,0,,,42.6110284,141.8065439,0.405360213,0.64,104550961.4,46,14,4809344224
+G107527,Japan,Noshiro power station,Noshiro Unit 3,ULTRA,BIT,94600,600,construction,2020,0,,,40.1912,139.9911,0.405360213,0.64,89615109.76,46,14,4122295049
+G106598,Japan,Maizuru power station,Maizuru power station Unit 1,ULTRA,BIT,94600,900,operating,2004,0,,,35.531915,135.345587,0.405360213,0.64,134422664.6,46,14,6183442573
+G106599,Japan,Maizuru power station,Maizuru power station Unit 2,ULTRA,BIT,94600,900,operating,2010,0,,,35.531915,135.345587,0.405360213,0.64,134422664.6,46,14,6183442573
+G109867,Japan,Takasago power station,Takasago power station Unit 1,SUBCR,BIT,94600,250,operating,1968,0,,,34.754038,134.7663581,0.385007591,0.64,39313510.62,46,14,1808421489
+G109868,Japan,Takasago power station,Takasago power station Unit 2,SUBCR,BIT,94600,250,operating,1969,0,,,34.754038,134.7663581,0.385007591,0.64,39313510.62,46,14,1808421489
+G103898,Japan,Hitachinaka Kyodo power station,Hitachinaka Kyodo power station Unit 1,ULTRA,BIT,94600,650,construction,2021,0,,,36.4368,140.6138,0.405360213,0.64,97083035.57,46,14,4465819636
+G103899,Japan,Hitachinaka power station,Hitachinaka power station Unit 1,ULTRA,BIT,94600,1000,operating,2003,0,,,36.4368,140.6138,0.405360213,0.64,149358516.3,46,14,6870491748
+G103900,Japan,Hitachinaka power station,Hitachinaka power station Unit 2,ULTRA,BIT,94600,1000,operating,2013,0,,,36.4368,140.6138,0.405360213,0.64,149358516.3,46,14,6870491748
+G103497,Japan,Gushikawa power station,Gushikawa power station Unit 1,SUBCR,BIT,94600,156,operating,1994,0,,,26.379235,127.875742,0.385007591,0.64,24531630.63,46,14,1128455009
+G103498,Japan,Gushikawa power station,Gushikawa power station Unit 2,SUBCR,BIT,94600,156,operating,1995,0,,,26.379235,127.875742,0.385007591,0.64,24531630.63,46,14,1128455009
+G104912,Japan,Ishikawa power station,Ishikawa power station Unit 1,SUBCR,BIT,94600,156,operating,1986,0,,,26.430697,127.842287,0.385007591,0.64,24531630.63,46,14,1128455009
+G104913,Japan,Ishikawa power station,Ishikawa power station Unit 2,SUBCR,BIT,94600,156,operating,1987,0,,,26.430697,127.842287,0.385007591,0.64,24531630.63,46,14,1128455009
+G105535,Japan,Kanda power station,Kanda power station Unit 1,SUPERC,BIT,94600,290,operating,2001,0,,,33.787223,130.998863,0.398449588,0.64,44065197.99,46,14,2026999107
+G106740,Japan,Matsushima power station,Matsushima power station Unit 1,SUPERC,BIT,94600,500,operating,1981,0,,,32.940027,129.597169,0.398449588,0.64,75974479.29,46,14,3494826047
+G106741,Japan,Matsushima power station,Matsushima power station Unit 2,SUPERC,BIT,94600,500,operating,1981,0,,,32.940027,129.597169,0.398449588,0.64,75974479.29,46,14,3494826047
+G106742,Japan,Matsuura Kyushu power station,Matsuura Kyushu power station Unit 1,SUPERC,BIT,94600,700,operating,1989,0,,,33.3552,129.6925,0.398449588,0.64,106364271,46,14,4892756466
+G106743,Japan,Matsuura Kyushu power station,Matsuura Kyushu power station Unit 2,ULTRA,BIT,94600,1000,construction,2020,0,,,33.3552,129.6925,0.405360213,0.64,149358516.3,46,14,6870491748
+G106744,Japan,Matsuura power station,Matsuura power station Unit 1,SUPERC,BIT,94600,1000,operating,1990,0,,,33.356383,129.692033,0.398449588,0.64,151948958.6,46,14,6989652095
+G106745,Japan,Matsuura power station,Matsuura power station Unit 2,ULTRA,BIT,94600,1000,operating,1997,0,,,33.356383,129.692033,0.405360213,0.64,149358516.3,46,14,6870491748
+G106914,Japan,Miike power station,Miike power station Unit 2,SUBCR,BIT,94600,175,operating,1975,0,,,33.008268,130.421636,0.385007591,0.64,27519457.44,46,14,1265895042
+G107637,Japan,Omura power station,Omura power station Unit 2,SUBCR,BIT,94600,156,operating,1964,0,,,32.924,129.993,0.385007591,0.64,24531630.63,46,14,1128455009
+G108524,Japan,Reihoku power station,Reihoku power station Unit 1,SUPERC,BIT,94600,700,operating,1995,0,,,32.485132,130.042115,0.398449588,0.64,106364271,46,14,4892756466
+G108525,Japan,Reihoku power station,Reihoku power station Unit 2,SUPERC,BIT,94600,700,operating,2003,0,,,32.485132,130.042115,0.398449588,0.64,106364271,46,14,4892756466
+G104929,Japan,J-POWER Tachibana-wan power station,J-POWER Tachibana-wan power station Unit 1,ULTRA,BIT,94600,1050,operating,2000,0,,,33.858577,134.651346,0.405360213,0.64,156826442.1,46,14,7214016336
+G104930,Japan,J-POWER Tachibana-wan power station,J-POWER Tachibana-wan power station Unit 2,ULTRA,BIT,94600,1050,operating,2000,0,,,33.858577,134.651346,0.405360213,0.64,156826442.1,46,14,7214016336
+G107433,Japan,Niihama Nishi power station,Niihama Nishi power station Unit 1,SUBCR,BIT,94600,75,operating,1959,0,,,33.954611,133.249236,0.385007591,0.64,11794053.19,46,14,542526446.6
+G107434,Japan,Niihama Nishi power station,Niihama Nishi power station Unit 2,SUBCR,BIT,94600,75,operating,1962,0,,,33.954611,133.249236,0.385007591,0.64,11794053.19,46,14,542526446.6
+G108717,Japan,Saijo power station,Saijo power station Unit 1,SUBCR,BIT,94600,156,operating,1965,0,,,33.933074,133.168575,0.385007591,0.64,24531630.63,46,14,1128455009
+G108718,Japan,Saijo power station,Saijo power station Unit 2,SUBCR,BIT,94600,250,operating,1970,0,,,33.933074,133.168575,0.385007591,0.64,39313510.62,46,14,1808421489
+G103635,Japan,Haramachi power station,Haramachi power station Unit 1,SUPERC,BIT,94600,1000,operating,1997,0,,,37.665675,141.014758,0.398449588,0.64,151948958.6,46,14,6989652095
+G103636,Japan,Haramachi power station,Haramachi power station Unit 2,SUPERC,BIT,94600,1000,operating,1998,0,,,37.665675,141.014758,0.398449588,0.64,151948958.6,46,14,6989652095
+G103896,Japan,Hirono power station,Hirono power station Unit 5,ULTRA,BIT,94600,600,operating,2004,0,,,37.232652,141.013799,0.405360213,0.64,89615109.76,46,14,4122295049
+G103897,Japan,Hirono Thermal Power Station,Hirono power station Unit 6,ULTRA,BIT,94600,600,operating,2013,0,,,37.232652,141.013799,0.405360213,0.64,89615109.76,46,14,4122295049
+G107198,Japan,Nakoso power station,Nakoso power station Unit 7,SUBCR,BIT,94600,250,operating,1970,0,,,36.9128,140.8128,0.385007591,0.64,39313510.62,46,14,1808421489
+G107199,Japan,Nakoso power station,Nakoso power station Unit 8,SUPERC,BIT,94600,600,operating,1983,0,,,36.9128,140.8128,0.398449588,0.64,91169375.15,46,14,4193791257
+G107200,Japan,Nakoso power station,Nakoso power station Unit 9,SUPERC,BIT,94600,600,operating,1983,0,,,36.9128,140.8128,0.398449588,0.64,91169375.15,46,14,4193791257
+G107525,Japan,Noshiro power station,Noshiro power station Unit 1,SUPERC,BIT,94600,600,operating,1993,0,,,40.191016,139.989632,0.398449588,0.64,91169375.15,46,14,4193791257
+G107526,Japan,Noshiro power station,Noshiro power station Unit 2,ULTRA,BIT,94600,600,operating,1994,0,,,40.191016,139.989632,0.405360213,0.64,89615109.76,46,14,4122295049
+G108719,Japan,Sakata Kyodo power station,Sakata Kyodo power station Unit 1,SUBCR,BIT,94600,350,operating,1977,0,,,38.967373,139.832175,0.385007591,0.64,55038914.87,46,14,2531790084
+G108720,Japan,Sakata Kyodo power station,Sakata Kyodo power station Unit 2,SUBCR,BIT,94600,350,operating,1978,0,,,38.967373,139.832175,0.385007591,0.64,55038914.87,46,14,2531790084
+G110050,Vietnam,Than An Giang power station,Than An Giang,unknown,BIT,94600,2000,cancelled,2029,0,,,10.5,105.166667,0.391590805,0.64,309220743.8,46,14,14224154216
+G110051,Vietnam,Than Bac Lieu power station,Than Bac Lieu Unit 1,unknown,BIT,94600,600,shelved,2029,0,,,9.148,105.535,0.391590805,0.64,92766223.15,46,14,4267246265
+G110052,Vietnam,Than Bac Lieu power station,Than Bac Lieu Unit 2,unknown,BIT,94600,600,shelved,2030,0,,,9.148,105.535,0.391590805,0.64,92766223.15,46,14,4267246265
+G100887,Vietnam,Binh Dinh power station,Binh Dinh 1,unknown,BIT,94600,1200,cancelled,2029,0,,,14.079,109.205,0.391590805,0.64,185532446.3,46,14,8534492529
+G100888,Vietnam,Binh Dinh power station,Binh Dinh 2,unknown,BIT,94600,2000,cancelled,2029,0,,,14.079,109.205,0.391590805,0.64,309220743.8,46,14,14224154216
+G110552,Vietnam,Van Phong power station,Van Phong-1 Unit 1,SUPERC,BIT,94600,660,permitted,2022,0,,,12.47704,109.29244,0.398449588,0.64,100286312.7,46,14,4613170382
+G110553,Vietnam,Van Phong power station,Van Phong-1 Unit 2,SUPERC,BIT,94600,660,permitted,2023,0,,,12.47704,109.29244,0.398449588,0.64,100286312.7,46,14,4613170382
+G106391,Vietnam,Long An power station,Long An power station Phase I Unit 1,unknown,BIT,94600,600,announced,2024,0,,,10.46371,106.67845,0.391590805,0.64,92766223.15,46,14,4267246265
+G106392,Vietnam,Long An power station,Long An power station Phase I Unit 2,unknown,BIT,94600,600,announced,2025,0,,,10.46371,106.67845,0.391590805,0.64,92766223.15,46,14,4267246265
+G106393,Vietnam,Long An power station,Long An power station Phase II Unit 1,unknown,BIT,94600,800,announced,2026,0,,,10.46371,106.67845,0.391590805,0.64,123688297.5,46,14,5689661686
+G106394,Vietnam,Long An power station,Long An power station Phase II Unit 2,unknown,BIT,94600,800,announced,2027,0,,,10.46371,106.67845,0.391590805,0.64,123688297.5,46,14,5689661686
+G108409,Vietnam,Quynh Lap power station,Quynh Lap-1 Unit 1,unknown,BIT,94600,600,construction,2020,0,,,19.27563,105.78019,0.391590805,0.64,92766223.15,46,14,4267246265
+G108390,Vietnam,Quang Trach Power Center,Quang Trach-1 Unit 1,SUPERC,BIT,94600,600,construction,2021,0,,,17.93654,106.48679,0.398449588,0.64,91169375.15,46,14,4193791257
+G108391,Vietnam,Quang Trach Power Center,Quang Trach-1 Unit 2,SUPERC,BIT,94600,600,construction,2022,0,,,17.93654,106.48679,0.398449588,0.64,91169375.15,46,14,4193791257
+G108392,Vietnam,Quang Trach Power Center,Quang Trach-2 Unit 1,SUPERC,BIT,94600,600,announced,2028,0,,,17.93654,106.48679,0.398449588,0.64,91169375.15,46,14,4193791257
+G108393,Vietnam,Quang Trach Power Center,Quang Trach-2 Unit 2,SUPERC,BIT,94600,600,announced,2029,0,,,17.93654,106.48679,0.398449588,0.64,91169375.15,46,14,4193791257
+G108394,Vietnam,Quang Tri power station,Quang Tri power station Unit 1,unknown,BIT,94600,600,pre,2023,0,,,16.75658,107.36713,0.391590805,0.64,92766223.15,46,14,4267246265
+G108395,Vietnam,Quang Tri power station,Quang Tri power station Unit 2,unknown,BIT,94600,600,pre,2024,0,,,16.75658,107.36713,0.391590805,0.64,92766223.15,46,14,4267246265
+G101695,Vietnam,Cong Thanh power station,Cong Thanh power station Unit 1,unknown,BIT,94600,300,construction,2020,0,,,19.358,105.779,0.391590805,0.64,46383111.57,46,14,2133623132
+G101696,Vietnam,Cong Thanh power station,Cong Thanh power station Unit 2,unknown,BIT,94600,300,construction,2020,0,,,19.358,105.779,0.391590805,0.64,46383111.57,46,14,2133623132
+G102530,Vietnam,Duyen Hai Power Generation Complex,Duyen Hai-1 Unit 1,SUBCR,BIT,94600,622,operating,2015,0,,,9.58517,106.52809,0.385007591,0.64,97812014.43,46,14,4499352664
+G102531,Vietnam,Duyen Hai Power Generation Complex,Duyen Hai-1 Unit 2,SUBCR,BIT,94600,622,operating,2015,0,,,9.58517,106.52809,0.385007591,0.64,97812014.43,46,14,4499352664
+G102532,Vietnam,Duyen Hai Power Generation Complex,Duyen Hai-2 Unit 1,unknown,BIT,94600,600,construction,2021,0,,,9.58517,106.52809,0.391590805,0.64,92766223.15,46,14,4267246265
+G102533,Vietnam,Duyen Hai Power Generation Complex,Duyen Hai-2 Unit 2,unknown,BIT,94600,600,construction,2021,0,,,9.58517,106.52809,0.391590805,0.64,92766223.15,46,14,4267246265
+G102535,Vietnam,Duyen Hai Power Generation Complex,Duyen Hai-3 Unit 1,SUPERC,BIT,94600,622,operating,2016,0,,,9.58517,106.52809,0.398449588,0.64,94512252.24,46,14,4347563603
+G102536,Vietnam,Duyen Hai Power Generation Complex,Duyen Hai-3 Unit 2,SUPERC,BIT,94600,622,construction,2017,0,,,9.58517,106.52809,0.398449588,0.64,94512252.24,46,14,4347563603
+G100188,Vietnam,An Kh‡nh - B_c Giang power station,An Kh‡nh - B_c Giang power station Unit 1,CFB,ANTH,98300,325,announced,2022,0,,,21.23238,106.35375,0.384790514,0.64,53136445.09,46,14,2444276474
+G100189,Vietnam,An Kh‡nh - B_c Giang power station,An Kh‡nh - B_c Giang power station Unit 2,CFB,ANTH,98300,325,announced,2023,0,,,21.23238,106.35375,0.384790514,0.64,53136445.09,46,14,2444276474
+G110611,Vietnam,Vinh Tan power station,Vinh Tan-1 Unit 1,SUBCR,ANTH,98300,600,construction,2019,0,,,11.317,108.808,0.385007591,0.64,98042742.35,46,14,4509966148
+G110612,Vietnam,Vinh Tan power station,Vinh Tan-1 Unit 2,SUBCR,ANTH,98300,600,construction,2019,0,,,11.317,108.808,0.385007591,0.64,98042742.35,46,14,4509966148
+G110613,Vietnam,Vinh Tan power station,Vinh Tan-2 Unit 1,SUPERC,ANTH,98300,622,operating,2014,0,,,11.317,108.808,0.398449588,0.64,98208820.24,46,14,4517605731
+G110614,Vietnam,Vinh Tan power station,Vinh Tan-2 Unit 2,SUPERC,ANTH,98300,622,operating,2014,0,,,11.317,108.808,0.398449588,0.64,98208820.24,46,14,4517605731
+G110668,Vietnam,Vung Ang power station,Vung Ang-1 Unit 1,SUBCR,ANTH,98300,600,operating,2014,0,,,18.09792,106.38123,0.385007591,0.64,98042742.35,46,14,4509966148
+G110669,Vietnam,Vung Ang power station,Vung Ang-1 Unit 2,SUBCR,ANTH,98300,600,operating,2015,0,,,18.09792,106.38123,0.385007591,0.64,98042742.35,46,14,4509966148
+G103540,Vietnam,Hai Duong Thermal Power Plant,Hai Duong Unit 1,unknown,ANTH,98300,600,construction,2020,0,,,21.0335,106.41218,0.391590805,0.64,96394500.37,46,14,4434147017
+G103541,Vietnam,Hai Duong Thermal Power Plant,Hai Duong Unit 2,unknown,ANTH,98300,600,construction,2021,0,,,21.0335,106.41218,0.391590805,0.64,96394500.37,46,14,4434147017
+G107959,Vietnam,Pha Lai-1 power station,Pha Lai-1 power station Unit 1,SUBCR,ANTH,98300,110,operating,1983,0,,,21.116894,106.305873,0.385007591,0.64,17974502.76,46,14,826827127.1
+G107960,Vietnam,Pha Lai-1 power station,Pha Lai-1 power station Unit 2,SUBCR,ANTH,98300,110,operating,1984,0,,,21.116894,106.305873,0.385007591,0.64,17974502.76,46,14,826827127.1
+G107961,Vietnam,Pha Lai-1 power station,Pha Lai-1 power station Unit 3,SUBCR,ANTH,98300,110,operating,1985,0,,,21.116894,106.305873,0.385007591,0.64,17974502.76,46,14,826827127.1
+G107962,Vietnam,Pha Lai-1 power station,Pha Lai-1 power station Unit 4,SUBCR,ANTH,98300,110,operating,1987,0,,,21.116894,106.305873,0.385007591,0.64,17974502.76,46,14,826827127.1
+G107963,Vietnam,Pha Lai-2 power station,Pha Lai-2 power station Unit 1,SUBCR,ANTH,98300,300,operating,2001,0,,,21.117004,106.308581,0.385007591,0.64,49021371.17,46,14,2254983074
+G107964,Vietnam,Pha Lai-2 power station,Pha Lai-2 power station Unit 2,SUBCR,ANTH,98300,300,operating,2001,0,,,21.117004,106.308581,0.385007591,0.64,49021371.17,46,14,2254983074
+G103546,Vietnam,Hai Phong Thermal Power Station,Hai Phong-1 Unit 1,SUBCR,ANTH,98300,300,operating,2011,0,,,20.94191,106.76005,0.385007591,0.64,49021371.17,46,14,2254983074
+G103547,Vietnam,Hai Phong Thermal Power Station,Hai Phong-1 Unit 2,SUBCR,ANTH,98300,300,operating,2011,0,,,20.94191,106.76005,0.385007591,0.64,49021371.17,46,14,2254983074
+G103548,Vietnam,Hai Phong Thermal Power Station,Hai Phong-2 Unit 3,SUBCR,ANTH,98300,300,operating,2013,0,,,20.94191,106.76005,0.385007591,0.64,49021371.17,46,14,2254983074
+G103549,Vietnam,Hai Phong Thermal Power Station,Hai Phong-2 Unit 4,SUBCR,ANTH,98300,300,operating,2014,0,,,20.94191,106.76005,0.385007591,0.64,49021371.17,46,14,2254983074
+G107489,Vietnam,Ninh Binh power station,Ninh Binh power station Unit 5,SUBCR,ANTH,98300,330,cancelled,,,,,20.251963,105.984155,0.385007591,0.64,53923508.29,46,14,2480481381
+G107970,Vietnam,Phu Tho power station,Phu Tho,unknown,ANTH,98300,600,cancelled,,,,,21.302,105.255,0.391590805,0.64,96394500.37,46,14,4434147017
+G101164,Vietnam,Cam Pha power station,Cam Pha power station Phase I,SUBCR,ANTH,98300,340,operating,2011,0,,,21.006288,107.358044,0.385007591,0.64,55557554,46,14,2555647484
+G101165,Vietnam,Cam Pha power station,Cam Pha power station Phase II,SUBCR,ANTH,98300,340,operating,2011,0,,,21.006288,107.358044,0.385007591,0.64,55557554,46,14,2555647484
+G101166,Vietnam,Cam Pha power station,Cam Pha power station Phase III Unit 1,SUBCR,ANTH,98300,220,pre,2020,0,,,21.006288,107.358044,0.385007591,0.64,35949005.53,46,14,1653654254
+G101167,Vietnam,Cam Pha power station,Cam Pha power station Phase III Unit 2,SUBCR,ANTH,98300,220,pre,2020,0,,,21.006288,107.358044,0.385007591,0.64,35949005.53,46,14,1653654254
+G106640,Vietnam,Mao Khe power station,Mao Khe Unit 1,CFB,ANTH,98300,220,operating,2013,0,,,21.09069,106.57731,0.384790514,0.64,35969285.91,46,14,1654587152
+G106641,Vietnam,Mao Khe power station,Mao Khe Unit 2,CFB,ANTH,98300,220,operating,2013,0,,,21.09069,106.57731,0.384790514,0.64,35969285.91,46,14,1654587152
+G106993,Vietnam,Mong Duong power station,Mong Duong-1 Unit 1,SUBCR,ANTH,98300,540,operating,2015,0,,,21.07324,107.34847,0.385007591,0.64,88238468.11,46,14,4058969533
+G106994,Vietnam,Mong Duong power station,Mong Duong-1 Unit 2,SUBCR,ANTH,98300,540,operating,2015,0,,,21.07324,107.34847,0.385007591,0.64,88238468.11,46,14,4058969533
+G106995,Vietnam,Mong Duong power station,Mong Duong-2 Unit 1,SUBCR,ANTH,98300,620,operating,2015,0,,,21.07324,107.34847,0.385007591,0.64,101310833.8,46,14,4660298353
+G106996,Vietnam,Mong Duong power station,Mong Duong-2 Unit 2,SUBCR,ANTH,98300,620,operating,2015,0,,,21.07324,107.34847,0.385007591,0.64,101310833.8,46,14,4660298353
+G108384,Vietnam,Quang Ninh power station,Quang Ninh-1 power station Unit 1,SUBCR,ANTH,98300,300,operating,2009,0,,,21.01182,107.12883,0.385007591,0.64,49021371.17,46,14,2254983074
+G108385,Vietnam,Quang Ninh power station,Quang Ninh-1 power station Unit 2,SUBCR,ANTH,98300,300,operating,2010,0,,,21.01182,107.12883,0.385007591,0.64,49021371.17,46,14,2254983074
+G108386,Vietnam,Quang Ninh power station,Quang Ninh-2 power station Unit 1,SUBCR,ANTH,98300,300,operating,2012,0,,,21.01182,107.12883,0.385007591,0.64,49021371.17,46,14,2254983074
+G108387,Vietnam,Quang Ninh power station,Quang Ninh-2 power station Unit 2,SUBCR,ANTH,98300,300,operating,2014,0,,,21.01182,107.12883,0.385007591,0.64,49021371.17,46,14,2254983074
+G108388,Vietnam,Quang Ninh power station,Quang Ninh-3 power station Unit 1,SUBCR,ANTH,98300,600,announced,2029,0,,,21.01182,107.12883,0.385007591,0.64,98042742.35,46,14,4509966148
+G108389,Vietnam,Quang Ninh power station,Quang Ninh-3 power station Unit 2,SUBCR,ANTH,98300,600,announced,2030,0,,,21.01182,107.12883,0.385007591,0.64,98042742.35,46,14,4509966148
+G110054,Vietnam,Thang Long power station,Thang Long Unit 1,CFB,ANTH,98300,300,construction,2018,0,,,21.038,107.014,0.384790514,0.64,49049026.24,46,14,2256255207
+G110055,Vietnam,Thang Long power station,Thang Long Unit 2,CFB,ANTH,98300,300,construction,2019,0,,,21.038,107.014,0.384790514,0.64,49049026.24,46,14,2256255207
+G110485,Vietnam,Uong Bi power station,Uong Bi power station Unit 5,SUBCR,ANTH,98300,55,operating,1974,0,,2021,21.039,106.786,0.385007591,0.64,8987251.382,46,14,413413563.6
+G110486,Vietnam,Uong Bi power station,Uong Bi power station Unit 6,SUBCR,ANTH,98300,55,operating,1974,0,,2021,21.039,106.786,0.385007591,0.64,8987251.382,46,14,413413563.6
+G110487,Vietnam,Uong Bi power station,Uong Bi power station Unit 7,SUBCR,ANTH,98300,300,operating,2006,0,,,21.039,106.786,0.385007591,0.64,49021371.17,46,14,2254983074
+G110488,Vietnam,Uong Bi power station,Uong Bi power station Unit 8,SUBCR,ANTH,98300,330,operating,2011,0,,,21.039,106.786,0.385007591,0.64,53923508.29,46,14,2480481381
+G110041,Vietnam,Thai Binh Power Center,Thai Binh Phase 1 Unit 1,SUBCR,ANTH,98300,300,construction,2017,0,,,20.48121,106.56212,0.385007591,0.64,49021371.17,46,14,2254983074
+G110042,Vietnam,Thai Binh Power Center,Thai Binh Phase 1 Unit 2,SUBCR,ANTH,98300,300,construction,2017,0,,,20.48121,106.56212,0.385007591,0.64,49021371.17,46,14,2254983074
+G100190,Vietnam,An Khanh power station,An Khanh-1 Unit 1,SUBCR,ANTH,98300,50,operating,2015,0,,,21.596912,105.766609,0.385007591,0.64,8170228.529,46,14,375830512.3
+G100191,Vietnam,An Khanh power station,An Khanh-1 Unit 2,SUBCR,ANTH,98300,50,operating,2015,0,,,21.596912,105.766609,0.385007591,0.64,8170228.529,46,14,375830512.3
+G100192,Vietnam,An Khanh power station,An Khanh-2 Unit 1,SUBCR,ANTH,98300,150,cancelled,,,,,21.596912,105.766609,0.385007591,0.64,24510685.59,46,14,1127491537
+G100193,Vietnam,An Khanh power station,An Khanh-2 Unit 2,SUBCR,ANTH,98300,150,cancelled,,,,,21.596912,105.766609,0.385007591,0.64,24510685.59,46,14,1127491537
+G101199,Vietnam,Cao Ngan power station,Cao Ngan power station Unit 1,SUBCR,ANTH,98300,57,operating,2006,0,,,21.612998,105.815102,0.385007591,0.64,9314060.523,46,14,428446784.1
+G101200,Vietnam,Cao Ngan power station,Cao Ngan power station Unit 2,SUBCR,ANTH,98300,57,operating,2006,0,,,21.612998,105.815102,0.385007591,0.64,9314060.523,46,14,428446784.1
+G107410,Vietnam,Nghi Son power station,Nghi Son Phase 1 Unit 1,SUBCR,ANTH,98300,300,operating,2013,0,,,19.31581,105.80026,0.385007591,0.64,49021371.17,46,14,2254983074
+G107411,Vietnam,Nghi Son power station,Nghi Son Phase 1 Unit 2,SUBCR,ANTH,98300,300,operating,2014,0,,,19.31581,105.80026,0.385007591,0.64,49021371.17,46,14,2254983074
+G106908,Vietnam,Mien Bac power station,Mien Bac,unknown,ANTH,98300,2000,cancelled,2030,0,,,,,0.391590805,0.64,321315001.2,46,14,14780490057
+G104918,Japan,Isogo power station,Isogo power station Unit 1,ULTRA,BIT/SUB,95350,600,operating,2002,0,,,35.402755,139.642852,0.408906204,0.64,89542295.07,46,14,4118945573
+G104919,Japan,Isogo power station,Isogo power station Unit 2,ULTRA,BIT/SUB,95350,600,operating,2009,0,,,35.402755,139.642852,0.408906204,0.64,89542295.07,46,14,4118945573
+G109283,Japan,Shinchi power station,Shinchi power station Unit 1,SUPERC,BIT/SUB,95350,1000,operating,1994,0,,,37.841115,140.946169,0.402159372,0.64,151740837.6,46,14,6980078528
+G109284,Japan,Shinchi power station,Shinchi power station Unit 2,SUPERC,BIT/SUB,95350,1000,operating,1995,0,,,37.841115,140.946169,0.402159372,0.64,151740837.6,46,14,6980078528
+G104924,Japan,Itoigawa power station,Itoigawa power station Unit 1,SUBCR,ANTH/BIT,96450,149,operating,2005,0,,,37.015262,137.791039,0.385007591,0.64,23889066.67,46,14,1098897067
