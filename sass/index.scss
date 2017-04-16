@@ -368,4 +368,17 @@ circle {
   .legend {
     font-size: 1rem;
   }
+
+  .m-country-select {
+    position: absolute;
+    top: 91px;
+    z-index: 999;
+    background: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    color: #222;
+    font-weight: bold;
+    left: 18%;
+    width: 200px;
+  }
 }

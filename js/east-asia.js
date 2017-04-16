@@ -43,6 +43,26 @@
     }
   ];
 
+  if (isMobile) {
+    var opts = activeCountries.slice();
+    opts.unshift('Select A Country');
+
+    d3.select('body')
+      .append('form')
+      .attr('class', 'm-country-select form-group')
+        .append('select')
+        .attr('class', 'form-control')
+        .on('change', function(d) {
+          window.location.href = './' + this.value.toLowerCase();
+        })
+        .selectAll('option')
+        .data(opts)
+        .enter()
+        .append('option')
+        .attr('value', function(d) { return d; })
+        .text(function(d) { return d;});
+  }
+
 
   d3.json('./data/countries.geo.topo.json', function(error, mapData) {
     if (error) return console.error(error);
