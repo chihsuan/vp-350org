@@ -14,7 +14,7 @@
     .attr('width', width)
     .attr('height', height);
 
-  var mapScale = isMobile ? 200 : 500;
+  var mapScale = isMobile ? 200 : 450;
   var center = [107, 25];
 
   var projection = d3.geo.mercator()
