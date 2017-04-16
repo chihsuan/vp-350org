@@ -86,7 +86,7 @@
       })
       .on('click', function(d) {
         if (activeCountries.indexOf(d.properties.name) > -1)
-          window.location.href = '../' + d.properties.name.toLowerCase();
+          window.location.href = './' + d.properties.name.toLowerCase();
       });
 
     svg.append('path')
