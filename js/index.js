@@ -68,6 +68,20 @@
             })
           ));
 
+
+
+        pointData = pointData.filter(function(d) {
+          if (country === 'Vietnam')
+            return d.country === country && d.latitude && d.longitude;
+          return d.latitude && d.longitude;
+        })
+        .map(function(d) {
+          d.longitude = parseFloat(d.longitude);
+          d.latitude = parseFloat(d.latitude);
+          d.capacity_mw = parseFloat(d.capacity_mw);
+          return d;
+        });
+
         svg.append('text')
           .text(country)
           .attr('class', 'map-title')
@@ -81,23 +95,10 @@
             if (isMobile) {
               return width/2;
             }
-            return width/6*4;
+            return width - 100;
           })
-          .attr('text-anchor', 'middle');
-
-
-      
-
-          pointData = pointData.filter(function(d) {
-            if (country === 'Vietnam')
-              return d.country === country && d.latitude && d.longitude;
-            return d.latitude && d.longitude;
-          })
-          .map(function(d) {
-            d.longitude = parseFloat(d.longitude);
-            d.latitude = parseFloat(d.latitude);
-            d.capacity_mw = parseFloat(d.capacity_mw);
-            return d;
+          .attr('text-anchor', function() {
+            return isMobile ? 'middle': 'end';
           });
 
         svg.append('text')
@@ -113,9 +114,11 @@
             if (isMobile) {
               return width/2;
             }
-            return width/6*4;
+            return width - 100;
           })
-          .attr('text-anchor', 'middle');
+          .attr('text-anchor', function() {
+            return isMobile ? 'middle': 'end';
+          });
    
         var maxCircleSize = isMobile ? 10 : 25;
 
