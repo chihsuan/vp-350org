@@ -124,8 +124,20 @@ section {
 }
 
 #intro {
-  font-size: 2.3rem;
-  max-height: 200px;
+  font-size: 2.6rem;
+  height: 500px;
+  color: #fff;
+  font-weight: bold;
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+
+  .row {
+    height: 100%;
+  }
+  p {
+    margin-top: 200px;
+  }
 }
 
 #idea {
@@ -234,7 +246,7 @@ circle {
 
 #tooltip {
   position: absolute;
-  width: 220px;
+  width: 250px;
   height: auto;
   padding: 10px;
   background-color: white;
@@ -245,6 +257,11 @@ circle {
   -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
   pointer-events: none;
+
+  p {
+    margin: 0;
+
+  }
 }
 
 #tooltip.hidden {
@@ -297,6 +314,49 @@ circle {
   margin: auto;
 }
 
+
+#arcs {
+  path {
+    fill: none;
+    stroke-opacity: .9;
+  }
+  text {
+    fill: rgb(214, 30, 30);
+    font-weight: bold;
+  }
+}
+
+
+.share-story {
+  float: right;
+  background-color: #ffa902;
+  border-radius: 1.4em;
+  border: 0;
+  color: #fff!important;
+  cursor: pointer;
+  display: block;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.8rem;
+  height: auto;
+  line-height: .9;
+  padding: 1em 1.4em;
+  position: relative;
+  text-align: center;
+  white-space: normal;
+}
+
+
+.legend {
+  font-size: 1.6rem;
+}
+
+.title-hr {
+  width: 50px;
+  color: #000;
+  border: 2px solid #17292e;
+}
+
 @media only screen and (max-width: 720px) {
   #idea {
     padding: 30px;
@@ -306,10 +366,7 @@ circle {
     font-size: 3rem;
   }
 
+  .legend {
+    font-size: 1rem;
+  }
 }
-
-#arcs path {
-  fill: none;
-  stroke-opacity: .9;
-}
-

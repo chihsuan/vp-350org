@@ -1,0 +1,83 @@
+No.,Types,Project Name,Unit,longitude,latitude,Established date (yr),Status,capacity_mw,Domestic owner name,,Foreign owner name,Total investment amount,Total amount from domestic sources,Total amount from foreign sources,Money not identifiable,Recipient,"Domestic owner's contribution, Share (%)","Domestic owner's contribution, Amount","Foreign owner's contribution, Share (%)","Foreign owner's contribution, Amount",Total Identified amount of foreign finance,Total Identified amount of domestic finance (mio USD),Lifecycle of plant (yr),CO2 Carbon Emission,Real Cost of Coal,Project Impact,References
+,,,,,,,,,Sponsor (check (check it belongs to financier or owner),Parent Company (check it belongs to financier or owner),,,,,,,,,,,,,,,,,Wiki page
+1,coal,Changgong power station,Changgong Unit 1,120.406,24.089,2019,Shelved,800,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1c8TJcs
+2,coal,Changgong power station,Changgong Unit 2,120.406,24.089,2020,Shelved,800,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1c8TJcs
+3,coal,Changhua power station,Changhua power station Unit G7,120.560787,24.09293,1996,Retired,101,Formosa Chemicals & Fibers,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/2d9nPnO
+4,coal,Changhua power station,Changhua power station Unit G8,120.560787,24.09293,2001,Retired,104,Formosa Chemicals & Fibers,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/2d9nPnO
+5,coal,Chiayi Plant Cy power station,Chiayi Plant Cy 1,120.37,23.51,1991,Operating,40,Formosa Plastics Corp,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1ShJBUw
+6,coal,Hsinkang SK power station,Hsinkang SK power station Unit 1,120.37488,23.518563,1990,Operating,56,Formosa Chemicals & Fibers,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1HMkvlT
+7,coal,Hsinkang SK power station,Hsinkang SK power station Unit 2,120.37488,23.518563,1990,Operating,56,Formosa Chemicals & Fibers,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1HMkvlT
+8,coal,Hsinkang SK power station,Hsinkang SK power station Unit 3,120.37488,23.518563,1994,Operating,101,Formosa Chemicals & Fibers,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1HMkvlT
+9,coal,Hsinkang SK power station,Hsinkang SK power station Unit 4,120.37488,23.518563,2000,Operating,148,Formosa Chemicals & Fibers,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1HMkvlT
+10,coal,Ho-Ping power station,Ho-Ping power station Unit 1,121.76346,24.307782,2002,Operating,660,Ho-Ping Power Co,"TCC Group, CLP Group",,,,,,,,,,,,,CA,CA,,,http://bit.ly/1MpdpKC
+11,coal,Ho-Ping power station,Ho-Ping power station Unit 2,121.76346,24.307782,2002,Operating,660,Ho-Ping Power Co,"TCC Group, CLP Group",,,,,,,,,,,,,CA,CA,,,http://bit.ly/1MpdpKC
+12,coal,Chiutang Mill power station,Chiutang Mill 1,120.3,22.53,2011,Operating,50,Yfy Group,Yfy Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1Q9HRwH
+13,coal,Hsinta power station,Hsinta New Unit 1,120.197167,22.85577,,Cancelled,1000,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IPl3eA
+14,coal,Hsinta power station,Hsinta New Unit 2,120.197167,22.85577,,Cancelled,1000,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IPl3eA
+15,coal,Hsinta power station,Hsinta power station Unit 1,120.197167,22.85577,1982,Operating,500,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IPl3eA
+16,coal,Hsinta power station,Hsinta power station Unit 2,120.197167,22.85577,1983,Operating,500,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IPl3eA
+17,coal,Hsinta power station,Hsinta power station Unit 3,120.197167,22.85577,1985,Operating,550,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IPl3eA
+18,coal,Hsinta power station,Hsinta power station Unit 4,120.197167,22.85577,1986,Operating,550,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IPl3eA
+19,coal,Jenwu Plant,Jenwu Plant Unit 3,120.335049,22.701637,1986,Operating,127,Formosa Plastics Corp,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IPv63z
+20,coal,Jenwu Plant,Jenwu Plant Unit 4,120.335049,22.701637,1991,Operating,101,Formosa Plastics Corp,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IPv63z
+21,coal,Jenwu Plant,Jenwu Plant Unit 5,120.335049,22.701637,1991,Operating,101,Formosa Plastics Corp,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IPv63z
+22,coal,Linyuan Plant power station,Linyuan Plant Lp 2,120.3,22.53,1991,Operating,46,Formosa Plastics Corp,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1ShK7BY
+23,coal,Talin power station,Talin power station Unit 1,120.335,22.537,1969,Retired,300,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1UJl49s
+24,coal,Talin power station,Talin power station Unit 10,120.335,22.537,,Cancelled,800,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1UJl49s
+25,coal,Talin power station,Talin power station Unit 2,120.335,22.537,1970,Retired,300,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1UJl49s
+26,coal,Talin power station,Talin power station Unit 3,120.335,22.537,1972,Operating,375,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1UJl49s
+27,coal,Talin power station,Talin power station Unit 4,120.335,22.537,1973,Operating,375,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1UJl49s
+28,coal,Talin power station,Talin power station Unit 5,120.335,22.537,1975,Operating,500,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1UJl49s
+29,coal,Talin power station,Talin power station Unit 7,120.335,22.537,2016,Construction,800,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1UJl49s
+30,coal,Talin power station,Talin power station Unit 8,120.335,22.537,2017,Construction,800,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1UJl49s
+31,coal,Talin power station,Talin power station Unit 9,120.335,22.537,,Cancelled,800,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1UJl49s
+32,coal,Hwa Ya power station,Hwa Ya power station Unit 1,121.388,25.079,2004,Operating,152,Hwa Ya Power,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1N8AGlo
+33,coal,Hwa Ya power station,Hwa Ya power station Unit 2,121.388,25.079,2004,Operating,152,Hwa Ya Power,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1N8AGlo
+34,coal,Linkou power station,Linkou-1 power station Unit S1,121.298,25.1209,1968,Retired,300,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1HMw1he
+35,coal,Linkou power station,Linkou-1 power station Unit S2,121.298,25.1209,1972,Retired,300,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1HMw1he
+36,coal,Shenao power station,Shenao Unit 4,121.8154,25.1269,2022,Construction,800,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1hsJTCr
+37,coal,Shenao power station,Shenao Unit 5,121.8154,25.1269,2023,Construction,800,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1hsJTCr
+38,coal,Houli Mill power station,Houli Mill 1,120.48,24.21,1996,Operating,48,Cheng Loong Co Ltd,Cheng Loong,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1ota0SX
+39,coal,Taichung power station,Taichung power station Unit 1,120.485,24.2131,1991,Operating,550,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IRY8NE
+40,coal,Taichung power station,Taichung power station Unit 10,120.4731345,24.2194242,2006,Operating,550,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IRY8NE
+41,coal,Taichung power station,Taichung power station Unit 2,120.485,24.2131,1991,Operating,550,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IRY8NE
+42,coal,Taichung power station,Taichung power station Unit 3,120.485,24.2131,1992,Operating,550,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IRY8NE
+43,coal,Taichung power station,Taichung power station Unit 4,120.485,24.2131,1992,Operating,550,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IRY8NE
+44,coal,Taichung power station,Taichung power station Unit 5,120.485,24.2131,1996,Operating,550,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IRY8NE
+45,coal,Taichung power station,Taichung power station Unit 6,120.485,24.2131,1996,Operating,550,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IRY8NE
+46,coal,Taichung power station,Taichung power station Unit 7,120.485,24.2131,1996,Operating,550,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IRY8NE
+47,coal,Taichung power station,Taichung power station Unit 8,120.485,24.2131,1997,Operating,550,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IRY8NE
+48,coal,Taichung power station,Taichung power station Unit 9,120.4731345,24.2194242,2005,Operating,550,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IRY8NE
+49,coal,Taichung power station,Taichung Unit 11,120.4731345,24.2194242,,Cancelled,800,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IRY8NE
+50,coal,Taichung power station,Taichung Unit 12,120.4731345,24.2194242,,Cancelled,800,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IRY8NE
+51,coal,Tayuan Industrial Park power station,Tayuan Industrial Park 1,120.48,24.21,1996,Operating,38,Taiwan Cogeneration Corp,TCC Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1Tdwy6N
+52,coal,Kuan-Tien power station,Kuan-Tien 1,120.183333,22.983333,2000,Operating,48,Taiwan Cogeneration Corp,TCC Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1Qsvupt
+53,coal,Linkou Plant Tp power station,Linkou Plant Tp 2,121.352142,25.161561,1990,Operating,36,Formosa Plastics Corp,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1KGvENv
+54,coal,Linkou power station,Linkou Renewal Unit 1,121.298,25.1209,2016,Operating,800,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1au5Sdr
+55,coal,Linkou power station,Linkou Renewal Unit 2,121.298,25.1209,2017,Construction,800,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1au5Sdr
+56,coal,Linkou power station,Linkou Renewal Unit 3,121.298,25.1209,2021,Permitted,800,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1au5Sdr
+57,coal,Shu-Lin power station,Shu-Lin Sl 2,121.352142,25.161561,1994,Operating,52,Formosa Plastics Corp,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1RrozSu
+58,coal,Taipei Port power station,Taipei Port Unit 1,121.352142,25.161561,2030s,Shelved,1000,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1dBQoi3
+59,coal,Taipei Port power station,Taipei Port Unit 2,121.352142,25.161561,2030s,Shelved,1000,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1dBQoi3
+60,coal,Taipei Port power station,Taipei Port Unit 3,121.352142,25.161561,2030s,Shelved,1000,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1dBQoi3
+61,coal,Taipei Port power station,Taipei Port Unit 4,121.352142,25.161561,2030s,Shelved,1000,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1dBQoi3
+62,coal,Taipei Port power station,Taipei Port Unit 5,121.352142,25.161561,2030s,Shelved,1000,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1dBQoi3
+63,coal,Taipei Port power station,Taipei Port Unit 6,121.352142,25.161561,2030s,Shelved,1000,Taiwan Power Co,Taipower,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1dBQoi3
+64,coal,Jinshin Plant,Jinshin Plant Unit 1,121.3,24.993,1997,Operating,57,Formosa Plastics Corp,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1PdRtkA
+65,coal,Jinshin Plant,Jinshin Plant Unit 2,121.3,24.993,2002,Operating,57,Formosa Plastics Corp,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1PdRtkA
+66,coal,Haifeng power station,Haifeng power station Unit 1,120.432,23.709,2000,Operating,107,Formosa Petrochemical Corp,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1MpjuGQ
+67,coal,Haifeng power station,Haifeng power station Unit 2,120.432,23.709,2000,Operating,107,Formosa Petrochemical Corp,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1MpjuGQ
+68,coal,Haifeng power station,Haifeng power station Unit 3,120.432,23.709,2000,Operating,107,Formosa Petrochemical Corp,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1MpjuGQ
+69,coal,Longder Plant,Longder Plant Unit 2,120.432,23.709,2000,Operating,150,Formosa Chemicals & Fibers,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1DUdft7
+70,coal,Mailiao Formosa Petrochemical power station,Mailiao Formosa Petrochemical power station Unit 1,120.202,23.798,1997,Operating,96,Formosa Petrochemical Corp,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1MpjBSN
+71,coal,Mailiao Formosa Petrochemical power station,Mailiao Formosa Petrochemical power station Unit 2,120.202,23.798,1998,Operating,33,Formosa Petrochemical Corp,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1MpjBSN
+72,coal,Mailiao Formosa Petrochemical power station,Mailiao Formosa Petrochemical power station Unit 3,120.202,23.798,1998,Operating,69,Formosa Petrochemical Corp,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1MpjBSN
+73,coal,Mailiao Formosa Petrochemical power station,Mailiao Formosa Petrochemical power station Unit 4,120.202,23.798,1999,Operating,33,Formosa Petrochemical Corp,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1MpjBSN
+74,coal,Mailiao Formosa Petrochemical power station,Mailiao Formosa Petrochemical power station Unit 5,120.202,23.798,1998,Operating,69,Formosa Petrochemical Corp,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1MpjBSN
+75,coal,Mailiao MP power station,Mailiao MP power station Unit 1,120.189024,23.803419,1999,Operating,600,Mailiao Power Co,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/24oSDpx
+76,coal,Mailiao MP power station,Mailiao MP power station Unit 2,120.189024,23.803419,1999,Operating,600,Mailiao Power Co,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/24oSDpx
+77,coal,Mailiao MP power station,Mailiao MP power station Unit 3,120.189024,23.803419,2000,Operating,600,Mailiao Power Co,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/24oSDpx
+78,coal,Mailiao MP power station,Mailiao MP power station Unit 4,120.189024,23.803419,2002,Operating,600,Mailiao Power Co,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/24oSDpx
+79,coal,Mailiao MP power station,Mailiao MP power station Unit 5,120.189024,23.803419,2002,Operating,600,Mailiao Power Co,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/24oSDpx
+80,coal,Mailiao MP power station,Mailiao MP power station Unit 6,120.189024,23.803419,2000,Operating,600,Mailiao Power Co,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/24oSDpx
+81,coal,Mailiao MP power station,Mailiao MP power station Unit 7,120.189024,23.803419,2002,Operating,600,Mailiao Power Co,Formosa Plastics Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/24oSDpx

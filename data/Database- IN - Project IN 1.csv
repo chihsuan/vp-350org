@@ -1,0 +1,338 @@
+No.,Types,Project Name,Unit,longitude,latitude,Established date (yr),Status,capacity_mw,Domestic owner name,,Foreign owner name,Total investment amount,Total amount from domestic sources,"Total amount from foreign sources
+",Money not identifiable,Recipient,"Domestic owner's contribution, Share (%)","Domestic owner's contribution, Amount","Foreign owner's contribution, Share (%)","Foreign owner's contribution, Amount",Total Identified amount of foreign finance,Total Identified amount of domestic finance (mio USD),Lifecycle of plant (yr),CO2 Carbon Emission,Real Cost of Coal,Project Impact,References
+,,,,,,,,,Sponsor (check (check it belongs to financier or owner),Parent Company (check it belongs to financier or owner),,,,,,,,,,,,,,,,,Wiki page
+1,coal,Nagan Raya power station,Nagan Raya power station Unit 1,96.1989402,4.1073603,2013,Operating,110,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/PT5c8f
+2,coal,Nagan Raya power station,Nagan Raya power station Unit 2,96.1989402,4.1073603,2014,Operating,110,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/PT5c8f
+3,coal,Nagan Raya power station,Nagan Raya power station Unit 3,96.1989402,4.1073603,2019,Pre,200,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/PT5c8f
+4,coal,Nagan Raya power station,Nagan Raya power station Unit 4,96.1989402,4.1073603,2020,Pre,200,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/PT5c8f
+5,coal,Celukan Bawang power station,Celukan Bawang power station Unit 1,114.8515677,-8.1962945,2015,Operating,127,PT General Energy Bali,China Huadian,,,,,,,,,,,,,,,,,http://bit.ly/1gCeDSK
+6,coal,Celukan Bawang power station,Celukan Bawang power station Unit 2,114.8515677,-8.1962945,2015,Operating,127,PT General Energy Bali,China Huadian,,,,,,,,,,,,,,,,,http://bit.ly/1gCeDSK
+7,coal,Celukan Bawang power station,Celukan Bawang power station Unit 3,114.8515677,-8.1962945,2015,Operating,127,PT General Energy Bali,China Huadian,,,,,,,,,,,,,,,,,http://bit.ly/1gCeDSK
+8,coal,Celukan Bawang power station,Celukan Bawang power station Unit 4,114.8515677,-8.1962945,,Shelved,330,PT General Energy Bali,China Huadian,,,,,,,,,,,,,,,,,http://bit.ly/1gCeDSK
+9,coal,Celukan Bawang power station,Celukan Bawang power station Unit 5,114.8515677,-8.1962945,,Shelved,330,PT General Energy Bali,China Huadian,,,,,,,,,,,,,,,,,http://bit.ly/1gCeDSK
+10,coal,Karang Asem power station,Karang Asem power station Unit 1,115.516667,-8.366667,,Cancelled,100,Truba Alam Manunggal Engineering,Truba Manunggal,,,,,,,,,,,,,,,,,http://bit.ly/1ju8VDa
+11,coal,Karang Asem power station,Karang Asem power station Unit 2,115.516667,-8.366667,,Cancelled,100,Truba Alam Manunggal Engineering,Truba Manunggal,,,,,,,,,,,,,,,,,http://bit.ly/1ju8VDa
+12,coal,Bangka Baru power station,Bangka Baru 1,106.116667,-2.133333,2014,Operating,30,Pt Pln Wilayah Bangka-Belitung,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/23Xae5e
+13,coal,Bangka Baru power station,Bangka Baru 2,106.116667,-2.133333,2014,Operating,30,Pt Pln Wilayah Bangka-Belitung,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/23Xae5e
+14,coal,Bangka-1 power station,Bangka-1 power station Unit 1,106.116667,-2.133333,,Announced,100,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/2h9HO4K
+15,coal,Bangka-1 power station,Bangka-1 power station Unit 2,106.116667,-2.133333,,Announced,100,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/2h9HO4K
+16,coal,Asahimas Chemical power station,Asahimas Chemical power station Unit 1,105.9398746,-6.0293475,2018,Announced,150,Asahimas Chemical,Asashi Glass,,,,,,,,,,,,,,,,,http://bit.ly/1ErJD4h
+17,coal,Asahimas Chemical power station,Asahimas Chemical power station Unit 2,105.9398746,-6.0293475,2018,Announced,150,Asahimas Chemical,Asashi Glass,,,,,,,,,,,,,,,,,http://bit.ly/1ErJD4h
+18,coal,Banten Labuan power station,Banten Labuan power station Unit 1,105.8277797,-6.3921788,2009,Operating,316,PT Indonesia Power,PT Indonesia Power,,,,,,,,,,,,,,,,,http://bit.ly/1MjnUAq
+19,coal,Banten Labuan power station,Banten Labuan power station Unit 2,105.8277797,-6.3921788,2010,Operating,316,PT Indonesia Power,PT Indonesia Power,,,,,,,,,,,,,,,,,http://bit.ly/1MjnUAq
+20,coal,Banten Lontar power station,Banten Lontar power station Unit 1,106.4643002,-6.0588745,2011,Operating,315,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1MjlIcn
+21,coal,Banten Lontar power station,Banten Lontar power station Unit 2,106.4643002,-6.0588745,2012,Operating,315,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1MjlIcn
+22,coal,Banten Lontar power station,Banten Lontar power station Unit 3,106.4643002,-6.0588745,2012,Operating,315,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1gCdMRT
+23,coal,Banten Lontar power station,Banten Lontar power station Unit 4,106.4643002,-6.0588745,2019,Construction,315,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1MjlIcn
+24,coal,Banten Serang power station,Banten Serang Unit 1,106.0459286,-5.8829716,2017,Construction,670,PT Lestari Baten Energi (LBE),Genting Group,,,,,,,,,,,,,,,,,http://bit.ly/1io8FU4
+25,coal,Banten Suralaya power station,Banten Suralaya power station Unit 8,106.0336018,-5.8892179,2011,Operating,625,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1io8Wqn
+26,coal,Banten Suralaya power station,Banten Suralaya power station Unit 9,106.0336018,-5.8892179,2016,Shelved,625,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1io8Wqn
+27,coal,Banten Suralaya power station,Banten Suralaya-1 power station Unit 1,106.0302341,-5.8919073,1984,Operating,400,PT Indonesia Power Suralaya,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1MjmqpR
+28,coal,Banten Suralaya power station,Banten Suralaya-1 power station Unit 2,106.0302341,-5.8919073,1985,Operating,400,PT Indonesia Power Suralaya,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1MjmqpR
+29,coal,Banten Suralaya power station,Banten Suralaya-1 power station Unit 3,106.0302341,-5.8919073,1988,Operating,400,PT Indonesia Power Suralaya,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1MjmqpR
+30,coal,Banten Suralaya power station,Banten Suralaya-1 power station Unit 4,106.0302341,-5.8919073,1989,Operating,400,PT Indonesia Power Suralaya,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1MjmqpR
+31,coal,Banten Suralaya power station,Banten Suralaya-2 power station Unit 1,106.0302341,-5.8919073,1996,Operating,600,PT Indonesia Power Suralaya,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1MjmqpR
+32,coal,Banten Suralaya power station,Banten Suralaya-2 power station Unit 2,106.0302341,-5.8919073,1997,Operating,600,PT Indonesia Power Suralaya,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1MjmqpR
+33,coal,Banten Suralaya power station,Banten Suralaya-2 power station Unit 3,106.0302341,-5.8919073,1997,Operating,600,PT Indonesia Power Suralaya,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1MjmqpR
+34,coal,Banten Suralaya-3 power station,Banten Suralaya-3 power station Unit 1,106.0383443,-5.8857435,2011,Operating,625,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1MjmqpR
+35,coal,Bojonegara Serang power station,Bojonegara Serang power station Unit 1,106.094,-5.971,2018,Cancelled,375,PT INDIKA INTI ENERGI,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1hJJTMc
+36,coal,Bojonegara Serang power station,Bojonegara Serang power station Unit 2,106.094,-5.971,2018,Cancelled,375,PT INDIKA INTI ENERGI,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1hJJTMc
+37,coal,Jawa-10 power station,Jawa-10 power station,,,2019,Announced,660,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1SXJs8n
+38,coal,Jawa-7 power station,Jawa-7 power station Unit 1,106.0801743,-6.0050693,2019,Construction,1000,Shenhua Guohua Power Jawa Bali,"China Shenhua Energy 70%, PT Pembangkitan Jawa Bali 30%",,,,,,,,,,,,,,,,,http://bit.ly/1oYoIjh
+39,coal,Jawa-7 power station,Jawa-7 power station Unit 2,106.0801743,-6.0050693,2020,Construction,1000,Shenhua Guohua Power Jawa Bali,"China Shenhua Energy 70%, PT Pembangkitan Jawa Bali 30%",,,,,,,,,,,,,,,,,http://bit.ly/1oYoIjh
+40,coal,Jawa-9 power station,Jawa-9 power station,,,2018,Announced,600,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1SXJs8n
+41,coal,Merak power station,Merak power station Unit 1,106.06422,-5.88403,2014,Operating,60,PT Merak Energi,Merak Energi,,,,,,,,,,,,,,,,,http://bit.ly/1g8Ckir
+42,coal,Merak power station,Merak power station Unit 2,106.06422,-5.88403,2014,Operating,60,PT Merak Energi,Merak Energi,,,,,,,,,,,,,,,,,http://bit.ly/1g8Ckir
+43,coal,Serang PLN power station,Serang PLN power station Unit 1,106.163,-6.11,1992,Operating,35,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1Mjopun
+44,coal,Serang PLN power station,Serang PLN power station Unit 2,106.163,-6.11,1992,Operating,35,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1Mjopun
+45,coal,Serang PLN power station,Serang PLN power station Unit 3,106.163,-6.11,1993,Operating,35,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1Mjopun
+46,coal,Bengkulu power station,Bengkulu power station Unit 1,102.1804047,-3.6073099,2019,Construction,100,Tenaga Listrik Bengkulu,"PT Intraco Penta (30%), PowerChina (70%)",,,,,,,,,,,,,,,,,http://bit.ly/1UkoQX4
+47,coal,Bengkulu power station,Bengkulu power station Unit 2,102.1804047,-3.6073099,2019,Construction,100,Tenaga Listrik Bengkulu,"PT Intraco Penta (30%), PowerChina (70%)",,,,,,,,,,,,,,,,,http://bit.ly/1UkoQX4
+48,coal,Adipala power station,Adipala power station Unit 1,109.13756,-7.6859423,2015,Operating,660,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/PCRUfM
+49,coal,Central Java Power Project,Central Java Power Project Unit 1,109.80115,-6.89454,2020,Construction,950,Bhimasena Power Indo (BPI),"J-POWER, ITOCHU, Adaro",,,,,,,,,,,,,,,,,http://bit.ly/29rxfHj
+50,coal,Central Java Power Project,Central Java Power Project Unit 2,109.80115,-6.89454,,Construction,950,Bhimasena Power Indo (BPI),"J-POWER, ITOCHU, Adaro",,,,,,,,,,,,,,,,,http://bit.ly/29rxfHj
+51,coal,Cilacap power station,Cilacap power station Unit 1,109.131,-7.684,2019,Shelved,1000,PT Jawa Energy,PT Jawa Energy,,,,,,,,,,,,,,,,,http://bit.ly/1GyvJ14
+52,coal,Cilacap power station,Cilacap power station Unit 2,109.131,-7.684,2019,Shelved,1000,PT Jawa Energy,PT Jawa Energy,,,,,,,,,,,,,,,,,http://bit.ly/1GyvJ14
+53,coal,Cilacap power station,Cilacap power station Unit 3,109.131,-7.684,,Shelved,1000,PT Jawa Energy,PT Jawa Energy,,,,,,,,,,,,,,,,,http://bit.ly/1GyvJ14
+54,coal,Cilacap power station,Cilacap power station Unit 4,109.131,-7.684,,Shelved,1000,PT Jawa Energy,PT Jawa Energy,,,,,,,,,,,,,,,,,http://bit.ly/1GyvJ14
+55,coal,Cilacap power station,Cilacap power station Unit 5,109.131,-7.684,,Shelved,1000,PT Jawa Energy,PT Jawa Energy,,,,,,,,,,,,,,,,,http://bit.ly/1GyvJ14
+56,coal,Cilacap Sumber power station,Cilacap Sumber power station Unit 1,109.08977,-7.68575,2006,Operating,300,PT Sumber Segara Primadaya,"Energi Andalan, Indo Power",,,,,,,,,,,,,,,,,http://bit.ly/1hsx1C1
+57,coal,Cilacap Sumber power station,Cilacap Sumber power station Unit 2,109.08977,-7.68575,2006,Operating,300,PT Sumber Segara Primadaya,"Energi Andalan, Indo Power",,,,,,,,,,,,,,,,,http://bit.ly/1hsx1C1
+58,coal,Cilacap Sumber power station,Cilacap Sumber power station Unit 3,109.096384,-7.6832417,2016,Operating,660,Sumber Segara Primadaya,"Sumberenergi, PT PLN Persero",,,,,,,,,,,,,,,,,http://bit.ly/1lIYNHC
+59,coal,Cilacap Sumber power station,Cilacap Sumber power station Unit 4,109.096384,-7.6832417,2020,Construction,1000,Sumber Segara Primadaya,"Sumberenergi, PT PLN Persero",,,,,,,,,,,,,,,,,http://bit.ly/1lIYNHC
+60,coal,Jababeka KIP power station,Jababeka KIP power station,110.2402496,6.8957523,,Announced,660,Jababeka,Jababeka,,,,,,,,,,,,,,,,,http://bit.ly/1FjKvdY
+61,coal,Jawa-3 power station,Jawa-3 power station Unit 1,108.743362,-6.823851,2021,Announced,660,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1hBFvVm
+62,coal,Jawa-3 power station,Jawa-3 power station Unit 2,108.743362,-6.823851,2022,Announced,660,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1hBFvVm
+63,coal,Rembang power station,Rembang power station Unit 1,111.4746949,-6.6352666,2011,Operating,316,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1hsxcxi
+64,coal,Rembang power station,Rembang power station Unit 2,111.4746949,-6.6352666,2011,Operating,316,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1hsxcxi
+65,coal,Tanjung Jati B power station,Tanjung Jati B power station Unit 3,110.7423,-6.446,2011,Operating,660,PT Central Java Power,Sumitomo Corporation,,,,,,,,,,,,,,,,,http://bit.ly/1gCgCqf
+66,coal,Tanjung Jati B power station,Tanjung Jati B power station Unit 4,110.7423,-6.446,2012,Operating,660,PT Central Java Power,Sumitomo Corporation,,,,,,,,,,,,,,,,,http://bit.ly/1gCgCqf
+67,coal,Tanjung Jati B power station,Tanjung Jati B power station Unit 5,110.6667,-6.446,2019,Permitted,1070,PT Bhumi Jati Power,Sumitomo Corporation,,,,,,,,,,,,,,,,,http://bit.ly/1gCgCqf
+68,coal,Tanjung Jati B power station,Tanjung Jati B power station Unit 6,110.6667,-6.446,2020,Permitted,1070,PT Bhumi Jati Power,Sumitomo Corporation,,,,,,,,,,,,,,,,,http://bit.ly/1gCgCqf
+69,coal,Tanjung Jati-B power station,Tanjung Jati-B power station Unit 1,110.743491,-6.4447822,2006,Operating,660,PT Central Java Power,Sumitomo Corporation,,,,,,,,,,,,,,,,,http://bit.ly/1gCgCqf
+70,coal,Tanjung Jati-B power station,Tanjung Jati-B power station Unit 2,110.743491,-6.4447822,2006,Operating,660,PT Central Java Power,Sumitomo Corporation,,,,,,,,,,,,,,,,,http://bit.ly/1gCgCqf
+71,coal,Kalselteng-1 power station,Kalselteng-1 power station Unit 1,113.2635498,-1.6106582,2019,Announced,100,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1WNVZhr
+72,coal,Kalselteng-1 power station,Kalselteng-1 power station Unit 2,113.2635498,-1.6106582,2020,Announced,100,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1WNVZhr
+73,coal,Kalselteng-3 power station,Kalselteng-3 power station Unit 1,111.6430664,-2.8086279,2020,Pre,100,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1WNVV11
+74,coal,Kalselteng-3 power station,Kalselteng-3 power station Unit 2,111.6430664,-2.8086279,2021,Pre,100,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1WNVV11
+75,coal,Kalteng-1 Pulang Pisau power station,Kalteng-1 (Pulang Pisau) power station Unit 1,114.2088309,-2.8226465,2015,Operating,60,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1hNumTE
+76,coal,Kalteng-1 Pulang Pisau power station,Kalteng-1 (Pulang Pisau) power station Unit 2,114.2088309,-2.8226465,2015,Operating,60,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1hNumTE
+77,coal,Kaltim-3 power station,Kaltim-3 power station Unit 1,117.487793,-0.5699064,2020,Announced,200,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1WNWE2v
+78,coal,Kaltim-3 power station,Kaltim-3 power station Unit 2,117.487793,-0.5699064,2020,Announced,200,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1WNWE2v
+79,coal,Kaltim-4 power station,Kaltim-4 power station Unit 1,117.1911621,-0.2870166,2019,Announced,100,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1S62cgO
+80,coal,Kaltim-4 power station,Kaltim-4 power station Unit 2,117.1911621,-0.2870166,2020,Announced,100,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1S62cgO
+81,coal,Kaltim-5 power station,Kaltim-5 power station Unit 1,117.195282,-0.9118267,2023,Announced,200,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1S61boN
+82,coal,Kaltim-5 power station,Kaltim-5 power station Unit 2,117.195282,-0.9118267,2023,Announced,200,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1S61boN
+83,coal,Palangkaraya power station,Palangkaraya power station Unit 1,113.654,-1.769,,Cancelled,100,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1yy6uFn
+84,coal,Palangkaraya power station,Palangkaraya power station Unit 2,113.654,-1.769,,Cancelled,100,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1yy6uFn
+85,coal,Sulawesi Mining power station,Sulawesi Mining power station Phase 1 Unit 1,122.161034,-2.822002,2015,Operating,65,Sulawesi Mining Investment,"Dingxin Group, Bintang Delapan",,,,,,,,,,,,,,,,,http://bit.ly/1HL2Vzp
+86,coal,Sulawesi Mining power station,Sulawesi Mining power station Phase 1 Unit 2,122.161034,-2.822002,2015,Operating,65,Sulawesi Mining Investment,"Dingxin Group, Bintang Delapan",,,,,,,,,,,,,,,,,http://bit.ly/1HL2Vzp
+87,coal,Sulawesi Mining power station,Sulawesi Mining power station Phase 2 Unit 1,122.161034,-2.822002,2017,Construction,150,Sulawesi Mining Investment,"Dingxin Group, Bintang Delapan",,,,,,,,,,,,,,,,,http://bit.ly/1HL2Vzp
+88,coal,Sulawesi Mining power station,Sulawesi Mining power station Phase 2 Unit 2,122.161034,-2.822002,2017,Construction,150,Sulawesi Mining Investment,"Dingxin Group, Bintang Delapan",,,,,,,,,,,,,,,,,http://bit.ly/1HL2Vzp
+89,coal,Sulawesi Mining power station,Sulawesi Mining power station Phase 3,122.161034,-2.822002,,Announced,300,Sulawesi Mining Investment,"Dingxin Group, Bintang Delapan",,,,,,,,,,,,,,,,,http://bit.ly/1HL2Vzp
+90,coal,Gresik AKR power station,Gresik AKR power station Unit 1,112.642,-7.159,2020,Announced,330,PT AKR Corporindo Tbk,AKR Corporation,,,,,,,,,,,,,,,,,http://bit.ly/1BCrLPr
+91,coal,Gresik AKR power station,Gresik AKR power station Unit 2,112.642,-7.159,2020,Announced,330,PT AKR Corporindo Tbk,AKR Corporation,,,,,,,,,,,,,,,,,http://bit.ly/1BCrLPr
+92,coal,Madura PTBA power station,Madura PTBA power station Unit 1,113.287085,-7.077733,,Cancelled,200,PT Bukit Asam,PT Bukit Asam,,,,,,,,,,,,,,,,,http://bit.ly/1g8yS7A
+93,coal,Madura PTBA power station,Madura PTBA power station Unit 2,113.287085,-7.077733,,Cancelled,200,PT Bukit Asam,PT Bukit Asam,,,,,,,,,,,,,,,,,http://bit.ly/1g8yS7A
+94,coal,Mojokerto power station,Mojokerto 1,112.433611,-7.472222,1992,Operating,35,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1QrHoQz
+95,coal,Mojokerto power station,Mojokerto 2,112.433611,-7.472222,1992,Operating,35,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1QrHoQz
+96,coal,Pacitan power station,Pacitan power station Unit 1,111.373558,-8.2578176,2011,Operating,315,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/PT6cJj
+97,coal,Pacitan power station,Pacitan power station Unit 2,111.373558,-8.2578176,2011,Operating,315,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/PT6cJj
+98,coal,PLN Paiton Baru power station,Paiton Baru power station Unit 10,113.5706815,-7.7110289,,Cancelled,660,PT Pembangkitan Jawa-Bali,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1JjEzxV
+99,coal,PLN Paiton Baru power station,Paiton Baru power station Unit 9,113.5706815,-7.7110289,2012,Operating,660,PT Pembangkitan Jawa-Bali,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1JjEzxV
+100,coal,Paiton-3 power station,Paiton-3 power station,113.58326,-7.71446,2012,Operating,850,Paiton Energy,"Mitsui, International Power, TEPCO",,,,,,,,,,,,,,,,,http://bit.ly/PTaIHX
+101,coal,Tanjung Awar-Awar power station,Tanjung Awar-Awar power station Unit 1,111.9955033,-6.8105242,2012,Operating,350,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1gCfMtB
+102,coal,Tanjung Awar-Awar power station,Tanjung Awar-Awar power station Unit 2,111.9955033,-6.8105242,2013,Operating,350,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1gCfMtB
+103,coal,Paiton-1 power station,Paiton-1 power station Unit 1,113.5798,-7.7122827,1999,Operating,670,GDF Suez Energy International,Engie,,,,,,,,,,,,,,,,,http://bit.ly/1KYh68h
+104,coal,Paiton-1 power station,Paiton-1 power station Unit 2,113.5798,-7.7122827,1999,Operating,670,GDF Suez Energy International,Engie,,,,,,,,,,,,,,,,,http://bit.ly/1KYh68h
+105,coal,Paiton-2 power station,Paiton-2 power station Unit 1,113.5817579,-7.7129671,2000,Operating,650,PT Jawa Power,"Siemens, YTL Corporation, Marubeni Corporation, and Bumi Pertiwi Lestari",,,,,,,,,,,,,,,,,http://bit.ly/1KYhaF1
+106,coal,Paiton-2 power station,Paiton-2 power station Unit 2,113.5817579,-7.7129671,2000,Operating,650,PT Jawa Power,"Siemens, YTL Corporation, Marubeni Corporation, and Bumi Pertiwi Lestari",,,,,,,,,,,,,,,,,http://bit.ly/1KYhaF1
+107,coal,PLN Paiton power station,PLN Paiton power station Unit 1,113.5850156,-7.7147005,1994,Operating,400,PT Pembangkitan Jawa-Bali,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1KYhqDV
+108,coal,PLN Paiton power station,PLN Paiton power station Unit 2,113.5850156,-7.7147005,1993,Operating,400,PT Pembangkitan Jawa-Bali,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1KYhqDV
+109,coal,Adaro East Kalimantan power station,Adaro East Kalimantan power station Unit 1,116.4,0.1,2019,Announced,300,Bhakti Energy and China Shenhua Overseas Development and Investment,"Adaro, Shenhua Group",,,,,,,,,,,,,,,,,http://bit.ly/1IOsvpD
+110,coal,Adaro East Kalimantan power station,Adaro East Kalimantan power station Unit 2,116.4,0.1,2019,Announced,300,Bhakti Energy and China Shenhua Overseas Development and Investment,"Adaro, Shenhua Group",,,,,,,,,,,,,,,,,http://bit.ly/1IOsvpD
+111,coal,Bakrie Sangatta power station,Bakrie Sangatta power station Unit 1,117.481,0.605,2017,Cancelled,100,PT Bakrie Indo Infrastructure,Bakrie Group,,,,,,,,,,,,,,,,,http://bit.ly/19rywf7
+112,coal,Bakrie Sangatta power station,Bakrie Sangatta power station Unit 2,117.481,0.605,2017,Cancelled,100,PT Bakrie Indo Infrastructure,Bakrie Group,,,,,,,,,,,,,,,,,http://bit.ly/19rywf7
+113,coal,Kaltim FTP2 power station,Kaltim FTP2 power station Unit 1,117.5495911,0.5692198,2018,Pre,100,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1VZGQbG
+114,coal,Kaltim FTP2 power station,Kaltim FTP2 power station Unit 2,117.5495911,0.5692198,2019,Pre,100,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1VZGQbG
+115,coal,Kaltim Teluk Balikpapan power station,Kaltim Teluk Balikpapan power station Unit 1,116.78872,-1.17036,2015,Operating,110,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1lF3kLa
+116,coal,Kaltim Teluk Balikpapan power station,Kaltim Teluk Balikpapan power station Unit 2,116.78872,-1.17036,2015,Operating,110,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1lF3kLa
+117,coal,NALCO East Kutai power station,NALCO East Kutai power station Unit 1,116.682,1.254,,Cancelled,250,Nalco Indonesia and MEC Coal,"National Aluminium Company, Emirate of Ras al-Khaimah",,,,,,,,,,,,,,,,,http://bit.ly/1VO5cG4
+118,coal,NALCO East Kutai power station,NALCO East Kutai power station Unit 2,116.682,1.254,,Cancelled,250,Nalco Indonesia and MEC Coal,"National Aluminium Company, Emirate of Ras al-Khaimah",,,,,,,,,,,,,,,,,http://bit.ly/1VO5cG4
+119,coal,NALCO East Kutai power station,NALCO East Kutai power station Unit 3,116.682,1.254,,Cancelled,250,Nalco Indonesia and MEC Coal,"National Aluminium Company, Emirate of Ras al-Khaimah",,,,,,,,,,,,,,,,,http://bit.ly/1VO5cG4
+120,coal,NALCO East Kutai power station,NALCO East Kutai power station Unit 4,116.682,1.254,,Cancelled,250,Nalco Indonesia and MEC Coal,"National Aluminium Company, Emirate of Ras al-Khaimah",,,,,,,,,,,,,,,,,http://bit.ly/1VO5cG4
+121,coal,NALCO East Kutai power station,NALCO East Kutai power station Unit 5,116.682,1.254,,Cancelled,250,Nalco Indonesia and MEC Coal,"National Aluminium Company, Emirate of Ras al-Khaimah",,,,,,,,,,,,,,,,,http://bit.ly/1VO5cG4
+122,coal,Embalut power station,Embalut power station Unit 3,117.118,-0.345,2014,Operating,50,PT Cahaya Fajar Kaltim,Jawa Pos Group,,,,,,,,,,,,,,,,,http://bit.ly/1KYhCD6
+123,coal,Sumbawa-2 power station,Sumbawa-2 power station Unit 1,,,2021,Announced,50,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/29u2FfZ
+124,coal,Sumbawa-2 power station,Sumbawa-2 power station Unit 2,,,2022,Announced,50,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/29u2FfZ
+125,coal,Timor-1 power station,Timor-1 power station Unit 1,,,2019,Announced,50,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/29u2cuC
+126,coal,Timor-1 power station,Timor-1 power station Unit 2,,,2019,Announced,50,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/29u2cuC
+127,coal,Timor-2 power station,Timor-2 power station Unit 1,,,2023,Announced,50,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/29u3pBM
+128,coal,Timor-2 power station,Timor-2 power station Unit 2,,,2024,Announced,50,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/29u3pBM
+129,coal,Sulbagut-1 power station,Sulbagut-1 power station Unit 1,122.9800041,0.9475913,2019,Announced,50,PT Gorontalo Listrik Perdana,PT Toba Bara Sejahtra Tbk,,,,,,,,,,,,,,,,,http://bit.ly/1YpC87A
+130,coal,Sulbagut-1 power station,Sulbagut-1 power station Unit 2,122.9800041,0.9475913,2020,Announced,50,PT Gorontalo Listrik Perdana,PT Toba Bara Sejahtra Tbk,,,,,,,,,,,,,,,,,http://bit.ly/1YpC87A
+131,coal,Jambi Tebo power station,Jambi Tebo power station Unit 1,102.42,-1.39,,Pre,200,Korea South-East Power Company (KOSEP),KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1MSuBab
+132,coal,Jambi Tebo power station,Jambi Tebo power station Unit 2,102.42,-1.39,,Pre,200,Korea South-East Power Company (KOSEP),KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1MSuBab
+133,coal,PLN Jambi power station,PLN Jambi power station Unit 1,103.616667,-1.583333,2019,Announced,600,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1TUjIvD
+134,coal,PLN Jambi power station,PLN Jambi power station Unit 2,103.616667,-1.583333,2020,Announced,600,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1TUjIvD
+135,coal,Sinar Mas Jambi Lontar power station,Sinar Mas Jambi Lontar power station Unit 1,103.127,-1.013,1994,Operating,37,PT Lontar Papyrus Pulp & Paper,Sinar Mas Group,,,,,,,,,,,,,,,,,http://bit.ly/1KYjI5W
+136,coal,Sinar Mas Jambi Lontar power station,Sinar Mas Jambi Lontar power station Unit 2,103.127,-1.013,1994,Operating,37,PT Lontar Papyrus Pulp & Paper,Sinar Mas Group,,,,,,,,,,,,,,,,,http://bit.ly/1KYjI5W
+137,coal,Sinar Mas Jambi Lontar power station,Sinar Mas Jambi Lontar power station Unit 3,103.127,-1.013,1994,Operating,37,PT Lontar Papyrus Pulp & Paper,Sinar Mas Group,,,,,,,,,,,,,,,,,http://bit.ly/1KYjI5W
+138,coal,Sinar Mas Jambi power station,Sinar Mas Jambi power station Unit 1,101.91,-1.61,,Announced,200,PT Dian Swastatika Sentosa Tbk,Sinar Mas Group,,,,,,,,,,,,,,,,,http://bit.ly/1ylQtSZ
+139,coal,Sinar Mas Jambi power station,Sinar Mas Jambi power station Unit 2,101.91,-1.61,,Announced,200,PT Dian Swastatika Sentosa Tbk,Sinar Mas Group,,,,,,,,,,,,,,,,,http://bit.ly/1ylQtSZ
+140,coal,Jawa-11 power station,Jawa-11 power station,,,2026,Announced,600,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1SXJs8n
+141,coal,Jawa-12 power station,Jawa-12 power station Unit 1,,,2026,Announced,1000,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1SXJs8n
+142,coal,Jawa-12 power station,Jawa-12 power station Unit 2,,,2026,Announced,1000,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1SXJs8n
+143,coal,Jawa-13 power station,Jawa-13 power station,,,2026,Announced,2000,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1SXJs8n
+144,coal,Astratel power station,Astratel Kalimantan power station,103.833333,-2.75,,Announced,100,Astratel Nusantara,Astra International,,,,,,,,,,,,,,,,,http://bit.ly/1Ojm2Vf
+145,coal,Kalbar-4 power station,Kalbar-4 power station,,,2025,Announced,200,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/29u0ZmT
+146,coal,Kaltim-6 power station,Kaltim-6 power station,,,2020,Announced,200,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/29tZnJT
+147,coal,Lampung Sebalang power station,Lampung Sebalang power station Unit 1,105.38719,-5.58594,2015,Operating,100,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1hZMw4E
+148,coal,Lampung Sebalang power station,Lampung Sebalang power station Unit 2,105.38719,-5.58594,2015,Operating,100,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1hZMw4E
+149,coal,Mesuji power station,Mesuji power station Unit 1,105.4629564,-4.0127763,,Announced,350,China Shenhua Energy,Shenhua Group,,,,,,,,,,,,,,,,,http://bit.ly/1OlAyj7
+150,coal,Mesuji power station,Mesuji power station Unit 2,105.4629564,-4.0127763,,Announced,350,China Shenhua Energy,Shenhua Group,,,,,,,,,,,,,,,,,http://bit.ly/1OlAyj7
+151,coal,Tarahan power station,Tarahan power station Unit 1,105.353636,-5.520473,2008,Operating,100,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1EiMjhx
+152,coal,Tarahan power station,Tarahan power station Unit 2,105.353636,-5.520473,2007,Operating,100,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1EiMjhx
+153,coal,Ambon-2 power station,Ambon-2 power station Unit 1,,,2021,Announced,50,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/29u36Y2
+154,coal,Ambon-2 power station,Ambon-2 power station Unit 2,,,2022,Announced,50,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/29u36Y2
+155,coal,Tarakan power station,Tarakan power station,117.633333,3.3,,Announced,200,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1S9VZX8
+156,coal,Amurang power station,Amurang power station Unit 1,124.480564,1.182502,2012,Operating,30,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1UvQ1LR
+157,coal,Amurang power station,Amurang power station Unit 2,124.480564,1.182502,2012,Operating,30,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1UvQ1LR
+158,coal,Sulbagut-2 power station,Sulbagut-2 power station Unit 1,124.7657405,1.4560152,2022,Announced,100,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1YpD6Rf
+159,coal,Sulbagut-2 power station,Sulbagut-2 power station Unit 2,124.7657405,1.4560152,2023,Announced,100,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1YpD6Rf
+160,coal,Sulbagut-3 power station,Sulbagut-3 power station Unit 1,122.3844539,0.5203528,2019,Announced,50,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1YpD23J
+161,coal,Sulbagut-3 power station,Sulbagut-3 power station Unit 2,122.3844539,0.5203528,2020,Announced,50,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1YpD23J
+162,coal,Sulut-1 power station,Sulut-1 power station,124.8719738,1.0038915,2018,Announced,50,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1YpF9ES
+163,coal,Sulut-3 power station,Sulut-3 power station Unit 1,125.1199361,1.4354387,2019,Announced,50,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1YpFMhG
+164,coal,Sulut-3 power station,Sulut-3 power station Unit 2,125.1199361,1.4354387,2020,Announced,50,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1YpFMhG
+165,coal,Kuala Tanjung Inalum power station,Kuala Tanjung Inalum power station Unit 1,99.4513321,3.3506353,2020,Permitted,350,"Asahan Aluminium (Inalum), PT Bukit Asam","Asahan Aluminium (Inalum), PT Bukit Asam",,,,,,,,,,,,,,,,,http://bit.ly/1sBKVmE
+166,coal,Kuala Tanjung Inalum power station,Kuala Tanjung Inalum power station Unit 2,99.4513321,3.3506353,2020,Permitted,350,"Asahan Aluminium (Inalum), PT Bukit Asam","Asahan Aluminium (Inalum), PT Bukit Asam",,,,,,,,,,,,,,,,,http://bit.ly/1sBKVmE
+167,coal,Kuala Tanjung Inalum power station,Kuala Tanjung Inalum power station Unit 3,99.4513321,3.3506353,2020,Shelved,350,"Asahan Aluminium (Inalum), PT Bukit Asam","Asahan Aluminium (Inalum), PT Bukit Asam",,,,,,,,,,,,,,,,,http://bit.ly/1sBKVmE
+168,coal,Kuala Tanjung-1 power station,Kuala Tanjung-1 power station Unit 1,99.4266987,3.3867932,,Cancelled,135,Truba Alam Manunggal Engineering,Truba Alam Manunggal Engineering,,,,,,,,,,,,,,,,,http://bit.ly/1sBKKaQ
+169,coal,Kuala Tanjung-1 power station,Kuala Tanjung-1 power station Unit 2,99.4266987,3.3867932,,Cancelled,135,Truba Alam Manunggal Engineering,Truba Alam Manunggal Engineering,,,,,,,,,,,,,,,,,http://bit.ly/1sBKKaQ
+170,coal,Kuala Tanjung-2 power station,Kuala Tanjung-2 power station,99.4418049,3.3753976,,Cancelled,450,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1g8lRe7
+171,coal,Labuhan Angin power station,Labuhan Angin power station Unit 1,98.7312856,1.7518502,2010,Operating,115,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1KYjTy9
+172,coal,Labuhan Angin power station,Labuhan Angin power station Unit 2,98.7312856,1.7518502,2010,Operating,115,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1KYjTy9
+173,coal,Labuhan Angin power station,Labuhan Angin power station Unit 3,98.7305152,1.7519953,,Cancelled,115,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1g8ojRS
+174,coal,Lamhotma power station,Lamhotma power station Unit 1,99.4418049,3.3753976,,Cancelled,100,Dalle Energy,Medco Energi Internasional,,,,,,,,,,,,,,,,,http://bit.ly/1g8tOQA
+175,coal,Lamhotma power station,Lamhotma power station Unit 2,99.4418049,3.3753976,,Cancelled,100,Dalle Energy,Medco Energi Internasional,,,,,,,,,,,,,,,,,http://bit.ly/1g8tOQA
+176,coal,Pangkalan Susu power station,Pangkalan Susu power station Unit 1,98.25823,4.12071,2015,Operating,220,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/Q7lp9y
+177,coal,Pangkalan Susu power station,Pangkalan Susu power station Unit 2,98.25823,4.12071,2014,Operating,220,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/Q7lp9y
+178,coal,Pangkalan Susu power station,Pangkalan Susu power station Unit 3,98.25823,4.12071,2018,Construction,200,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/Q7lp9y
+179,coal,Pangkalan Susu power station,Pangkalan Susu power station Unit 4,98.25823,4.12071,2019,Construction,200,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/Q7lp9y
+180,coal,Sumbagut (Sibolga Baru) power station,Sumbagut (Sibolga Baru) power station Unit 1,98.7265,1.7176,2013,Cancelled,115,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1lVdOWT
+181,coal,Sumbagut (Sibolga Baru) power station,Sumbagut (Sibolga Baru) power station Unit 2,98.7265,1.7176,2013,Cancelled,115,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1lVdOWT
+182,coal,Sumut-2 power station,Sumut-2 power station Unit 1,99.9206543,2.8881804,2023,Announced,300,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/2ajowYW
+183,coal,Sumut-2 power station,Sumut-2 power station Unit 2,99.9206543,2.8881804,2024,Announced,300,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/2ajowYW
+184,coal,Tanjung Pasir power station,Tanjung Pasir power station Unit 1,98.219131,4.110192,,Cancelled,200,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1hJGZqE
+185,coal,Tanjung Pasir power station,Tanjung Pasir power station Unit 2,98.219131,4.110192,,Cancelled,200,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1hJGZqE
+186,coal,Amamapare Port power station,Amamapare Port power station Unit 1,136.839082,-4.827752,1998,Operating,65,PT Puncakjaya Power,PT Puncakjaya Power,,,,,,,,,,,,,,,,,http://bit.ly/1EiOTEa
+187,coal,Amamapare Port power station,Amamapare Port power station Unit 2,136.839082,-4.827752,1998,Operating,65,PT Puncakjaya Power,PT Puncakjaya Power,,,,,,,,,,,,,,,,,http://bit.ly/1EiOTEa
+188,coal,Amamapare Port power station,Amamapare Port power station Unit 3,136.839082,-4.827752,1998,Operating,65,PT Puncakjaya Power,PT Puncakjaya Power,,,,,,,,,,,,,,,,,http://bit.ly/1EiOTEa
+189,coal,Jayapura-2 power station,Jayapura-2 power station Unit 1,,,2020,Announced,50,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/29u3JR8
+190,coal,Jayapura-2 power station,Jayapura-2 power station Unit 2,,,2021,Announced,50,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/29u3JR8
+191,coal,BlackGold Indragiri Hulu power station,BlackGold Indragiri Hulu power station Unit 1,102.533056,-0.35,,Announced,300,"BlackGold Group (40%), China Huadian (60%)","BlackGold Group (40%), China Huadian (60%)",,,,,,,,,,,,,,,,,http://bit.ly/1V23POM
+192,coal,BlackGold Indragiri Hulu power station,BlackGold Indragiri Hulu power station Unit 2,102.533056,-0.35,,Announced,300,"BlackGold Group (40%), China Huadian (60%)","BlackGold Group (40%), China Huadian (60%)",,,,,,,,,,,,,,,,,http://bit.ly/1V23POM
+193,coal,BTN Dumai power station,BTN Dumai power station Unit 1,101.638,1.589,2018,Shelved,150,PT Bidznillah Tambang Nusantara (BTN) Energy Prima (BEP),BTN Power,,,,,,,,,,,,,,,,,http://bit.ly/1bE7naC
+194,coal,BTN Dumai power station,BTN Dumai power station Unit 2,101.638,1.589,2018,Shelved,150,PT Bidznillah Tambang Nusantara (BTN) Energy Prima (BEP),BTN Power,,,,,,,,,,,,,,,,,http://bit.ly/1bE7naC
+195,coal,BTN Dumai power station,BTN Dumai power station Unit 3,101.638,1.589,2018,Shelved,150,PT Bidznillah Tambang Nusantara (BTN) Energy Prima (BEP),BTN Power,,,,,,,,,,,,,,,,,http://bit.ly/1bE7naC
+196,coal,Kabil PKB power station,Kabil PKB power station Unit 1,101.638,1.589,,Cancelled,60,PT Pembangunan Kota Batam,PT Pembangunan Kota Batam,,,,,,,,,,,,,,,,,http://bit.ly/PONGSs
+197,coal,Kabil PKB power station,Kabil PKB power station Unit 2,101.638,1.589,,Cancelled,60,PT Pembangunan Kota Batam,PT Pembangunan Kota Batam,,,,,,,,,,,,,,,,,http://bit.ly/PONGSs
+198,coal,Pekanbaru Tenayan power station,Pekanbaru Tenayan power station Unit 1,101.52345,0.56437,2015,Operating,110,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/Q7mdeK
+199,coal,Pekanbaru Tenayan power station,Pekanbaru Tenayan power station Unit 2,101.52345,0.56437,2016,Operating,110,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/Q7mdeK
+200,coal,Perawang Mill power station,Perawang Mill power station Unit 10,101.61907,0.68932,2014,Operating,150,PT Indah Kiat Pulp & Paper,Sinar Mas Group,,,,,,,,,,,,,,,,,http://bit.ly/1n8X0eX
+201,coal,Perawang Mill power station,Perawang Mill power station Unit 11,101.61907,0.68932,2014,Operating,150,PT Indah Kiat Pulp & Paper,Sinar Mas Group,,,,,,,,,,,,,,,,,http://bit.ly/1n8X0eX
+202,coal,Perawang Mill power station,Perawang Mill power station Unit 4,101.61907,0.68932,2009,Operating,35,PT Indah Kiat Pulp & Paper,Sinar Mas Group,,,,,,,,,,,,,,,,,http://bit.ly/1DGrZvH
+203,coal,Perawang Mill power station,Perawang Mill power station Unit 6,101.61907,0.68932,2000,Operating,90,PT Indah Kiat Pulp & Paper,Sinar Mas Group,,,,,,,,,,,,,,,,,http://bit.ly/1DGrZvH
+204,coal,Perawang Mill power station,Perawang Mill power station Unit 7,101.61907,0.68932,2000,Operating,90,PT Indah Kiat Pulp & Paper,Sinar Mas Group,,,,,,,,,,,,,,,,,http://bit.ly/1DGrZvH
+205,coal,Perawang Mill power station,Perawang Mill power station Unit 8,101.61907,0.68932,2000,Operating,90,PT Indah Kiat Pulp & Paper,Sinar Mas Group,,,,,,,,,,,,,,,,,http://bit.ly/1DGrZvH
+206,coal,Perawang Mill power station,Perawang Mill power station Unit 9,101.61907,0.68932,2014,Operating,150,PT Indah Kiat Pulp & Paper,Sinar Mas Group,,,,,,,,,,,,,,,,,http://bit.ly/1n8X0eX
+207,coal,Riau Kemitraan power station,Riau Kemitraan power station Unit 1,101.9690037,-0.5262206,2019,Pre,600,"PT Bukit Asam, Tenaga Nasional Bhd (TNB), PT PLN Persero","PT Bukit Asam, TNB, PT PLN Persero",,,,,,,,,,,,,,,,,http://bit.ly/1rBAbZn
+208,coal,Riau Kemitraan power station,Riau Kemitraan power station Unit 2,101.9690037,-0.5262206,2019,Shelved,600,"PT Bukit Asam, Tenaga Nasional Bhd (TNB), PT PLN Persero","PT Bukit Asam, TNB, PT PLN Persero",,,,,,,,,,,,,,,,,http://bit.ly/1rBAbZn
+209,coal,Sumut-1 power station,Sumut-1 power station Unit 1,99.9865723,2.3504147,2018,Announced,150,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/2ajoWOR
+210,coal,Sumut-1 power station,Sumut-1 power station Unit 2,99.9865723,2.3504147,2018,Announced,150,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/2ajoWOR
+211,coal,Tanjung Kasam power station,Tanjung Kasam power station Unit 1,104.1357136,1.0441369,2012,Operating,65,PT Tanjung Kasam Power,Intrao Penta / PLN Batam,,,,,,,,,,,,,,,,,http://bit.ly/1lTT6GP
+212,coal,Tanjung Kasam power station,Tanjung Kasam power station Unit 2,104.1357136,1.0441369,2012,Operating,65,PT Tanjung Kasam Power,Intrao Penta / PLN Batam,,,,,,,,,,,,,,,,,http://bit.ly/1lTT6GP
+213,coal,Asam-Asam power station,Banjarmasin Asam-Asam B power station Unit 1,115.105805,-3.9265336,2019,Pre,100,Banjarmasin-B Project,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1DGtA4z
+214,coal,Asam-Asam power station,Banjarmasin Asam-Asam B power station Unit 2,115.105805,-3.9265336,2020,Pre,100,Banjarmasin-B Project,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1DGtA4z
+215,coal,Kalimantan Cement Works power station,Kalimantan Cement Works 1,115.511,-2.208,1998,Operating,55,Pt Indocement,Pt Indocement,,,,,,,,,,,,,,,,,http://bit.ly/1KFMWub
+216,coal,Asam-Asam power station,Kalsel (Asam-Asam) power station Unit 1,115.105805,-3.9265336,2013,Operating,65,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1U04TSL
+217,coal,Asam-Asam power station,Kalsel (Asam-Asam) power station Unit 2,115.105805,-3.9265336,2013,Operating,65,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1U04TSL
+218,coal,Tabalong power station,Tabalong power station Unit 1,115.511,-2.208,2019,Pre,100,PT Tanjung Power Indonesia,"Adaro, KEPCO",,,,,,,,,,,,,,,,,http://bit.ly/19HCccI
+219,coal,Tabalong power station,Tabalong power station Unit 2,115.511,-2.208,2019,Pre,100,PT Tanjung Power Indonesia,"Adaro, KEPCO",,,,,,,,,,,,,,,,,http://bit.ly/19HCccI
+220,coal,Tabalong Wisesa power station,Tabalong Wisesa 1,115.511,-2.208,2013,Operating,30,Pt Makmur Sejahtera Wisesa,Pt Adaro Energy Tbk,,,,,,,,,,,,,,,,,http://bit.ly/1Rqhku5
+221,coal,Tabalong Wisesa power station,Tabalong Wisesa 2,115.511,-2.208,2013,Operating,30,Pt Makmur Sejahtera Wisesa,Pt Adaro Energy Tbk,,,,,,,,,,,,,,,,,http://bit.ly/1Rqhku5
+222,coal,Asam-Asam power station,Banjarmasin Asam-Asam power station Unit 1,115.105805,-3.9265336,2000,Operating,65,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1DGtA4z
+223,coal,Asam-Asam power station,Banjarmasin Asam-Asam power station Unit 2,115.105805,-3.9265336,2000,Operating,65,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1DGtA4z
+224,coal,Barru power station,Barru power station Unit 1,119.63135,-4.29329,2013,Operating,50,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1gSBq9b
+225,coal,Barru power station,Barru power station Unit 2,119.63135,-4.29329,2013,Operating,50,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1gSBq9b
+226,coal,Barru power statoin,Barru-2 power station Unit 1,119.63135,-4.29329,2018,Pre,50,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1gSBq9b
+227,coal,Barru power statoin,Barru-2 power station Unit 2,119.63135,-4.29329,2018,Pre,50,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1gSBq9b
+228,coal,Palu power station,Palu power station Unit 3,119.8559205,-0.7332027,2018,Announced,100,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1VXNNdw
+229,coal,Punagaya power station,Punagaya power station Unit 1,119.5511895,-5.617881,2011,Operating,125,PT Bosowa Makassar,Bosawa Corporation,,,,,,,,,,,,,,,,,http://bit.ly/1epmhSv
+230,coal,Punagaya power station,Punagaya power station Unit 2,119.5511895,-5.617881,2011,Operating,125,PT Bosowa Makassar,Bosawa Corporation,,,,,,,,,,,,,,,,,http://bit.ly/1epmhSv
+231,coal,Punagaya power station,Punagaya power station Unit 3,119.5511895,-5.617881,2017,Construction,125,PT Bosowa Makassar,Bosawa Corporation,,,,,,,,,,,,,,,,,http://bit.ly/1epmhSv
+232,coal,Punagaya power station,Punagaya power station Unit 4,119.5511895,-5.617881,2017,Construction,125,PT Bosowa Makassar,Bosawa Corporation,,,,,,,,,,,,,,,,,http://bit.ly/1epmhSv
+233,coal,Sulawesi Star power station,Sulawesi Star power station,119.9,-4.8,,Shelved,200,"BHEL, PT Star Vyobros","BHEL, PT Star Vyobros",,,,,,,,,,,,,,,,,http://bit.ly/1FgaBeh
+234,coal,Sulsel-2 power station,Sulsel-2 power station Unit 1,119.7257667,-5.7000798,2019,Announced,200,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1VXMsDu
+235,coal,Sulsel-2 power station,Sulsel-2 power station Unit 2,119.7257667,-5.7000798,2020,Announced,200,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1VXMsDu
+236,coal,Takalar power station,Takalar power station Unit 1,119.5435443,-5.6357998,2017,Construction,100,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1Q1Br2T
+237,coal,Takalar power station,Takalar power station Unit 2,119.5435443,-5.6357998,2018,Construction,100,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1Q1Br2T
+238,coal,Tonasa Cement Plant power station,Tonasa Cement Plant-4 power station Unit 1,119.6163413,-4.7880106,2012,Operating,35,PT Semen Gresik Tbk,PT Semen Indonesia,,,,,,,,,,,,,,,,,http://bit.ly/1EiJld4
+239,coal,Tonasa Cement Plant power station,Tonasa Cement Plant-4 power station Unit 2,119.6163413,-4.7880106,2012,Operating,35,PT Semen Gresik Tbk,PT Semen Indonesia,,,,,,,,,,,,,,,,,http://bit.ly/1EiJld4
+240,coal,Tonasa Cement Plant power station,Tonasa Cement Plant-5 power station Unit 1,119.6163413,-4.7880106,2014,Operating,35,PT Semen Gresik Tbk,PT Semen Indonesia,,,,,,,,,,,,,,,,,http://bit.ly/1EiJld4
+241,coal,Tonasa Cement Plant power station,Tonasa Cement Plant-5 power station Unit 2,119.6163413,-4.7880106,2014,Operating,35,PT Semen Gresik Tbk,PT Semen Indonesia,,,,,,,,,,,,,,,,,http://bit.ly/1EiJld4
+242,coal,Bangko Tengah power station,Bangko Tengah (SS-8) Unit 1,103.759,-3.734,2019,Permitted,660,Huadian Bukit Asam Power,"China Huadian, PT Bukit Asam",,,,,,,,,,,,,,,,,http://bit.ly/1T6bjFd
+243,coal,Bangko Tengah power station,Bangko Tengah (SS-8) Unit 2,103.759,-3.734,2019,Permitted,660,Huadian Bukit Asam Power,"China Huadian, PT Bukit Asam",,,,,,,,,,,,,,,,,http://bit.ly/1T6bjFd
+244,coal,Bangko Tengah power station,Bangko Tengah (SS-8) Unit 3,103.759,-3.734,,Cancelled,660,Huadian Bukit Asam Power,"China Huadian, PT Bukit Asam",,,,,,,,,,,,,,,,,http://bit.ly/1T6bjFd
+245,coal,Bangko Tengah power station,Bangko Tengah (SS-8) Unit 4,103.759,-3.734,,Cancelled,660,Huadian Bukit Asam Power,"China Huadian, PT Bukit Asam",,,,,,,,,,,,,,,,,http://bit.ly/1T6bjFd
+246,coal,Banjarsari power station,Banjarsari power station Unit 1,103.69039,-3.72507,2015,Operating,135,PT Bukit Pembangkit Innovative,"PT Bukit Asam, PT PLN Persero, and MAXpower Group (joint venture)",,,,,,,,,,,,,,,,,http://bit.ly/1gCdnPC
+247,coal,Banjarsari power station,Banjarsari power station Unit 2,103.69039,-3.72507,2015,Operating,135,PT Bukit Pembangkit Innovative,"PT Bukit Asam, PT PLN Persero, and MAXpower Group (joint venture)",,,,,,,,,,,,,,,,,http://bit.ly/1gCdnPC
+248,coal,Banyuasin power station,Banyuasin power station Unit 1,104.383056,-2.883333,2020,Announced,240,PT Truba Alam Manunggal Engineering,PT Truba Alam Manunggal Engineering,,,,,,,,,,,,,,,,,http://bit.ly/PDQv90
+249,coal,Keban Agung power station,Keban Agung (SS-2) power station Unit 1,103.64809,-3.75149,2015,Operating,135,PT Primanaya Energi,Priamanaya Djan International,,,,,,,,,,,,,,,,,http://bit.ly/1UdUvMZ
+250,coal,Keban Agung power station,Keban Agung (SS-2) power station Unit 2,103.64809,-3.75149,2015,Operating,135,PT Primanaya Energi,Priamanaya Djan International,,,,,,,,,,,,,,,,,http://bit.ly/1UdUvMZ
+251,coal,Mulut Tambang power station,Mulut Tambang (SS-9) power station Unit 1,103.127,-2.618,2020,Pre,600,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1LHDBBz
+252,coal,Mulut Tambang power station,Mulut Tambang (SS-9) power station Unit 2,103.127,-2.618,2021,Pre,600,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1LHDBBz
+253,coal,Palembang Pursi power station,Palembang Pursi-Ii No 1,103.914,-2.604,2016,Construction,35,Pt Pupuk Indonesia (Persero),PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1SgAJyE
+254,coal,Pomalaa Nickel Mine power station,Pomalaa Nickel Mine S1,103.914,-2.604,2016,Operating,30,Pt Aneka Tambang Tbk (Antam),Pt Aneka Tambang Tbk (Antam),,,,,,,,,,,,,,,,,http://bit.ly/1WevWvD
+255,coal,Pomalaa Nickel Mine power station,Pomalaa Nickel Mine S2,103.914,-2.604,2016,Operating,30,Pt Aneka Tambang Tbk (Antam),Pt Aneka Tambang Tbk (Antam),,,,,,,,,,,,,,,,,http://bit.ly/1WevWvD
+256,coal,Shenhua Guohua power station,Shenhua Guohua power station Unit 1,103.7548438,-3.5394819,2011,Operating,150,PT GH EMM Indonesia,"Shenhua Group (70%), Energi Musi Makmur (30%)",,,,,,,,,,,,,,,,,http://bit.ly/1EiLbud
+257,coal,Shenhua Guohua power station,Shenhua Guohua power station Unit 2,103.7548438,-3.5394819,2011,Operating,150,PT GH EMM Indonesia,"Shenhua Group (70%), Energi Musi Makmur (30%)",,,,,,,,,,,,,,,,,http://bit.ly/1EiLbud
+258,coal,Sinar Mas OKI Paper Mill power station,Sinar Mas OKI Paper Mill power station Unit 1,105.434,-2.758,,Shelved,125,PT OKI Pulp & Paper Mills,Sinar Mas Group,,,,,,,,,,,,,,,,,http://bit.ly/1CvPSBX
+259,coal,Sinar Mas OKI Paper Mill power station,Sinar Mas OKI Paper Mill power station Unit 2,105.434,-2.758,,Shelved,125,PT OKI Pulp & Paper Mills,Sinar Mas Group,,,,,,,,,,,,,,,,,http://bit.ly/1CvPSBX
+260,coal,Sinar Mas OKI Paper Mill power station,Sinar Mas OKI Paper Mill power station Unit 3,105.434,-2.758,,Shelved,125,PT OKI Pulp & Paper Mills,Sinar Mas Group,,,,,,,,,,,,,,,,,http://bit.ly/1CvPSBX
+261,coal,Sinar Mas OKI Paper Mill power station,Sinar Mas OKI Paper Mill power station Unit 4,105.434,-2.758,,Shelved,125,PT OKI Pulp & Paper Mills,Sinar Mas Group,,,,,,,,,,,,,,,,,http://bit.ly/1CvPSBX
+262,coal,Sumsel-1 power station,Sumsel-1 power station Unit 1,103.6560059,-2.8168577,2020,Pre,300,China Shenhua,China Shenhua,,,,,,,,,,,,,,,,,http://bit.ly/1UkplAr
+263,coal,Sumsel-1 power station,Sumsel-1 power station Unit 2,103.6560059,-2.8168577,2021,Pre,300,China Shenhua,China Shenhua,,,,,,,,,,,,,,,,,http://bit.ly/1UkplAr
+264,coal,Sumsel-10 power station,Sumsel-10 power station Unit 1,103.833333,-2.75,2020,Pre,300,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1hgaJTA
+265,coal,Sumsel-10 power station,Sumsel-10 power station Unit 2,103.833333,-2.75,2020,Pre,300,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1hgaJTA
+266,coal,Sumsel-5 power station,Sumsel-5 power station Unit 1,103.862,-2.014,2016,Operating,150,PT Dian Swastatika Sentosa Tbk,Sinar Mas Group,,,,,,,,,,,,,,,,,http://bit.ly/1UdVqx8
+267,coal,Sumsel-5 power station,Sumsel-5 power station Unit 2,103.862,-2.014,2016,Operating,150,PT Dian Swastatika Sentosa Tbk,Sinar Mas Group,,,,,,,,,,,,,,,,,http://bit.ly/1UdVqx8
+268,coal,Sumsel-6 power station,Sumsel-6 power station Unit 1,,,2020,Announced,300,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1Ukpvbg
+269,coal,Sumsel-6 power station,Sumsel-6 power station Unit 2,,,2021,Announced,300,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1Ukpvbg
+270,coal,Sumsel-7 power station,Sumsel-7 power station Unit 1,103.914,-2.604,2018,Pre,150,Madhucon Shiwajaya Power,Madhucon Projects Limited,,,,,,,,,,,,,,,,,http://bit.ly/1UdWjFG
+271,coal,Sumsel-7 power station,Sumsel-7 power station Unit 2,103.914,-2.604,2018,Pre,150,Madhucon Shiwajaya Power,Madhucon Projects Limited,,,,,,,,,,,,,,,,,http://bit.ly/1UdWjFG
+272,coal,Timah South Sumatra power station,Timah South Sumatra power station Unit 1,103.7548438,-3.5394819,,Announced,150,PT Timah Tbk,PT Timah,,,,,,,,,,,,,,,,,http://bit.ly/1Kn9CJG
+273,coal,Timah South Sumatra power station,Timah South Sumatra power station Unit 2,103.7548438,-3.5394819,,Announced,150,PT Timah Tbk,PT Timah,,,,,,,,,,,,,,,,,http://bit.ly/1Kn9CJG
+274,coal,Bukit Asam Muara Enim power station,Bukit Asam Muara Enim power station Unit 1,103.797527,-3.7321299,1989,Operating,65,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1EiK6mb
+275,coal,Bukit Asam Muara Enim power station,Bukit Asam Muara Enim power station Unit 2,103.797527,-3.7321299,1989,Operating,65,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1EiK6mb
+276,coal,Bukit Asam Muara Enim power station,Bukit Asam Muara Enim power station Unit 3,103.797527,-3.7321299,1994,Operating,65,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1EiK6mb
+277,coal,Bukit Asam Muara Enim power station,Bukit Asam Muara Enim power station Unit 4,103.797527,-3.7321299,1995,Operating,65,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1EiK6mb
+278,coal,Kendari-3 power station,Kendari-3 power station Unit 1,122.659225,-4.0411792,2019,Pre,50,Dian Swastatika Sentosa,Sinar Mas Group,,,,,,,,,,,,,,,,,http://bit.ly/1LAE3vW
+279,coal,Kendari-3 power station,Kendari-3 power station Unit 2,122.659225,-4.0411792,2019,Pre,50,Dian Swastatika Sentosa,Sinar Mas Group,,,,,,,,,,,,,,,,,http://bit.ly/1LAE3vW
+280,coal,Sulawesi Utara-3 power station,Sulawesi Utara-3 power station,124.833333,1.25,,Announced,100,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1Jrongh
+281,coal,Bandung Indosyntec power station,Bandung Indosyntec 1,107.030182,-5.935064,2006,Operating,30,Pt Panasia Indosyntec Tbk,Pt Panasia Indosyntec Tbk,,,,,,,,,,,,,,,,,http://bit.ly/1V41bcz
+282,coal,Cikarang Babelan power station,Cikarang power station Unit 1,107.05197,-6.11607,2017,Construction,140,PT Cikarang Listrindo,PT Cikarang Listrindo,,,,,,,,,,,,,,,,,http://bit.ly/2bZSKD6
+283,coal,Cikarang Babelan power station,Cikarang power station Unit 2,107.05197,-6.11607,2017,Construction,140,PT Cikarang Listrindo,PT Cikarang Listrindo,,,,,,,,,,,,,,,,,http://bit.ly/2bZSKD6
+284,coal,Cirebon power station,Cirebon Unit 1,108.6148578,-6.7702857,2012,Operating,660,PT Cirebon Electric Power,"Marubeni Corporation, Korea Midland Power, Samtan, Indika Group",,,,,,,,,,,,,,,,,http://bit.ly/1hJNx8F
+285,coal,Cirebon power station,Cirebon Unit 2,108.6148578,-6.7702857,2020,Permitted,1000,PT Cirebon Electric Power,"Marubeni Corporation, Korea Midland Power, Samtan, Indika Group",,,,,,,,,,,,,,,,,http://bit.ly/1hJNx8F
+286,coal,Cirebon power station,Cirebon Unit 3,108.6148578,-6.7702857,,Announced,1000,PT Cirebon Electric Power,"Marubeni Corporation, Korea Midland Power, Samtan, Indika Group",,,,,,,,,,,,,,,,,http://bit.ly/1hJNx8F
+287,coal,Indramayu power station,Indramayu power station Unit 1,107.9704303,-6.2747375,2010,Operating,330,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1n8MDYy
+288,coal,Indramayu power station,Indramayu power station Unit 2,107.9704303,-6.2747375,2011,Operating,330,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1n8MDYy
+289,coal,Indramayu power station,Indramayu power station Unit 3,107.9704303,-6.2747375,2011,Operating,330,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1n8MDYy
+290,coal,Indramayu power station,Indramayu power station Unit 4,107.9704303,-6.2747375,2019,Pre,1000,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1n8MDYy
+291,coal,Indramayu power station,Indramayu power station Unit 5,107.9704303,-6.2747375,2024,Cancelled,1000,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1n8MDYy
+292,coal,Jabar Utara power station,Jabar Utara power station Unit 1,107.030182,-5.935064,,Cancelled,300,PT PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/POFdi9
+293,coal,Jabar Utara power station,Jabar Utara power station Unit 2,107.030182,-5.935064,,Cancelled,300,PT PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/POFdi9
+294,coal,Jawa-5 power station,Jawa-5 power station Unit 1,107.030182,-5.935064,2020,Announced,1000,"PT PLN, Mistubishi",PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1NGgRzh
+295,coal,Jawa-5 power station,Jawa-5 power station Unit 2,107.030182,-5.935064,2020,Announced,1000,"PT PLN, Mistubishi",PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1NGgRzh
+296,coal,Jawa-6 power station,Jawa-6 power station Unit 1,107.030182,-5.935064,2025,Announced,1000,PT PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1BByHwc
+297,coal,Jawa-6 power station,Jawa-6 power station Unit 2,107.030182,-5.935064,2025,Announced,1000,PT PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1BByHwc
+298,coal,Pelabuhan Ratu power station,Pelabuhan Ratu power station Unit 1,106.5464,-7.0242,2013,Operating,350,PT Indonesia Power,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1n8QAwj
+299,coal,Pelabuhan Ratu power station,Pelabuhan Ratu power station Unit 2,106.5464,-7.0242,2013,Operating,350,PT Indonesia Power,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1n8QAwj
+300,coal,Pelabuhan Ratu power station,Pelabuhan Ratu power station Unit 3,106.5464,-7.0242,2013,Operating,350,PT Indonesia Power,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1n8QAwj
+301,coal,Pindo-Deli-Ii power station,Pindo-Deli-Ii No 1,107.030182,-5.935064,2007,Operating,50,Pt Dian Swastatika Sentosa Tbk,Pt Sinar Mas Group,,,,,,,,,,,,,,,,,http://bit.ly/1msO6gU
+302,coal,PJB Project,PJB Project Unit 1,107.5,-6.75,,Cancelled,300,Indika IIE Co,Indika Group,,,,,,,,,,,,,,,,,http://bit.ly/1BLeWBE
+303,coal,PJB Project,PJB Project Unit 2,107.5,-6.75,,Cancelled,300,Indika IIE Co,Indika Group,,,,,,,,,,,,,,,,,http://bit.ly/1BLeWBE
+304,coal,Tanjung Jati A power station,Tanjung Jati A power station Unit 1,108.55,-6.74,2019,Pre,660,"Bakrie Power, PT Tanjung Jati Power","Bakrie Group, YTL Corporation",,,,,,,,,,,,,,,,,http://bit.ly/1gCg3wv
+305,coal,Tanjung Jati A power station,Tanjung Jati A power station Unit 2,108.55,-6.74,2019,Pre,660,"Bakrie Power, PT Tanjung Jati Power","Bakrie Group, YTL Corporation",,,,,,,,,,,,,,,,,http://bit.ly/1gCg3wv
+306,coal,Kalbar-1 power station,Kalbar-1 power station Unit 1,108.885498,0.8321851,2019,Announced,200,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1S640Gp
+307,coal,Kalbar-2 power station,Kalbar-2 power station Unit 1,109.25354,-0.6783899,2022,Announced,200,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1S64Z9A
+308,coal,Kalbar-2 power station,Kalbar-2 power station Unit 2,109.25354,-0.6783899,2021,Cancelled,200,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1S64Z9A
+309,coal,Kalbar-3 power station,Kalbar-3 power station Unit 1,110.12146,0.0274658,2022,Announced,200,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1S65Bft
+310,coal,Kalbar-3 power station,Kalbar-3 power station Unit 2,110.12146,0.0274658,2024,Cancelled,200,TBD,TBD,,,,,,,,,,,,,,,,,http://bit.ly/1S65Bft
+311,coal,Ketapang Smelter power station,Ketapang Smelter-1 power station Unit 3,110.321,-2.745,2016,Operating,30,PT Well Harvest Winning Alumina Refinery,"Harita Group, China Hongqiao Group, and others",,,,,,,,,,,,,,,,,http://bit.ly/1NBgc0L
+312,coal,Ketapang Smelter power station,Ketapang Smelter-2 power station Unit 3,110.321,-2.745,,Permitted,30,PT Well Harvest Winning Alumina Refinery,"Harita Group, China Hongqiao Group, and others",,,,,,,,,,,,,,,,,http://bit.ly/1NBgc0L
+313,coal,Parit Baru power station,Parit Baru power station Unit 1,109.20362,0.05798,2017,Construction,50,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/Q7lyd9
+314,coal,Parit Baru power station,Parit Baru power station Unit 2,109.20362,0.05798,2017,Construction,50,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/Q7lyd9
+315,coal,Parit Baru power station,Parit Baru power station Unit 3,109.20362,0.05798,2018,Construction,55,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/Q7lyd9
+316,coal,Parit Baru power station,Parit Baru power station Unit 4,109.20362,0.05798,2018,Construction,55,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/Q7lyd9
+317,coal,Tanjung Gundul power station,Tanjung Gundul 1,110.321,-2.745,2016,Construction,30,Pt Equator Manunggal Power,Pt Truba Alam Manunggal Engrg,,,,,,,,,,,,,,,,,http://bit.ly/1o3r95N
+318,coal,Tanjung Gundul power station,Tanjung Gundul 2,110.321,-2.745,2016,Construction,30,Pt Equator Manunggal Power,Pt Truba Alam Manunggal Engrg,,,,,,,,,,,,,,,,,http://bit.ly/1o3r95N
+319,coal,Lombok 2 power station,Lombok 2 power station Unit 1,116.7171683,-8.3480333,2019,Announced,50,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1U9x6wj
+320,coal,Lombok 2 power station,Lombok 2 power station Unit 2,116.7171683,-8.3480333,2020,Announced,50,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1U9x6wj
+321,coal,Lombok 3 power station,Lombok 3 power station Unit 1,116.3767128,-8.2152736,2023,Announced,50,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1U9weaM
+322,coal,Lombok 3 power station,Lombok 3 power station Unit 2,116.3767128,-8.2152736,2024,Announced,50,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1U9weaM
+323,coal,Lombok FTP2 power station,Lombok FTP2 Unit 1,116.6727884,-8.3095077,2017,Announced,50,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1UvTwlq
+324,coal,Lombok FTP2 power station,Lombok FTP2 Unit 2,116.6727884,-8.3095077,2018,Announced,50,PLN,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1UvTwlq
+325,coal,Batu Hijau power station,Batu Hijau power station Unit 1,116.738209,-8.901172,1999,Operating,31,Pt Newmont Nusa Tenggara,Newmont Mining Corporation,,,,,,,,,,,,,,,,,http://bit.ly/1EiNSfm
+326,coal,Batu Hijau power station,Batu Hijau power station Unit 2,116.738209,-8.901172,1999,Operating,31,Pt Newmont Nusa Tenggara,Newmont Mining Corporation,,,,,,,,,,,,,,,,,http://bit.ly/1EiNSfm
+327,coal,Batu Hijau power station,Batu Hijau power station Unit 3,116.738209,-8.901172,1999,Operating,31,Pt Newmont Nusa Tenggara,Newmont Mining Corporation,,,,,,,,,,,,,,,,,http://bit.ly/1EiNSfm
+328,coal,Batu Hijau power station,Batu Hijau power station Unit 4,116.738209,-8.901172,1999,Operating,31,Pt Newmont Nusa Tenggara,Newmont Mining Corporation,,,,,,,,,,,,,,,,,http://bit.ly/1EiNSfm
+329,coal,Sorong power station,Sorong power station Phase I,131.25,-0.866667,,Announced,50,Japan Gasoline,JGC Group,,,,,,,,,,,,,,,,,http://bit.ly/1FjZqVI
+330,coal,Sorong power station,Sorong power station Phase II,131.25,-0.866667,,Announced,1000,Japan Gasoline,JGC Group,,,,,,,,,,,,,,,,,http://bit.ly/1FjZqVI
+331,coal,Indarung Cement power station,Indarung Cement power station,100.4695415,-0.9500593,,Announced,100,Semen Padang,PT Semen Indonesia,,,,,,,,,,,,,,,,,http://bit.ly/1gsTvle
+332,coal,Ombilin power station,Ombilin power station Unit 1,100.753697,-0.609017,1996,Operating,100,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1EiPki3
+333,coal,Ombilin power station,Ombilin power station Unit 2,100.753697,-0.609017,1997,Operating,100,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1EiPki3
+334,coal,Teluk Sirih power station,Teluk Sirih power station Unit 1,100.3724,-1.07655,2013,Operating,112,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1hJHuRt
+335,coal,Teluk Sirih power station,Teluk Sirih power station Unit 2,100.3724,-1.07655,2013,Operating,112,PT PLN Persero,PT PLN Persero,,,,,,,,,,,,,,,,,http://bit.ly/1hJHuRt

@@ -1,6 +1,6 @@
 (function(window) {
 
-  var activeCountries = ['Vietnam'];
+  var activeCountries = ['Vietnam', 'Japan', 'Taiwan', 'South Korea', 'Indonesia', 'Philippines'];
   var eastAsiaCountries = ['China', 'Taiwan', 'Japan', 'Vietnam','North Korea', 
                            'South Korea', 'Philippines', 'Thailand', 'Malaysia',
                            'Indonesia', 'Cambodia', 'Laos', 'Myanmar', 'Singapore',
@@ -14,7 +14,7 @@
     .attr('width', width)
     .attr('height', height);
 
-  var mapScale = isMobile ? 300 : 500;
+  var mapScale = isMobile ? 200 : 500;
   var center = [107, 25];
 
   var projection = d3.geo.mercator()
@@ -29,17 +29,17 @@
     {
       source: 'China',
       target: 'Vietnam',
-      value: 20
+      value: 300
     },
     {
       source: 'Japan',
       target: 'Vietnam',
-      value: 5
+      value: 200
     },
     {
       source: 'South Korea',
       target: 'Vietnam',
-      value: 10
+      value: 100
     }
   ];
 
@@ -103,18 +103,18 @@
       .attr('class', 'map-title')
       .attr('text-anchor', 'middle')
       .attr('y', function() {
-        return isMobile ? '120px' : height/2+50;
+        return isMobile ? '115' : height/2+50;
       })
       .attr('x', function() {
-        return isMobile ? width/2+50 : width/6*5;
+        return isMobile ? width/2: width/6*5;
       });
 
     addFlows(features);
   });
 
   function addFlows(features) {
-    var legandX = 30;
-    var legandY = height - 25;
+    var legendX = 10;
+    var legendY = height - 40;
     var maxValue = d3.max(linkData, function(d) { return d.value; });
     var linkScale = d3.scale.linear()
               .domain([0, maxValue])
@@ -175,9 +175,11 @@
         .attr("stop-opacity", 1.0);
 
     var arcs = svg.append("g").attr("id", "arcs");
-    var arcNodes = arcs.selectAll("path")
-      .data(linkData)
-    .enter().append("path")
+    var linkGroup = arcs.selectAll('g')
+        .data(linkData)
+        .enter().append('g')
+
+    var arcNodes = linkGroup.append("path")
       .attr("stroke", gradientRefNameFun)
       .attr("stroke-linecap", "round")
       .attr("stroke-width", function(d) { return linkScale(d.value); })
@@ -192,19 +194,46 @@
       .attr("marker-end", "url(#arrowHead)")
       .style('opacity', 0);
 
+    linkGroup.append('text')
+      .attr('x', function(d) { return countryCenter[d.source][0]})
+      .attr('y', function(d) { return countryCenter[d.source][1] - 5})
+      .attr('class', function(d) { return d.target + '-link'; })
+      .text(function(d) {
+        console.log(d)
+        return d.value + '';
+      })
+      .style('opacity', 0)
+      .attr('text-anchor', 'middle');
+
+
     svg.append('line')
-      .attr("x1", legandX)
-      .attr("y1", legandY)
-      .attr("x2", legandX + 10)
-      .attr("y2", legandY)
+      .attr("x1", legendX)
+      .attr("y1", legendY)
+      .attr("x2", legendX + 10)
+      .attr("y2", legendY)
       .attr("stroke", "#b52626")
       .attr('stroke-width', 6);
 
+    svg.append('circle')
+      .attr("cx", legendX + 4)
+      .attr("cy", function() { return isMobile ? legendY + 20 : legendY + 25; })
+      .attr("r", '5px')
+      .style("fill", "#fff")
+      .style('stroke', 'none');
+
     svg.append('text')
-      .attr("x", legandX + 15)
-      .attr("y", legandY + 5)
-      .attr("r", "8px")
-      .text('Fossil Project Investment Flow');
+      .attr("x", legendX + 15)
+      .attr("y", legendY + 5)
+      .attr('class', 'legend')
+      .text('Fossil Investment Flow (Million USD)');
+
+     svg.append('text')
+          .attr("x", legendX + 15)
+          .attr("y", function() { return isMobile ? legendY + 25 : legendY + 30; })
+          .attr("r", "8px")
+          .attr("fill", "red")
+          .attr('class', 'legend')
+          .text('Data Last Updated：2017');
   }
   
 })(window);
