@@ -68,7 +68,7 @@
            
 
           d3.selectAll('.' + d.properties.name + '-link')
-            .style('opacity', 1);
+            .style('display', 'block');
         }
         
         d3.select('.map-title')
@@ -82,7 +82,7 @@
             .text('East Asia');
 
         d3.selectAll('.' + d.properties.name + '-link')
-            .style('opacity', 0);
+            .style('display', 'none');
       })
       .on('click', function(d) {
         if (activeCountries.indexOf(d.properties.name) > -1)
@@ -199,14 +199,14 @@
           });
       })
       .attr("marker-end", function(d) { return 'url(#' + markerNameFun(d) + ')'; })
-      .style('opacity', 0);
+      .style('display', 'none');
 
     linkGroup.append('circle')
       .attr('cx', function(d) { return countryCenter[d.source][0]})
       .attr('cy', function(d) { return countryCenter[d.source][1] - 5})
       .attr('class', function(d) { return d.target + '-link'; })
       .attr('r', '25')
-      .style('opacity', 0)
+      .style('display', 'none')
       .attr('text-anchor', 'middle');
 
     linkGroup.append('text')
@@ -216,7 +216,7 @@
       .text(function(d) {
         return d.value + '';
       })
-      .style('opacity', 0)
+      .style('display', 'none')
       .attr('text-anchor', 'middle');
 
 
