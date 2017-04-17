@@ -259,7 +259,7 @@
       .attr("x", legendX + 15)
       .attr("y", legendY + 5)
       .attr('class', 'legend')
-      .text('Fossil Investment Flow (Million USD)');
+      .text('Fossil Fuel Financial Flow (Million USD)');
 
      svg.append('text')
           .attr("x", legendX + 15)

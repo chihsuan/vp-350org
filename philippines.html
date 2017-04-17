@@ -126,15 +126,20 @@ The Environmental Management Bureau in Central Luzon has already ordered SMCCPC 
 
       <section id="bank-vis" class="">
         <div id="bank-container" class="container">
-          <h3 class="text-center text-uppercase">fossil-fuel-investing Banks</h3>
+          <h3 id="bank-vis-title" class="text-center text-uppercase"></h3><hr class="title-hr">
           <br/>
           
             <div class="pre-scrollable table-wrap">
-              <table id="bank-table" class="table table-striped table-responsive">
-                <thead><tr> <th>Bank Name</th><th>Investing Amount/ Share (mio USD)</th></tr></thead>
+                <table id="bank-table" class="table table-striped table-responsive">
+                <thead><tr>
+                <th>Financier Name</th><th>Total Financing Amount (mio USD)</th>
+                <th>Financed Plants</th><th>Countries</th>
+
+                </tr></thead>
                 <tbody>
                   <tr v-for="bank in bankArray">
                     <td>{{ bank.name }}</td><td>{{ bank.value }}</td>
+                    <td>{{ bank.plants }}</td> <td>{{ bank.countries }}</td>
                   </tr>
                 </tbody>
               </table>
@@ -154,9 +159,9 @@ The Environmental Management Bureau in Central Luzon has already ordered SMCCPC 
       </section>
 
       <section id="proj-vis">
+        <h3 id="project-vis-title" class="text-center text-uppercase"></h3><hr class="title-hr">
         <div id="proj-treemap"></div>
         <div id="proj-container" class="container">
-        <h3 class="text-center text-uppercase">Fossil-fuel PROJECTS</h3>
         <br/>
           
           <div class="pre-scrollable table-wrap">
@@ -182,7 +187,7 @@ The Environmental Management Bureau in Central Luzon has already ordered SMCCPC 
         <div class="container">
           <div class="row text-center">
           	<div class="col-xs-12 col-md-8 action-block">
-      		<h2>Stand up for a fossil-free East Asia</h2>
+      		<h2>Stand up for a Fossil-Free East Asia</h2>
       		<p>From May 5 – 13, join thousands of people everywhere demanding that institutions and individuals do what is urgent for climate action: divest from fossil fuels.
       		</p>
             <button class="action-button">Take Action</button>

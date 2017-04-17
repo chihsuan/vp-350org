@@ -19,6 +19,8 @@
   window.init = init;
 
   function init(country, center, scale, mobileScale, pointFile, dbFile) {
+    document.getElementById('bank-vis-title').innerText = 'Financiers for ' + country + ' Coal Plant';
+    document.getElementById('project-vis-title').innerText= 'Coal Plants in ' + country;
 
     var isMobile = width < 600;
 
@@ -118,7 +120,11 @@
           })
           .attr('text-anchor', function() {
             return isMobile ? 'middle': 'end';
-          });
+          })
+          .attr('cursor', 'pointer')
+          .on("click", function() {
+            window.location.href = '#project-vis-title';
+          })
    
         var maxCircleSize = isMobile ? 10 : 25;
 
@@ -135,7 +141,6 @@
             return circleScale(d.capacity_mw);
           })
           .on('mousemove', function(d) {
-            console.log(d);
             if (country === 'Vietnam') {
               mousemove(d, '<p><strong>Plant: </strong>' + d.plant + '</p>' +
                            '<p><strong>Capacity (MW): </strong>' + d.capacity_mw + '</p>' +
@@ -170,7 +175,7 @@
           .attr("r", "8px")
           .attr("fill", "red")
           .attr('class', 'legend')
-          .text('Fossil Project Capacity');
+          .text('Coal Plants Capacity');
 
         
         svg.append('text')
@@ -200,16 +205,31 @@
         if (!d['Investing Amount/ Share (mio USD)'] || !d["Financier's name"])
           return;
 
-        if(!bankObj.hasOwnProperty(d["Financier's name"]))
-          bankObj[d["Financier's name"]] = 0;
+        if(!bankObj.hasOwnProperty(d["Financier's name"])) {
+          bankObj[d["Financier's name"]] = {
+            investing: 0,
+            countries: [],
+            plants: []
+          }
+        }
+        var obj = bankObj[d["Financier's name"]]
 
-        bankObj[d["Financier's name"]] += parseFloat(d['Investing Amount/ Share (mio USD)']);
+        obj.investing += parseFloat(d['Investing Amount/ Share (mio USD)']);
+        if(d["Financier's countries"] && obj.countries.indexOf(d["Financier's countries"]) === -1) {
+          obj.countries.push(d["Financier's countries"]);
+        }
+
+        if(d["Project Name"] && obj.plants.indexOf(d["Project Name"]) === -1) {
+          obj.plants.push(d["Project Name"]);
+        }
       });
 
       for(var key in bankObj) {
         bankArray.push({
           name: key,
-          value: bankObj[key]
+          value: bankObj[key].investing,
+          countries: bankObj[key].countries.join(', '),
+          plants: bankObj[key].plants.join(', ')
         });
       }
      
