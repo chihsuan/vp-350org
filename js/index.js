@@ -38,7 +38,8 @@
 
 
     d3.json('./data/countries.geo.topo.json', function(error, mapData) {
-      d3.csv(pointFile, function(pointData) {
+      d3.csv(pointFile, function(plantData) {
+        
         if (error) return console.error(error);
 
         var features = topojson.feature(mapData, mapData.objects['countries.geo']).features;
@@ -72,7 +73,7 @@
 
 
 
-        pointData = pointData.filter(function(d) {
+        plantData = plantData.filter(function(d) {
           if (country === 'Vietnam')
             return d.country === country && d.latitude && d.longitude;
           return d.latitude && d.longitude;
@@ -104,7 +105,7 @@
           });
 
         svg.append('text')
-          .text(function() { return pointData.length + ' Coal Plants'; })
+          .text(function() { return plantData.length + ' Coal Plants'; })
           .attr('class', 'map-subtitle')
           .attr('y', function() {
             if (isMobile) {
@@ -129,11 +130,11 @@
         var maxCircleSize = isMobile ? 10 : 25;
 
         var circleScale = d3.scale.linear()
-                  .domain([0, d3.max(pointData, function(d) { return d.capacity_mw; })])
+                  .domain([0, d3.max(plantData, function(d) { return d.capacity_mw; })])
                   .range([5, maxCircleSize]);
 
         svg.selectAll("circle")
-          .data(pointData).enter()
+          .data(plantData).enter()
           .append("circle")
           .attr("cx", function (d) { return projection([d.longitude, d.latitude])[0]; })
           .attr("cy", function (d) { return projection([d.longitude, d.latitude])[1]; })
@@ -193,6 +194,68 @@
           .style("fill", "#fff")
           .style('stroke', 'none');
 
+        var tmp = [];
+        plantData = plantData.map(function(d) {
+          d.value = d.capacity_mw;
+          d.name = d['Project Name'] ? d['Project Name'] : d['plant'];
+          d.name = d.name.replace('station', '');
+
+          return d;
+        })
+        .filter(function(d) {
+          if(tmp.indexOf(d.name) > -1) {
+            return false
+          }
+          tmp.push(d.name);
+          return true
+        });
+
+        var treemapHeight = 500;
+        var projTreemap = d3.layout.treemap().size([width, treemapHeight]);
+        var nodes = projTreemap.nodes({children: plantData});
+        nodes = nodes.slice(1, nodes.length);
+
+        var projSvg = d3.select('#proj-treemap')
+          .append('svg')
+          .attr('width', width)
+          .attr('height', treemapHeight);
+
+        var projG = projSvg.selectAll('g')
+          .data(nodes)
+          .enter().append('g')
+          .on('mousemove', function(d) {
+            mousemove(d, '<strong>Project Name:' + d.name + '</strong>' +  
+                         '<p>CO2 Carbon Emission: ' + d.value.toFixed(2) + '</p>');
+          })
+          .on('mouseout', mouseout);
+
+        projG.append('rect')
+          .attr({
+            x: function(d) { return d.x; },
+            y: function(d) { return d.y; },
+            width: function(d) { return d.dx; },
+            height: function(d) { return d.dy; },
+            class: 'proj-treemap-rect'
+          })
+
+        projG.append('text')
+          .attr({
+            x: function(d) { return d.x + d.dx/2; },
+            y: function(d) { return d.y + d.dy/2; },
+            'text-anchor': 'middle',
+            'dominant-baseline': 'central'
+          })
+          .text(function(d) { return d.name; })
+          .each(fontSize);
+
+         var app2 = new Vue({
+          el: '#proj-table',
+          data: {
+            projArray: plantData
+          }
+        });
+
+
       });
     });
 
@@ -243,7 +306,7 @@
       });
 
       document.getElementById('bank-invest-total').innerText = bankTotal.value + ' (mio USD)';    
-      document.getElementById('proj-total').innerText = '520000 (KgCO2)';
+      document.getElementById('proj-total').innerText = 'XXXXX (KgCO2)';
 
       var bankTreemap = d3.layout.treemap()
         .size([width, 500]);
@@ -274,7 +337,6 @@
           class: 'bank-treemap-rect'
         })
 
-      
       g.append('text')
         .attr({
           x: function(d) { return d.x + d.dx/2; },
@@ -285,64 +347,17 @@
         .text(function(d) { return d.name; })
         .each(fontSize);
 
-      var projObj = {};
-      var projArray = [];
-
-      data.forEach(function(d) {
-        if (!d['Investing Amount/ Share (mio USD)'] || !d["Financier's name"])
-          return;
-
-        if(!projObj.hasOwnProperty(d['Project Name']))
-          projObj[d['Project Name']] = 0;
-
-        projObj[d['Project Name']] += parseFloat(d['Investing Amount/ Share (mio USD)']);
+      var app = new Vue({
+        el: '#bank-table',
+        data: {
+          bankArray: bankArray
+        }
       });
 
-      for(var key in projObj) {
-        projArray.push({
-          name: key,
-          value: projObj[key]
-        });
-      }
+    });
+  }
 
-      var projTreemap = d3.layout.treemap().size([width,400]);
-      var nodes = projTreemap.nodes({children: projArray});
-      nodes = nodes.slice(1, nodes.length);
-
-      var projSvg = d3.select('#proj-treemap')
-        .append('svg')
-        .attr('width', width)
-        .attr('height', 400);
-
-      var projG = projSvg.selectAll('g')
-        .data(nodes)
-        .enter().append('g')
-        .on('mousemove', function(d) {
-          mousemove(d, '<strong>Project Name:' + d.name + '</strong>' +  
-                       '<p>CO2 Carbon Emission: ' + d.value.toFixed(2) + '</p>');
-        })
-        .on('mouseout', mouseout);
-
-      projG.append('rect')
-        .attr({
-          x: function(d) { return d.x; },
-          y: function(d) { return d.y; },
-          width: function(d) { return d.dx; },
-          height: function(d) { return d.dy; },
-          class: 'proj-treemap-rect'
-        })
-
-      projG.append('text')
-        .attr({
-          x: function(d) { return d.x + d.dx/2; },
-          y: function(d) { return d.y + d.dy/2; },
-          'text-anchor': 'middle',
-          'dominant-baseline': 'central'
-        })
-        .text(function(d) { return d.name; })
-        .each(fontSize);
-
-      function fontSize(d,i) {
+   function fontSize(d,i) {
         var size = 16;
         var word = d.name
         var width = d.dx;
@@ -358,25 +373,7 @@
         var rectSize = this.parentNode.childNodes[0].getBBox().width - 0.5;
         if (rectSize < this.getBBox().width)
           d3.select(this).style('display', 'none');
-      }
-
-      var app = new Vue({
-        el: '#bank-table',
-        data: {
-          bankArray: bankArray
-        }
-      });
-
-
-      var app2 = new Vue({
-        el: '#proj-table',
-        data: {
-          projArray: projArray
-        }
-      });
-
-    });
-  }
+    }
 
    function mousemove(d, content) {
       var xPosition = d3.event.pageX + 5;
