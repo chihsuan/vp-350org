@@ -68,12 +68,22 @@
                   <iframe class="embed-responsive-item" src="{{ mediaUrl }}" frameborder="0" allowfullscreen></iframe>
                 </div>
                 {{else}}
+                {{#if linkUrl}}
                 <a href="{{{ linkUrl }}}">
                   <img src="{{{ mediaUrl }}}" class="img-responsive" alt="">
                 </a>
+                {{else}}
+                  <img src="{{{ mediaUrl }}}" class="img-responsive" alt="">
+                {{/if}}
               {{/if}}
               <div class="caption">
-                <h3>{{ title }}</h3>
+                  {{#if linkUrl}}
+                    <a href="{{{ linkUrl }}}">
+                    <h3>{{ title }}</h3>
+                    </a>
+                    {{else}}
+                    <h3>{{ title }}</h3>
+                  {{/if}}
                 <p>
                   {{ content }}
                 </p>

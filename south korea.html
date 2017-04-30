@@ -43,10 +43,10 @@
       <section id="east-asia-map">
       </section>
 
-      <section id="intro" class="container-fluid" style="background-image: url(./img/vietnam_story.png);">
+      <section id="intro" class="container-fluid" style="background-image: url(./img/image17.png);">
         <div class="row" style="background: rgba(0, 0, 0, 0.26);">  
           <p class="text-center">
-          When a butterfly flaps its wings in Japan, it causes a hurricane in Vietnam.
+          “Climate change isn’t just a problem of an individual, city or a country, but it matters to all of us. That’s why I decided to stand up together with other people.” ～ Yeon-ju Seo, a mother of a nine-month-old girl from Gyeonggi Province, said.
           </p>
         </div>
       </section>
@@ -60,13 +60,11 @@
 
           <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7VOi6Upnh3c" frameborder="0" allowfullscreen=""></iframe>
-                </div>
+                  <img src="./img/image12.png" class="img-responsive" alt="">
               <div class="caption">
-                <h3>WARNINGS FROM VIETNAM COAL POWER</h3>
+                    <h3>Particulate Matter from Coal Power Plants</h3>
                 <p>
-                  When a butterfly flaps its wings in Japan, it causes a hurricane in Vietnam. Such is the case for Japanese investments in coal-fired thermal power that have devastated environmental and human health in Binh Thuan province of Vietnam. Yet money and corruption have long suppressed victims’ voices, while continuing to feed coal expansion and worsen climate change effects altogether. This documentary attempts to create a public platform that broadcasts the voices of coal victims in Binh Thuan, Vietnam.
+                  Korea is suffering from particulate matter particularly this spring. People cannot go outside without wearing a mask, and for sure, mothers cannot bring their babies outside for a walk. Coal power plants are responsible for these particulate matters. According to the Ministry of Environment of South Korea, power plants directly account for 14% of the domestic sources of PM 2.5. However, what is important is that NOx and SOx in the air cause chemical reactions to generate 'secondary particulate matter’. Although the secondary particulate matter contributes a great deal, the problem is that it is not easy to collect statistics properly.
                 </p>
               </div>
             </div>
@@ -76,12 +74,12 @@
           <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
                 <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5p-Fjru1DEQ" frameborder="0" allowfullscreen=""></iframe>
+                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/y-hVT9zn9tw" frameborder="0" allowfullscreen=""></iframe>
                 </div>
               <div class="caption">
-                <h3>DOCUMENTARY "HON CAU MPA UNDER THREATS FROM COAL POWER</h3>
+                    <h3>People’s Climate March in Seoul: We want climate justice. We must do action, not just words. We are unstoppable, another world is impossible!</h3>
                 <p>
-                  The documentary “Hon Cau MPA under threats from coal power” was filmed at the communes Vinh Tan, Phuoc The, Vinh Hao, Ca Nha and the Hon Cau MPA. The clip introduces the important location of Hon Cau MPA, the native marine biodiversity with high scientific and economical values to the locals; and threats of coal power (through operation, discharge and dredging) to the MPA and to local livelihoods (fishing, salt, aquaculture etc.) This is a call to protect Hon Cau MPA from coal power impacts
+                  (September 21, 2014) “We support Ban Ki Moon UN Climate Summit and hope they raise the political will for planet Earth and for the people and draw meaningful and practical outcome!” Around 70 people gathered together to join this march. It was the first climate march held in Seoul on September 21st to support Ban ki moon UN climate summit on September 23rd.The march was not only for the summit but also for all people who live in south Korea and all people all around the world.
                 </p>
               </div>
             </div>
@@ -90,13 +88,15 @@
 
           <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5p-Fjru1DEQ" frameborder="0" allowfullscreen=""></iframe>
-                </div>
+                <a href="http://world.350.org/east-asia/anti-coal-protest-in-the-philippines-forces-korea-eximbank-to-withdraw-from-green-climate-fund/">
+                  <img src="./img/image11.png" class="img-responsive" alt="">
+                </a>
               <div class="caption">
-                <h3>DOCUMENTARY "HON CAU MPA UNDER THREATS FROM COAL POWER</h3>
+                    <a href="http://world.350.org/east-asia/anti-coal-protest-in-the-philippines-forces-korea-eximbank-to-withdraw-from-green-climate-fund/">
+                    <h3>Anti-coal protests force Korea Eximbank to withdraw from Green Climate Fund</h3>
+                    </a>
                 <p>
-                  The documentary “Hon Cau MPA under threats from coal power” was filmed at the communes Vinh Tan, Phuoc The, Vinh Hao, Ca Nha and the Hon Cau MPA. The clip introduces the important location of Hon Cau MPA, the native marine biodiversity with high scientific and economical values to the locals; and threats of coal power (through operation, discharge and dredging) to the MPA and to local livelihoods (fishing, salt, aquaculture etc.) This is a call to protect Hon Cau MPA from coal power impacts
+                  Export-Import Bank of korea’s (KEXIM) applied to be accredited to receive money from Green Climate Fund (GCF), a global fund under the auspices of the UN climate pact allocated for low-emission and climate-resilient development, despite its massive funding for coal power plant projects in the Philippines (206-megawatt coal plant in Naga, Cebu) and around the world (USD 3.8 billion) in 2007-2014. It became the world’s fifth largest financial institution in public finance for coal. Protests in the Philippines, South Korea and other countries against the KEXIM funding for coal projects have forced the latter’s withdrawal from the GCF.
                 </p>
               </div>
             </div>
@@ -167,6 +167,7 @@
             <table id="proj-table" class="table table-striped table-responsive">
               <thead><tr>
                 <th>Project Name</th>
+                <th>Unit</th>
                 <th>Status</th>
                 <th>Established date (yr)</th>
                 <th>Capacity (MW)</th>
@@ -176,6 +177,7 @@
               <tbody>
                 <tr v-for="proj in projArray">
                   <td>{{ proj.name }}</td>
+                  <td>{{ proj.Unit }}</td>
                   <td>{{ proj.Status }}</td>
                   <td>{{ proj['Established date (yr)'] }}</td>
                   <td>{{ proj.capacity_mw }}</td>
