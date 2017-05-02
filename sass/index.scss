@@ -99,12 +99,12 @@ h5 {
   display: block;
 
   .countries {
-    fill: rgba(255,255,255,.75);
+    fill: rgba(150, 150, 150, 0.7);
   }
 
   .country-borders {
     fill: none;
-    stroke: #eee;
+    stroke: rgba(220, 220, 220, 0.4);
     stroke-width: 1px;
     stroke-linejoin: round;
     stroke-linecap: round;
@@ -116,6 +116,54 @@ h5 {
     font-size: 6rem;
   }
 }
+
+#country-map {
+  background: $bg-color;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+
+  .countries {
+    fill: rgba(255, 255, 255, 0.7);
+  }
+
+  .country-borders {
+    fill: none;
+    stroke: rgba(220, 220, 220, 0.4);
+    stroke-width: 1px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    pointer-events: none;
+  }
+
+  .map-title {
+    fill: #fff;
+    font-size: 6rem;
+  }
+}
+
+.w-title {
+  font-size: 2.4rem;
+  letter-spacing: -0.01em;
+}
+
+.back-to-home {
+    position: absolute;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 6px;
+    top: 7px;
+    left: 8px;
+    color: #fff;
+
+    &:hover {
+      text-decoration: none;
+      color: #eee;
+    }
+}
+
 
 .current-country {
   text-align: center;
@@ -369,7 +417,17 @@ circle {
     text-decoration: none;
   }
 }
-@media only screen and (max-width: 720px) {
+
+@media only screen and (max-width: 1300px) {
+  .w-title {
+    font-size: 2rem;
+  }
+  .w-sub-title {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 769px) {
   #idea {
     padding: 30px;
     text-align: center;
@@ -392,11 +450,15 @@ circle {
     border-radius: 3px;
     color: #222;
     font-weight: bold;
-    left: 18%;
-    width: 200px;
+    width: 97%;
+    margin: 0 5px;
   }
 
   #site-title a {
     font-size: 1.8rem;
+  } 
+
+  #intro p {
+    font-size: 2rem;
   }
 }

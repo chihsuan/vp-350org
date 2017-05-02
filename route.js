@@ -64,7 +64,7 @@ var route = [
         },
         {
           isVideo: false,
-          title: 'SOURTH WIND',
+          title: 'SOUTH WINDS',
           linkUrl: 'http://southwind.nmns.edu.tw/',
           mediaUrl: './img/image18.png',
           content: 'My ancestors told us that if you have your fields and the sea, you will never go hungry. Since the Sixth Naphtha Cracking Plant has come, we don\'t have anything," a Taiwanese fisherman helpless expressed. The 398 smokestacks of the Sixth Naphtha Cracking Plant in Mailiao Township, just across the Zhuoshui River that began operating in 1998. Every summer, when the "south wind" blows fumes from these smokestacks are sent northward to Taixi Village. The residents of this village not only have to put up with the foul odor, but also face health risks from harmful air pollutants.'
@@ -177,7 +177,7 @@ var route = [
         {
           isVideo: true,
           title: 'We stand with Bataan in saying no to coal.',
-          mediaUrl: '',
+          mediaUrl: 'https://www.youtube.com/embed/gQt_idMCMJA',
           content: 'Solar and wind energy are now at the same price or even cheaper than new fossil fuels in over 30 countries, according to the World Economic Forum. It is both ironic and tragic then that companies like SMC Consolidated Power Corporation (SMCCPC) continue to operate destructive coal plants and dump bottom ash harmful to nearby communities, such as in Limay, Bataan. Therefore, the Environmental Management Bureau in Central Luzon has already ordered SMCCPC to stop any activity inside its coal plant in the wake of the ash spill that has caused several residents in the nearby communities to fall ill.'
         },
         {

@@ -39,8 +39,9 @@
         </div>
       </div>
       </header> -->
+      <a href="../" class="back-to-home">Back to Home</a>
 
-      <section id="east-asia-map">
+      <section id="country-map">
       </section>
 
       <section id="intro" class="container-fluid" style="background-image: url(./img/vietnam_story.png);">
@@ -126,90 +127,7 @@
         </div>
       </section>
 
-      <section id="bank-vis" class="">
-        <div id="bank-container" class="container">
-          <h3 id="bank-vis-title" class="text-center text-uppercase"></h3><hr class="title-hr">
-          <br>
-          
-            <div class="pre-scrollable table-wrap">
-              <table id="bank-table" class="table table-striped table-responsive">
-                <thead><tr>
-                <th>Financier Name</th><th>Countries</th><th>Total Financing Amount (mio USD)</th>
-                <th>Financed Plants</th>
 
-                </tr></thead>
-                <tbody>
-                  <tr v-for="bank in bankArray">
-                    <td>{{ bank.name }}</td><td>{{ bank.countries }}</td><td>{{ bank.value }}</td><td>{{ bank.plants }}</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-         
-
-        </div> <br>
-        <div id="bank-treemap"></div>
-      </section>
-
-      <section id="flow">
-        <h2 id="bank-invest-total" class="text-center text-yellow"></h2>
-        <div class="text-center">
-          <span class="glyphicon glyphicon-arrow-down arrow-down" aria-hidden="true"></span>
-        </div>
-        <h2 id="proj-total" class="text-center"></h2>
-      </section>
-
-      <section id="proj-vis">
-       <h3 id="project-vis-title" class="text-center text-uppercase"></h3><hr class="title-hr">
-        <div id="proj-treemap"></div>
-        <div id="proj-container" class="container">
-        <br>
-          
-          <div class="pre-scrollable table-wrap">
-            <table id="proj-table" class="table table-striped table-responsive">
-              <thead><tr>
-                <th>Project Name</th>
-                <th>Unit</th>
-                <th>Status</th>
-                <th>Established date (yr)</th>
-                <th>Capacity (MW)</th>
-                <th>Carbon Emission</th>
-              </tr>
-              </thead>
-              <tbody>
-                <tr v-for="proj in projArray">
-                  <td>{{ proj.name }}</td>
-                  <td>{{ proj.Unit }}</td>
-                  <td>{{ proj.Status }}</td>
-                  <td>{{ proj['Established date (yr)'] }}</td>
-                  <td>{{ proj.capacity_mw }}</td>
-                  <td>{{ proj['Carbon Emission'] }}</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-         
-        </div><br>
-
-        <div id="people">
-          <v-client-table :data="tableData" :columns="columns" :options="options"></v-client-table>
-        </div>
-      </section>
-
-
-      <section id="action" class="bg-light-blue">
-        <div class="container">
-          <div class="row text-center">
-          	<div class="col-xs-12 col-md-8 action-block">
-      		<h2>Stand up for a Fossil-Free East Asia</h2>
-      		<p>From May 5 – 13, join thousands of people everywhere demanding that institutions and individuals do what is urgent for climate action: divest from fossil fuels.
-      		</p>
-            <button class="action-button">Take Action</button>
-           </div>
-          
-          </div>
-        </div>
-      </section>
 
       <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
       <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

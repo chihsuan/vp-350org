@@ -6,9 +6,10 @@
     'Indonesia', 'Cambodia', 'Laos', 'Myanmar', 'Singapore',
     'Brunei', 'East Timor', 'Mongolia'];
 
+
   var width = $(window).width();
   var height = $(window).height();
-  var isMobile = width < 600;
+  var isMobile = width < 769;
 
   var svg = d3.select('#east-asia-map').append('svg')
     .attr('width', width)
@@ -24,6 +25,17 @@
 
   var path = d3.geo.path()
     .projection(projection);
+
+
+  var countryCenter = {
+    Vietnam: projection([105.51, 21.02]),
+    Japan: projection([139.4254, 35.422]),
+    Taiwan: projection([121.564558]),
+    'South Korea': projection([126.5841, 37.34]),
+    Indonesia: projection([106.48, 6.12]),
+    Philippines: projection([120.58, 14.35])
+  };
+
 
   var linkData = [
     {
@@ -76,10 +88,15 @@
       .attr('class', 'countries')
       .selectAll('path')
       .data(features)
-      .enter().append('path')
+      .enter()
+      .append('path')
       .attr('d', path)
       .style('cursor', function (d) {
         if (activeCountries.indexOf(d.properties.name) > -1) return 'pointer';
+      })
+      .style('fill', function (d) {
+        if (activeCountries.indexOf(d.properties.name) > -1)
+          return 'rgba(255, 255, 255, 0.75)';
       })
       .on('mouseover', function (d) {
         if (activeCountries.indexOf(d.properties.name) > -1) {
@@ -122,7 +139,7 @@
       .attr('class', 'map-title')
       .attr('text-anchor', 'middle')
       .attr('y', function () {
-        return isMobile ? '115' : height / 2 + 50;
+        return isMobile ? '50' : height / 2 + 50;
       })
       .attr('x', function () {
         return isMobile ? width / 2 : width / 6 * 5;
@@ -142,9 +159,11 @@
 
     var maxColor = '#b52626';
     var minColor = 'rgb(193,39,45)';
-    var countryCenter = {};
+    // var countryCenter = {};
     features.forEach(function (feature) {
-      countryCenter[feature.properties.name] = path.centroid(feature);
+      if (activeCountries.indexOf(feature.properties.name) === -1) {
+        countryCenter[feature.properties.name] = path.centroid(feature);
+      }
     });
 
     var defs = svg
@@ -237,34 +256,47 @@
       .style('display', 'none')
       .attr('text-anchor', 'middle');
 
+    if (!isMobile) {
+      svg.append('text')
+        .attr('x', 50)
+        .attr('y', height / 5 * 2.2)
+        .attr('class', 'w-title')
+        .text('JOIN DIVESTMENT MOVEMENT!');
 
-    svg.append('line')
-      .attr('x1', legendX)
-      .attr('y1', legendY)
-      .attr('x2', legendX + 10)
-      .attr('y2', legendY)
-      .attr('stroke', '#b52626')
-      .attr('stroke-width', 12);
+      svg.append('text')
+        .attr('x', 50)
+        .attr('y', height / 5 * 2.2 + 25)
+        .attr('class', 'w-sub-title')
+        .text('STOP EAST ASIA FOSSIL FUEL FINANCIAL FLOW!');
+    }
 
-    svg.append('circle')
-      .attr('cx', legendX + 4)
-      .attr('cy', function () { return isMobile ? legendY + 20 : legendY + 25; })
-      .attr('r', '5px')
-      .style('fill', '#fff')
-      .style('stroke', 'none');
+    // svg.append('line')
+    //   .attr('x1', legendX)
+    //   .attr('y1', legendY)
+    //   .attr('x2', legendX + 10)
+    //   .attr('y2', legendY)
+    //   .attr('stroke', '#b52626')
+    //   .attr('stroke-width', 12);
 
-    svg.append('text')
-      .attr('x', legendX + 15)
-      .attr('y', legendY + 5)
-      .attr('class', 'legend')
-      .text('Fossil Fuel Financial Flow (Million USD)');
+    // svg.append('circle')
+    //   .attr('cx', legendX + 4)
+    //   .attr('cy', function () { return isMobile ? legendY + 20 : legendY + 25; })
+    //   .attr('r', '5px')
+    //   .style('fill', '#fff')
+    //   .style('stroke', 'none');
 
-    svg.append('text')
-          .attr('x', legendX + 15)
-          .attr('y', function () { return isMobile ? legendY + 25 : legendY + 30; })
-          .attr('r', '8px')
-          .attr('fill', 'red')
-          .attr('class', 'legend')
-          .text('Data Last Updated：2017');
+    // svg.append('text')
+    //   .attr('x', legendX + 15)
+    //   .attr('y', legendY + 5)
+    //   .attr('class', 'legend')
+    //   .text('Fossil Fuel Financial Flow (Million USD)');
+
+    // svg.append('text')
+    //       .attr('x', legendX + 15)
+    //       .attr('y', function () { return isMobile ? legendY + 25 : legendY + 30; })
+    //       .attr('r', '8px')
+    //       .attr('fill', 'red')
+    //       .attr('class', 'legend')
+    //       .text('Data Last Updated：2017');
   }
 }(window));
