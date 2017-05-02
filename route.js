@@ -125,7 +125,7 @@ var route = [
       path: './',
       country: 'Japan',
       center: [139.4, 38],
-      scale: 1800,
+      scale: 1600,
       mobileScale: 740,
       plantFile: './data/Database- JP - Project JP 1.csv',
       financierFile: './data/Database- VN - Project 2.csv',

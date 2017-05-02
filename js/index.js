@@ -165,13 +165,13 @@
           .attr('r', '8px')
           .attr('fill', 'red');
 
-        // svg.append('text')
-        //   .attr('x', legendX + 15)
-        //   .attr('y', legendY + 5)
-        //   .attr('r', '8px')
-        //   .attr('fill', 'red')
-        //   .attr('class', 'legend')
-        //   .text('Coal Plants Capacity');
+        svg.append('text')
+          .attr('x', legendX + 15)
+          .attr('y', legendY + 5)
+          .attr('r', '8px')
+          .attr('fill', 'red')
+          .attr('class', 'legend')
+          .text('Coal Plants Capacity');
 
 
         // svg.append('text')
