@@ -34,7 +34,10 @@
 
     d3.csv(plantFile, function (plantRawData) {
       var plantData = plantRawData.filter(function (d) {
-        return d['Project Name'] || d.plant;
+         if (country === 'Vietnam') { 
+            return d.country === country && d.latitude && d.longitude && (d['Project Name'] || d.plant); 
+          }
+        return d.latitude && d.longitude && (d['Project Name'] || d.plant);
       }).map(function (d) {
         d.value = parseFloat(d.capacity_mw);
         d.name = d['Project Name'] ? d['Project Name'] : d.plant;
@@ -50,16 +53,17 @@
           plantMergeObj[d.name] = d;
         }
       });
+     
 
       var plantMergeData = [];
       Object.keys(plantMergeObj).forEach(function (key, index) {
         plantMergeData.push(plantMergeObj[key]);
       });
-
+     
       var treemapHeight = 500;
       var projTreemap = d3.layout.treemap().size([width, treemapHeight]);
       var nodes = projTreemap.nodes({ children: plantMergeData });
-      nodes = nodes.slice(1, nodes.length);
+      nodes = nodes.slice(1, nodes.length); 
 
       var projSvg = d3.select('#proj-treemap')
         .append('svg')
@@ -142,6 +146,7 @@
         if (d["Financier's countries"] && obj.countries.indexOf(d["Financier's countries"]) === -1) {
           obj.countries.push(d["Financier's countries"]);
         }
+       
 
         if (d['Project Name'] && obj.plants.indexOf(d['Project Name']) === -1) {
           obj.plants.push(d['Project Name']);
@@ -151,7 +156,7 @@
       for (var key in bankObj) {
         bankArray.push({
           name: key,
-          value: bankObj[key].investing.toFixed(2),
+          value: bankObj[key].investing,
           countries: bankObj[key].countries.join(', '),
           plants: bankObj[key].plants.join(', ')
         });
@@ -166,8 +171,10 @@
           return { value: a.value + b.value };
         });
       }
+      
+      bankTotal = bankTotal.value.toFixed(2)
 
-      document.getElementById('bank-invest-total').innerText = bankTotal.value + ' (mio USD)';
+      document.getElementById('bank-invest-total').innerText = bankTotal + ' (mio USD)';
 
       var bankTreemap = d3.layout.treemap()
         .size([width, 500]);
