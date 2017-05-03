@@ -37,24 +37,6 @@
   };
 
 
-  var linkData = [
-    {
-      source: 'China',
-      target: 'Vietnam',
-      value: 300
-    },
-    {
-      source: 'Japan',
-      target: 'Vietnam',
-      value: 200
-    },
-    {
-      source: 'South Korea',
-      target: 'Vietnam',
-      value: 100
-    }
-  ];
-
   if (isMobile) {
     var opts = activeCountries.slice();
     opts.unshift('Select A Country');
@@ -80,9 +62,9 @@
     if (error) return console.error(error);
 
     var features = topojson.feature(mapData, mapData.objects['countries.geo'])
-                           .features.filter(function (d) {
-                             return eastAsiaCountries.indexOf(d.properties.name) > -1;
-                           });
+                          .features.filter(function (d) {
+                            return eastAsiaCountries.indexOf(d.properties.name) > -1;
+                          });
 
     svg.append('g')
       .attr('class', 'countries')
@@ -145,16 +127,18 @@
         return isMobile ? width / 2 : width / 6 * 5;
       });
 
-    addFlows(features);
+    d3.json('./data/flow.json', function (linkData) {
+      addFlows(linkData, features);
+    });
   });
 
-  function addFlows(features) {
+  function addFlows(linkData, features) {
     var legendX = 10;
     var legendY = height - 40;
     var maxValue = d3.max(linkData, function (d) { return d.value; });
     var linkScale = d3.scale.linear()
               .domain([0, maxValue])
-              .range([0.5, 15]);
+              .range([5, 15]);
 
 
     var maxColor = '#b52626';
@@ -165,6 +149,11 @@
         countryCenter[feature.properties.name] = path.centroid(feature);
       }
     });
+
+    linkData = linkData.filter(function(d) {
+      return eastAsiaCountries.indexOf(d.source) > -1;
+    });
+    console.log(linkData);
 
     var defs = svg
       .selectAll('.defs')
@@ -242,7 +231,12 @@
       .attr('cx', function (d) { return countryCenter[d.source][0]; })
       .attr('cy', function (d) { return countryCenter[d.source][1] - 5; })
       .attr('class', function (d) { return d.target + '-link'; })
-      .attr('r', '25')
+      .attr('r', function (d) {
+        if (d.value > 1000) {
+          return 30;
+        }
+        return 25;
+      })
       .style('display', 'none')
       .attr('text-anchor', 'middle');
 

@@ -18,7 +18,7 @@
 
   window.init = init;
 
-  function init(country, center, scale, mobileScale, pointFile, dbFile) {
+  function init(country, center, scale, mobileScale, plantFile, dbFile) {
     // document.getElementById('bank-vis-title').innerText = 'Financiers for ' + country + ' Coal Plant';
     // document.getElementById('project-vis-title').innerText = 'Coal Plants in ' + country;
 
@@ -38,7 +38,7 @@
 
 
     d3.json('./data/countries.geo.topo.json', function (error, mapData) {
-      d3.csv(pointFile, function (plantData) {
+      d3.csv(plantFile, function (plantData) {
         if (error) return console.error(error);
 
         var features = topojson.feature(mapData, mapData.objects['countries.geo']).features;
@@ -70,15 +70,35 @@
           ));
 
 
+        // Draw Plant
         plantData = plantData.filter(function (d) {
-          if (country === 'Vietnam') { return d.country === country && d.latitude && d.longitude; }
-          return d.latitude && d.longitude;
+          if (country === 'Vietnam') { 
+            return d.country === country && d.latitude && d.longitude && (d['Project Name'] || d.plant); 
+          }
+          return d.latitude && d.longitude && (d['Project Name'] || d.plant);
         })
         .map(function (d) {
           d.longitude = parseFloat(d.longitude);
           d.latitude = parseFloat(d.latitude);
           d.capacity_mw = parseFloat(d.capacity_mw);
+          d.name = d['Project Name'] ? d['Project Name'] : d.plant;
+          d.name = d.name.replace('station', '');
           return d;
+        });
+
+        var plantMergeObj = {};
+        plantData.forEach(function (d) {
+          if (plantMergeObj.hasOwnProperty(d.name)) {
+            plantMergeObj[d.name].capacity_mw += d.capacity_mw;
+          }
+          else {
+            plantMergeObj[d.name] = d;
+          }
+        });
+
+        var plantMergeData = [];
+        Object.keys(plantMergeObj).forEach(function (key, index) {
+          plantMergeData.push(plantMergeObj[key]);
         });
 
         svg.append('text')
@@ -101,7 +121,7 @@
           });
 
         svg.append('text')
-          .text(function () { return plantData.length + ' Coal Plants'; })
+          .text(function () { return plantMergeData.length + ' Coal Plants'; })
           .attr('class', 'map-subtitle')
           .attr('y', function () {
             if (isMobile) {
@@ -126,11 +146,11 @@
         var maxCircleSize = isMobile ? 10 : 25;
 
         var circleScale = d3.scale.linear()
-                  .domain([0, d3.max(plantData, function (d) { return d.capacity_mw; })])
+                  .domain([0, d3.max(plantMergeData, function (d) { return d.capacity_mw; })])
                   .range([5, maxCircleSize]);
 
         svg.selectAll('circle')
-          .data(plantData).enter()
+          .data(plantMergeData).enter()
           .append('circle')
           .attr('cx', function (d) { return projection([d.longitude, d.latitude])[0]; })
           .attr('cy', function (d) { return projection([d.longitude, d.latitude])[1]; })

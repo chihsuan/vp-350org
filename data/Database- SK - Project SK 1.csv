@@ -1,108 +1,108 @@
 No.,Types,Project Name,Unit,longitude,latitude,Established date (yr),Status,capacity_mw,Domestic owner name,,Foreign owner name,Total investment amount,Total amount from domestic sources,"Total amount from foreign sources
 ",Money not identifiable,Recipient,"Domestic owner's contribution, Share (%)","Domestic owner's contribution, Amount","Foreign owner's contribution, Share (%)","Foreign owner's contribution, Amount",Total Identified amount of foreign finance,Total Identified amount of domestic finance (mio USD),Lifecycle of plant (yr),CO2 Carbon Emission,Real Cost of Coal,Project Impact,References
 ,,,,,,,,,Sponsor (check (check it belongs to financier or owner),Parent Company (check it belongs to financier or owner),,,,,,,,,,,,,,,,,
-1,coal,Boryeong power station,Boryeong power station Unit 1,126.4908314,36.4008531,1983,Operating,500,Korea Midland Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/2ibIS8i
-2,coal,Boryeong power station,Boryeong power station Unit 2,126.4908314,36.4008531,1984,Operating,500,Korea Midland Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/2ibIS8i
-3,coal,Boryeong power station,Boryeong power station Unit 3,126.4908314,36.4008531,1993,Operating,500,Korea Midland Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/2ibIS8i
-4,coal,Boryeong power station,Boryeong power station Unit 4,126.4908314,36.4008531,1993,Operating,500,Korea Midland Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/2ibIS8i
-5,coal,Boryeong power station,Boryeong power station Unit 5,126.4908314,36.4008531,1993,Operating,500,Korea Midland Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/2ibIS8i
-6,coal,Boryeong power station,Boryeong power station Unit 6,126.4908314,36.4008531,1994,Operating,500,Korea Midland Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/2ibIS8i
-7,coal,Boryeong power station,Boryeong power station Unit 7,126.4908314,36.4008531,2008,Operating,500,Korea Midland Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/2ibIS8i
-8,coal,Boryeong power station,Boryeong power station Unit 8,126.4908314,36.4008531,2008,Operating,500,Korea Midland Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/2ibIS8i
-9,coal,Dangjin power station,Dangjin power station Unit 1,126.5122247,37.05513,1999,Operating,500,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1DRx4RU
-10,coal,Dangjin power station,Dangjin power station Unit 2,126.5122247,37.05513,1999,Operating,500,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1DRx4RU
-11,coal,Dangjin power station,Dangjin power station Unit 3,126.5122247,37.05513,2000,Operating,500,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1DRx4RU
-12,coal,Dangjin power station,Dangjin power station Unit 4,126.5122247,37.05513,2001,Operating,500,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1DRx4RU
-13,coal,Dangjin power station,Dangjin power station Unit 5,126.5122247,37.05513,2005,Operating,500,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1DRx4RU
-14,coal,Dangjin power station,Dangjin power station Unit 6,126.5122247,37.05513,2006,Operating,500,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1DRx4RU
-15,coal,Dangjin power station,Dangjin power station Unit 7,126.5122247,37.05513,2007,Operating,500,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1DRx4RU
-16,coal,Dangjin power station,Dangjin power station Unit 8,126.5122247,37.05513,2007,Operating,500,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1DRx4RU
-17,coal,Seocheon power station,Seocheon power station Unit 1,126.49611,36.13576052,1983,Operating,200,Korea Midland Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1hAzfzr
-18,coal,Seocheon power station,Seocheon power station Unit 2,126.49611,36.13576052,1983,Operating,200,Korea Midland Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1hAzfzr
-19,coal,Shin Boryeong power station,Shin Boryeong power station Unit 1,126.486169,36.3846129,2017,Construction,1000,Korea Midland Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1eAxQRO
-20,coal,Shin Boryeong power station,Shin Boryeong power station Unit 2,126.486169,36.3846129,2017,Construction,1000,Korea Midland Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1eAxQRO
-21,coal,Taean power station,Taean IGCC Project,126.2346268,36.9055681,2016,Operating,300,Korea Western Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1f719A8
-22,coal,Taean power station,Taean power station Unit 1,126.234263,36.903319,1995,Operating,500,Korea Western Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1J99eBE
-23,coal,Taean power station,Taean power station Unit 10,126.2346268,36.9055681,2017,Construction,1050,Korea Western Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1f719A8
-24,coal,Taean power station,Taean power station Unit 2,126.234263,36.903319,1996,Operating,500,Korea Western Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1J99eBE
-25,coal,Taean power station,Taean power station Unit 3,126.234263,36.903319,1997,Operating,500,Korea Western Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1J99eBE
-26,coal,Taean power station,Taean power station Unit 4,126.234263,36.903319,1997,Operating,500,Korea Western Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1J99eBE
-27,coal,Taean power station,Taean power station Unit 5,126.234263,36.903319,2001,Operating,500,Korea Western Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1J99eBE
-28,coal,Taean power station,Taean power station Unit 6,126.234263,36.903319,2002,Operating,500,Korea Western Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1J99eBE
-29,coal,Taean power station,Taean power station Unit 7,126.234263,36.903319,2007,Operating,500,Korea Western Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1J99eBE
-30,coal,Taean power station,Taean power station Unit 8,126.234263,36.903319,2007,Operating,500,Korea Western Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1J99eBE
-31,coal,Taean power station,Taean power station Unit 9,126.2346268,36.9055681,2016,Operating,1050,Korea Western Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1f719A8
-32,coal,Daejeon Cogen power station,Daejeon Cogen 1,127.385,36.351,1997,Operating,88,Daejon Cogen Plant Co Ltd,Chosun Refractories,,,,,,,,,,,,,,,,,http://bit.ly/20WyGkD
-33,coal,Anin power station,Anin power station Unit 1,128.9791,37.73535,2019,Pre,1040,Gangnung Eco Power,"KEPCO, Samsung",,,,,,,,,,,,,,,,,http://bit.ly/1JHT01N
-34,coal,Anin power station,Anin power station Unit 2,128.9791,37.73535,2020,Pre,1040,Gangnung Eco Power,"KEPCO, Samsung",,,,,,,,,,,,,,,,,http://bit.ly/1JHT01N
-35,coal,Bukpyung power station,Buk-Pyeong power station Unit 1,129.143343,37.4805456,2016,Operating,595,"GS E&R, Korea East-West Power Co","GS E&R, KEPCO",,,,,,,,,,,,,,,,,http://bit.ly/1lgPWKP
-36,coal,Bukpyung power station,Buk-Pyeong power station Unit 2,129.143343,37.4805456,2017,Construction,595,"GS E&R, Korea East-West Power Co","GS E&R, KEPCO",,,,,,,,,,,,,,,,,http://bit.ly/1lgPWKP
-37,coal,Dongbu Hasla power station,Dongbu Hasla power station Unit 1,128.98,37.739,,Cancelled,1000,Dongbu Power Dangjin Corp,"Dongbu Group, SK Group",,,,,,,,,,,,,,,,,http://bit.ly/1JHou98
-38,coal,Dongbu Hasla power station,Dongbu Hasla power station Unit 2,128.98,37.739,,Cancelled,1000,Dongbu Power Dangjin Corp,"Dongbu Group, SK Group",,,,,,,,,,,,,,,,,http://bit.ly/1JHou98
-39,coal,Donghae power station,Donghae power station Unit 1,129.147287,37.486296,1998,Operating,200,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1JXK8Gs
-40,coal,Donghae power station,Donghae power station Unit 2,129.147287,37.486296,1999,Operating,200,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1JXK8Gs
-41,coal,Pospower Samcheok power station,Pospower Samcheok power station Unit 1,129.165,37.45,2021,Pre,1050,Pospower,POSCO,,,,,,,,,,,,,,,,,http://bit.ly/1WSYc9t
-42,coal,Pospower Samcheok power station,Pospower Samcheok power station Unit 2,129.165,37.45,2021,Pre,1050,Pospower,POSCO,,,,,,,,,,,,,,,,,http://bit.ly/1WSYc9t
-43,coal,Samcheok Anthracite power station,Samcheok Anthracite power station,129.165,37.45,,Cancelled,100,Korea Southern Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1hohJf1
-44,coal,Samcheok Green power station,Samcheok Green power station Unit 1,129.341822,37.186,2016,Operating,1022,Korea Southern Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1EjoWd4
-45,coal,Samcheok Green power station,Samcheok Green power station Unit 2,129.341822,37.186,2017,Construction,1022,Korea Southern Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1EjoWd4
-46,coal,Yongdong power station,Yongdong power station Unit 1,128.980391,37.738959,1973,Operating,125,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1NvstoA
-47,coal,Yongdong power station,Yongdong power station Unit 2,128.980391,37.738959,1979,Operating,200,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1NvstoA
-48,coal,Banwol Chp power station,Banwol Chp 1,,,1990,Operating,56,Stx Energy Co Ltd,Stx Energy Co Ltd,,,,,,,,,,,,,,,,,http://bit.ly/1Wf9enk
-49,coal,Gumi Chp power station,Gumi Chp 1,128.372004,36.09714048,1992,Operating,85,Stx Energy Co Ltd,Stx Energy Co Ltd,,,,,,,,,,,,,,,,,http://bit.ly/1Q9GKNh
-50,coal,Goseong Green power station,Goseong Green power station Unit 1,128.112096,34.918658,2020,Permitted,1040,Goseong Green Power,"KEPCO, SK Gas, SK Construction, KDB Infrastructure",,,,,,,,,,,,,,,,,http://bit.ly/1JwHliB
-51,coal,Goseong Green power station,Goseong Green power station Unit 2,128.112096,34.918658,2021,Permitted,1040,Goseong Green Power,"KEPCO, SK Gas, SK Construction, KDB Infrastructure",,,,,,,,,,,,,,,,,http://bit.ly/1JwHliB
-52,coal,Hadong power station,Hadong power station Unit 1,127.819851,34.952354,1997,Operating,500,Korea Southern Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1EtduWZ
-53,coal,Hadong power station,Hadong power station Unit 2,127.819851,34.952354,1997,Operating,500,Korea Southern Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1EtduWZ
-54,coal,Hadong power station,Hadong power station Unit 3,127.819851,34.952354,1998,Operating,500,Korea Southern Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1EtduWZ
-55,coal,Hadong power station,Hadong power station Unit 4,127.819851,34.952354,1999,Operating,500,Korea Southern Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1EtduWZ
-56,coal,Hadong power station,Hadong power station Unit 5,127.819851,34.952354,2000,Operating,500,Korea Southern Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1EtduWZ
-57,coal,Hadong power station,Hadong power station Unit 6,127.819851,34.952354,2001,Operating,500,Korea Southern Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1EtduWZ
-58,coal,Hadong power station,Hadong power station Unit 7,127.819851,34.952354,2008,Operating,500,Korea Southern Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1EtduWZ
-59,coal,Hadong power station,Hadong power station Unit 8,127.819851,34.952354,2009,Operating,500,Korea Southern Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1EtduWZ
-60,coal,Samchonpo power station,Samchonpo power station Unit 1,128.108397,34.910715,1983,Operating,560,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1hbvUHb
-61,coal,Samchonpo power station,Samchonpo power station Unit 2,128.108397,34.910715,1984,Operating,560,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1hbvUHb
-62,coal,Samchonpo power station,Samchonpo power station Unit 3,128.108397,34.910715,1993,Operating,560,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1hbvUHb
-63,coal,Samchonpo power station,Samchonpo power station Unit 4,128.108397,34.910715,1994,Operating,560,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1hbvUHb
-64,coal,Samchonpo power station,Samchonpo power station Unit 5,128.108397,34.910715,1997,Operating,500,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1hbvUHb
-65,coal,Samchonpo power station,Samchonpo power station Unit 6,128.108397,34.910715,1998,Operating,500,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1hbvUHb
-66,coal,Yeongheung power station,Yeongheung power station Unit 1,126.437797,37.236543,2004,Operating,800,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1Lb8ISY
-67,coal,Yeongheung power station,Yeongheung power station Unit 2,126.437797,37.236543,2004,Operating,800,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1Lb8ISY
-68,coal,Yeongheung power station,Yeongheung power station Unit 3,126.437797,37.236543,2009,Operating,870,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1Lb8ISY
-69,coal,Yeongheung power station,Yeongheung power station Unit 4,126.437797,37.236543,2009,Operating,870,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1Lb8ISY
-70,coal,Yeongheung power station,Yeongheung power station Unit 5,126.4360929,37.23693992,2014,Operating,870,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/KuGM2g
-71,coal,Yeongheung power station,Yeongheung power station Unit 6,126.4360929,37.23693992,2014,Operating,870,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/KuGM2g
-72,coal,Yeongheung power station,Yeongheung power station Unit 7,126.4360929,37.23693992,,Cancelled,870,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/KuGM2g
-73,coal,Yeongheung power station,Yeongheung power station Unit 8,126.4360929,37.23693992,,Cancelled,870,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/KuGM2g
-74,coal,Jeju Thermal Power Station,Jeju Thermal Tower Station Unit 2,126.5973875,33.5366283,2000,Operating,75,Korea Midland Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/2jjXNS1
-75,coal,Jeju Thermal Power Station,Jeju Thermal Tower Station Unit 3,126.5973875,33.5366283,2000,Operating,75,Korea Midland Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/2jjXNS1
-76,coal,Honam power station,Honam power station Unit 1,127.734675,34.854427,1973,Operating,250,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1JiaJiI
-77,coal,Honam power station,Honam power station Unit 2,127.734675,34.854427,1973,Operating,250,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1JiaJiI
-78,coal,Seagull Cogen Gunsan power station,Seagull Cogen Gunsan power station Unit 1,126.638267,35.977864,2007,Operating,50,Gungjang Energy Co Ltd,eTEC E&C,,,,,,,,,,,,,,,,,http://bit.ly/1HMec1N
-79,coal,Seagull Cogen Gunsan power station,Seagull Cogen Gunsan power station Unit 2,126.638267,35.977864,2007,Operating,50,Gungjang Energy Co Ltd,eTEC E&C,,,,,,,,,,,,,,,,,http://bit.ly/1HMec1N
-80,coal,Seagull Cogen Gunsan power station,Seagull Cogen Gunsan power station Unit 3,126.638267,35.977864,2014,Operating,30,Gungjang Energy Co Ltd,eTEC E&C,,,,,,,,,,,,,,,,,http://bit.ly/1HMec1N
-81,coal,Yeosu Hanwha power station,Yeosu Hanwha power station Unit 1,127.674,34.826,2010,Operating,125,Hanwha Chemical Corp,Hanwha Group,,,,,,,,,,,,,,,,,http://bit.ly/1P510iM
-82,coal,Yeosu Hanwha power station,Yeosu Hanwha power station Unit 2,127.674,34.826,2010,Operating,125,Hanwha Chemical Corp,Hanwha Group,,,,,,,,,,,,,,,,,http://bit.ly/1P510iM
-83,coal,Yeosu power station,Yeosu power station unit 1 rebuild,127.6907873,34.83932639,2016,Operating,350,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/19WDGgK
-84,coal,Yeosu power station,Yeosu power station Unit 2,127.6907873,34.83932639,1977,Operating,329,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1MsRuDU
-85,coal,Pohang power station,Pohang power station,129.365,36.032222,,Announced,500,POSCO,POSCO,,,,,,,,,,,,,,,,,http://bit.ly/2ekx7Mo
-86,coal,Saemangeum Collective Energy Facility Unit 1,Saemangeum Collective Energy Facility Unit 1,126.716667,35.983333,2016,Operating,152,Saemangeum Development Agency,Saemangeum Development Agency,,,,,,,,,,,,,,,,,http://bit.ly/1Aq3Ggc
-87,coal,Saemangeum Collective Energy Facility Unit 2,Saemangeum Collective Energy Facility Unit 2,126.716667,35.983333,2016,Operating,152,Saemangeum Development Agency,Saemangeum Development Agency,,,,,,,,,,,,,,,,,http://bit.ly/1Aq3Ggc
-88,coal,Seagull power station,Seagull power station,126.716667,35.983333,2016,Construction,250,Gungjang Energy Co Ltd,Gunjang Energy,,,,,,,,,,,,,,,,,http://bit.ly/19Gd1rR
-89,coal,Dangjin Eco power station,Dangjin Eco power station Unit 1,126.4923,37.055,2021,Shelved,580,Dangjin Eco Power,"Dongbu Group, SK Group",,,,,,,,,,,,,,,,,http://bit.ly/1MOM5Fz
-90,coal,Dangjin Eco power station,Dangjin Eco power station Unit 2,126.4923,37.055,2022,Shelved,580,Dangjin Eco Power,"Dongbu Group, SK Group",,,,,,,,,,,,,,,,,http://bit.ly/1MOM5Fz
-91,coal,Dangjin power station,Dangjin power station Unit 10,126.5122247,37.05513,2016,Operating,1020,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1DRx4RU
-92,coal,Dangjin power station,Dangjin power station Unit 9,126.5122247,37.05513,2016,Operating,1020,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1DRx4RU
-93,coal,Seocheon power station,Seocheon power station,126.49611,36.13576052,2019,Construction,1000,Korea Midland Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1B2jqtV
-94,coal,KOWEPO Hadong power station,KOWEPO Hadong power station Unit 1,127.75,35.066667,2022,Announced,1000,Korea Western Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1MlVJ02
-95,coal,KOWEPO Hadong power station,KOWEPO Hadong power station Unit 2,127.75,35.066667,2022,Announced,1000,Korea Western Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1MlVJ02
-96,coal,Yosu Plant-1 power station,Yosu Plant-1 No 1,127,34.75,1977,Operating,30,Lotte Chemical Corp,Lotte Group,,,,,,,,,,,,,,,,,http://bit.ly/1Rrn5Yu
-97,coal,Yosu Plant-1 power station,Yosu Plant-1 No 2,127,34.75,1977,Operating,30,Lotte Chemical Corp,Lotte Group,,,,,,,,,,,,,,,,,http://bit.ly/1Rrn5Yu
-98,coal,Ulsan CHP power station,Ulsan CHP power station Unit 1,129.351,35.562,1991,Operating,40,Ulsan Petrochemical Service Co,Ulsan Petrochemical Service,,,,,,,,,,,,,,,,,http://bit.ly/1DRfOMV
-99,coal,Ulsan CHP power station,Ulsan CHP power station Unit 2,129.351,35.562,1994,Operating,40,Ulsan Petrochemical Service Co,Ulsan Petrochemical Service,,,,,,,,,,,,,,,,,http://bit.ly/1DRfOMV
-100,coal,Ulsan CHP power station,Ulsan CHP power station Unit 3,129.351,35.562,1998,Operating,50,Ulsan Petrochemical Service Co,Ulsan Petrochemical Service,,,,,,,,,,,,,,,,,http://bit.ly/1DRfOMV
-101,coal,Ulsan Hanju power station,Ulsan Hanju power station Unit 3,129.351,35.562,1994,Operating,40,Hanju Corp,Hanju Corp,,,,,,,,,,,,,,,,,http://bit.ly/1NgO8mo
-102,coal,Ulsan Hanju power station,Ulsan Hanju power station Unit 5,129.351,35.562,1998,Operating,50,Hanju Corp,Hanju Corp,,,,,,,,,,,,,,,,,http://bit.ly/1NgO8mo
-103,coal,Ulsan Kzc power station,Ulsan Kzc 1,,,1993,Operating,43,Korea Zinc Co Ltd,Korea Zinc Co Ltd,,,,,,,,,,,,,,,,,http://bit.ly/1Q8mxRG
-104,coal,Yongnam power station,Yongnam power station Unit 1,129.384417,35.513959,1973,Operating,200,Korea Southern Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1PdIIqQ
-105,coal,Yongnam power station,Yongnam power station Unit 2,129.384417,35.513959,1970,Operating,200,Korea Southern Power,KEPCO,,,,,,,,,,,,,,,,,http://bit.ly/1PdIIqQ
+1,coal,Boryeong power station,Boryeong power station Unit 1,126.4908314,36.4008531,1983,Operating,500,Korea Midland Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/2ibIS8i
+2,coal,Boryeong power station,Boryeong power station Unit 2,126.4908314,36.4008531,1984,Operating,500,Korea Midland Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/2ibIS8i
+3,coal,Boryeong power station,Boryeong power station Unit 3,126.4908314,36.4008531,1993,Operating,500,Korea Midland Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/2ibIS8i
+4,coal,Boryeong power station,Boryeong power station Unit 4,126.4908314,36.4008531,1993,Operating,500,Korea Midland Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/2ibIS8i
+5,coal,Boryeong power station,Boryeong power station Unit 5,126.4908314,36.4008531,1993,Operating,500,Korea Midland Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/2ibIS8i
+6,coal,Boryeong power station,Boryeong power station Unit 6,126.4908314,36.4008531,1994,Operating,500,Korea Midland Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/2ibIS8i
+7,coal,Boryeong power station,Boryeong power station Unit 7,126.4908314,36.4008531,2008,Operating,500,Korea Midland Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/2ibIS8i
+8,coal,Boryeong power station,Boryeong power station Unit 8,126.4908314,36.4008531,2008,Operating,500,Korea Midland Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/2ibIS8i
+9,coal,Dangjin power station,Dangjin power station Unit 1,126.5122247,37.05513,1999,Operating,500,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1DRx4RU
+10,coal,Dangjin power station,Dangjin power station Unit 2,126.5122247,37.05513,1999,Operating,500,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1DRx4RU
+11,coal,Dangjin power station,Dangjin power station Unit 3,126.5122247,37.05513,2000,Operating,500,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1DRx4RU
+12,coal,Dangjin power station,Dangjin power station Unit 4,126.5122247,37.05513,2001,Operating,500,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1DRx4RU
+13,coal,Dangjin power station,Dangjin power station Unit 5,126.5122247,37.05513,2005,Operating,500,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1DRx4RU
+14,coal,Dangjin power station,Dangjin power station Unit 6,126.5122247,37.05513,2006,Operating,500,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1DRx4RU
+15,coal,Dangjin power station,Dangjin power station Unit 7,126.5122247,37.05513,2007,Operating,500,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1DRx4RU
+16,coal,Dangjin power station,Dangjin power station Unit 8,126.5122247,37.05513,2007,Operating,500,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1DRx4RU
+17,coal,Seocheon power station,Seocheon power station Unit 1,126.49611,36.13576052,1983,Operating,200,Korea Midland Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1hAzfzr
+18,coal,Seocheon power station,Seocheon power station Unit 2,126.49611,36.13576052,1983,Operating,200,Korea Midland Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1hAzfzr
+19,coal,Shin Boryeong power station,Shin Boryeong power station Unit 1,126.486169,36.3846129,2017,Construction,1000,Korea Midland Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1eAxQRO
+20,coal,Shin Boryeong power station,Shin Boryeong power station Unit 2,126.486169,36.3846129,2017,Construction,1000,Korea Midland Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1eAxQRO
+21,coal,Taean power station,Taean IGCC Project,126.2346268,36.9055681,2016,Operating,300,Korea Western Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1f719A8
+22,coal,Taean power station,Taean power station Unit 1,126.234263,36.903319,1995,Operating,500,Korea Western Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1J99eBE
+23,coal,Taean power station,Taean power station Unit 10,126.2346268,36.9055681,2017,Construction,1050,Korea Western Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1f719A8
+24,coal,Taean power station,Taean power station Unit 2,126.234263,36.903319,1996,Operating,500,Korea Western Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1J99eBE
+25,coal,Taean power station,Taean power station Unit 3,126.234263,36.903319,1997,Operating,500,Korea Western Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1J99eBE
+26,coal,Taean power station,Taean power station Unit 4,126.234263,36.903319,1997,Operating,500,Korea Western Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1J99eBE
+27,coal,Taean power station,Taean power station Unit 5,126.234263,36.903319,2001,Operating,500,Korea Western Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1J99eBE
+28,coal,Taean power station,Taean power station Unit 6,126.234263,36.903319,2002,Operating,500,Korea Western Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1J99eBE
+29,coal,Taean power station,Taean power station Unit 7,126.234263,36.903319,2007,Operating,500,Korea Western Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1J99eBE
+30,coal,Taean power station,Taean power station Unit 8,126.234263,36.903319,2007,Operating,500,Korea Western Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1J99eBE
+31,coal,Taean power station,Taean power station Unit 9,126.2346268,36.9055681,2016,Operating,1050,Korea Western Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1f719A8
+32,coal,Daejeon Cogen power station,Daejeon Cogen 1,127.385,36.351,1997,Operating,88,Daejon Cogen Plant Co Ltd,Chosun Refractories,,,,,,,,,,,,,CA,CA,,,http://bit.ly/20WyGkD
+33,coal,Anin power station,Anin power station Unit 1,128.9791,37.73535,2019,Pre,1040,Gangnung Eco Power,"KEPCO, Samsung",,,,,,,,,,,,,CA,CA,,,http://bit.ly/1JHT01N
+34,coal,Anin power station,Anin power station Unit 2,128.9791,37.73535,2020,Pre,1040,Gangnung Eco Power,"KEPCO, Samsung",,,,,,,,,,,,,CA,CA,,,http://bit.ly/1JHT01N
+35,coal,Bukpyung power station,Buk-Pyeong power station Unit 1,129.143343,37.4805456,2016,Operating,595,"GS E&R, Korea East-West Power Co","GS E&R, KEPCO",,,,,,,,,,,,,CA,CA,,,http://bit.ly/1lgPWKP
+36,coal,Bukpyung power station,Buk-Pyeong power station Unit 2,129.143343,37.4805456,2017,Construction,595,"GS E&R, Korea East-West Power Co","GS E&R, KEPCO",,,,,,,,,,,,,CA,CA,,,http://bit.ly/1lgPWKP
+37,coal,Dongbu Hasla power station,Dongbu Hasla power station Unit 1,128.98,37.739,,Cancelled,1000,Dongbu Power Dangjin Corp,"Dongbu Group, SK Group",,,,,,,,,,,,,CA,CA,,,http://bit.ly/1JHou98
+38,coal,Dongbu Hasla power station,Dongbu Hasla power station Unit 2,128.98,37.739,,Cancelled,1000,Dongbu Power Dangjin Corp,"Dongbu Group, SK Group",,,,,,,,,,,,,CA,CA,,,http://bit.ly/1JHou98
+39,coal,Donghae power station,Donghae power station Unit 1,129.147287,37.486296,1998,Operating,200,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1JXK8Gs
+40,coal,Donghae power station,Donghae power station Unit 2,129.147287,37.486296,1999,Operating,200,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1JXK8Gs
+41,coal,Pospower Samcheok power station,Pospower Samcheok power station Unit 1,129.165,37.45,2021,Pre,1050,Pospower,POSCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1WSYc9t
+42,coal,Pospower Samcheok power station,Pospower Samcheok power station Unit 2,129.165,37.45,2021,Pre,1050,Pospower,POSCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1WSYc9t
+43,coal,Samcheok Anthracite power station,Samcheok Anthracite power station,129.165,37.45,,Cancelled,100,Korea Southern Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1hohJf1
+44,coal,Samcheok Green power station,Samcheok Green power station Unit 1,129.341822,37.186,2016,Operating,1022,Korea Southern Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1EjoWd4
+45,coal,Samcheok Green power station,Samcheok Green power station Unit 2,129.341822,37.186,2017,Construction,1022,Korea Southern Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1EjoWd4
+46,coal,Yongdong power station,Yongdong power station Unit 1,128.980391,37.738959,1973,Operating,125,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1NvstoA
+47,coal,Yongdong power station,Yongdong power station Unit 2,128.980391,37.738959,1979,Operating,200,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1NvstoA
+48,coal,Banwol Chp power station,Banwol Chp 1,,,1990,Operating,56,Stx Energy Co Ltd,Stx Energy Co Ltd,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1Wf9enk
+49,coal,Gumi Chp power station,Gumi Chp 1,128.372004,36.09714048,1992,Operating,85,Stx Energy Co Ltd,Stx Energy Co Ltd,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1Q9GKNh
+50,coal,Goseong Green power station,Goseong Green power station Unit 1,128.112096,34.918658,2020,Permitted,1040,Goseong Green Power,"KEPCO, SK Gas, SK Construction, KDB Infrastructure",,,,,,,,,,,,,CA,CA,,,http://bit.ly/1JwHliB
+51,coal,Goseong Green power station,Goseong Green power station Unit 2,128.112096,34.918658,2021,Permitted,1040,Goseong Green Power,"KEPCO, SK Gas, SK Construction, KDB Infrastructure",,,,,,,,,,,,,CA,CA,,,http://bit.ly/1JwHliB
+52,coal,Hadong power station,Hadong power station Unit 1,127.819851,34.952354,1997,Operating,500,Korea Southern Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1EtduWZ
+53,coal,Hadong power station,Hadong power station Unit 2,127.819851,34.952354,1997,Operating,500,Korea Southern Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1EtduWZ
+54,coal,Hadong power station,Hadong power station Unit 3,127.819851,34.952354,1998,Operating,500,Korea Southern Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1EtduWZ
+55,coal,Hadong power station,Hadong power station Unit 4,127.819851,34.952354,1999,Operating,500,Korea Southern Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1EtduWZ
+56,coal,Hadong power station,Hadong power station Unit 5,127.819851,34.952354,2000,Operating,500,Korea Southern Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1EtduWZ
+57,coal,Hadong power station,Hadong power station Unit 6,127.819851,34.952354,2001,Operating,500,Korea Southern Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1EtduWZ
+58,coal,Hadong power station,Hadong power station Unit 7,127.819851,34.952354,2008,Operating,500,Korea Southern Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1EtduWZ
+59,coal,Hadong power station,Hadong power station Unit 8,127.819851,34.952354,2009,Operating,500,Korea Southern Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1EtduWZ
+60,coal,Samchonpo power station,Samchonpo power station Unit 1,128.108397,34.910715,1983,Operating,560,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1hbvUHb
+61,coal,Samchonpo power station,Samchonpo power station Unit 2,128.108397,34.910715,1984,Operating,560,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1hbvUHb
+62,coal,Samchonpo power station,Samchonpo power station Unit 3,128.108397,34.910715,1993,Operating,560,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1hbvUHb
+63,coal,Samchonpo power station,Samchonpo power station Unit 4,128.108397,34.910715,1994,Operating,560,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1hbvUHb
+64,coal,Samchonpo power station,Samchonpo power station Unit 5,128.108397,34.910715,1997,Operating,500,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1hbvUHb
+65,coal,Samchonpo power station,Samchonpo power station Unit 6,128.108397,34.910715,1998,Operating,500,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1hbvUHb
+66,coal,Yeongheung power station,Yeongheung power station Unit 1,126.437797,37.236543,2004,Operating,800,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1Lb8ISY
+67,coal,Yeongheung power station,Yeongheung power station Unit 2,126.437797,37.236543,2004,Operating,800,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1Lb8ISY
+68,coal,Yeongheung power station,Yeongheung power station Unit 3,126.437797,37.236543,2009,Operating,870,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1Lb8ISY
+69,coal,Yeongheung power station,Yeongheung power station Unit 4,126.437797,37.236543,2009,Operating,870,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1Lb8ISY
+70,coal,Yeongheung power station,Yeongheung power station Unit 5,126.4360929,37.23693992,2014,Operating,870,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/KuGM2g
+71,coal,Yeongheung power station,Yeongheung power station Unit 6,126.4360929,37.23693992,2014,Operating,870,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/KuGM2g
+72,coal,Yeongheung power station,Yeongheung power station Unit 7,126.4360929,37.23693992,,Cancelled,870,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/KuGM2g
+73,coal,Yeongheung power station,Yeongheung power station Unit 8,126.4360929,37.23693992,,Cancelled,870,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/KuGM2g
+74,coal,Jeju Thermal Power Station,Jeju Thermal Tower Station Unit 2,126.5973875,33.5366283,2000,Operating,75,Korea Midland Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/2jjXNS1
+75,coal,Jeju Thermal Power Station,Jeju Thermal Tower Station Unit 3,126.5973875,33.5366283,2000,Operating,75,Korea Midland Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/2jjXNS1
+76,coal,Honam power station,Honam power station Unit 1,127.734675,34.854427,1973,Operating,250,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1JiaJiI
+77,coal,Honam power station,Honam power station Unit 2,127.734675,34.854427,1973,Operating,250,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1JiaJiI
+78,coal,Seagull Cogen Gunsan power station,Seagull Cogen Gunsan power station Unit 1,126.638267,35.977864,2007,Operating,50,Gungjang Energy Co Ltd,eTEC E&C,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1HMec1N
+79,coal,Seagull Cogen Gunsan power station,Seagull Cogen Gunsan power station Unit 2,126.638267,35.977864,2007,Operating,50,Gungjang Energy Co Ltd,eTEC E&C,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1HMec1N
+80,coal,Seagull Cogen Gunsan power station,Seagull Cogen Gunsan power station Unit 3,126.638267,35.977864,2014,Operating,30,Gungjang Energy Co Ltd,eTEC E&C,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1HMec1N
+81,coal,Yeosu Hanwha power station,Yeosu Hanwha power station Unit 1,127.674,34.826,2010,Operating,125,Hanwha Chemical Corp,Hanwha Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1P510iM
+82,coal,Yeosu Hanwha power station,Yeosu Hanwha power station Unit 2,127.674,34.826,2010,Operating,125,Hanwha Chemical Corp,Hanwha Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1P510iM
+83,coal,Yeosu power station,Yeosu power station unit 1 rebuild,127.6907873,34.83932639,2016,Operating,350,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/19WDGgK
+84,coal,Yeosu power station,Yeosu power station Unit 2,127.6907873,34.83932639,1977,Operating,329,Korea Southeast Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1MsRuDU
+85,coal,Pohang power station,Pohang power station,129.365,36.032222,,Announced,500,POSCO,POSCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/2ekx7Mo
+86,coal,Saemangeum Collective Energy Facility Unit 1,Saemangeum Collective Energy Facility Unit 1,126.716667,35.983333,2016,Operating,152,Saemangeum Development Agency,Saemangeum Development Agency,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1Aq3Ggc
+87,coal,Saemangeum Collective Energy Facility Unit 2,Saemangeum Collective Energy Facility Unit 2,126.716667,35.983333,2016,Operating,152,Saemangeum Development Agency,Saemangeum Development Agency,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1Aq3Ggc
+88,coal,Seagull power station,Seagull power station,126.716667,35.983333,2016,Construction,250,Gungjang Energy Co Ltd,Gunjang Energy,,,,,,,,,,,,,CA,CA,,,http://bit.ly/19Gd1rR
+89,coal,Dangjin Eco power station,Dangjin Eco power station Unit 1,126.4923,37.055,2021,Shelved,580,Dangjin Eco Power,"Dongbu Group, SK Group",,,,,,,,,,,,,CA,CA,,,http://bit.ly/1MOM5Fz
+90,coal,Dangjin Eco power station,Dangjin Eco power station Unit 2,126.4923,37.055,2022,Shelved,580,Dangjin Eco Power,"Dongbu Group, SK Group",,,,,,,,,,,,,CA,CA,,,http://bit.ly/1MOM5Fz
+91,coal,Dangjin power station,Dangjin power station Unit 10,126.5122247,37.05513,2016,Operating,1020,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1DRx4RU
+92,coal,Dangjin power station,Dangjin power station Unit 9,126.5122247,37.05513,2016,Operating,1020,Korea East-West Power Co,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1DRx4RU
+93,coal,Seocheon power station,Seocheon power station,126.49611,36.13576052,2019,Construction,1000,Korea Midland Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1B2jqtV
+94,coal,KOWEPO Hadong power station,KOWEPO Hadong power station Unit 1,127.75,35.066667,2022,Announced,1000,Korea Western Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1MlVJ02
+95,coal,KOWEPO Hadong power station,KOWEPO Hadong power station Unit 2,127.75,35.066667,2022,Announced,1000,Korea Western Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1MlVJ02
+96,coal,Yosu Plant-1 power station,Yosu Plant-1 No 1,127,34.75,1977,Operating,30,Lotte Chemical Corp,Lotte Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1Rrn5Yu
+97,coal,Yosu Plant-1 power station,Yosu Plant-1 No 2,127,34.75,1977,Operating,30,Lotte Chemical Corp,Lotte Group,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1Rrn5Yu
+98,coal,Ulsan CHP power station,Ulsan CHP power station Unit 1,129.351,35.562,1991,Operating,40,Ulsan Petrochemical Service Co,Ulsan Petrochemical Service,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1DRfOMV
+99,coal,Ulsan CHP power station,Ulsan CHP power station Unit 2,129.351,35.562,1994,Operating,40,Ulsan Petrochemical Service Co,Ulsan Petrochemical Service,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1DRfOMV
+100,coal,Ulsan CHP power station,Ulsan CHP power station Unit 3,129.351,35.562,1998,Operating,50,Ulsan Petrochemical Service Co,Ulsan Petrochemical Service,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1DRfOMV
+101,coal,Ulsan Hanju power station,Ulsan Hanju power station Unit 3,129.351,35.562,1994,Operating,40,Hanju Corp,Hanju Corp,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1NgO8mo
+102,coal,Ulsan Hanju power station,Ulsan Hanju power station Unit 5,129.351,35.562,1998,Operating,50,Hanju Corp,Hanju Corp,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1NgO8mo
+103,coal,Ulsan Kzc power station,Ulsan Kzc 1,,,1993,Operating,43,Korea Zinc Co Ltd,Korea Zinc Co Ltd,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1Q8mxRG
+104,coal,Yongnam power station,Yongnam power station Unit 1,129.384417,35.513959,1973,Operating,200,Korea Southern Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1PdIIqQ
+105,coal,Yongnam power station,Yongnam power station Unit 2,129.384417,35.513959,1970,Operating,200,Korea Southern Power,KEPCO,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1PdIIqQ

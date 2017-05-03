@@ -6,7 +6,7 @@ var route = [
     data: {
       path: './',
       country: 'Vietnam',
-      center: [106.5, 16],
+      center: [106.5, 15],
       scale: 1900,
       mobileScale: 1100,
       plantFile: './data/Japan&Vietnam.csv',
@@ -164,7 +164,7 @@ var route = [
     data: {
       path: './',
       country: 'Philippines',
-      center: [122.5, 12.5],
+      center: [122.5, 12],
       scale: 2000,
       mobileScale: 1100,
       plantFile: './data/Database- PH - Project PH 1.csv',
@@ -204,7 +204,7 @@ var route = [
     data: {
       path: './',
       country: 'Indonesia',
-      center: [119.5, 3],
+      center: [119.5, 2],
       scale: 1000,
       mobileScale: 350,
       plantFile: './data/Database- IN - Project IN 1.csv',
@@ -241,4 +241,14 @@ var route = [
     filename: './indonesia.html'
   }
 ];
+
+route.slice().forEach(function (d) {
+  route.push({
+    data: d.data,
+    partials: d.partials,
+    layout: './layout/stats.hbs',
+    filename: d.filename.split('.html')[0] + '-stats.html'
+  });
+});
+
 module.exports = route;

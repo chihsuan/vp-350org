@@ -1,0 +1,115 @@
+<!doctype html><html lang="en-US" class="no-js no-blend baseline"><head>
+    <title>Fossil Free </title>
+    <meta charset="utf-8">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="https://gofossilfree.org/wp-content/uploads/2017/01/ff-x.png">
+    <link href="https://gofossilfree.org/feed/" rel="alternate" type="application/rss+xml" title="Fossil Free">
+    <link type="application/atom+xml" rel="alternate" href="https://gofossilfree.org/feed/atom/" title="Fossil Free">
+    <meta name="fb:app_id" content="1421857878080629">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="Fossil Free">
+    <meta property="og:description" content="Divest from Fossil Fuels.">
+    <meta property="og:site_name" content="Fossil Free">
+    <meta property="og:image" content="https://gofossilfree.org/wp-content/uploads/2015/02/gdd-wrapup-header1-1024x602.jpg">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://gofossilfree.org">
+    <meta name="twitter:site" content="gofossilfree">
+    <meta name="twitter:title" content="Fossil Free">
+    <meta name="twitter:site:id" content="Fossil Free">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="Divest from Fossil Fuels.">
+    <meta name="twitter:image" content="https://gofossilfree.org/wp-content/uploads/2015/02/gdd-wrapup-header1-1024x602.jpg">
+    <meta name="twitter:url" content="https://gofossilfree.org">
+
+    <!-- Include these css files -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./dist/css/index.css" type="text/css" media="all">
+  </head>
+  <body>
+
+      <section id="bank-vis" class="">
+        <div id="bank-container" class="container">
+          <h3 id="bank-vis-title" class="text-center text-uppercase"></h3><hr class="title-hr">
+          <br>
+          
+            <div class="pre-scrollable table-wrap">
+              <table id="bank-table" class="table table-striped table-responsive">
+                <thead><tr>
+                <th>Financier Name</th><th>Countries</th><th>Total Financing Amount (mio USD)</th>
+                <th>Financed Plants</th>
+
+                </tr></thead>
+                <tbody>
+                  <tr v-for="bank in bankArray">
+                    <td>{{ bank.name }}</td><td>{{ bank.countries }}</td><td>{{ bank.value }}</td><td>{{ bank.plants }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+         
+
+        </div> <br>
+        <div id="bank-treemap"></div>
+      </section>
+
+      <section id="flow">
+        <h2 id="bank-invest-total" class="text-center text-yellow"></h2>
+        <div class="text-center">
+          <span class="glyphicon glyphicon-arrow-down arrow-down" aria-hidden="true"></span>
+        </div>
+        <h2 id="proj-total" class="text-center"></h2>
+      </section>
+
+      <section id="proj-vis">
+       <h3 id="project-vis-title" class="text-center text-uppercase"></h3><hr class="title-hr">
+        <div id="proj-treemap"></div>
+        <div id="proj-container" class="container">
+        <br>
+          
+          <div class="pre-scrollable table-wrap">
+            <table id="proj-table" class="table table-striped table-responsive">
+              <thead><tr>
+                <th>Project Name</th>
+                <th>Unit</th>
+                <th>Status</th>
+                <th>Established date (yr)</th>
+                <th>Capacity (MW)</th>
+                <th>Carbon Emission</th>
+              </tr>
+              </thead>
+              <tbody>
+                <tr v-for="proj in projArray">
+                  <td>{{ proj.name }}</td>
+                  <td>{{ proj.Unit }}</td>
+                  <td>{{ proj.Status }}</td>
+                  <td>{{ proj['Established date (yr)'] }}</td>
+                  <td>{{ proj.capacity_mw }}</td>
+                  <td>{{ proj['Carbon Emission'] }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+         
+        </div><br>
+
+        <div id="people">
+          <v-client-table :data="tableData" :columns="columns" :options="options"></v-client-table>
+        </div>
+      </section>
+
+
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/vue@2.2.6"></script>
+      <script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+      <script src="//d3js.org/topojson.v1.min.js"></script>
+      <script src="./dist/js/stats.js"></script>
+      <script>
+        window.init('Indonesia', [119.5,2], 1000, 350,'./data/Database- IN - Project IN 1.csv', './data/Database- VN - Project 2.csv');
+      </script>
+  
+
+</body></html>
