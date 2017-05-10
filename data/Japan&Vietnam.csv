@@ -1,4 +1,4 @@
-tracker_id,country,plant,unit,combustion_technology,coal_type,emission_factor,Capacity (MW),Status,Established date (yr),year_spread,retired,planned_retire,latitude,longitude,efficiency,capacity_factor,emissions_yr_mt,lifetime,lifetime_spread,emissions_lifetime_mt
+tracker_id,country,plant,unit,combustion_technology,coal_type,emission_factor,Capacity (MW),Status,Established date (yr),year_spread,retired,planned_retire,Latitude,Longitude,efficiency,capacity_factor,emissions_yr_mt,lifetime,lifetime_spread,emissions_lifetime_mt
 G107151,Vietnam,Na Duong power station,Na Duong-1 power station Unit 1,SUBCR,LIG,101000,50,operating,2004,0,,,21.698111,106.975852,0.382504459,0.64,8449574.711,46,14,388680436.7
 G107152,Vietnam,Na Duong power station,Na Duong-1 power station Unit 2,SUBCR,LIG,101000,50,operating,2004,0,,,21.698111,106.975852,0.382504459,0.64,8449574.711,46,14,388680436.7
 G100084,Japan,Aichi Refinery power station,Aichi Refinery 4,SUBCR,SUB,96100,40,operating,1986,0,,,35.180189,136.913508,0.392130806,0.64,6273824.86,46,14,288595943.6
