@@ -155,21 +155,13 @@
             return circleScale(d['Capacity (MW)']);
           })
           .on('mousemove', function (d) {
-            if (country === 'Vietnam') {
-              mousemove(d, '<p><strong>Plant: </strong>' + d.plant + '</p>' +
-                           '<p><strong>Type: </strong>' + d.coal_type + '</p>' +
-                           '<p><strong>Unit: </strong>' + d.unit + '</p>' +
-                           '<p><strong>Year: </strong>' + d.year + '</p>' +
-                           '<p><strong>Status: </strong>' + d.status + '</p>' +
-                           '<p><strong>Capacity (MW): </strong>' + d['Capacity (MW)'] + '</p>');
-            } else {
+    
               mousemove(d, '<p><strong>Project Name: </strong>' + d['Project Name'] + '</p>' +
                            '<p><strong>Type: </strong>' + d.Types + '</p>' +
                            '<p><strong>Unit: </strong>' + d.Unit + '</p>' +
-                           '<p><strong>Year: </strong>' + d['Established date (yr)'] + '</p>' +
+                           '<p><strong>Year: </strong>' + d['Established Year'] + '</p>' +
                            '<p><strong>Status: </strong>' + d.Status + '</p>' +
                            '<p><strong>Capacity (MW): </strong>' + d['Capacity (MW)'] + '</p>');
-            }
           })
           .on('mouseout', mouseout);
 
