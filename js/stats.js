@@ -72,7 +72,7 @@
         .enter().append('g')
         .on('mousemove', function (d) {
           mousemove(d, '<strong>Project Name:' + d.name + '</strong>' +
-                        '<p>CO2 Carbon Emission: ' + d.value.toFixed(2) + '</p>');
+                        '<p>Capacity (MW): ' + d.value.toFixed(2) + '</p>');
         })
         .on('mouseout', mouseout);
 
