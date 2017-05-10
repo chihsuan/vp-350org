@@ -265,13 +265,14 @@
         .text('STOP EAST ASIA FOSSIL FUEL FINANCIAL FLOW!');
     }
 
-    // svg.append('line')
-    //   .attr('x1', legendX)
-    //   .attr('y1', legendY)
-    //   .attr('x2', legendX + 10)
-    //   .attr('y2', legendY)
-    //   .attr('stroke', '#b52626')
-    //   .attr('stroke-width', 12);
+    svg.append('circle')
+      .attr('cx', legendX)
+      .attr('cy', legendY)
+      // .attr('x2', legendX + 10)
+      // .attr('y2', legendY)
+      .attr('r', '5px')
+      .attr('stroke', '#b52626')
+      .attr('stroke-width', 12);
 
     // svg.append('circle')
     //   .attr('cx', legendX + 4)
@@ -280,11 +281,11 @@
     //   .style('fill', '#fff')
     //   .style('stroke', 'none');
 
-    // svg.append('text')
-    //   .attr('x', legendX + 15)
-    //   .attr('y', legendY + 5)
-    //   .attr('class', 'legend')
-    //   .text('Fossil Fuel Financial Flow (Million USD)');
+    svg.append('text')
+      .attr('x', legendX + 15)
+      .attr('y', legendY + 5)
+      .attr('class', 'legend')
+      .text('Million USD');
 
     // svg.append('text')
     //       .attr('x', legendX + 15)
