@@ -72,15 +72,12 @@
 
         // Draw Plant
         plantData = plantData.filter(function (d) {
-          if (country === 'Vietnam') { 
-            return d.country === country && d.latitude && d.longitude && (d['Project Name'] || d.plant); 
-          }
-          return d.latitude && d.longitude && (d['Project Name'] || d.plant);
+          return d.Latitude && d.Longitude && (d['Project Name'] || d.plant);
         })
         .map(function (d) {
-          d.longitude = parseFloat(d.longitude);
-          d.latitude = parseFloat(d.latitude);
-          d.capacity_mw = parseFloat(d.capacity_mw);
+          d.Longitude = parseFloat(d.Longitude);
+          d.Latitude = parseFloat(d.Latitude);
+          d['Capacity (MW)'] = parseFloat(d['Capacity (MW)']);
           d.name = d['Project Name'] ? d['Project Name'] : d.plant;
           d.name = d.name.replace('station', '');
           return d;
@@ -89,7 +86,7 @@
         var plantMergeObj = {};
         plantData.forEach(function (d) {
           if (plantMergeObj.hasOwnProperty(d.name)) {
-            plantMergeObj[d.name].capacity_mw += d.capacity_mw;
+            plantMergeObj[d.name]['Capacity (MW)'] += d['Capacity (MW)'];
           }
           else {
             plantMergeObj[d.name] = d;
@@ -146,32 +143,32 @@
         var maxCircleSize = isMobile ? 10 : 25;
 
         var circleScale = d3.scale.linear()
-                  .domain([0, d3.max(plantMergeData, function (d) { return d.capacity_mw; })])
+                  .domain([0, d3.max(plantMergeData, function (d) { return d['Capacity (MW)']; })])
                   .range([5, maxCircleSize]);
 
         svg.selectAll('circle')
           .data(plantMergeData).enter()
           .append('circle')
-          .attr('cx', function (d) { return projection([d.longitude, d.latitude])[0]; })
-          .attr('cy', function (d) { return projection([d.longitude, d.latitude])[1]; })
+          .attr('cx', function (d) { return projection([d.Longitude, d.Latitude])[0]; })
+          .attr('cy', function (d) { return projection([d.Longitude, d.Latitude])[1]; })
           .attr('r', function (d) {
-            return circleScale(d.capacity_mw);
+            return circleScale(d['Capacity (MW)']);
           })
           .on('mousemove', function (d) {
             if (country === 'Vietnam') {
               mousemove(d, '<p><strong>Plant: </strong>' + d.plant + '</p>' +
-                           '<p><strong>Capacity (MW): </strong>' + d.capacity_mw + '</p>' +
-                           '<p><strong>Coal Type: </strong>' + d.coal_type + '</p>' +
+                           '<p><strong>Type: </strong>' + d.coal_type + '</p>' +
                            '<p><strong>Unit: </strong>' + d.unit + '</p>' +
                            '<p><strong>Year: </strong>' + d.year + '</p>' +
-                           '<p><strong>Status: </strong>' + d.status + '</p>');
+                           '<p><strong>Status: </strong>' + d.status + '</p>' +
+                           '<p><strong>Capacity (MW): </strong>' + d['Capacity (MW)'] + '</p>');
             } else {
               mousemove(d, '<p><strong>Project Name: </strong>' + d['Project Name'] + '</p>' +
-                           '<p><strong>Capacity (MW): </strong>' + d.capacity_mw + '</p>' +
-                           '<p><strong>Coal Type: </strong>' + d.Types + '</p>' +
+                           '<p><strong>Type: </strong>' + d.Types + '</p>' +
                            '<p><strong>Unit: </strong>' + d.Unit + '</p>' +
                            '<p><strong>Year: </strong>' + d['Established date (yr)'] + '</p>' +
-                           '<p><strong>Status: </strong>' + d.Status + '</p>');
+                           '<p><strong>Status: </strong>' + d.Status + '</p>' +
+                           '<p><strong>Capacity (MW): </strong>' + d['Capacity (MW)'] + '</p>');
             }
           })
           .on('mouseout', mouseout);
@@ -211,7 +208,7 @@
 
         // var tmp = [];
         // plantData = plantData.map(function (d) {
-        //   d.value = d.capacity_mw;
+        //   d.value = d['Capacity (MW)'];
         //   d.name = d['Project Name'] ? d['Project Name'] : d.plant;
         //   d.name = d.name.replace('station', '');
 

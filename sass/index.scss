@@ -1,4 +1,9 @@
 @import '_color';
+@font-face {
+    font-family: GraphCondensedWeb;
+    src: url(../../font/webfonts/bold_condensed/graph-condensed-bold-web.woff);
+}
+
 
 body,
 html {
@@ -145,8 +150,14 @@ h5 {
 }
 
 .w-title {
-  font-size: 2.4rem;
-  letter-spacing: -0.01em;
+  font-size: 2.7em;
+  letter-spacing: -0.001em;
+  font-family: GraphCondensedWeb,-apple-system,BlinkMacSystemFont,Arial,sans-serif;
+}
+.w-sub-title {
+  font-size: 1.4em;
+  font-family: GraphCondensedWeb,-apple-system,BlinkMacSystemFont,Arial,sans-serif;
+  letter-spacing: -0.001em;
 }
 
 .back-to-home {

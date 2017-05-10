@@ -57,6 +57,8 @@
         .text(function (d) { return d; });
   }
 
+   var linkNameFun = function (d) { return d.target.replace(' ', '') + '-link'; };
+
 
   d3.json('./data/countries.geo.topo.json', function (error, mapData) {
     if (error) return console.error(error);
@@ -86,7 +88,7 @@
             .style('opacity', 0.8);
 
 
-          d3.selectAll('.' + d.properties.name + '-link')
+          d3.selectAll('.' + d.properties.name.replace(' ', '') + '-link')
             .style('display', 'block');
         }
 
@@ -100,7 +102,7 @@
         d3.select('.map-title')
             .text('East Asia');
 
-        d3.selectAll('.' + d.properties.name + '-link')
+        d3.selectAll('.' + d.properties.name.replace(' ', '') + '-link')
             .style('display', 'none');
       })
       .on('click', function (d) {
@@ -150,10 +152,9 @@
       }
     });
 
-    linkData = linkData.filter(function(d) {
+    linkData = linkData.filter(function (d) {
       return eastAsiaCountries.indexOf(d.source) > -1;
     });
-    console.log(linkData);
 
     var defs = svg
       .selectAll('.defs')
@@ -216,7 +217,7 @@
       .attr('stroke', gradientRefNameFun)
       .attr('stroke-linecap', 'round')
       .attr('stroke-width', function (d) { return linkScale(d.value); })
-      .attr('class', function (d) { return d.target + '-link'; })
+      .attr('class', linkNameFun)
       .attr('d', function (d) {
         return path({
           type: 'LineString',
@@ -230,7 +231,7 @@
     linkGroup.append('circle')
       .attr('cx', function (d) { return countryCenter[d.source][0]; })
       .attr('cy', function (d) { return countryCenter[d.source][1] - 5; })
-      .attr('class', function (d) { return d.target + '-link'; })
+      .attr('class', linkNameFun)
       .attr('r', function (d) {
         if (d.value > 1000) {
           return 30;
@@ -243,7 +244,7 @@
     linkGroup.append('text')
       .attr('x', function (d) { return countryCenter[d.source][0]; })
       .attr('y', function (d) { return countryCenter[d.source][1]; })
-      .attr('class', function (d) { return d.target + '-link'; })
+      .attr('class', linkNameFun)
       .text(function (d) {
         return d.value + '';
       })
@@ -259,7 +260,7 @@
 
       svg.append('text')
         .attr('x', 50)
-        .attr('y', height / 5 * 2.2 + 25)
+        .attr('y', height / 5 * 2.2 + 26)
         .attr('class', 'w-sub-title')
         .text('STOP EAST ASIA FOSSIL FUEL FINANCIAL FLOW!');
     }

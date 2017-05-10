@@ -1,243 +1,241 @@
-No.,Types,Project Name,Unit,latitude,longitude,location accuracy,Established date (yr),Status,capacity_mw,Domestic owner name,Foreign owner name,Total investment amount,"Total amount from domestic sources
-= domestic owner's contribution + domestic finances","Total amount from foreign sources
-= foreign owner's contribution +foreign finances
-",Money not identifiable,Recipient,"Domestic owner's contribution, Share (%)","Domestic owner's contribution, Amount","Foreign owner's contribution, Share (%)","Foreign owner's contribution, Amount",Total Identified amount of domestic finance,Total Identified amount of foreign finance,Lifecycle of plant (yr),CO2 Carbon Emission,Real Cost of Coal,Project Impact,References
-1,Coal,Aichi Refinery power station,Aichi Refinery 4,35.180189,136.913508,Approximate,1986,Operating,40,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1V48AJ5
-2,Coal,Hekinan power station,Hekinan power station Unit 1,34.834612,136.9593356,exact,1991,Operating,700,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1gYwLuB
-3,Coal,Hekinan power station,Hekinan power station Unit 2,34.834612,136.9593356,exact,1992,Operating,700,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1gYwLuB
-4,Coal,Hekinan power station,Hekinan power station Unit 3,34.834612,136.9593356,exact,1993,Operating,700,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1gYwLuB
-5,Coal,Hekinan power station,Hekinan power station Unit 4,34.834612,136.9593356,exact,2001,Operating,1000,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1gYwLuB
-6,Coal,Hekinan power station,Hekinan power station Unit 5,34.834612,136.9593356,exact,2002,Operating,1000,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1gYwLuB
-7,Coal,Itoigawa power station,Itoigawa power station Unit 1,37.015262,137.791039,exact,2005,Operating,149,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1gYC1yk
-8,Coal,Meinan Kyodo Energy power station,Meinan Kyodo Energy power station,34.85,136.916667,Approximate,2018,Permitted,31,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1RWFCqJ
-9,Coal,Nagoya power station,"Nagoya power station Unit 1
-(Nakayama Nagoya power station)",34.843989,136.926917,exact,2000,Operating,149,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1gYzGmV
-10,Coal,Nagoya power station,"Nagoya power station Unit 2
-(Nakayama Nagoya power station 2)",34.85,136.916667,Approximate,2017,Construction,110,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1tFRyaf
-11,Coal,Nagoya Tokai power station,Nagoya Tokai power station Unit 1,35.027313,136.865863,exact,1990,Operating,149,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1gYxyM7
-12,Coal,Nanao-Ohta Shinko power station,"Nanao-Ohta Shinko power station Unit 1
-(Nanao-Ohta power station)",37.066393,137.003701,exact,1995,Operating,500,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1gYB5dm
-13,Coal,Nanao-Ohta Shinko power station,"Nanao-Ohta Shinko power station Unit 2
-(Nanao-Ohta power station)",37.066393,137.003701,exact,1998,Operating,700,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1gYB5dm
-14,Coal,Suzukawa Energy Center,"Suzukawa Energy Center
-(Fuji Mill Suzukawa, Nippon Paper Fuji power station)",35.16667,138.68333,Approximate,2016,Operating,100,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1ojPDk4
-15,Coal,Taketoyo power station,"Taketoyo power station Unit 5
-(Taketoyo No.5)",34.845,136.961667,Exact,2022,Pre,1070,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1MBi9wf
-16,Coal,Toyama Shinko power station,Toyama Shinko power station Unit 1,36.76566,137.128677,exact,1971,Operating,250,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1t77Qup
-17,Coal,Toyama Shinko power station,Toyama Shinko power station Unit 2,36.76566,137.128677,exact,1972,Operating,250,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1t77Qup
-18,Coal,Tsuruga power station,"Tsuruga power station Unit 1
-(Tsuruga Hokuriku power station)",35.672485,136.082365,exact,1991,Operating,500,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1YdzwtC
-19,Coal,Tsuruga power station,"Tsuruga power station Unit 2
-(Tsuruga Hokuriku power station)",35.672485,136.082365,exact,2000,Operating,700,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1YdzwtC
-20,Coal,Chogoku Air Water Yamaguchi co-fire power station,"Chogoku Air Water Yamaguchi co-fire power station
-(Air Water & Energia Power Yamaguchi / Hofu city)",34.05,131.566667,Approximate,2018,Pre,112,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1t2GlxE
-21,Coal,Fukuyama Works power station,Fukuyama Works power station Unit 1,34.478865,133.441571,exact,1966,Operating,35,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1gYEoBf
-22,Coal,Fukuyama Works power station,Fukuyama Works power station Unit 3,34.478865,133.441571,exact,1989,Operating,33,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1gYEoBf
-23,Coal,Fukuyama Works power station,Fukuyama Works power station Unit 4,34.478865,133.441571,exact,1997,Operating,30,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1gYEoBf
-24,Coal,Kaita power station,"Kaita power station
-(Kaita biomass blending, Hiroshima Gas plant)",34.366667,132.533333,Approximate,2019,Pre,112,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1CAOKtP
-25,Coal,Misumi power station,Misumi power station Unit 1,34.780789,131.921768,exact,1998,Operating,1000,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IAqPkf
-26,Coal,Misumi power station,"Misumi power station Unit 2
-(Misumi No.2)",34.7797,131.9215,Exact,2022,Permitted,1000,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1lIUvR2
-27,Coal,Mizushima Energy Center,"Mizushima Energy Center
-(Mizushima Energy Center)",34.583333,133.766667,Approximate,2017,Construction,110,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1czM8GT
-28,Coal,Mizushima power station,Mizushima power station Unit 2,34.507803,133.7445,exact,1963,Operating,156,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IAqDl8
-29,Coal,Nanyo Complex power station,Nanyo Complex power station Unit 3,34.055538,131.757956,exact,1982,Operating,116,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IArEd1
-30,Coal,Nanyo Complex power station,Nanyo Complex power station Unit 4,34.055538,131.757956,exact,1989,Operating,145,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IArEd1
-31,Coal,Nanyo Complex power station,Nanyo Complex power station Unit 5,34.055538,131.757956,exact,2008,Operating,220,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IArEd1
-32,Coal,Osaki CoolGen Project,"Osaki CoolGen Project
-(Osaki Cool Gen)",34.2680271,132.9152298,Approximate,2017,Construction,166,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1LAsqYA
-33,Coal,Osaki power station,Osaki power station Unit 1,34.259035,132.873166,exact,2000,Operating,215,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1gYFaya
-34,Coal,Shin Onoda power station,Shin Onoda power station Unit 1,33.968866,131.162559,exact,1986,Operating,500,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1UDXISQ
-35,Coal,Shin Onoda power station,Shin Onoda power station Unit 2,33.968866,131.162559,exact,1987,Operating,500,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1UDXISQ
-36,Coal,Shin Tokuyama power station,Shin Tokuyama power station Unit 4,34.060321,131.789899,exact,1987,Operating,125,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IWXL3p
-37,Coal,Takehara power station,"Takehara New Unit 1
-(Takehara New No.1)",34.3373,132.9572,Exact,2020,Construction,600,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1hpLBTp
-38,Coal,Takehara power station,Takehara power station Unit 1,34.3373,132.9572,exact,1967,Operating,250,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1gYFAo7
-39,Coal,Takehara power station,Takehara power station Unit 2,34.3373,132.9572,exact,1974,Operating,350,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1gYFAo7
-40,Coal,Takehara power station,Takehara power station Unit 3,34.3373,132.9572,exact,1983,Operating,700,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1gYFAo7
-41,Coal,Ube power station,"Ube power station Unit 1
-(Nishiokinoyama No.1)",33.95,131.25,Approximate,2023,Pre,600,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1rxMyh0
-42,Coal,Ube power station,"Ube power station Unit 2
-(Nishiokinoyama No.2)",33.95,131.25,Approximate,2025,Pre,600,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1rxMyh0
-43,Coal,Miike Mine power station,Miike Mine 1,33.6,130.583333,Approximate,1983,Operating,47,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1QWnoZa
-44,Coal,Mikawa power station,Mikawa 1,33.6,130.583333,Approximate,2005,Operating,47,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1V4yyMl
-45,Coal,Omuta Works power station,Omuta Works 3,33.6,130.583333,Approximate,1983,Operating,50,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1osOD4c
-46,Coal,Omuta Works power station,Omuta Works 4,33.6,130.583333,Approximate,1996,Operating,35,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1osOD4c
-47,Coal,Wakamatsu Repower power station,Wakamatsu Repower 1,33.6,130.583333,Approximate,1994,Operating,70,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/20WhCvj
-48,Coal,Summit Onahama power station,Summit Onahama 1,36.23,140.28,Approximate,2004,Operating,50,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1JLqJdM
-49,Coal,Otake Plant power station,Otake Plant 6,34.433333,132.75,Approximate,2003,Operating,70,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1nZEVpi
-50,Coal,Kushiro Mill Npi power station,Kushiro Mill Npi 8,42.983333,144.383333,Approximate,1986,Operating,57,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1TSIGcG
-51,Coal,Kushiro power station,"Kushiro power station
-(Kushiro Thermal Power Plant)",42.983333,144.383333,Approximate,2019,Pre,112,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1PDpawe
-52,Coal,Shiraoi Mill power station,Shiraoi Mill 4,44,143,approximate,1975,Operating,63,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1T8wQut
-53,Coal,Naie power station,Naie power station Unit 1,43.422257,141.844158,exact,1968,Operating,175,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IWZPbM
-54,Coal,Naie power station,Naie power station Unit 2,43.422257,141.844158,exact,1970,Operating,175,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IWZPbM
-55,Coal,NSC Muroran Works power station,NSC Muroran Works power station Unit 3,42.350715,140.992951,exact,1994,Operating,50,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IWYW35
-56,Coal,NSC Muroran Works power station,NSC Muroran Works power station Unit 5,42.350715,140.992951,exact,2001,Operating,145,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IWYW35
-57,Coal,Shin Ebetsu power station,Shin Ebetsu power station Unit 2,44,143,approximate,1964,Operating,125,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IX0tWF
-58,Coal,Shin Ebetsu power station,Shin Ebetsu power station Unit 3,44,143,approximate,1965,Operating,125,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IX0tWF
-59,Coal,Sunagawa Daini power station,Sunagawa Daini power station Unit 3,43.464715,141.891161,exact,1977,Operating,125,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IX3iad
-60,Coal,Sunagawa Daini power station,Sunagawa Daini power station Unit 4,43.464715,141.891161,exact,1982,Operating,125,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IX3iad
-61,Coal,Tomakomai Mill power station,Tomakomai Mill power station Unit 14,42.636177,141.588279,exact,1981,Operating,35,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IX69jC
-62,Coal,Tomakomai Mill power station,Tomakomai Mill power station Unit 15,42.636177,141.588279,exact,1990,Operating,38,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IX69jC
-63,Coal,Tomato-atsuma power station,Tomato-atsuma power station Unit 1,42.6110284,141.8065439,exact,1980,Operating,350,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/24xGbP6
-64,Coal,Tomato-atsuma power station,Tomato-atsuma power station Unit 2,42.6110284,141.8065439,exact,1985,Operating,600,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/24xGbP6
-65,Coal,Tomato-atsuma power station,Tomato-atsuma power station Unit 4,42.6110284,141.8065439,exact,2002,Operating,700,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/24xGbP6
-66,Coal,Akita power station,"Akita power station Unit 1
-(Akita Port No.1)",39.718611,140.1025,Approximate,2024,Pre,650,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1HSSZWp
-67,Coal,Akita power station,"Akita power station Unit 2
-(Akita Port No. 2)",39.718611,140.1025,Approximate,2024,Pre,650,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1HSSZWp
-68,Coal,Nippon Paper Akita power station,"Nippon Paper Akita power station
-(Nippon Paper, Akita city)",39.720028,140.102583,Approximate,2018,Pre,110,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1wDItMF
-69,Coal,Noshiro power station,"Noshiro Unit 3
-(Noshiro No.3)",40.1912,139.9911,Exact,2020,Construction,600,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1lIUGvE
-70,Coal,Nadahama Works power station,Nadahama Works 1,34.690817,135.183078,Approximate,1968,Retired,30,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/20piZR0
-71,Coal,Nadahama Works power station,Nadahama Works 1R,34.690817,135.183078,Approximate,2009,Operating,30,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/20piZR0
-72,Coal,Nadahama Works power station,Nadahama Works 2,34.690817,135.183078,Approximate,1995,Operating,45,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/20piZR0
-73,Coal,Ako Cement Plant power station,Ako Cement Plant power station Unit 1,34.752983,134.364278,exact,1997,Operating,102,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IX8lHT
-74,Coal,Ako power station,"Ako power station Unit 1
-(Ako No.1)",34.751667,134.393056,Approximate,2020,Cancelled,600,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1z3morG
-75,Coal,Ako power station,"Ako power station Unit 2
-(Ako No.2)",34.751667,134.393056,Approximate,2020,Cancelled,600,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1z3morG
-76,Coal,Hirohata Works power station,Hirohata Works power station Unit 6,34.787808,134.623711,exact,1996,Operating,145,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IX8PNY
-77,Coal,Hirohata Works power station,Hirohata Works power station Unit 7,34.787808,134.623711,exact,1999,Operating,145,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IX8PNY
-78,Coal,Kobe Works power station,"Kobe Works power station Unit 1
-(Kobe Works New-No.1)",34.7043722,135.2463126,Approximate,2021,Pre,650,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/ZYPuwE
-79,Coal,Kobe Works power station,"Kobe Works power station Unit 2
-(Kobe Works New-No.2)",34.7043722,135.2463126,Approximate,2022,Pre,650,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/ZYPuwE
-80,Coal,Maizuru power station,Maizuru power station Unit 1,35.531915,135.345587,exact,2004,Operating,900,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/201j7b7
-81,Coal,Maizuru power station,Maizuru power station Unit 2,35.531915,135.345587,exact,2010,Operating,900,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/201j7b7
-82,Coal,Shinko Kobe power station,Shinko Kobe power station Unit 1,34.703167,135.239426,exact,2002,Operating,700,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IX9m2o
-83,Coal,Shinko Kobe power station,Shinko Kobe power station Unit 2,34.703167,135.239426,exact,2004,Operating,700,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IX9m2o
-84,Coal,Takasago power station,"Takasago power station New unit 1
-(Takasago New-No.1)",34.754038,134.7663581,Exact,2021,Pre,600,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1t7EUxX
-85,Coal,Takasago power station,"Takasago power station New unit 2
-(Takasago New-No.2)",34.754038,134.7663581,Exact,2027,Pre,600,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1t7EUxX
-86,Coal,Takasago power station,"Takasago power station Unit 1
-(Takasago J-Power power station)",34.754038,134.7663581,Exact,1968,Operating,250,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1t7EUxX
-87,Coal,Takasago power station,"Takasago power station Unit 2
-(Takasago J-Power power station)",34.754038,134.7663581,Exact,1969,Operating,250,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1t7EUxX
-88,Coal,Yokkaichi power station,"Yokkaichi power station
-(MC Kawajiri / Yokkaichi city)",34.966667,136.616667,Approximate,2019,Pre,112,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1RMwM1q
-89,Coal,Chiba power station,"Chiba power station Unit 1
-(Chiba Sodegaura No.1)",35.433333,139.95,Approximate,2025,Pre,1000,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/ZYMBMc
-90,Coal,Chiba power station,"Chiba power station Unit 2
-(Chiba Sodegaura No.2)",35.433333,139.95,Approximate,2026,Pre,1000,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/ZYMBMc
-91,Coal,Hitachinaka Kyodo power station,Hitachinaka Kyodo power station Unit 1,36.4368,140.6138,Exact,2019,Pre,650,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1PakmME
-92,Coal,Hitachinaka power station,Hitachinaka power station Unit 1,36.4368,140.6138,Exact,2003,Operating,1000,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1hpJnn3
-93,Coal,Hitachinaka power station,Hitachinaka power station Unit 2,36.4368,140.6138,Exact,2013,Operating,1000,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1hpJnn3
-94,Coal,Ichihara power station,"Ichihara power station
-(Ichihara)",35.5,140.116667,Approximate,2024,Pre,1000,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1Il2DVt
-95,Coal,Isogo power station,"Isogo power station Unit 1
-(Shin Isogo power station)",35.402755,139.642852,exact,2002,Operating,600,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IXeZ0N
-96,Coal,Isogo power station,"Isogo power station Unit 2
-(Shin Isogo power station)",35.402755,139.642852,exact,2009,Operating,600,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IXeZ0N
-97,Coal,JFE Steel power station,"JFE Steel power station
-(Chugoku Electric Power, JFE Steel, Tokyo Gas / Chiba city)",35.605,140.123333,Approximate,2020,Announced,1000,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1CrT2o5
-98,Coal,KEPCO Chiba power station,"KEPCO Chiba power station
-(Kansai Electric Power / Chiba pref.)",35.605,140.123333,Approximate,,Announced,1000,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1MpgUz1
-99,Coal,Osaka Gas Kashima power station,"Osaka Gas Kashima power station
-(Osaka Gas, Marubeni)",35.966667,140.65,Approximate,2017,Announced,112,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1oWbzbv
-100,Coal,Sumitomo Metals Kashima power station,Sumitomo Metals Kashima power station Unit 1,35.947067,140.688737,exact,2007,Operating,507,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1AqOAEX
-101,Coal,Sumitomo Metals Kashima power station,"Sumitomo Metals Kashima power station Unit 2
-(Kashima No.2, Kashima Iron Works Power Plant)",35.947067,140.688737,exact,2020,Construction,650,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1AqOAEX
-102,Coal,Yokosuka power station,"Yokosuka power station Unit 1
-(Tokyo Electric Power, J-Power / Yokosuka city)",35.215556,139.716389,Exact,2023,Pre,650,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/2d6H2WI
-103,Coal,Yokosuka power station,"Yokosuka power station Unit 2
-(Tokyo Electric Power, J-Power / Yokosuka city)",35.215556,139.716389,Exact,2024,Pre,650,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/2d6H2WI
-104,Coal,Koichi Cement Plant power station,Koichi Cement Plant 1,3.433333,133.433333,Approximate,1999,Operating,61,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1Lhmsdn
-105,Coal,Tosa Works power station,Tosa Works 1,3.433333,133.433333,Approximate,1997,Operating,30,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1LhOAx5
-106,Coal,Yatsushiro Mill power station,Yatsushiro Mill 5,32.716667,130.666667,Approximate,1993,Operating,70,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1O3pX70
-107,Coal,Gushikawa power station,Gushikawa power station Unit 1,26.379235,127.875742,exact,1994,Operating,156,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1N1DbpQ
-108,Coal,Gushikawa power station,Gushikawa power station Unit 2,26.379235,127.875742,exact,1995,Operating,156,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1N1DbpQ
-109,Coal,Hibikinada power station,"Hibikinada power station
-(Hibikinada Energy Park, Orix Kitakyushu power station)",33.883333,130.883333,Approximate,2018,Permitted,110,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/17VdRQH
-110,Coal,Ishikawa power station,"Ishikawa power station Unit 1
-(Ishikawa J-Power power station)",26.430697,127.842287,exact,1986,Operating,156,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1N1DBfL
-111,Coal,Ishikawa power station,"Ishikawa power station Unit 2
-(Ishikawa J-Power power station)",26.430697,127.842287,exact,1987,Operating,156,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1N1DBfL
-112,Coal,Kanda power station,Kanda power station Unit 1,33.787223,130.998863,exact,2001,Operating,290,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IXghZx
-113,Coal,Kin power station,Kin power station Unit 1,26.446606,127.921757,exact,2002,Operating,220,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1N1DYHh
-114,Coal,Kin power station,Kin power station Unit 2,26.446606,127.921757,exact,2003,Operating,220,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1N1DYHh
-115,Coal,Matsushima power station,Matsushima power station Unit 1,32.940027,129.597169,exact,1981,Operating,500,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IXiRyN
-116,Coal,Matsushima power station,Matsushima power station Unit 2,32.940027,129.597169,exact,1981,Operating,500,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IXiRyN
-117,Coal,Matsuura Kyushu power station,Matsuura Kyushu power station Unit 1,33.3552,129.6925,Exact,1989,Operating,700,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1lIUgFI
-118,Coal,Matsuura Kyushu power station,"Matsuura Kyushu power station Unit 2
-(Matsuura No.2)",33.3552,129.6925,Exact,2020,Construction,1000,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1lIUgFI
-119,Coal,Matsuura power station,"Matsuura power station Unit 1
-(Matsuura J-Power power station)",33.356383,129.692033,exact,1990,Operating,1000,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1JLqJdM
-120,Coal,Matsuura power station,"Matsuura power station Unit 2
-(Matsuura J-Power power station)",33.356383,129.692033,exact,1997,Operating,1000,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1JLqJdM
-121,Coal,Miike power station,Miike power station Unit 2,33.008268,130.421636,exact,1975,Operating,175,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IXgrAa
-122,Coal,Oita IPP power station,Oita IPP power station Unit 1,33.269064,131.649396,exact,2002,Operating,330,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IXkXif
-123,Coal,Omura power station,Omura power station Unit 2,32.924,129.993,approximate,1964,Operating,156,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IXjVma
-124,Coal,Reihoku power station,Reihoku power station Unit 1,32.485132,130.042115,exact,1995,Operating,700,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IXizb9
-125,Coal,Reihoku power station,Reihoku power station Unit 2,32.485132,130.042115,exact,2003,Operating,700,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IXizb9
-126,Coal,Tobata power station,Tobata power station Unit 2,33.927769,130.84714,exact,1971,Operating,156,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IXheRI
-127,Coal,Yawata Works power station,Yawata Works power station Unit 7,33.898217,130.889125,exact,1999,Operating,149,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IXiunW
-128,Coal,Shiohama Chemical New power station,Shiohama Chemical New 1,34.9411109,136.6319847,exact,2008,Operating,34,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/20WgYOl
-129,Coal,Shiohama Chemical New power station,Shiohama Chemical New 2,34.9411109,136.6319847,exact,2008,Operating,34,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/20WgYOl
-130,Coal,Ishinomaki Mill power station,Ishinomaki Mill 6,38.4188302,141.2917328,exact,1987,Operating,98,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/20VRY9U
-131,Coal,Iwanuma Mill power station,Iwanuma Mill 4,38.0897829,140.8607769,exact,1991,Operating,63,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1O38w6K
-132,Coal,Nobeoka Plant power station,"Nobeoka Plant power station Unit 1
-(Asahi Kasei power station)",38.35,140.966667,approximate,2006,Operating,50,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1QsbgMH
-133,Coal,Nobeoka Plant power station,"Nobeoka Plant power station Unit 2
-(Asahi Kasei power station)",38.35,140.966667,approximate,2018,Construction,60,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/2dS8f1E
-134,Coal,Chuo Works power station,Chuo Works 7R,38.35,140.966667,approximate,2007,Operating,78,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1Q7DhbP
-135,Coal,J-POWER Tachibana-wan power station,"J-POWER Tachibana-wan power station Unit 1
-(Tachibanawan J-Power power station)",33.858577,134.651346,exact,2000,Operating,1050,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1N1GPzM
-136,Coal,J-POWER Tachibana-wan power station,"J-POWER Tachibana-wan power station Unit 2
-(Tachibanawan J-Power power station)",33.858577,134.651346,exact,2000,Operating,1050,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1N1GPzM
-137,Coal,Niihama Nishi power station,Niihama Nishi power station Unit 1,33.954611,133.249236,exact,1959,Operating,75,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1KgFqiT
-138,Coal,Niihama Nishi power station,Niihama Nishi power station Unit 2,33.954611,133.249236,exact,1962,Operating,75,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1KgFqiT
-139,Coal,Niihama Nishi power station,Niihama Nishi power station Unit 3,33.954611,133.249236,exact,2008,Operating,150,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1KgFqiT
-140,Coal,Nyugawa power station,"Nyugawa Rebuild power station Unit 1
-(Mibugawa Rebuild power station)",33.933984,133.115368,exact,2003,Operating,250,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1KgFHCs
-141,Coal,Saijo power station,"Saijo power station Unit 1 Replacement
-(Saijo New No.1)",33.9327,133.1677,Exact,2023,Pre,500,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1Eimf9J
-142,Coal,Saijo power station,"Saijo power station Unit 1
-(Shin Saijo power station)",33.933074,133.168575,exact,1965,Operating,156,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1N1Fo4B
-143,Coal,Saijo power station,"Saijo power station Unit 2
-(Shin Saijo power station)",33.933074,133.168575,exact,1970,Operating,250,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1N1Fo4B
-144,Coal,Shikoku Tachibana-wan power station,Shikoku Tachibana-wan power station Unit 1,33.864231,134.654624,exact,2000,Operating,700,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1N1Htxj
-145,Coal,Tosa power station,Tosa power station Unit 1,33.534087,133.557483,exact,2005,Operating,150,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IX3iad
-146,Coal,Hachinohe Mill power station,Hachinohe Mill power station Unit 6,40.567959,141.478536,exact,1988,Operating,35,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1N1KGNr
-147,Coal,Hachinohe Mill power station,Hachinohe Mill power station Unit 7,40.567959,141.478536,exact,1995,Operating,55,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1N1KGNr
-148,Coal,Haramachi power station,Haramachi power station Unit 1,37.665675,141.014758,exact,1997,Operating,1000,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1N1KXQn
-149,Coal,Haramachi power station,Haramachi power station Unit 2,37.665675,141.014758,exact,1998,Operating,1000,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1N1KXQn
-150,Coal,Hirono Thermal Power Station,"Hirono power station IGCC
-(IGCC Hirono)",37.232652,141.013799,Exact,2021,Pre,540,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1uKafWP
-151,Coal,Hirono power station,Hirono power station Unit 5,37.232652,141.013799,Exact,2004,Operating,600,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1uKafWP
-152,Coal,Hirono Thermal Power Station,Hirono power station Unit 6,37.232652,141.013799,Exact,2013,Operating,600,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1uKafWP
-153,Coal,Iwaki power station,"Iwaki power station
-(Iwaki Energy Park, Yoshima industrial park)",37.0505,140.887722,Approximate,2018,Pre,110,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1Dt33p6
-154,Coal,Kamaishi Works power station,Kamaishi Works power station Unit 1,39.268586,141.876928,exact,2000,Operating,149,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IEFQl0
-155,Coal,Kansai Sendai power station,"Kansai Sendai power station
-(Sendai Power Station)",38.266667,140.866667,Approximate,2017,Construction,112,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1tdQnfh
-156,Coal,M.Setek Soma power station,"M.Setek Soma power station
-(ORIX / Soma city, Fukushima pref.)",37.796667,140.919639,Approximate,2018,Construction,112,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1OtJOQ5
-157,Coal,Maeda co-fired power station,"Maeda co-fired power station
-(Maeda Corporation / Tohoku area)",38.9,140.683333,Approximate,,Announced,100,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1CAQHqc
-158,Coal,Nakoso power station,Nakoso power station Unit 10,36.9128,140.8128,Exact,2013,Operating,250,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1wE3VBf
-159,Coal,Nakoso power station,"Nakoso power station Unit 11
-(IGCC Nakoso)",36.9128,140.8128,Exact,2020,Pre,540,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1wE3VBf
-160,Coal,Nakoso power station,Nakoso power station Unit 7,36.9128,140.8128,exact,1970,Operating,250,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1wE3VBf
-161,Coal,Nakoso power station,Nakoso power station Unit 8,36.9128,140.8128,exact,1983,Operating,600,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1wE3VBf
-162,Coal,Nakoso power station,Nakoso power station Unit 9,36.9128,140.8128,exact,1983,Operating,600,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1wE3VBf
-163,Coal,Nippon Paper Ishinomaki power station,"Nippon Paper Ishinomaki power station
-(Ishinomaki Hibarino No.1)",38.4188302,141.2917328,Exact,2018,Construction,149,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/VHmvvH
-164,Coal,Noshiro power station,Noshiro power station Unit 1,40.191016,139.989632,exact,1993,Operating,600,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1N1Kj5m
-165,Coal,Noshiro power station,Noshiro power station Unit 2,40.191016,139.989632,exact,1994,Operating,600,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1N1Kj5m
-166,Coal,Orix Soma power station,"Orix Soma power station
-(Soma core industrial park plant)",37.796667,140.919639,Approximate,2018,Permitted,112,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1JqeC4Y
-167,Coal,Sakata Kyodo power station,Sakata Kyodo power station Unit 1,38.967373,139.832175,exact,1977,Operating,350,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IEGoY4
-168,Coal,Sakata Kyodo power station,Sakata Kyodo power station Unit 2,38.967373,139.832175,exact,1978,Operating,350,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1IEGoY4
-169,Coal,Shinchi power station,Shinchi power station Unit 1,37.841115,140.946169,exact,1994,Operating,1000,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1dhbcTE
-170,Coal,Shinchi power station,Shinchi power station Unit 2,37.841115,140.946169,exact,1995,Operating,1000,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1dhbcTE
-171,Coal,Soma Core power station,"Soma Core power station
-(Soma core industrial park plant)",37.796667,140.919639,Approximate,2018,Pre,112,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1z3pcoL
-172,Coal,Soma Kyodo power station,"Soma Kyodo power station
-(Soma Kyodo Power / Shinchi town)",37.875278,140.921944,approximate,2023,Announced,1000,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1Dt4HqM
-173,Coal,Tonda power station,Tonda 09,38.433333,140.133333,Approximate,1963,Operating,40,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/1O3pRMB
-174,Coal,Hikari Works power station,Hikari Works 1,34.066667,131.5,Approximate,1989,Operating,50,,,,,,,,,,,,,,CA,CA,,,http://bit.ly/23Xgc6c
+107,Types,Project Name,Unit,Longitude,Latitude,Established Year,Status,Capacity (MW),Domestic owner name,Foreign owner name,Mother Company of owner,Project Cost,Total investment amount,Total amount from domestic sources,Total amount from foreign sources,Money not identifiable,"Domestic owner's contribution, Share (%)","Domestic owner's contribution, Amount","Foreign owner's contribution, Share (%)","Foreign owner's contribution, Amount",Total Identified amount of domestic finance,Total Identified amount of foreign finance,CO2 Carbon Emission,Lifetime of plant (yr),Real Cost of Coal,Project Impact,References,Remarks
+Aichi Refinery power station,Coal,Aichi Refinery power station,Aichi Refinery 4,136.913508,35.180189,1986,Operating,40,Idemitsu Kosan Co Ltd,,,,0,,,,,,,,,,,,,,http://bit.ly/1V48AJ5,
+Hekinan power station,Coal,Hekinan power station,Hekinan power station Unit 1,136.9593356,34.834612,1991,Operating,700,Chubu Electric Power Co Inc,,,,0,,,,,,,,,,,,,,http://bit.ly/1gYwLuB,
+,Coal,Hekinan power station,Hekinan power station Unit 2,136.9593356,34.834612,1992,Operating,700,Chubu Electric Power Co Inc,,,,0,,,,,,,,,,,,,,http://bit.ly/1gYwLuB,
+,Coal,Hekinan power station,Hekinan power station Unit 3,136.9593356,34.834612,1993,Operating,700,Chubu Electric Power Co Inc,,,,0,,,,,,,,,,,,,,http://bit.ly/1gYwLuB,
+,Coal,Hekinan power station,Hekinan power station Unit 4,136.9593356,34.834612,2001,Operating,1000,Chubu Electric Power Co Inc,,,,0,,,,,,,,,,,,,,http://bit.ly/1gYwLuB,
+,Coal,Hekinan power station,Hekinan power station Unit 5,136.9593356,34.834612,2002,Operating,1000,Chubu Electric Power Co Inc,,,,0,,,,,,,,,,,,,,http://bit.ly/1gYwLuB,
+Itoigawa power station,Coal,Itoigawa power station,Itoigawa power station Unit 1,137.791039,37.015262,2005,Operating,149,Summit Myojo Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1gYC1yk,
+Meinan Kyodo Energy power station,Coal,Meinan Kyodo Energy power station,Meinan Kyodo Energy power station,136.916667,34.85,2018,pre,31,"Meiko Trans, Seika Corporation, Japan Energy Partners",,,,0,,,,,,,,,,,,,,http://bit.ly/1RWFCqJ,
+Nagoya power station,Coal,Nagoya power station,"Nagoya power station Unit 1
+(Nakayama Nagoya power station)",136.926917,34.843989,2000,Operating,149,Osaka Gas Co Ltd,,,,0,,,,,,,,,,,,,,http://bit.ly/1gYzGmV,
+,Coal,Nagoya power station,"Nagoya power station Unit 2
+(Nakayama Nagoya power station 2)",136.916667,34.85,2017,Construction,110,Nakayama Nagoya,,,,0,,,,,,,,,,,,,,http://bit.ly/1tFRyaf,
+Nagoya Tokai power station,Coal,Nagoya Tokai power station,Nagoya Tokai power station Unit 1,136.865863,35.027313,1990,Operating,149,Tokai Kyodo Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1gYxyM7,
+Nanao-Ohta Shinko power station,Coal,Nanao-Ohta Shinko power station,"Nanao-Ohta Shinko power station Unit 1
+(Nanao-Ohta power station)",137.003701,37.066393,1995,Operating,500,Hokuriku Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1gYB5dm,
+,Coal,Nanao-Ohta Shinko power station,"Nanao-Ohta Shinko power station Unit 2
+(Nanao-Ohta power station)",137.003701,37.066393,1998,Operating,700,Hokuriku Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1gYB5dm,
+Suzukawa Energy Center,Coal,Suzukawa Energy Center,"Suzukawa Energy Center
+(Fuji Mill Suzukawa, Nippon Paper Fuji power station)",138.68333,35.16667,2016,Operating,100,"Nippon Paper, Chubu Electric Power, Mitsubishi Corporation ",,,,0,,,,,,,,,,,,,,http://bit.ly/1ojPDk4,
+Taketoyo power station,Coal,Taketoyo power station,"Taketoyo power station Unit 5
+(Taketoyo No.5)",136.961667,34.845,2022,pre,1070,Chubu Electric Power Co Inc,,,,0,,,,,,,,,,,,,,http://bit.ly/1MBi9wf,
+Toyama Shinko power station,Coal,Toyama Shinko power station,Toyama Shinko power station Unit 1,137.128677,36.76566,1971,Operating,250,Hokuriku Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1t77Qup,
+,Coal,Toyama Shinko power station,Toyama Shinko power station Unit 2,137.128677,36.76566,1972,Operating,250,Hokuriku Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1t77Qup,
+Tsuruga power station,Coal,Tsuruga power station,"Tsuruga power station Unit 1
+(Tsuruga Hokuriku power station)",136.082365,35.672485,1991,Operating,500,Hokuriku Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1YdzwtC,
+,Coal,Tsuruga power station,"Tsuruga power station Unit 2
+(Tsuruga Hokuriku power station)",136.082365,35.672485,2000,Operating,700,Hokuriku Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1YdzwtC,
+Chogoku Air Water Yamaguchi co-fire power station,Coal,Chogoku Air Water Yamaguchi co-fire power station,"Chogoku Air Water Yamaguchi co-fire power station
+(Air Water & Energia Power Yamaguchi / Hofu city)",131.566667,34.05,2018,pre,112,"Chogoku Electric Power, Air Water Inc.",,,,0,,,,,,,,,,,,,,http://bit.ly/1t2GlxE,
+Fukuyama Works power station,Coal,Fukuyama Works power station,Fukuyama Works power station Unit 1,133.441571,34.478865,1966,Operating,35,JFE Steel Corp,,,,0,,,,,,,,,,,,,,http://bit.ly/1gYEoBf,
+,Coal,Fukuyama Works power station,Fukuyama Works power station Unit 3,133.441571,34.478865,1989,Operating,33,JFE Steel Corp,,,,0,,,,,,,,,,,,,,http://bit.ly/1gYEoBf,
+,Coal,Fukuyama Works power station,Fukuyama Works power station Unit 4,133.441571,34.478865,1997,Operating,30,JFE Steel Corp,,,,0,,,,,,,,,,,,,,http://bit.ly/1gYEoBf,
+Kaita power station,Coal,Kaita power station,"Kaita power station
+(Kaita biomass blending, Hiroshima Gas plant)",132.533333,34.366667,2019,pre,112,"Chugoku Electric Power Co, Hiroshima Gas",,,,0,,,,,,,,,,,,,,http://bit.ly/1CAOKtP,
+Misumi power station,Coal,Misumi power station,Misumi power station Unit 1,131.921768,34.780789,1998,Operating,1000,Chugoku Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1IAqPkf,
+,Coal,Misumi power station,"Misumi power station Unit 2
+(Misumi No.2)",131.9215,34.7797,2022,pre,1000,Chugoku Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1lIUvR2,
+Mizushima Energy Center,Coal,Mizushima Energy Center,"Mizushima Energy Center
+(Mizushima Energy Center)",133.766667,34.583333,2017,Construction,110,"Kansai Electric Power, Mitsubishi Corporation",,,,0,,,,,,,,,,,,,,http://bit.ly/1czM8GT,
+Mizushima power station,Coal,Mizushima power station,Mizushima power station Unit 2,133.7445,34.507803,1963,Operating,156,Chugoku Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1IAqDl8,
+Nanyo Complex power station,Coal,Nanyo Complex power station,Nanyo Complex power station Unit 3,131.757956,34.055538,1982,Operating,116,Tosoh Corp,,,,0,,,,,,,,,,,,,,http://bit.ly/1IArEd1,
+,Coal,Nanyo Complex power station,Nanyo Complex power station Unit 4,131.757956,34.055538,1989,Operating,145,Tosoh Corp,,,,0,,,,,,,,,,,,,,http://bit.ly/1IArEd1,
+,Coal,Nanyo Complex power station,Nanyo Complex power station Unit 5,131.757956,34.055538,2008,Operating,220,Tosoh Corp,,,,0,,,,,,,,,,,,,,http://bit.ly/1IArEd1,
+Osaki CoolGen Project,Coal,Osaki CoolGen Project,"Osaki CoolGen Project
+(Osaki Cool Gen)",132.9152298,34.2680271,2017,Construction,166,Osaki CoolGen Corp.,,,,0,,,,,,,,,,,,,,http://bit.ly/1LAsqYA,
+Osaki power station,Coal,Osaki power station,Osaki power station Unit 1,132.873166,34.259035,2000,Operating,215,Chugoku Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1gYFaya,
+Shin Onoda power station,Coal,Shin Onoda power station,Shin Onoda power station Unit 1,131.162559,33.968866,1986,Operating,500,Chugoku Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1UDXISQ,
+,Coal,Shin Onoda power station,Shin Onoda power station Unit 2,131.162559,33.968866,1987,Operating,500,Chugoku Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1UDXISQ,
+Shin Tokuyama power station,Coal,Shin Tokuyama power station,Shin Tokuyama power station Unit 4,131.789899,34.060321,1987,Operating,125,Tokuyama Corp,,,,0,,,,,,,,,,,,,,http://bit.ly/1IWXL3p,
+Takehara power station,Coal,Takehara power station,"Takehara New Unit 1
+(Takehara New No.1)",132.9572,34.3373,2020,Construction,600,J-POWER,,,,0,,,,,,,,,,,,,,http://bit.ly/1hpLBTp,
+,Coal,Takehara power station,Takehara power station Unit 1,132.9572,34.3373,1967,Operating,250,J-POWER,,,,0,,,,,,,,,,,,,,http://bit.ly/1gYFAo7,
+,Coal,Takehara power station,Takehara power station Unit 2,132.9572,34.3373,1974,Operating,350,J-POWER,,,,0,,,,,,,,,,,,,,http://bit.ly/1gYFAo7,
+,Coal,Takehara power station,Takehara power station Unit 3,132.9572,34.3373,1983,Operating,700,J-POWER,,,,0,,,,,,,,,,,,,,http://bit.ly/1gYFAo7,
+Ube power station,Coal,Ube power station,"Ube power station Unit 1
+(Nishiokinoyama No.1)",131.25,33.95,2023,pre,600,"J-Power, Ube Industries, Osaka Gas",,,,0,,,,,,,,,,,,,,http://bit.ly/1rxMyh0,
+,Coal,Ube power station,"Ube power station Unit 2
+(Nishiokinoyama No.2)",131.25,33.95,2025,pre,600,"J-Power, Ube Industries, Osaka Gas",,,,0,,,,,,,,,,,,,,http://bit.ly/1rxMyh0,
+Miike Mine power station,Coal,Miike Mine power station,Miike Mine 1,130.583333,33.6,1983,Operating,47,Mitsui Mining & Smelting Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1QWnoZa,
+Mikawa power station,Coal,Mikawa power station,Mikawa 1,130.583333,33.6,2005,Operating,47,Sigma Power Ariake Kk,,,,0,,,,,,,,,,,,,,http://bit.ly/1V4yyMl,
+Omuta Works power station,Coal,Omuta Works power station,Omuta Works 3,130.583333,33.6,1983,Operating,50,Mitsui Chemicals Inc,,,,0,,,,,,,,,,,,,,http://bit.ly/1osOD4c,
+,Coal,Omuta Works power station,Omuta Works 4,130.583333,33.6,1996,Operating,35,Mitsui Chemicals Inc,,,,0,,,,,,,,,,,,,,http://bit.ly/1osOD4c,
+Wakamatsu Repower power station,Coal,Wakamatsu Repower power station,Wakamatsu Repower 1,130.583333,33.6,1994,Operating,70,J-Power,,,,0,,,,,,,,,,,,,,http://bit.ly/20WhCvj,
+Summit Onahama power station,Coal,Summit Onahama power station,Summit Onahama 1,140.28,36.23,2004,Operating,50,Summit Onahama S Power Corp,,,,0,,,,,,,,,,,,,,http://bit.ly/1JLqJdM,
+Otake Plant power station,Coal,Otake Plant power station,Otake Plant 6,132.75,34.433333,2003,Operating,70,Mitsubishi Rayon Co Ltd,,,,0,,,,,,,,,,,,,,http://bit.ly/1nZEVpi,
+Kushiro Mill Npi power station,Coal,Kushiro Mill Npi power station,Kushiro Mill Npi 8,144.383333,42.983333,1986,Operating,57,Nippon Paper Industries Co Ltd,,,,0,,,,,,,,,,,,,,http://bit.ly/1TSIGcG,
+Kushiro power station,Coal,Kushiro power station,"Kushiro power station
+(Kushiro Thermal Power Plant)",144.383333,42.983333,2019,pre,112,IDI Infrastructures F-Power,,,,0,,,,,,,,,,,,,,http://bit.ly/1PDpawe,
+Shiraoi Mill power station,Coal,Shiraoi Mill power station,Shiraoi Mill 4,143,44,1975,Operating,63,Nippon Paper Industries Co Ltd,,,,0,,,,,,,,,,,,,,http://bit.ly/1T8wQut,
+Naie power station,Coal,Naie power station,Naie power station Unit 1,141.844158,43.422257,1968,Operating,175,Hokkaido Electric Power Co Inc,,,,0,,,,,,,,,,,,,,http://bit.ly/1IWZPbM,
+,Coal,Naie power station,Naie power station Unit 2,141.844158,43.422257,1970,Operating,175,Hokkaido Electric Power Co Inc,,,,0,,,,,,,,,,,,,,http://bit.ly/1IWZPbM,
+NSC Muroran Works power station,Coal,NSC Muroran Works power station,NSC Muroran Works power station Unit 3,140.992951,42.350715,1994,Operating,50,Nippon Steel & Sumitomo Metal,,,,0,,,,,,,,,,,,,,http://bit.ly/1IWYW35,
+,Coal,NSC Muroran Works power station,NSC Muroran Works power station Unit 5,140.992951,42.350715,2001,Operating,145,Nippon Steel & Sumitomo Metal,,,,0,,,,,,,,,,,,,,http://bit.ly/1IWYW35,
+Shin Ebetsu power station,Coal,Shin Ebetsu power station,Shin Ebetsu power station Unit 2,143,44,1964,Operating,125,Hokkaido Electric Power Co Inc,,,,0,,,,,,,,,,,,,,http://bit.ly/1IX0tWF,
+,Coal,Shin Ebetsu power station,Shin Ebetsu power station Unit 3,143,44,1965,Operating,125,Hokkaido Electric Power Co Inc,,,,0,,,,,,,,,,,,,,http://bit.ly/1IX0tWF,
+Sunagawa Daini power station,Coal,Sunagawa Daini power station,Sunagawa Daini power station Unit 3,141.891161,43.464715,1977,Operating,125,Hokkaido Electric Power Co Inc,,,,0,,,,,,,,,,,,,,http://bit.ly/1IX3iad,
+,Coal,Sunagawa Daini power station,Sunagawa Daini power station Unit 4,141.891161,43.464715,1982,Operating,125,Hokkaido Electric Power Co Inc,,,,0,,,,,,,,,,,,,,http://bit.ly/1IX3iad,
+Tomakomai Mill power station,Coal,Tomakomai Mill power station,Tomakomai Mill power station Unit 14,141.588279,42.636177,1981,Operating,35,Oji Paper Co Ltd,,,,0,,,,,,,,,,,,,,http://bit.ly/1IX69jC,
+,Coal,Tomakomai Mill power station,Tomakomai Mill power station Unit 15,141.588279,42.636177,1990,Operating,38,Oji Paper Co Ltd,,,,0,,,,,,,,,,,,,,http://bit.ly/1IX69jC,
+Tomato-atsuma power station,Coal,Tomato-atsuma power station,Tomato-atsuma power station Unit 1,141.8065439,42.6110284,1980,Operating,350,Hokkaido Electric Power Co Inc,,,,0,,,,,,,,,,,,,,http://bit.ly/24xGbP6,
+,Coal,Tomato-atsuma power station,Tomato-atsuma power station Unit 2,141.8065439,42.6110284,1985,Operating,600,Hokkaido Electric Power Co Inc,,,,0,,,,,,,,,,,,,,http://bit.ly/24xGbP6,
+,Coal,Tomato-atsuma power station,Tomato-atsuma power station Unit 4,141.8065439,42.6110284,2002,Operating,700,Hokkaido Electric Power Co Inc,,,,0,,,,,,,,,,,,,,http://bit.ly/24xGbP6,
+Akita power station,Coal,Akita power station,"Akita power station Unit 1
+(Akita Port No.1)",140.1025,39.718611,2024,pre,650,"Kansai Electric Power, Marubeni ",,,,0,,,,,,,,,,,,,,http://bit.ly/1HSSZWp,
+,Coal,Akita power station,"Akita power station Unit 2
+(Akita Port No. 2)",140.1025,39.718611,2024,pre,650,"Kansai Electric Power, Marubeni ",,,,0,,,,,,,,,,,,,,http://bit.ly/1HSSZWp,
+Nippon Paper Akita power station,Coal,Nippon Paper Akita power station,"Nippon Paper Akita power station
+(Nippon Paper, Akita city)",140.102583,39.720028,2018,pre,110,Nippon Paper ,,,,0,,,,,,,,,,,,,,http://bit.ly/1wDItMF,
+Noshiro power station,Coal,Noshiro power station,"Noshiro Unit 3
+(Noshiro No.3)",139.9911,40.1912,2020,Construction,600,Tohoku Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1lIUGvE,
+Nadahama Works power station,Coal,Nadahama Works power station,Nadahama Works 1,135.183078,34.690817,1968,Retired,30,Kobe Steel Ltd,,,,0,,,,,,,,,,,,,,http://bit.ly/20piZR0,
+,Coal,Nadahama Works power station,Nadahama Works 1R,135.183078,34.690817,2009,Operating,30,Kobe Steel Ltd,,,,0,,,,,,,,,,,,,,http://bit.ly/20piZR0,
+,Coal,Nadahama Works power station,Nadahama Works 2,135.183078,34.690817,1995,Operating,45,Kobe Steel Ltd,,,,0,,,,,,,,,,,,,,http://bit.ly/20piZR0,
+Ako Cement Plant power station,Coal,Ako Cement Plant power station,Ako Cement Plant power station Unit 1,134.364278,34.752983,1997,Operating,102,Sumitomo Osaka Cement Co Ltd,,,,0,,,,,,,,,,,,,,http://bit.ly/1IX8lHT,
+Ako power station,Coal,Ako power station,"Ako power station Unit 1
+(Ako No.1)",134.393056,34.751667,2020,Cancelled,600,Kansai Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1z3morG,
+,Coal,Ako power station,"Ako power station Unit 2
+(Ako No.2)",134.393056,34.751667,2020,Cancelled,600,Kansai Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1z3morG,
+Hirohata Works power station,Coal,Hirohata Works power station,Hirohata Works power station Unit 6,134.623711,34.787808,1996,Operating,145,Nippon Steel & Sumitomo Metal,,,,0,,,,,,,,,,,,,,http://bit.ly/1IX8PNY,
+,Coal,Hirohata Works power station,Hirohata Works power station Unit 7,134.623711,34.787808,1999,Operating,145,Nippon Steel & Sumitomo Metal,,,,0,,,,,,,,,,,,,,http://bit.ly/1IX8PNY,
+Kobe Works power station,Coal,Kobe Works power station,"Kobe Works power station Unit 1
+(Kobe Works New-No.1)",135.2463126,34.7043722,2021,pre,650,Kobe Steel,,,,0,,,,,,,,,,,,,,http://bit.ly/ZYPuwE,
+,Coal,Kobe Works power station,"Kobe Works power station Unit 2
+(Kobe Works New-No.2)",135.2463126,34.7043722,2022,pre,650,Kobe Steel,,,,0,,,,,,,,,,,,,,http://bit.ly/ZYPuwE,
+Maizuru power station,Coal,Maizuru power station,Maizuru power station Unit 1,135.345587,35.531915,2004,Operating,900,Kansai Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/201j7b7,
+,Coal,Maizuru power station,Maizuru power station Unit 2,135.345587,35.531915,2010,Operating,900,Kansai Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/201j7b7,
+Shinko Kobe power station,Coal,Shinko Kobe power station,Shinko Kobe power station Unit 1,135.239426,34.703167,2002,Operating,700,Shinko Kobe Power Inc,,,,0,,,,,,,,,,,,,,http://bit.ly/1IX9m2o,
+,Coal,Shinko Kobe power station,Shinko Kobe power station Unit 2,135.239426,34.703167,2004,Operating,700,Shinko Kobe Power Inc,,,,0,,,,,,,,,,,,,,http://bit.ly/1IX9m2o,
+Takasago power station,Coal,Takasago power station,"Takasago power station New unit 1
+(Takasago New-No.1)",134.7663581,34.754038,2021,pre,600,J-POWER,,,,0,,,,,,,,,,,,,,http://bit.ly/1t7EUxX,
+,Coal,Takasago power station,"Takasago power station New unit 2
+(Takasago New-No.2)",134.7663581,34.754038,2027,pre,600,J-POWER,,,,0,,,,,,,,,,,,,,http://bit.ly/1t7EUxX,
+,Coal,Takasago power station,"Takasago power station Unit 1
+(Takasago J-Power power station)",134.7663581,34.754038,1968,Operating,250,J-POWER,,,,0,,,,,,,,,,,,,,http://bit.ly/1t7EUxX,
+,Coal,Takasago power station,"Takasago power station Unit 2
+(Takasago J-Power power station)",134.7663581,34.754038,1969,Operating,250,J-POWER,,,,0,,,,,,,,,,,,,,http://bit.ly/1t7EUxX,
+Yokkaichi power station,Coal,Yokkaichi power station,"Yokkaichi power station
+(MC Kawajiri / Yokkaichi city)",136.616667,34.966667,2019,pre,112,Mitsubishi Chemical,,,,0,,,,,,,,,,,,,,http://bit.ly/1RMwM1q,
+Chiba power station,Coal,Chiba power station,"Chiba power station Unit 1
+(Chiba Sodegaura No.1)",139.95,35.433333,2025,pre,1000,Chiba Sodegaura Energy,,,,0,,,,,,,,,,,,,,http://bit.ly/ZYMBMc,
+,Coal,Chiba power station,"Chiba power station Unit 2
+(Chiba Sodegaura No.2)",139.95,35.433333,2026,pre,1000,Chiba Sodegaura Energy,,,,0,,,,,,,,,,,,,,http://bit.ly/ZYMBMc,
+Hitachinaka Kyodo power station,Coal,Hitachinaka Kyodo power station,Hitachinaka Kyodo power station Unit 1,140.6138,36.4368,2019,pre,650,Hitachinaka Generation Company,,,,0,,,,,,,,,,,,,,http://bit.ly/1PakmME,
+Hitachinaka power station,Coal,Hitachinaka power station,Hitachinaka power station Unit 1,140.6138,36.4368,2003,Operating,1000,Tokyo Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1hpJnn3,
+,Coal,Hitachinaka power station,Hitachinaka power station Unit 2,140.6138,36.4368,2013,Operating,1000,Tokyo Electric Power Company,,,,0,,,,,,,,,,,,,,http://bit.ly/1hpJnn3,
+Ichihara power station,Coal,Ichihara power station,"Ichihara power station
+(Ichihara)",140.116667,35.5,2024,pre,1000,"Kansai Electric Power, Tonen General Sekiyu",,,,0,,,,,,,,,,,,,,http://bit.ly/1Il2DVt,
+Isogo power station,Coal,Isogo power station,"Isogo power station Unit 1
+(Shin Isogo power station)",139.642852,35.402755,2002,Operating,600,J-POWER,,,,0,,,,,,,,,,,,,,http://bit.ly/1IXeZ0N,
+,Coal,Isogo power station,"Isogo power station Unit 2
+(Shin Isogo power station)",139.642852,35.402755,2009,Operating,600,J-POWER,,,,0,,,,,,,,,,,,,,http://bit.ly/1IXeZ0N,
+JFE Steel power station,Coal,JFE Steel power station,"JFE Steel power station
+(Chugoku Electric Power, JFE Steel, Tokyo Gas / Chiba city)",140.123333,35.605,2020,pre,1000,"Chugoku Electric Power, JFE Steel Corporation, Tokyo Gas",,,,0,,,,,,,,,,,,,,http://bit.ly/1CrT2o5,
+KEPCO Chiba power station,Coal,KEPCO Chiba power station,"KEPCO Chiba power station
+(Kansai Electric Power / Chiba pref.)",140.123333,35.605,,pre,1000,"Kansai Electric Power, Tokyo Gas",,,,0,,,,,,,,,,,,,,http://bit.ly/1MpgUz1,
+Osaka Gas Kashima power station,Coal,Osaka Gas Kashima power station,"Osaka Gas Kashima power station
+(Osaka Gas, Marubeni)",140.65,35.966667,2017,pre,112,Osaka Gas Co Ltd,,,,0,,,,,,,,,,,,,,http://bit.ly/1oWbzbv,
+Sumitomo Metals Kashima power station,Coal,Sumitomo Metals Kashima power station,Sumitomo Metals Kashima power station Unit 1,140.688737,35.947067,2007,Operating,507,Sumitomo Metal Industries Ltd,,,,0,,,,,,,,,,,,,,http://bit.ly/1AqOAEX,
+,Coal,Sumitomo Metals Kashima power station,"Sumitomo Metals Kashima power station Unit 2
+(Kashima No.2, Kashima Iron Works Power Plant)",140.688737,35.947067,2020,Construction,650,Kashima Power Company,,,,0,,,,,,,,,,,,,,http://bit.ly/1AqOAEX,
+Yokosuka power station,Coal,Yokosuka power station,"Yokosuka power station Unit 1
+(Tokyo Electric Power, J-Power / Yokosuka city)",139.716389,35.215556,2023,pre,650,Jera,,,,0,,,,,,,,,,,,,,http://bit.ly/2d6H2WI,
+,Coal,Yokosuka power station,"Yokosuka power station Unit 2
+(Tokyo Electric Power, J-Power / Yokosuka city)",139.716389,35.215556,2024,pre,650,Jera,,,,0,,,,,,,,,,,,,,http://bit.ly/2d6H2WI,
+Koichi Cement Plant power station,Coal,Koichi Cement Plant power station,Koichi Cement Plant 1,133.433333,3.433333,1999,Operating,61,Sumitomo Osaka Cement Co Ltd,,,,0,,,,,,,,,,,,,,http://bit.ly/1Lhmsdn,
+Tosa Works power station,Coal,Tosa Works power station,Tosa Works 1,133.433333,3.433333,1997,Operating,30,Taiheiyo Cement Corp,,,,0,,,,,,,,,,,,,,http://bit.ly/1LhOAx5,
+Yatsushiro Mill power station,Coal,Yatsushiro Mill power station,Yatsushiro Mill 5,130.666667,32.716667,1993,Operating,70,Nippon Paper Industries Co Ltd,,,,0,,,,,,,,,,,,,,http://bit.ly/1O3pX70,
+Gushikawa power station,Coal,Gushikawa power station,Gushikawa power station Unit 1,127.875742,26.379235,1994,Operating,156,Okinawa Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1N1DbpQ,
+,Coal,Gushikawa power station,Gushikawa power station Unit 2,127.875742,26.379235,1995,Operating,156,Okinawa Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1N1DbpQ,
+Hibikinada power station,Coal,Hibikinada power station,"Hibikinada power station
+(Hibikinada Energy Park, Orix Kitakyushu power station)",130.883333,33.883333,2018,pre,110,Orix Corporation,,,,0,,,,,,,,,,,,,,http://bit.ly/17VdRQH,
+Ishikawa power station,Coal,Ishikawa power station,"Ishikawa power station Unit 1
+(Ishikawa J-Power power station)",127.842287,26.430697,1986,Operating,156,J-POWER,,,,0,,,,,,,,,,,,,,http://bit.ly/1N1DBfL,
+,Coal,Ishikawa power station,"Ishikawa power station Unit 2
+(Ishikawa J-Power power station)",127.842287,26.430697,1987,Operating,156,J-POWER,,,,0,,,,,,,,,,,,,,http://bit.ly/1N1DBfL,
+Kanda power station,Coal,Kanda power station,Kanda power station Unit 1,130.998863,33.787223,2001,Operating,290,Kyushu Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1IXghZx,
+Kin power station,Coal,Kin power station,Kin power station Unit 1,127.921757,26.446606,2002,Operating,220,Okinawa Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1N1DYHh,
+,Coal,Kin power station,Kin power station Unit 2,127.921757,26.446606,2003,Operating,220,Okinawa Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1N1DYHh,
+Matsushima power station,Coal,Matsushima power station,Matsushima power station Unit 1,129.597169,32.940027,1981,Operating,500,J-POWER,,,,0,,,,,,,,,,,,,,http://bit.ly/1IXiRyN,
+,Coal,Matsushima power station,Matsushima power station Unit 2,129.597169,32.940027,1981,Operating,500,J-POWER,,,,0,,,,,,,,,,,,,,http://bit.ly/1IXiRyN,
+Matsuura Kyushu power station,Coal,Matsuura Kyushu power station,Matsuura Kyushu power station Unit 1,129.6925,33.3552,1989,Operating,700,Kyushu Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1lIUgFI,
+,Coal,Matsuura Kyushu power station,"Matsuura Kyushu power station Unit 2
+(Matsuura No.2)",129.6925,33.3552,2020,Construction,1000,Kyushu Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1lIUgFI,
+Matsuura power station,Coal,Matsuura power station,"Matsuura power station Unit 1
+(Matsuura J-Power power station)",129.692033,33.356383,1990,Operating,1000,J-POWER,,,,0,,,,,,,,,,,,,,http://bit.ly/1JLqJdM,
+,Coal,Matsuura power station,"Matsuura power station Unit 2
+(Matsuura J-Power power station)",129.692033,33.356383,1997,Operating,1000,J-POWER,,,,0,,,,,,,,,,,,,,http://bit.ly/1JLqJdM,
+Miike power station,Coal,Miike power station,Miike power station Unit 2,130.421636,33.008268,1975,Operating,175,Miike Thermal Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1IXgrAa,
+Oita IPP power station,Coal,Oita IPP power station,Oita IPP power station Unit 1,131.649396,33.269064,2002,Operating,330,NS Energy,,,,0,,,,,,,,,,,,,,http://bit.ly/1IXkXif,
+Omura power station,Coal,Omura power station,Omura power station Unit 2,129.993,32.924,1964,Operating,156,Kyushu Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1IXjVma,
+Reihoku power station,Coal,Reihoku power station,Reihoku power station Unit 1,130.042115,32.485132,1995,Operating,700,Kyushu Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1IXizb9,
+,Coal,Reihoku power station,Reihoku power station Unit 2,130.042115,32.485132,2003,Operating,700,Kyushu Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1IXizb9,
+Tobata power station,Coal,Tobata power station,Tobata power station Unit 2,130.84714,33.927769,1971,Operating,156,Tobata Cooperative Thermal Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1IXheRI,
+Yawata Works power station,Coal,Yawata Works power station,Yawata Works power station Unit 7,130.889125,33.898217,1999,Operating,149,Nippon Steel & Sumitomo Metal,,,,0,,,,,,,,,,,,,,http://bit.ly/1IXiunW,
+Shiohama Chemical New power station,Coal,Shiohama Chemical New power station,Shiohama Chemical New 1,136.6319847,34.9411109,2008,Operating,34,Mc Shiohama Energy Service Co,,,,0,,,,,,,,,,,,,,http://bit.ly/20WgYOl,
+,Coal,Shiohama Chemical New power station,Shiohama Chemical New 2,136.6319847,34.9411109,2008,Operating,34,Mc Shiohama Energy Service Co,,,,0,,,,,,,,,,,,,,http://bit.ly/20WgYOl,
+Ishinomaki Mill power station,Coal,Ishinomaki Mill power station,Ishinomaki Mill 6,141.2917328,38.4188302,1987,Operating,98,Nippon Paper Industries Co Ltd,,,,0,,,,,,,,,,,,,,http://bit.ly/20VRY9U,
+Iwanuma Mill power station,Coal,Iwanuma Mill power station,Iwanuma Mill 4,140.8607769,38.0897829,1991,Operating,63,Nippon Paper Industries Co Ltd,,,,0,,,,,,,,,,,,,,http://bit.ly/1O38w6K,
+Nobeoka Plant power station,Coal,Nobeoka Plant power station,"Nobeoka Plant power station Unit 1
+(Asahi Kasei power station)",140.966667,38.35,2006,Operating,50,Asahi Kasei Corp,,,,0,,,,,,,,,,,,,,http://bit.ly/1QsbgMH,
+,Coal,Nobeoka Plant power station,"Nobeoka Plant power station Unit 2
+(Asahi Kasei power station)",140.966667,38.35,2018,Construction,60,Asahi Kasei Corp,,,,0,,,,,,,,,,,,,,http://bit.ly/2dS8f1E,
+Chuo Works power station,Coal,Chuo Works power station,Chuo Works 7R,140.966667,38.35,2007,Operating,78,Tokuyama Corp,,,,0,,,,,,,,,,,,,,http://bit.ly/1Q7DhbP,
+J-POWER Tachibana-wan power station,Coal,J-POWER Tachibana-wan power station,"J-POWER Tachibana-wan power station Unit 1
+(Tachibanawan J-Power power station)",134.651346,33.858577,2000,Operating,1050,J-POWER,,,,0,,,,,,,,,,,,,,http://bit.ly/1N1GPzM,
+,Coal,J-POWER Tachibana-wan power station,"J-POWER Tachibana-wan power station Unit 2
+(Tachibanawan J-Power power station)",134.651346,33.858577,2000,Operating,1050,J-POWER,,,,0,,,,,,,,,,,,,,http://bit.ly/1N1GPzM,
+Niihama Nishi power station,Coal,Niihama Nishi power station,Niihama Nishi power station Unit 1,133.249236,33.954611,1959,Operating,75,Sumitomo Joint Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1KgFqiT,
+,Coal,Niihama Nishi power station,Niihama Nishi power station Unit 2,133.249236,33.954611,1962,Operating,75,Sumitomo Joint Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1KgFqiT,
+,Coal,Niihama Nishi power station,Niihama Nishi power station Unit 3,133.249236,33.954611,2008,Operating,150,Sumitomo Joint Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1KgFqiT,
+Nyugawa power station,Coal,Nyugawa power station,"Nyugawa Rebuild power station Unit 1
+(Mibugawa Rebuild power station)",133.115368,33.933984,2003,Operating,250,Sumitomo Joint Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1KgFHCs,
+Saijo power station,Coal,Saijo power station,"Saijo power station Unit 1 Replacement
+(Saijo New No.1)",133.1677,33.9327,2023,pre,500,Shikoku Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1Eimf9J,
+,Coal,Saijo power station,"Saijo power station Unit 1
+(Shin Saijo power station)",133.168575,33.933074,1965,Operating,156,Shikoku Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1N1Fo4B,
+,Coal,Saijo power station,"Saijo power station Unit 2
+(Shin Saijo power station)",133.168575,33.933074,1970,Operating,250,Shikoku Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1N1Fo4B,
+Shikoku Tachibana-wan power station,Coal,Shikoku Tachibana-wan power station,Shikoku Tachibana-wan power station Unit 1,134.654624,33.864231,2000,Operating,700,Shikoku Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1N1Htxj,
+Tosa power station,Coal,Tosa power station,Tosa power station Unit 1,133.557483,33.534087,2005,Operating,150,Taiheiyo Cement Corp,,,,0,,,,,,,,,,,,,,http://bit.ly/1IX3iad,
+Hachinohe Mill power station,Coal,Hachinohe Mill power station,Hachinohe Mill power station Unit 6,141.478536,40.567959,1988,Operating,35,Mitsubishi Paper Mills Ltd,,,,0,,,,,,,,,,,,,,http://bit.ly/1N1KGNr,
+,Coal,Hachinohe Mill power station,Hachinohe Mill power station Unit 7,141.478536,40.567959,1995,Operating,55,Mitsubishi Paper Mills Ltd,,,,0,,,,,,,,,,,,,,http://bit.ly/1N1KGNr,
+Haramachi power station,Coal,Haramachi power station,Haramachi power station Unit 1,141.014758,37.665675,1997,Operating,1000,Tohoku Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1N1KXQn,
+,Coal,Haramachi power station,Haramachi power station Unit 2,141.014758,37.665675,1998,Operating,1000,Tohoku Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1N1KXQn,
+Hirono Thermal Power Station,Coal,Hirono Thermal Power Station,"Hirono power station IGCC
+(IGCC Hirono)",141.013799,37.232652,2021,pre,540,Tokyo Electric Power Company,,,,0,,,,,,,,,,,,,,http://bit.ly/1uKafWP,
+Hirono power station,Coal,Hirono power station,Hirono power station Unit 5,141.013799,37.232652,2004,Operating,600,Tokyo Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1uKafWP,
+,Coal,Hirono Thermal Power Station,Hirono power station Unit 6,141.013799,37.232652,2013,Operating,600,Tokyo Electric Power Company,,,,0,,,,,,,,,,,,,,http://bit.ly/1uKafWP,
+Iwaki power station,Coal,Iwaki power station,"Iwaki power station
+(Iwaki Energy Park, Yoshima industrial park)",140.887722,37.0505,2018,pre,110,ABL Co. Ltd.,,,,0,,,,,,,,,,,,,,http://bit.ly/1Dt33p6,
+Kamaishi Works power station,Coal,Kamaishi Works power station,Kamaishi Works power station Unit 1,141.876928,39.268586,2000,Operating,149,Nippon Steel & Sumitomo Metal,,,,0,,,,,,,,,,,,,,http://bit.ly/1IEFQl0,
+Kansai Sendai power station,Coal,Kansai Sendai power station,"Kansai Sendai power station
+(Sendai Power Station)",140.866667,38.266667,2017,Construction,112,Kansai Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1tdQnfh,
+M.Setek Soma power station,Coal,M.Setek Soma power station,"M.Setek Soma power station
+(ORIX / Soma city, Fukushima pref.)",140.919639,37.796667,2018,Construction,112,Orix Corporation,,,,0,,,,,,,,,,,,,,http://bit.ly/1OtJOQ5,
+Maeda co-fired power station,Coal,Maeda co-fired power station,"Maeda co-fired power station
+(Maeda Corporation / Tohoku area)",140.683333,38.9,,pre,100,Maeda Corporation,,,,0,,,,,,,,,,,,,,http://bit.ly/1CAQHqc,
+Nakoso power station,Coal,Nakoso power station,Nakoso power station Unit 10,140.8128,36.9128,2013,Operating,250,TEPCO,,,,0,,,,,,,,,,,,,,http://bit.ly/1wE3VBf,
+,Coal,Nakoso power station,"Nakoso power station Unit 11
+(IGCC Nakoso)",140.8128,36.9128,2020,pre,540,Nakoso IGCC Power GK,,,,0,,,,,,,,,,,,,,http://bit.ly/1wE3VBf,
+,Coal,Nakoso power station,Nakoso power station Unit 7,140.8128,36.9128,1970,Operating,250,Joban Kyodo Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1wE3VBf,
+,Coal,Nakoso power station,Nakoso power station Unit 8,140.8128,36.9128,1983,Operating,600,Joban Kyodo Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1wE3VBf,
+,Coal,Nakoso power station,Nakoso power station Unit 9,140.8128,36.9128,1983,Operating,600,Joban Kyodo Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1wE3VBf,
+Nippon Paper Ishinomaki power station,Coal,Nippon Paper Ishinomaki power station,"Nippon Paper Ishinomaki power station
+(Ishinomaki Hibarino No.1)",141.2917328,38.4188302,2018,Construction,149,Nippon Paper ,,,,0,,,,,,,,,,,,,,http://bit.ly/VHmvvH,
+,Coal,Noshiro power station,Noshiro power station Unit 1,139.989632,40.191016,1993,Operating,600,Tohoku Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1N1Kj5m,
+,Coal,Noshiro power station,Noshiro power station Unit 2,139.989632,40.191016,1994,Operating,600,Tohoku Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1N1Kj5m,
+Orix Soma power station,Coal,Orix Soma power station,"Orix Soma power station
+(Soma core industrial park plant)",140.919639,37.796667,2018,pre,112,Orix Corporation,,,,0,,,,,,,,,,,,,,http://bit.ly/1JqeC4Y,
+Sakata Kyodo power station,Coal,Sakata Kyodo power station,Sakata Kyodo power station Unit 1,139.832175,38.967373,1977,Operating,350,Sakata Kyodo Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1IEGoY4,
+,Coal,Sakata Kyodo power station,Sakata Kyodo power station Unit 2,139.832175,38.967373,1978,Operating,350,Sakata Kyodo Electric Power Co,,,,0,,,,,,,,,,,,,,http://bit.ly/1IEGoY4,
+Shinchi power station,Coal,Shinchi power station,Shinchi power station Unit 1,140.946169,37.841115,1994,Operating,1000,TEPCO,,,,0,,,,,,,,,,,,,,http://bit.ly/1dhbcTE,
+,Coal,Shinchi power station,Shinchi power station Unit 2,140.946169,37.841115,1995,Operating,1000,TEPCO,,,,0,,,,,,,,,,,,,,http://bit.ly/1dhbcTE,
+Soma Core power station,Coal,Soma Core power station,"Soma Core power station
+(Soma core industrial park plant)",140.919639,37.796667,2018,pre,112,Soma Kyodo Jikahatsu Kaihatsu godo kaisha,,,,0,,,,,,,,,,,,,,http://bit.ly/1z3pcoL,
+Soma Kyodo power station,Coal,Soma Kyodo power station,"Soma Kyodo power station
+(Soma Kyodo Power / Shinchi town)",140.921944,37.875278,2023,pre,1000,Soma Kyodo Power,,,,0,,,,,,,,,,,,,,http://bit.ly/1Dt4HqM,
+Tonda power station,Coal,Tonda power station,Tonda 09,140.133333,38.433333,1963,Operating,40,Toyo Soda Manufacturing Co Ltd,,,,0,,,,,,,,,,,,,,http://bit.ly/1O3pRMB,
+Hikari Works power station,Coal,Hikari Works power station,Hikari Works 1,131.5,34.066667,1989,Operating,50,Nippon Steel & Sumitomo Metal,,,,0,,,,,,,,,,,,,,http://bit.ly/23Xgc6c,
+,,,d,d,,,,,,,,,,,,,,,,,,,,,,,,

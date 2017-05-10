@@ -34,16 +34,14 @@
 
     d3.csv(plantFile, function (plantRawData) {
       var plantData = plantRawData.filter(function (d) {
-         if (country === 'Vietnam') { 
-            return d.country === country && d.latitude && d.longitude && (d['Project Name'] || d.plant); 
-          }
-        return d.latitude && d.longitude && (d['Project Name'] || d.plant);
+        return (d['Project Name'] || d.plant) //&& d.Latitude && d.Longitude && ;
       }).map(function (d) {
-        d.value = parseFloat(d.capacity_mw);
+        d.value = parseFloat(d['Capacity (MW)']);
         d.name = d['Project Name'] ? d['Project Name'] : d.plant;
         d.name = d.name.replace('station', '');
         return d;
       });
+
       var plantMergeObj = {};
       plantData.forEach(function (d) {
         if (plantMergeObj.hasOwnProperty(d.name)) {
@@ -53,17 +51,16 @@
           plantMergeObj[d.name] = d;
         }
       });
-     
 
       var plantMergeData = [];
       Object.keys(plantMergeObj).forEach(function (key, index) {
         plantMergeData.push(plantMergeObj[key]);
       });
-     
+
       var treemapHeight = 500;
       var projTreemap = d3.layout.treemap().size([width, treemapHeight]);
       var nodes = projTreemap.nodes({ children: plantMergeData });
-      nodes = nodes.slice(1, nodes.length); 
+      nodes = nodes.slice(1, nodes.length);
 
       var projSvg = d3.select('#proj-treemap')
         .append('svg')
@@ -109,7 +106,7 @@
       var app2 = new Vue({
         el: '#proj-table',
         data: {
-          plantData: plantData
+          plantData: plantMergeData
         },
         computed: {
           projArray: function () {
@@ -130,38 +127,44 @@
       var bankObj = {};
       var bankArray = [];
 
+      // data.forEach(function (d) {
+      //   if (!d['Total Investing Amount'] || !d["Financier's name"]) { return; }
+      //
+      //   if (!bankObj.hasOwnProperty(d["Financier's name"])) {
+      //     bankObj[d["Financier's name"]] = {
+      //       investing: 0,
+      //       countries: [],
+      //       plants: []
+      //     };
+      //   }
+      //   var obj = bankObj[d["Financier's name"]];
+      //
+      //   obj.investing += parseFloat(d['Total Investing Amount']);
+      //   if (d["Financier's countries"] && obj.countries.indexOf(d["Financier's countries"]) === -1) {
+      //     obj.countries.push(d["Financier's countries"]);
+      //   }
+      //
+      //
+      //   if (d['Project Name'] && obj.plants.indexOf(d['Project Name']) === -1) {
+      //     obj.plants.push(d['Project Name']);
+      //   }
+      // });
+      //
+      // for (var key in bankObj) {
+      //   bankArray.push({
+      //     name: key,
+      //     value: bankObj[key].investing,
+      //     countries: bankObj[key].countries.join(', '),
+      //     plants: bankObj[key].plants.join(', ')
+      //   });
+      // }
       data.forEach(function (d) {
-        if (!d['Investing Amount/ Share (mio USD)'] || !d["Financier's name"]) { return; }
-
-        if (!bankObj.hasOwnProperty(d["Financier's name"])) {
-          bankObj[d["Financier's name"]] = {
-            investing: 0,
-            countries: [],
-            plants: []
-          };
-        }
-        var obj = bankObj[d["Financier's name"]];
-
-        obj.investing += parseFloat(d['Investing Amount/ Share (mio USD)']);
-        if (d["Financier's countries"] && obj.countries.indexOf(d["Financier's countries"]) === -1) {
-          obj.countries.push(d["Financier's countries"]);
-        }
-       
-
-        if (d['Project Name'] && obj.plants.indexOf(d['Project Name']) === -1) {
-          obj.plants.push(d['Project Name']);
-        }
+        d.value = parseFloat(d['Total Investing Amount']);
+        d.name = d["Financier's name"];
       });
 
-      for (var key in bankObj) {
-        bankArray.push({
-          name: key,
-          value: bankObj[key].investing,
-          countries: bankObj[key].countries.join(', '),
-          plants: bankObj[key].plants.join(', ')
-        });
-      }
 
+      bankArray = data;
       var bankTotal = {
         value: 0
       };
@@ -171,7 +174,7 @@
           return { value: a.value + b.value };
         });
       }
-      
+
       bankTotal = bankTotal.value.toFixed(2)
 
       document.getElementById('bank-invest-total').innerText = bankTotal + ' (mio USD)';
@@ -240,6 +243,7 @@
     var word = d.name;
     var width = d.dx;
     var height = d.dy;
+    if (!word) return;
 
     d3.select(this).style('font-size', size + 'px');
 

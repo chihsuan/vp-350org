@@ -1,65 +1,161 @@
-No.,Types,Project Name,Unit,latitude,longitude,location accuracy,Established date (yr),Status,capacity_mw,Domestic owner name,Mother Company,Partner,Foreign owner name,Total investment amount,Total amount from domestic sources,"Total amount from foreign sources
-",Money not identifiable,Recipient,"Domestic owner's contribution, Share (%)","Domestic owner's contribution, Amount","Foreign owner's contribution, Share (%)","Foreign owner's contribution, Amount",Total Identified amount of foreign finance,Total Identified amount of domestic finance (mio USD),Lifecycle of plant (yr),CO2 Carbon Emission,Real Cost of Coal,Project Impact,References
-1,Coal,Sual Coal Plant,2,16.125,20.100556,,"Oct. 23, 1999",Operational,1294,"Team Energy Corporation (SMEC assumed administration of the Sual power plant on November 6, 2009)",Japanese firms Tokyo Electric Power Company and Marubeni Corporation,NA,,,,,,,,,,,,,,,,,
-2,Coal,Masinloc Coal Plant,2,15.567222,119.922778,,"Dec. 18, 1998",Operational,630,Masinloc Power Partners Co. Ltd. (formerly owned by NPC),AES Corporation,NA,,,,,,,,,,,,,,,,,
-3,Coal,APEC Coal Plant,1,Luzon (?),,,"Sept. 1, 2006",Operational,50,Asia Pacific Energy Corporation,Taiwan-based Formosa Heavy Industries Corp,NA,,,,,,,,,,,,,,,,,
-4,Coal,Mariveles Coal Plant,2,Luzon (?),,,"May 11, 2013",Operational,651,GNPower Mariveles Coal Plant Ltd. Co.,GNPower LTD. Co.,"Power Partners Ltd. Co., and Sithe Global Power LLC",,,,,,,,,,,,,,,,,
-5,Coal,Petron RSFFB,4,Luzon (?),,,,Operational,140,SMC Powergen Inc.,San Miguel Corporation,NA,,,,,,,,,,,,,,,,,
-6,Coal,UPPC Coal Plant (embedded),1,Luzon (?),,,1998,Operational,30,"United Pulp & Paper Co., Inc",SCG Paper of Thailand,NA,,,,,,,,,,,,,,,,,
-7,Coal,Pagbilao Coal Plant,2,13.8932,121.745,,"Mar. 7, 1996",Operational,764,TeaM Energy Corporation,Japanese firms Tokyo Electric Power Company and Marubeni Corporation,,,,,,,,,,,,,,,,,,
-8,Coal,Calaca Coal Plant,2,13.93263,120.78969,,"Sept. 5, 1984",Operational,600,"SEM Calaca Power Corporation (the plant was formerly owened by DMCI Holdings Inc., and was turned over on July 2009)",Semirara Mining Corporation,,,,,,,,,,,,,,,,,,
-9,Coal,Quezon Power Plant,1,14.2296,121.7558,,May 2000,Operational,511,Quezon Power Philippines Limited Co.,Electric Generating Public Co. (EGCO),,,,,,,,,,,,,,,,,,
-10,Coal,SLTEC Putting Bato Coal Plant,2,13.91953,120.82634,,"Apr. 17, 2015",Operational,270,South Luzon Thermal Energy Corporation (Previously Trans-Asia Oil and Energy Dev. Corp.),Ayala Group of Companies and the Phinma Group,,,,,,,,,,,,,,,,,,
-11,Coal,SINOMA Coal Plant (embedded),1,Luzon (?),,,"Apr. 2, 2015",Operational,6,SINOMA Energy Conservation Ltd. (SINOMA EC),CEMEX,,,,,,,,,,,,,,,,,,
-12,Coal,SLPGC Coal-Fired Power Plant Phase I,2,Luzon (?),,,Unit 1 - Jul. 2016; Unit 2 - July 2016,Committed,300,Southwest Luzon Power Generation Corporation (Project Company),Semirara Mining and Power Corporation,,,,,,,,,,,,,,,,,,
-13,Coal,Anda Power Corporation Circulating Fluidized Bed Coal Fired Power Plant,1,Luzon (?),,,Jul. 2016,Committed,82,Anda Power Corporation,,,,,,,,,,,,,,,,,,,
-14,Coal,Palawan 22MW Coal Plant,,Luzon (?),,,,OFF-GRID,,Nickel Asia,,,,,,,,,,,,,,,,,,,
-15,Coal,Semirara Coal Plant,,Luzon (?),,,,OFF-GRID,,DMCI,,,,,,,,,,,,,,,,,,,
-16,Coal,PEDC Coal Plant,2,Visayas (?),,,Unit 1 - Nov. 2010; Unit 2 - Apr. 2011,Operational,167.4,Panay Energy Development Corporation (PEDC),Global Business Power Corporation (GBPC),,,,,,,,,,,,,,,,,,
-17,Coal,PEDC Unit III,1,Visayas (?),,,Dec-16,Operational,150,,,,,,,,,,,,,,,,,,,,
-18,Coal,TPC Sangi Station,1,10.387266,123.639802,exact,1993,Operational,66.25,Toledo Power Company,Global Business Power Corporation (GBPC); ownership of GT Capital Holdings,,,,,,,,,,,,,,,,,,
-19,Coal,TPC Expansion,1,10.387266,123.639802,exact,Oct. 2015,Operational,83.7,Toledo Power Company,Global Business Power Corporation (GBPC); ownership of GT Capital Holdings,,,,,,,,,,,,,,,,,,
-20,Coal,CEDC Coal Plant,3,Visayas (?),,,"Feb. 26, 2011",Operational,246,Cebu Energy Development Corporation,Global Business Power Corporation (GBPC); ownership of GT Capital Holdings,"Abovant Holdings, Inc.,",,,,,,,,,,,,,,,,,
-21,Coal,KEPCO Coal Plant,2,10.21755,123.76058,exact,"Unit I - Nov. 2010, Unit II - Mar. 2011",Operational,206,KEPCO- Salcon Power Corp. (prev.Salcon Power Corporation),Korea Electric Power Corporation (KEPCO),,,,,,,,,,,,,,,,,,
-22,Coal,Palm Concepcion Coal-Fired Power Plant,1,Visayas (?),,,Unit 1 - Jul. 2016; Unit 2 - Dec. 2018,,135,Palm Concepcion Power Corporation (formerly DMCI Concepcion Power Corp.),"Panay Consolidated Land Holdings, Corp. (PCLHC) of A Brown Company Inc.",,,,,,,,,,,,,,,,,,
-23,Coal,Mindanao Coal Plant,2,8.5725,124.7573,exact,"Sept. 16, 2006",Operational,232,STEAG State Power Inc. (SPI),Steag GmbH,"Evonik Steag GmbH of Essen Germany (51%), La Fiipina Uy Gongco Corp. (15%) and AboitizPower (34%)",,,,,,,,,,,,,,,,,
-24,Coal,Davao Therma South Power Station 1,2,6.964444,125.479722,exact,"Sept. 18, 2015 and Feb. 2, 2016",Operational,300,Therma South Inc.,AboitizPower,,,,,,,,,,,,,,,,,,
-25,Coal,Southern Mindanao Coal-Fired Power Station (embedded),1,5.86868,125.079818,exact,"Apr. 29, 2016",Operational,118,Sarangani Energy Corporation,Alsons Power Group,,,,,,,,,,,,,,,,,,
-26,Coal,FDC-Misamis Circulating Fluidized Bed Coal-Fired Power Plant,2,8.5609664,124.7477582,exact,Oct. 2016,under construction,270,"FDC Utilities, Inc.",Filinvest Development Corporation,,,,,,,,,,,,,,,,,,
-27,Coal,SMC Davao Power Plant Project,1,Mindanao (?),,,Jul. 2016,Committed,150,San Miguel Consolidated Power Corporation,San Miguel Corporation,,,,,,,,,,,,,,,,,,
-28,Coal,Limay Power Plant Project Phase I,2,Luzon (?),,,Unit 1 - Oct. 2016; Unit 2 - Jan. 2017,Committed,300,SMC Consolidated Power Corporation,San Miguel Corporation,,,,,,,,,,,,,,,,,,
-29,Coal,GNPower Dinginin 2 x 660 MW Supercritical Coal-Fired Power Plant,2,14.424599,120.540992,,Unit 1 - Mar. 2019; Unit 2 - Jan. 2020,Committed,1200,GNPower Dinginin Coal Plant Ltd. Co.,"American investment fund Sithe Global, Philippine Ayala Corporation",,,,,,,,,,,,,,,,,,
-30,Coal,Masinloc Expansion Project,1,Luzon (?),,,Dec. 2019,Committed,300,"AES Masinloc Powe Partners Co., Inc.","AES Masinloc Power Partners Co., Inc.","EGCO, International Finance Corporation (IFC)",,,,,,,,,,,,,,,,,
-31,Coal,Pagbilao Coal-Fired Thermal Power Plant,1,Luzon (?),,,Nov. 2017,Committed,420,Pagbilao Energy Corporation,Aboitiz Power Corp.,,,,,,,,,,,,,,,,,,
-32,Coal,San Buenaventura Power Ltd. Co. (SBPL) Project,1,14.2296,121.7558,exact,Dec. 2019,Committed,500,San Buenaventura Power Ltd. Co. (SBPL),Meralco (51%); EGCO (49%),,,,,,,,,,,,,,,,,,
-33,Coal,Palm Concepcion (2nd unit),1,Visayas (?),,,Unit 1 - Jul. 2016; Unit 2 - Dec. 2018,Committed,135,Palm Concepcion Power Corporation (formerly DMCI Concepcion Power Corp.),"Panay Consolidated Land Holdings, Corp. (PCLHC) of A Brown Company Inc.",,,,,,,,,,,,,,,,,,
-34,Coal,3x55 MW Balingasag Thermal Circulating Fluidized Bed Combustion (CFBC) Coal-Fired Power Plant,3,8.766,124.767,exact,Unit 1 - Jan. 2017; Unit 2 - Mar. 2017; Unit 3 - May 2017,Committed (under construction),165,Minergy Coal Corporation,Cayagan Electric Power & Light (CEPALCO),Vivant Integrated Generation Corp and Mindanao Energy Systems Inc,,,,,,,,,,,,,,,,,
-35,Coal,GNPower Kauswagan Clean Coal-Fired Power Plant,4,8.18691,124.11545,(approximate),Mar-18,Committed (under construction),540,GN Power Kauswagan Ltd. Co.,Ayala Corporation and Power Partners Ltd. Co,,,,,,,,,,,,,,,,,,
-36,Coal,SMC Davao Power Plant Project,1,Mindanao (?),,,Feb-17,Committed,150,San Miguel Consolidated Power Corporation,San Miguel Corporation,,,,,,,,,,,,,,,,,,
-37,Coal,FDC Misamis Circulating Fluidized Bed Coal-Fired Power Plant Project (3rd Unit),1,Mindanao (?),,,,Committed,135,"FDC Utilities, Inc.",,,,,,,,,,,,,,,,,,,
-38,Coal,Southern Mindanao Coal-Fired Power Station (Phase II),1,5.86868,125.079818,exact,2018,Committed,100,Sarangani Energy Corporation,Alsons Power Group,,,,,,,,,,,,,,,,,,
-39,Coal,Global Luzon Coal-Fired Power Plant,2,Luzon (?),,,,Indicative,670,Global Luzon Energy Development Corporation,GT Capital Holdings,,,,,,,,,,,,,,,,,,
-40,Coal,Limay Power Plant Project Phase II,2,14.5204064,120.6026809,exact,Unit 1 - Jul. 2017; Unit 2 - 2017,Indicative,300,SMC Consolidated Power Corporation,San Miguel Corporation,,,,,,,,,,,,,,,,,,
-41,Coal,Lucidum Coal Power Plant,1,Luzon (?),,,Jun. 2017,Indicative,300,"Lucidum Energy, Inc.","Lucidum Energy, Inc.",,,,,,,,,,,,,,,,,,
-42,Coal,Masinloc Expansion Project (4th Unit),1,Luzon (?),,,Dec. 2019,Indicative,300,AES Masinloc Power Partners,,,,,,,,,,,,,,,,,,,
-43,Coal,SRPGC Coal Fired Power Plant (1050 MW),2,Luzon (?),,,Dec. 2019,Indicative,700,St. Raphael Power Generation Corp.,MGen and Semirara Mining and Power Corp,,,,,,,,,,,,,,,,,,
-44,Coal,JGS Coal Fired Thermal Power Plant,4,13.716667,121,,Unit 1 - June 2018; Unit 2 - Dec. 2018; Unit 3 - June 2019; Unit 4 - Dec. 2019,Indicative,600,"JG Summit Holdings, Inc.","JG Summit Holdings, Inc.",,,,,,,,,,,,,,,,,,
-45,Coal,AOE Coal-Fired Power Plant,2,14,121.916667,,Unit 1 - Dec. 2020; Unit 2 - May 2021,Indicative,1200,Atimonan One Energy,Meralco PowerGen Corporation,,,,,,,,,,,,,,,,,,
-46,Coal,SMC Circulating Fluidized Bed Coal-Fired Power Plant,4,Luzon (?),,,,Indicative,600,SMC Global Power,San Miguel Corporation,,,,,,,,,,,,,,,,,,
-47,Coal,H & WB PCB Supercritical Coal-Fired Power Plant,2,Luzon (?),,,Unit 1 - Q4 of 2021; Unit 2 - Q4 of 2026,Indicative,700,H & WB ASIA PACIFIC (PTE LTD) CORPORATION,H & WB ASIA PACIFIC (PTE LTD) CORPORATION,,,,,,,,,,,,,,,,,,
-48,Coal,SMC Circulating Fluidized Bed Coal-Fired Power Plant,1,Luzon (?),,,,Indicative,600,SMC Global Power Holdings Codp,,,,,,,,,,,,,,,,,,,
-49,Coal,RPEI Coal-Fired Power Plant,2,Luzon (?),,,,Indicative,600,"Redondo Peninsula Energy, Inc.",,,,,,,,,,,,,,,,,,,
-50,Coal,Quezon Coal Fired Thermal Plant Project,1,Luzon (?),,,,Indicative,1050,"Orion Pacific Prime Energy, Inc.",,,,,,,,,,,,,,,,,,,
-51,Coal,"Therma Visayas Energy
- Project",2,10.33528,123.60444,,Unit 1: December 2017; Unit 2: March 2018,Indicative,300,Therma Visayas Inc.,Aboitiz Power Corp.,,,,,,,,,,,,,,,,,,
-52,Coal,"2 X 150 SPC Expansion Coal
- Power Plant Project",2,10.21755,123.76058,,TBD,Indicative,300,SPC Power Corporation,SPC Power Corporation,KEPCO,,,,,,,,,,,,,,,,,
-53,Coal,Ludo Coal-Fired Thermal Power Plant (cancelled),1,Visayas (?),,,,Indicative,300,Ludo Power Corporation,Ludo Power Corporation,,,,,,,,,,,,,,,,,,
-54,Coal,100 MW Power Station Project,1,"6.9855123, 121.9347668 (approximate)",,,,Indicative,100,"San Ramon Power, Inc.",Alsons Power Group,,,,,,,,,,,,,,,,,,
-55,Coal,Sibuguey Power Plant Project,1,Mindanao (?),,,,Indicative,100,Philippine National Oil Company (PNOC-EC),Philippine National Oil Company (PNOC),,,,,,,,,,,,,,,,,,
-56,Coal,Ozamis Coal Fired Power Plant,2,Mindanao (?),,,Jun. 2020,Indicative,300,"Ozamis Power Generation, Inc.",Avesco Marketing Corporation,,,,,,,,,,,,,,,,,,
-57,Coal,SMC Davao Power Plant Project Phase II,1,"6.39351, 125.61684 (exact)",,,Dec. 2018,Indicative,300,San Miguel Consolidated Power Corporation,San Miguel Corporation,,,,,,,,,,,,,,,,,,
-58,Coal,SMC Davao Power Plant Project Phase III,3,"6.39351, 125.61684 (exact)",,,Dec. 2018,Indicative,600,San Miguel Consolidated Power Corporation,San Miguel Corporation,,,,,,,,,,,,,,,,,,
-59,Coal,SMC Global Power 4x182 Coal Project,4,Mindanao (?),,,,Indicative,328,SMC Global Power,San Miguel Corporation,,,,,,,,,,,,,,,,,,
-60,Coal,Bislig 1 Oxyfuel-Gas Fired Power Plant Project,1,Mindanao (?),,,,Indicative,1,CENERTEC Philippines Inc,,,,,,,,,,,,,,,,,,,
-61,Coal,Bislig 2 Oxyfuel-Gas Fired Power Plant Project,1,Mindanao (?),,,,Indicative,4,CENERTEC Philippines Inc,,,,,,,,,,,,,,,,,,,
+67,Types,Project Name,Unit,Longitude,Latitude,Established Year,Status,Capacity (MW),Domestic owner name,Foreign owner name,Mother Company of owner,Project Cost,Total investment amount,Total amount from domestic sources,Total amount from foreign sources,Money not identifiable,"Domestic owner's contribution, Share (%)","Domestic owner's contribution, Amount","Foreign owner's contribution, Share (%)","Foreign owner's contribution, Amount",Total Identified amount of foreign finance,Total Identified amount of domestic finance (mio USD),CO2 Carbon Emission,Lifetime of plant (yr),Real Cost of Coal,Project Impact,References,"Remarks
+"
+Atimonan power station,Coal,Atimonan power station,Atimonan power station Unit 1,121.916667,14,2020,pre,600,Atimonan One Energy,,Meralco PowerGen Corporation,1.1 Billion USD ,0,,,,,,,,,,,,,,,
+,Coal,Atimonan power station,Atimonan power station Unit 2,121.916667,14,2021,pre,600,Atimonan One Energy,,Meralco PowerGen Corporation,1.1 Billion USD ,0,,,,,,,,,,,,,,,
+Anda Power Corporation Circulating Fluidized Bed Coal Fired Power Plant,Coal,Anda Power Corporation Circulating Fluidized Bed Coal Fired Power Plant,Unit 1,,,2016,construction,82,Anda Power Corporation,,,1.1 Billion USD ,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+APEC Coal Plant,Coal,APEC Coal Plant,Unit 1,,,2006,operating,50,Asia Pacific Energy Corporation,,Taiwan-based Formosa Heavy Industries Corp,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+Balingasag power station,Coal,Balingasag power station,Balingasag Unit 1,124.767,8.766,2017,Construction,55,Minergy Coal Corporation,,Cayagan Electric Power & Light (CEPALCO),,0,,,,,,,,,,,,,,,Partner Company: Vivant Integrated Generation Corp and Mindanao Energy Systems Inc
+,Coal,Balingasag power station,Balingasag Unit 2,124.767,8.766,2017,Construction,55,Minergy Coal Corporation,,Cayagan Electric Power & Light (CEPALCO),,0,,,,,,,,,,,,,,,Partner Company: Vivant Integrated Generation Corp and Mindanao Energy Systems Inc
+,Coal,Balingasag power station,Balingasag Unit 3,124.767,8.766,2017,Construction,55,Minergy Coal Corporation,,Cayagan Electric Power & Light (CEPALCO),33.418 Billion Peso,0,,,,,,,,,,,,,,,Partner Company: Vivant Integrated Generation Corp and Mindanao Energy Systems Inc
+Baquioen power station,Coal,Baquioen power station,Baquioen power station,120.0860784,16.1163312,,pre,900,,,,33.418 Billion Peso,0,,,,,,,,,,,,,,,
+Batangas power station,Coal,Batangas power station,Batangas Bay power station,121,13.716667,,Cancelled,300,,,,,0,,,,,,,,,,,,,,,
+,Coal,Batangas power station,Batangas power station Unit 1,121,13.716667,2001,pre,150,"JG Summit Holdings, Inc.",,"JG Summit Holdings, Inc.",,0,,,,,,,,,,,,,,,
+,Coal,Batangas power station,Batangas power station Unit 2,121,13.716667,,pre,150,"JG Summit Holdings, Inc.",,"JG Summit Holdings, Inc.",20.4 Billion Peso,0,,,,,,,,,,,,,,,
+,Coal,Batangas power station,Batangas power station Unit 3,121,13.716667,,pre,150,"JG Summit Holdings, Inc.",,"JG Summit Holdings, Inc.","12.1 Billion
+ Peso",0,,,,,,,,,,,,,,,
+,Coal,Batangas power station,Batangas power station Unit 4,121,13.716667,,pre,150,"JG Summit Holdings, Inc.",,"JG Summit Holdings, Inc.",12.1 Billion Peso,0,,,,,,,,,,,,,,,
+Bundagul power station,Coal,Bundagul power station,Bundagul power station,120.5853751,15.2340703,2021,Shelved,82,,,,12.1 Billion Peso,0,,,,,,,,,,,,,,,
+Cadiz City power station,Coal,Cadiz City power station,Cadiz City power station Unit 1,123.33157,10.95246,,pre,150,,,,622.15 Million USD,0,,,,,,,,,,,,,,,
+,Coal,Cadiz City power station,Cadiz City power station Unit 2,123.33157,10.95246,,pre,150,,,,10 Billion Peso,0,,,,,,,,,,,,,,,
+Calaca power station,Coal,Calaca power station,Calaca power station expansion Unit 3,120.7896888,13.9326276,,Operating,150,,,,10 Billion Peso,0,,,,,,,,,,,,,,,
+,Coal,Calaca power station,Calaca power station expansion Unit 4,120.7896888,13.9326276,2015,Operating,150,,,,,0,,,,,,,,,,,,,,,
+,Coal,Calaca power station,Calaca power station expansion Unit 5,120.7896888,13.9326276,2015,Pre,350,,,,,0,,,,,,,,,,,,,,,
+,Coal,Calaca power station,Calaca power station expansion Unit 6,120.7896888,13.9326276,2018,Pre,350,,,,,0,,,,,,,,,,,,,,,
+,Coal,Calaca power station,Calaca power station Unit 1,120.7896888,13.9326276,2018,Operating,300,"SEM Calaca Power Corporation (the plant was formerly owened by DMCI Holdings Inc., and was turned over on July 2009)",,Semirara Mining Corporation,,0,,,,,,,,,,,,,,,
+,Coal,Calaca power station,Calaca power station Unit 2,120.7896888,13.9326276,1984,Operating,300,"SEM Calaca Power Corporation (the plant was formerly owened by DMCI Holdings Inc., and was turned over on July 2009)",,Semirara Mining Corporation,33.31 Billion Peso,0,,,,,,,,,,,,,,,
+CEDC Coal Plant,Coal,CEDC Coal Plant,Unit 1,,,,operating,246,Cebu Energy Development Corporation,,Global Business Power Corporation (GBPC); ownership of GT Capital Holdings,33.31 Billion Peso,0,,,,,,,,,,,,,,,"1.New to endcoal's 2017 data.
+2.Partner Company: Abovant Holdings, Inc.,"
+,Coal,CEDC Coal Plant,Unit 2,,,,operating,246,Cebu Energy Development Corporation,,Global Business Power Corporation (GBPC); ownership of GT Capital Holdings,33.31 Billion Peso,0,,,,,,,,,,,,,,,"1.New to endcoal's 2017 data.
+2.Partner Company: Abovant Holdings, Inc.,"
+,Coal,CEDC Coal Plant,Unit 3,,,,operating,246,Cebu Energy Development Corporation,,Global Business Power Corporation (GBPC); ownership of GT Capital Holdings,33.31 Billion Peso,0,,,,,,,,,,,,,,,"1.New to endcoal's 2017 data.
+2.Partner Company: Abovant Holdings, Inc.,"
+Concepcion power station,Coal,Concepcion power station,Concepcion power station Unit 1,123.1207209,11.1875824,,Operating,135,,,,33.31 Billion Peso,0,,,,,,,,,,,,,,,
+,Coal,Concepcion power station,Concepcion power station Unit 2,123.1207209,11.1875824,2016,Construction,135,,,,33.31 Billion Peso,0,,,,,,,,,,,,,,,
+Davao San Miguel power station,Coal,Davao San Miguel power station,Davao San Miguel power station Unit 1,125.61684,6.39351,2014,Operating,150,San Miguel Consolidated Power Corporation,,San Miguel Corporation,33.31 Billion Peso,0,,,,,,,,,,,,,,,
+,Coal,Davao San Miguel power station,Davao San Miguel power station Unit 2,125.61684,6.39351,2016,Construction,150,San Miguel Consolidated Power Corporation,,San Miguel Corporation,37.8 Billion Peso,0,,,,,,,,,,,,,,,
+,Coal,Davao San Miguel power station,Davao San Miguel power station Unit 3,125.61684,6.39351,2016,pre,164,San Miguel Consolidated Power Corporation,,San Miguel Corporation,37.8 Billion Peso,0,,,,,,,,,,,,,,,
+,Coal,Davao San Miguel power station,Davao San Miguel power station Unit 4,125.61684,6.39351,2019,pre,164,San Miguel Consolidated Power Corporation,,San Miguel Corporation,37.8 Billion Peso,0,,,,,,,,,,,,,,,
+,Coal,Davao San Miguel power station,Davao San Miguel power station Unit 5,125.61684,6.39351,2019,Cancelled,300,San Miguel Consolidated Power Corporation,,San Miguel Corporation,37.8 Billion Peso,0,,,,,,,,,,,,,,,
+Davao Therma South power station,Coal,Davao Therma South power station,Davao Therma South power station Unit 1,125.479722,6.964444,2020,Operating,150,Therma South Inc.,,AboitizPower,37.8 Billion Peso,0,,,,,,,,,,,,,,,
+,Coal,Davao Therma South power station,Davao Therma South power station Unit 2,125.479722,6.964444,2015,Operating,150,Therma South Inc.,,AboitizPower,740 Million USD,0,,,,,,,,,,,,,,,
+,Coal,Davao Therma South power station,Davao Therma South power station Unit 3,125.479722,6.964444,2016,Shelved,172,Therma South Inc.,,AboitizPower,740 Million USD,0,,,,,,,,,,,,,,,
+,Coal,Davao Therma South power station,Davao Therma South power station Unit 4,125.479722,6.964444,2017,Shelved,172,Therma South Inc.,,AboitizPower,,0,,,,,,,,,,,,,,,
+Dinginin power station,Coal,Dinginin power station,Dinginin power station Unit 1,120.540992,14.424599,,Construction,668,GNPower Dinginin Coal Plant Ltd. Co.,,"American investment fund Sithe Global, Philippine Ayala Corporation",,0,,,,,,,,,,,,,,,
+,Coal,Dinginin power station,Dinginin power station Unit 2,120.540992,14.424599,2019,Construction,668,GNPower Dinginin Coal Plant Ltd. Co.,,"American investment fund Sithe Global, Philippine Ayala Corporation",,0,,,,,,,,,,,,,,,
+General Santos power station,Coal,General Santos power station,General Santos power station,125.166667,6.116667,2016,Cancelled,300,,,,,0,,,,,,,,,,,,,,,
+Global Luzon Coal-Fired Power Plant,Coal,Global Luzon Coal-Fired Power Plant,Unit 1,,,,pre,670,Global Luzon Energy Development Corporation,,GT Capital Holdings,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+,Coal,Global Luzon Coal-Fired Power Plant,Unit 2,,,,pre,670,Global Luzon Energy Development Corporation,,GT Capital Holdings,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+H & WB PCB Supercritical Coal-Fired Power Plant,Coal,H & WB PCB Supercritical Coal-Fired Power Plant,Unit 1,,,,pre,700,H & WB ASIA PACIFIC (PTE LTD) CORPORATION,,H & WB ASIA PACIFIC (PTE LTD) CORPORATION,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+,Coal,H & WB PCB Supercritical Coal-Fired Power Plant,Unit 2,,,,pre,700,H & WB ASIA PACIFIC (PTE LTD) CORPORATION,,H & WB ASIA PACIFIC (PTE LTD) CORPORATION,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+Isabel Copper power station,Coal,Isabel Copper power station,Isabel Copper Plant,124.4360876,10.8945865,2017,Shelved,200,,,,,0,,,,,,,,,,,,,,,
+Isabela power station,Coal,Isabela power station,Isabela power station,121.77,16.94,,Shelved,100,,,,,0,,,,,,,Latitude,Longitude,,,,,,,
+Jose Panganiban power station,Coal,Jose Panganiban power station,Jose Panganiban power station Unit 1,122.673511,14.3378,,Pre,350,,,,,0,,,,,,,,,,,,,,,
+,Coal,Jose Panganiban power station,Jose Panganiban power station Unit 2,122.673511,14.3378,2021,Pre,350,,,,,0,,,,,,,,,,,,,,,
+Kamanga power station,Coal,Kamanga power station,Kamanga power station Unit 1,125.079818,5.86868,,Operating,118,Sarangani Energy Corporation,,Alsons Power Group,,0,,,,,,,,,,,,,,,
+,Coal,Kamanga power station,Kamanga power station Unit 2,125.079818,5.86868,2016,Committed,100,Sarangani Energy Corporation,,Alsons Power Group,,0,,,,,,,,,,,,,,,
+King-king Project power station,Coal,King-king Project power station,King-king Unit 1,126.155,7.255,2018,Cancelled,80,,,,,0,,,,,,,,,,,,,,,
+,Coal,King-king Project power station,King-king Unit 2,126.155,7.255,2017,Cancelled,80,,,,,0,,,,,,,,,,,,,,,
+La Union power station,Coal,La Union power station,La Union power station Unit 1,120.381111,16.853889,,pre,335,,,,,0,,,,,,,,,,,,,,,
+,Coal,La Union power station,La Union power station Unit 2,120.381111,16.853889,2022,,335,,,,,0,,,,,,,,,,,,,,,
+Lanao Kauswagan power station,Coal,Lanao Kauswagan power station,Lanao Kauswagan power station Unit 1,124.11545,8.18691,2017,Construction,135,GN Power Kauswagan Ltd. Co.,,Ayala Corporation and Power Partners Ltd. Co,,0,,,,,,,,,,,,,,,
+,Coal,Lanao Kauswagan power station,Lanao Kauswagan power station Unit 2,124.11545,8.18691,2017,Construction,135,GN Power Kauswagan Ltd. Co.,,Ayala Corporation and Power Partners Ltd. Co,,0,,,,,,,,,,,,,,,
+,Coal,Lanao Kauswagan power station,Lanao Kauswagan power station Unit 3,124.11545,8.18691,2017,Construction,135,GN Power Kauswagan Ltd. Co.,,Ayala Corporation and Power Partners Ltd. Co,,0,,,,,,,,,,,,,,,
+,Coal,Lanao Kauswagan power station,Lanao Kauswagan power station Unit 4,124.11545,8.18691,2018,Construction,135,GN Power Kauswagan Ltd. Co.,,Ayala Corporation and Power Partners Ltd. Co,,0,,,,,,,,,,,,,,,
+Limay power station,Coal,Limay power station,Limay TPP Phase 3,120.6026809,14.5204064,,Cancelled,300,SMC Consolidated Power Corporation,,San Miguel Corporation,,0,,,,,,,,,,,,,,,
+,Coal,Limay power station,Limay TPP Unit 1,120.6026809,14.5204064,2019-20,Construction,150,SMC Consolidated Power Corporation,,San Miguel Corporation,,0,,,,,,,,,,,,,,,
+,Coal,Limay power station,Limay TPP Unit 2,120.6026809,14.5204064,2017,Construction,150,SMC Consolidated Power Corporation,,San Miguel Corporation,,0,,,,,,,,,,,,,,,
+,Coal,Limay power station,Limay TPP Unit 3,120.6026809,14.5204064,2017,Construction,150,SMC Consolidated Power Corporation,,San Miguel Corporation,,0,,,,,,,,,,,,,,,
+,Coal,Limay power station,Limay TPP Unit 4,120.6026809,14.5204064,2017,Construction,150,SMC Consolidated Power Corporation,,San Miguel Corporation,,0,,,,,,,,,,,,,,,
+Lucidum Coal Power Plant,Coal,Lucidum Coal Power Plant,Unit 1,,,,pre,300,"Lucidum Energy, Inc.",,"Lucidum Energy, Inc.",,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+Ludo power station,Coal,Ludo power station,Ludo power station,,,2018,Cancelled,300,Ludo Power Corporation,,Ludo Power Corporation,,0,,,,,,,,,,,,,,,
+Mabalacat Mill power station,Coal,Mabalacat Mill power station,Mabalacat Mill 1,120.6,14.566667,2017,Operating,52,,,,,0,,,,,,,,,,,,,,,
+Malabuyoc power station,Coal,Malabuyoc power station,Malabuyoc power station,123.3016008,9.6641941,,pre,600,,,,,0,,,,,,,,,,,,,,,
+Mariveles Power Plant,Coal,Mariveles Power Plant,Mariveles Power Plant Unit 1,120.540992,14.424599,2006,Operating,300,GNPower Mariveles Coal Plant Ltd. Co.,,GNPower LTD. Co.,,0,,,,,,,,,,,,,,,"1. New to endcoal's 2017 data.
+2. Partner Company: Power Partners Ltd. Co., and Sithe Global Power LLC"
+,Coal,Mariveles Power Plant,Mariveles Power Plant Unit 2,120.540992,14.424599,2013,Operating,300,GNPower Mariveles Coal Plant Ltd. Co.,,GNPower LTD. Co.,,0,,,,,,,,,,,,,,,"1.New to endcoal's 2017 data.
+2. Partner Company: Power Partners Ltd. Co., and Sithe Global Power LLC"
+Masinloc power station,Coal,Masinloc power station,Masinloc power station Unit 1,119.922778,15.567222,2013,Operating,330,Masinloc Power Partners Co. Ltd. (formerly owned by NPC),,AES Corporation,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+,Coal,Masinloc power station,Masinloc power station Unit 2,119.922778,15.567222,1998,Operating,330,Masinloc Power Partners Co. Ltd. (formerly owned by NPC),,AES Corporation,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+,Coal,Masinloc power station,Masinloc power station Unit 3,119.922778,15.567222,1999,Construction,335,"AES Masinloc Powe Partners Co., Inc.",,"AES Masinloc Power Partners Co., Inc.",,0,,,,,,,,,,,,,,,
+,Coal,Masinloc power station,Masinloc power station Unit 4,119.922778,15.567222,2019,Pre,335,AES Masinloc Power Partners,,,,0,,,,,,,,,,,,,,,
+Mindanao Steag power station,Coal,Mindanao Steag power station,Mindanao Steag power station Unit 1,124.7573,8.5725,2018,Operating,116,STEAG State Power Inc. (SPI),,Steag GmbH,,0,,,,,,,,,,,,,,,"1. New to endcoal's 2017 data.
+2. Partner Company: Evonik Steag GmbH of Essen Germany (51%), La Fiipina Uy Gongco Corp. (15%) and AboitizPower (34%)"
+,Coal,Mindanao Steag power station,Mindanao Steag power station Unit 2,124.7573,8.5725,2006,Operating,116,STEAG State Power Inc. (SPI),,Steag GmbH,,0,,,,,,,,,,,,,,,"1. New to endcoal's 2017 data.
+2. Partner Company: Evonik Steag GmbH of Essen Germany (51%), La Fiipina Uy Gongco Corp. (15%) and AboitizPower (34%)"
+,Coal,Mindanao Steag power station,Mindanao Steag power station Unit 3,124.7573,8.5725,2006,Cancelled,150,,,,,0,,,,,,,,,,,,,,,
+Misamis Oriental power station,Coal,Misamis Oriental power station,Misamis Oriental power station Unit 1,124.7477582,8.5609664,,Operating,135,"FDC Utilities, Inc.",,,,0,,,,,,,,,,,,,,,
+,Coal,Misamis Oriental power station,Misamis Oriental power station Unit 2,124.7477582,8.5609664,2016,Operating,135,"FDC Utilities, Inc.",,Filinvest Development Corporation,,0,,,,,,,,,,,,,,,
+,Coal,Misamis Oriental power station,Misamis Oriental power station Unit 3,124.7477582,8.5609664,2016,Operating,135,"FDC Utilities, Inc.",,,,0,,,,,,,,,,,,,,,
+Naga power complex 1,Coal,Naga power complex 1,Naga-1 power station Unit 1,123.76058,10.21755,,Operating,50,,,,,0,,,,,,,,,,,,,,,
+,Coal,Naga power complex 1,Naga-1 power station Unit 2,123.76058,10.21755,1981,Operating,55,,,,,0,,,,,,,,,,,,,,,
+Naga power complex 2,Coal,Naga power complex 2,Naga-2 Unit 1,123.76058,10.21755,1986,Operating,103,KEPCO- Salcon Power Corp. (prev.Salcon Power Corporation),,Korea Electric Power Corporation (KEPCO),,0,,,,,,,,,,,,,,,
+,Coal,Naga power complex 2,Naga-2 Unit 2,123.76058,10.21755,2010,Operating,103,KEPCO- Salcon Power Corp. (prev.Salcon Power Corporation),,Korea Electric Power Corporation (KEPCO),,0,,,,,,,,,,,,,,,
+Naga power complex 3,Coal,Naga power complex 3,Naga-3 Unit 1,123.76058,10.21755,2011,pre,150,SPC Power Corporation,,SPC Power Corporation,,0,,,,,,,,,,,,,,,"1. New to endcoal's 2017 data.
+2. Partner Company: KEPCO"
+,Coal,Naga power complex 3,Naga-3 Unit 2,123.76058,10.21755,,pre,150,SPC Power Corporation,,SPC Power Corporation,,0,,,,,,,,,,,,,,,"1. New to endcoal's 2017 data.
+2. Partner Company: KEPCO"
+Oyon Bay power station,Coal,Oyon Bay power station,Oyon Bay power station,119.95,15.533333,2020,pre,150,,,,,0,,,,,,,,,,,,,,,
+Ozamis Coal Fired Power Plant,Coal,Ozamis Coal Fired Power Plant,Unit 1,,,,pre,150,"Ozamis Power Generation, Inc.",,Avesco Marketing Corporation,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+,Coal,Ozamis Coal Fired Power Plant,Unit 2,,,,pre,150,"Ozamis Power Generation, Inc.",,Avesco Marketing Corporation,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+Pagbilao power station,Coal,Pagbilao power station,Pagbilao power station Unit 1,121.745,13.8932,1995,Operating,367,TeaM Energy Corporation,,Japanese firms Tokyo Electric Power Company and Marubeni Corporation,,0,,,,,,,,,,,,,,,
+,Coal,Pagbilao power station,Pagbilao power station Unit 2,121.745,13.8932,1996,Operating,367,TeaM Energy Corporation,,Japanese firms Tokyo Electric Power Company and Marubeni Corporation,,0,,,,,,,,,,,,,,,
+,Coal,Pagbilao power station,Pagbilao power station Unit 3,121.745,13.8932,1996,Construction,420,Pagbilao Energy Corporation,,Aboitiz Power Corp.,,0,,,,,,,,,,,,,,,
+Palawan 22MW Coal Plant,Coal,Palawan 22MW Coal Plant,,,,,OFF-GRID,,Nickel Asia,,,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+Palm Concepcion Coal-Fired Power Plant,Coal,Palm Concepcion Coal-Fired Power Plant,Unit 1,,,,Construction,135,Palm Concepcion Power Corporation (formerly DMCI Concepcion Power Corp.),,"Panay Consolidated Land Holdings, Corp. (PCLHC) of A Brown Company Inc.",,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+,Coal,Palm Concepcion Coal-Fired Power Plant,Unit 2,,,,,135,Palm Concepcion Power Corporation (formerly DMCI Concepcion Power Corp.),,"Panay Consolidated Land Holdings, Corp. (PCLHC) of A Brown Company Inc.",,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+Panay power plant (Kepco),Coal,Panay power plant (Kepco),Panay KEPCO diesel conversion,122.6726105,10.920334,2019,Cancelled,100,,,,,0,,,,,,,,,,,,,,,
+Panay power station,Coal,Panay power station,Panay power station Unit 1,122.59582,10.72444,,Operating,82,,,,,0,,,,,,,,,,,,,,,
+,Coal,Panay power station,Panay power station Unit 2,122.59582,10.72444,2010,Operating,82,,,,,0,,,,,,,,,,,,,,,
+,Coal,Panay power station,Panay power station Unit 3,122.59582,10.72444,2011,Operating,150,,,,,0,,,,,,,,,,,,,,,
+PEDC Coal Plant,Coal,PEDC Coal Plant,Unit 1,,,,operating,167.4,Panay Energy Development Corporation (PEDC),,Global Business Power Corporation (GBPC),,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+,Coal,PEDC Coal Plant,Unit 2,,,,operating,167.4,Panay Energy Development Corporation (PEDC),,Global Business Power Corporation (GBPC),,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+PEDC Unit III,Coal,PEDC Unit III,Unit 1,,,,operating,150,,,,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+Petron RSFFB,Coal,Petron RSFFB,Unit 1,,,,operating,140,SMC Powergen Inc.,,San Miguel Corporation,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+,Coal,Petron RSFFB,Unit 2,,,,operating,140,SMC Powergen Inc.,,San Miguel Corporation,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+,Coal,Petron RSFFB,Unit 3,,,,operating,140,SMC Powergen Inc.,,San Miguel Corporation,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+,Coal,Petron RSFFB,Unit 4,,,,operating,140,SMC Powergen Inc.,,San Miguel Corporation,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+Puting Bato power station,Coal,Puting Bato power station,Puting Bato power station Unit 1,120.826054,13.91933,2017,Operating,135,South Luzon Thermal Energy Corporation (Previously Trans-Asia Oil and Energy Dev. Corp.),,Ayala Group of Companies and the Phinma Group,,0,,,,,,,,,,,,,,,
+,Coal,Puting Bato power station,Puting Bato power station Unit 2,120.826054,13.91933,2015,Operating,135,South Luzon Thermal Energy Corporation (Previously Trans-Asia Oil and Energy Dev. Corp.),,Ayala Group of Companies and the Phinma Group,,0,,,,,,,,,,,,,,,
+Quezon Coal Fired Thermal Plant Project,Coal,Quezon Coal Fired Thermal Plant Project,Unit 1,,,,pre,1050,"Orion Pacific Prime Energy, Inc.",,,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+Quezon power station,Coal,Quezon power station,Quezon power station Unit 1,121.7558,14.2296,2016,Operating,511,Quezon Power Philippines Limited Co.,,Electric Generating Public Co. (EGCO),,0,,,,,,,,,,,,,,,
+,Coal,Quezon power station,Quezon power station Unit 2,121.7558,14.2296,2000,Construction,500,San Buenaventura Power Ltd. Co. (SBPL),,Meralco (51%); EGCO (49%),,0,,,,,,,,,,,,,,,
+RPEI Coal-Fired Power Plant,Coal,RPEI Coal-Fired Power Plant,Unit 1,,,,pre,300,"Redondo Peninsula Energy, Inc.",,,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+,Coal,RPEI Coal-Fired Power Plant,Unit 2,,,,pre,300,"Redondo Peninsula Energy, Inc.",,,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+Sibuguey Power Plant Project,Coal,Sibuguey Power Plant Project,Sibuguey Power Plant Project,123,7.616,2016,Cancelled,100,Philippine National Oil Company (PNOC-EC),,Philippine National Oil Company (PNOC),,0,,,,,,,,,,,,,,,
+SMC Ibabang power station,Coal,SMC Ibabang power station,SMC Ibabang power station Unit 1,121.745,13.8932,2019,pre,150,,,,,0,,,,,,,,,,,,,,,
+,Coal,SMC Ibabang power station,SMC Ibabang power station Unit 2,121.745,13.8932,2021,pre,150,,,,,0,,,,,,,,,,,,,,,
+,Coal,SMC Ibabang power station,SMC Ibabang power station Unit 3,121.745,13.8932,2021,pre,150,,,,,0,,,,,,,,,,,,,,,
+,Coal,SMC Ibabang power station,SMC Ibabang power station Unit 4,121.745,13.8932,2021,pre,150,,,,,0,,,,,,,,,,,,,,,
+SMC Circulating Fluidized Bed Coal-Fired Power Plant,Coal,SMC Circulating Fluidized Bed Coal-Fired Power Plant,Unit 1,,,,pre,600,SMC Global Power,,San Miguel Corporation,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+,Coal,SMC Circulating Fluidized Bed Coal-Fired Power Plant,Unit 2,,,,pre,600,SMC Global Power,,San Miguel Corporation,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+,Coal,SMC Circulating Fluidized Bed Coal-Fired Power Plant,Unit 3,,,,pre,600,SMC Global Power,,San Miguel Corporation,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+,Coal,SMC Circulating Fluidized Bed Coal-Fired Power Plant,Unit 4,,,,pre,600,SMC Global Power,,San Miguel Corporation,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+SMC Global Power Coal Project,Coal,SMC Global Power Coal Project,Unit 1,,,,pre,182,SMC Global Power,,San Miguel Corporation,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+,Coal,SMC Global Power Coal Project,Unit 2,,,,pre,182,SMC Global Power,,San Miguel Corporation,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+,Coal,SMC Global Power Coal Project,Unit 3,,,,pre,182,SMC Global Power,,San Miguel Corporation,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+,Coal,SMC Global Power Coal Project,Unit 4,,,,pre,182,SMC Global Power,,San Miguel Corporation,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+Sual power station,Coal,Sual power station,Sual power station Unit 1,120.100556,16.125,2016,Operating,647,"Team Energy Corporation (SMEC assumed administration of the Sual power plant on November 6, 2009)",,Japanese firms Tokyo Electric Power Company and Marubeni Corporation,,0,,,,,,,,,,,,,,,
+,Coal,Sual power station,Sual power station Unit 2,120.100556,16.125,1999,Operating,647,"Team Energy Corporation (SMEC assumed administration of the Sual power plant on November 6, 2009)",,Japanese firms Tokyo Electric Power Company and Marubeni Corporation,,0,,,,,,,,,,,,,,,
+,Coal,Sual power station,Sual power station Unit 3,120.100556,16.125,1999,Cancelled,600,,,,,0,,,,,,,,,,,,,,,
+Subic power station,Coal,Subic power station,Subic power station Unit 1,120.19429,14.76744,,pre,300,,,,,0,,,,,,,,,,,,,,,
+,Coal,Subic power station,Subic power station Unit 2,120.19429,14.76744,2018,pre,300,,,,,0,,,,,,,,,,,,,,,
+Sultan Kudarat power station,Coal,Sultan Kudarat power station,Sultan Kudarat power station,124.283333,6.55,2016,Cancelled,200,,,,,0,,,,,,,,,,,,,,,
+SRPGC Coal Fired Power Plant (1050 MW),Coal,SRPGC Coal Fired Power Plant (1050 MW),Unit 1,,,,pre,700,St. Raphael Power Generation Corp.,,MGen and Semirara Mining and Power Corp,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+,Coal,SRPGC Coal Fired Power Plant (1050 MW),Unit 2,,,,,,,,,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+Semirara Coal Plant,Coal,Semirara Coal Plant,,,,,OFF-GRID,,DMCI,,,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+SINOMA Coal Plant (embedded),Coal,SINOMA Coal Plant (embedded),Unit 1,,,,operating,6,SINOMA Energy Conservation Ltd. (SINOMA EC),,CEMEX,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+SLPGC Coal-Fired Power Plant Phase I,Coal,SLPGC Coal-Fired Power Plant Phase I,Unit 1,,,,construction,150,Southwest Luzon Power Generation Corporation (Project Company),,Semirara Mining and Power Corporation,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+,Coal,SLPGC Coal-Fired Power Plant Phase I,Unit 2,,,,construction,150,Southwest Luzon Power Generation Corporation (Project Company),,Semirara Mining and Power Corporation,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+,Coal,SLPGC Coal-Fired Power Plant Phase I,Unit 2,,,,construction,150,Southwest Luzon Power Generation Corporation (Project Company),,Semirara Mining and Power Corporation,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+Therma Visayas Energy Project,Coal,Therma Visayas Energy Project,Therma Visayas Energy Project Unit 1,123.604444,10.335278,,Construction,170,Therma Visayas Inc.,,Aboitiz Power Corp.,,0,,,,,,,,,,,,,,,
+,Coal,Therma Visayas Energy Project,Therma Visayas Energy Project Unit 2,123.604444,10.335278,2018,Construction,170,Therma Visayas Inc.,,Aboitiz Power Corp.,,0,,,,,,,,,,,,,,,
+Toledo City power station,Coal,Toledo City power station,Toledo City power station Unit 4,123.639802,10.387266,2018,Operating,52,Toledo Power Company,,Global Business Power Corporation (GBPC); ownership of GT Capital Holdings,,0,,,,,,,,,,,,,,,
+,Coal,Toledo City power station,Toledo City power station Unit 5,123.639802,10.387266,1983,Operating,82,Toledo Power Company,,Global Business Power Corporation (GBPC); ownership of GT Capital Holdings,,0,,,,,,,,,,,,,,,
+,Coal,Toledo City power station,Toledo City power station Unit 6,123.639802,10.387266,2010,Operating,82,,,,,0,,,,,,,,,,,,,,,
+,Coal,Toledo City power station,Toledo City power station Unit 7,123.639802,10.387266,2011,Operating,82,,,,,0,,,,,,,,,,,,,,,
+,Coal,Toledo City power station,Toledo City power station Unit 8,123.639802,10.387266,2011,Operating,82,,,,,0,,,,,,,,,,,,,,,
+UPPC Coal Plant (embedded),Coal,UPPC Coal Plant (embedded),Unit 1,,,,Operating,30,"United Pulp & Paper Co., Inc",,SCG Paper of Thailand,,0,,,,,,,,,,,,,,,New to endcoal's 2017 data.
+Zamboanga power station,Coal,Zamboanga power station,Zamboanga power station,121.9347668,6.9855123,2016,pre,105,"San Ramon Power, Inc.",,Alsons Power Group,,0,,,,,,,,,,,,,,,
+Zest-O power station,Coal,Zest-O power station,Zest-O power station Unit 1,121,16,2022,pre,600,,,,,0,,,,,,,,,,,,,,,
+,Coal,Zest-O power station,Zest-O power station Unit 2,121,16,,pre,600,,,,,0,,,,,,,,,,,,,,,
+KEPCO Subic Bay power station,Coal,KEPCO Subic Bay power station,,120.205317,14.850474,2020,Shelved,200,,,,,0,,,,,,,,,,,,,,,

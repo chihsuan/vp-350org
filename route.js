@@ -9,8 +9,8 @@ var route = [
       center: [106.5, 15],
       scale: 1900,
       mobileScale: 1100,
-      plantFile: './data/Japan&Vietnam.csv',
-      financierFile: './data/Database- VN - Project 2.csv',
+      plantFile: './data/Database- VN - Project VN 1.csv',
+      financierFile: './data/Database- VN - Project VN 2.csv',
       intro: {
         coverImg: './img/vietnam_story.png',
         text: 'When a butterfly flaps its wings in Japan, it causes a hurricane in Vietnam.'
@@ -67,13 +67,13 @@ var route = [
           title: 'SOUTH WINDS',
           linkUrl: 'http://southwind.nmns.edu.tw/',
           mediaUrl: './img/image18.png',
-          content: 'My ancestors told us that if you have your fields and the sea, you will never go hungry. Since the Sixth Naphtha Cracking Plant has come, we don\'t have anything," a Taiwanese fisherman helpless expressed. The 398 smokestacks of the Sixth Naphtha Cracking Plant in Mailiao Township, just across the Zhuoshui River that began operating in 1998. Every summer, when the "south wind" blows fumes from these smokestacks are sent northward to Taixi Village. The residents of this village not only have to put up with the foul odor, but also face health risks from harmful air pollutants.'
+          content: 'My ancestors told us that if you have your fields and the sea, you will never go hungry. Since the Sixth Naphtha Cracking Plant has come, we don\'t have anything," a Taiwanese fisherman helpless expressed. The 398 smokestacks of the Sixth Naphtha Cracking Plant in Mailiao Township, just across the Zhuoshui River that began operating in 1998. Every summer, when the "wind" blows fumes from these smokestacks are sent northward to Taixi Village. The residents of this village not only have to put up with the foul odor, but also face health risks from harmful air pollutants.'
         },
         {
           isVideo: true,
-          title: 'DOCUMENTARY "HON CAU MPA UNDER THREATS FROM COAL POWER',
-          mediaUrl: 'https://www.youtube.com/embed/5p-Fjru1DEQ',
-          content: 'The documentary “Hon Cau MPA under threats from coal power” was filmed at the communes Vinh Tan, Phuoc The, Vinh Hao, Ca Nha and the Hon Cau MPA. The clip introduces the important location of Hon Cau MPA, the native marine biodiversity with high scientific and economical values to the locals; and threats of coal power (through operation, discharge and dredging) to the MPA and to local livelihoods (fishing, salt, aquaculture etc.) This is a call to protect Hon Cau MPA from coal power impacts'
+          title: 'My Body is an  Air Pollution Monitoring Station',
+          mediaUrl: 'https://www.youtube.com/embed/IhNaQtN7oEc',
+          content: 'In past decades, the Sixth Naphtha Cracking Plant located in Mailiao coastal area has resulted in serious environmental pollution and health problem. The “legally pollution” has made the local residents helpless. The number of people suffering from cancer increase due to the air pollution. This film directed by Lin Taizhou begins with the a female resident’s appeal to the EPA officials and representatives of the factory in the air pollution public hearing in March 2015. The film coupled with twisted upside down the factory chimney picture, cleverly succumbed to the enterprise and the disabled government.'
         }
       ]
     },
@@ -89,10 +89,10 @@ var route = [
       scale: 3500,
       mobileScale: 2200,
       plantFile: './data/Database- SK - Project SK 1.csv',
-      financierFile: './data/Database- VN - Project 2.csv',
+      financierFile: './data/Database- SK - Project SK 2.csv',
       intro: {
         coverImg: './img/image17.png',
-        text: '“Climate change isn’t just a problem of an individual, city or a country, but it matters to all of us. That’s why I decided to stand up together with other people.” ～ Yeon-ju Seo, a mother of a nine-month-old girl from Gyeonggi Province, said.'
+        text: 'Climate Change isn’t just a problem of an individual, city or a country, it matters  to all of us.'
       },
       stories: [
         {
@@ -103,9 +103,9 @@ var route = [
         },
         {
           isVideo: true,
-          title: 'People’s Climate March in Seoul: We want climate justice. We must do action, not just words. We are unstoppable, another world is impossible!',
-          mediaUrl: 'https://www.youtube.com/embed/y-hVT9zn9tw',
-          content: '(September 21, 2014) “We support Ban Ki Moon UN Climate Summit and hope they raise the political will for planet Earth and for the people and draw meaningful and practical outcome!” Around 70 people gathered together to join this march. It was the first climate march held in Seoul on September 21st to support Ban ki moon UN climate summit on September 23rd.The march was not only for the summit but also for all people who live in south Korea and all people all around the world.'
+          title: '1,000 Citizens Demand ‘Break Free’ from Fossil Fuels',
+          mediaUrl: 'https://www.youtube.com/embed/_UV7yyEmt2g',
+          content: '(March 25, 2017) About 1,000 citizens joined a massive rally to demand the country to ‘Break Free’ from fossil fuels and shift to renewable energy. Participants gathered from all over the country like Seoul, to strongly oppose the government’s plan to build two more coal-fired power plants (Dangjin Coal-Fired Power Complex) in the city which already contains 10 units of them. This huge construction stand at 6,040MW becoming the world’s largest coal plant.'
         },
         {
           isVideo: false,
@@ -168,16 +168,16 @@ var route = [
       scale: 2000,
       mobileScale: 1100,
       plantFile: './data/Database- PH - Project PH 1.csv',
-      financierFile: './data/Database- VN - Project 2.csv',
+      financierFile: './data/Database- PH - Project PH 2.csv',
       intro: {
         coverImg: './img/image8.png',
-        text: 'The most to lose and little to gain People from the Philippines have shown that it is possible to stop the world’s biggest bankrollers of climate change.'
+        text: 'The most to lose and little to gain.'
       },
       stories: [
         {
-          isVideo: true,
+          isVideo: false,
           title: 'We stand with Bataan in saying no to coal.',
-          mediaUrl: 'https://www.youtube.com/embed/gQt_idMCMJA',
+          mediaUrl: './img/ph3.jpg',
           content: 'Solar and wind energy are now at the same price or even cheaper than new fossil fuels in over 30 countries, according to the World Economic Forum. It is both ironic and tragic then that companies like SMC Consolidated Power Corporation (SMCCPC) continue to operate destructive coal plants and dump bottom ash harmful to nearby communities, such as in Limay, Bataan. Therefore, the Environmental Management Bureau in Central Luzon has already ordered SMCCPC to stop any activity inside its coal plant in the wake of the ash spill that has caused several residents in the nearby communities to fall ill.'
         },
         {
@@ -211,7 +211,7 @@ var route = [
       financierFile: './data/Database- VN - Project 2.csv',
       intro: {
         coverImg: './img/vietnam_story.png',
-        text: 'Indonesia, one of the world’s largest producers and exporters of coal. Black clouds cover over Indonesia due to Japanese coal finance'
+        text: 'Black Clouds cover over Indonesia due to Japanese coal finance.'
       },
       stories: [
         {

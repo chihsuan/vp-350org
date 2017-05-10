@@ -1,7 +1,8 @@
 from lib import csv_io
 from lib import json_io
 
-files = {'Vietnam': './data/Database- VN - Project VN 2.csv'}
+files = {'Vietnam': './data/Database- VN - Project VN 2.csv',
+         'South Korea': './data/Database- SK - Project SK 2.csv'}
 
 stats = {}
 output = []

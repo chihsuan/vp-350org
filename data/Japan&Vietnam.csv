@@ -1,4 +1,4 @@
-tracker_id,country,plant,unit,combustion_technology,coal_type,emission_factor,capacity_mw,Status,Established date (yr),year_spread,retired,planned_retire,latitude,longitude,efficiency,capacity_factor,emissions_yr_mt,lifetime,lifetime_spread,emissions_lifetime_mt
+tracker_id,country,plant,unit,combustion_technology,coal_type,emission_factor,Capacity (MW),Status,Established date (yr),year_spread,retired,planned_retire,latitude,longitude,efficiency,capacity_factor,emissions_yr_mt,lifetime,lifetime_spread,emissions_lifetime_mt
 G107151,Vietnam,Na Duong power station,Na Duong-1 power station Unit 1,SUBCR,LIG,101000,50,operating,2004,0,,,21.698111,106.975852,0.382504459,0.64,8449574.711,46,14,388680436.7
 G107152,Vietnam,Na Duong power station,Na Duong-1 power station Unit 2,SUBCR,LIG,101000,50,operating,2004,0,,,21.698111,106.975852,0.382504459,0.64,8449574.711,46,14,388680436.7
 G100084,Japan,Aichi Refinery power station,Aichi Refinery 4,SUBCR,SUB,96100,40,operating,1986,0,,,35.180189,136.913508,0.392130806,0.64,6273824.86,46,14,288595943.6
@@ -157,8 +157,8 @@ G105738,Vietnam,Kien Luong power station,Kien Luong-2 Unit 2,SUPERC,SUB,96100,60
 G105739,Vietnam,Kien Luong power station,Kien Luong-3 Unit 1,SUPERC,SUB,96100,1000,cancelled,,,,,10.3,104.661,0.405794063,0.64,151564563.5,46,14,6971969919
 G105740,Vietnam,Kien Luong power station,Kien Luong-3 Unit 2,SUPERC,SUB,96100,1000,cancelled,,,,,10.3,104.661,0.405794063,0.64,151564563.5,46,14,6971969919
 G107153,Vietnam,Na Duong power station,Na Duong-2 power station Unit 1,CFB,SUB,96100,110,construction,2019,0,,,21.6975,106.9765,0.392130806,0.64,17253018.37,46,14,793638844.8
-G102474,Vietnam,__c Giang Lˆo Cai power station,__c Giang Lˆo Cai power station Unit 1,unknown,SUB,96100,50,announced,,,,,22.382222,104.177222,0.391590805,0.64,7853095.529,46,14,361242394.3
-G112740,Vietnam,__c Giang Lˆo Cai power station,__c Giang Lˆo Cai power station Unit 2,unknown,SUB,96100,50,announced,,,,,22.382222,104.177222,0.391590805,0.64,7853095.529,46,14,361242394.3
+G102474,Vietnam,__c Giang Lï¿½o Cai power station,__c Giang Lï¿½o Cai power station Unit 1,unknown,SUB,96100,50,announced,,,,,22.382222,104.177222,0.391590805,0.64,7853095.529,46,14,361242394.3
+G112740,Vietnam,__c Giang Lï¿½o Cai power station,__c Giang Lï¿½o Cai power station Unit 2,unknown,SUB,96100,50,announced,,,,,22.382222,104.177222,0.391590805,0.64,7853095.529,46,14,361242394.3
 G101180,Vietnam,Can Duoc power station (KEPCO and Vinakobalt),Can Duoc power station (KEPCO and Vinakobalt),unknown,SUB,96100,1600,shelved,,,,,10.539167,106.609167,0.391590805,0.64,251299056.9,46,14,11559756619
 G107206,Vietnam,Nam Dinh power station,Nam Dinh-1 Unit 1,unknown,SUB,96100,600,pre,2021,0,,,20.1012,106.21355,0.391590805,0.64,94237146.35,46,14,4334908732
 G107207,Vietnam,Nam Dinh power station,Nam Dinh-1 Unit 2,unknown,SUB,96100,600,pre,2022,0,,,20.1012,106.21355,0.391590805,0.64,94237146.35,46,14,4334908732
@@ -290,8 +290,8 @@ G102532,Vietnam,Duyen Hai Power Generation Complex,Duyen Hai-2 Unit 1,unknown,BI
 G102533,Vietnam,Duyen Hai Power Generation Complex,Duyen Hai-2 Unit 2,unknown,BIT,94600,600,construction,2021,0,,,9.58517,106.52809,0.391590805,0.64,92766223.15,46,14,4267246265
 G102535,Vietnam,Duyen Hai Power Generation Complex,Duyen Hai-3 Unit 1,SUPERC,BIT,94600,622,operating,2016,0,,,9.58517,106.52809,0.398449588,0.64,94512252.24,46,14,4347563603
 G102536,Vietnam,Duyen Hai Power Generation Complex,Duyen Hai-3 Unit 2,SUPERC,BIT,94600,622,construction,2017,0,,,9.58517,106.52809,0.398449588,0.64,94512252.24,46,14,4347563603
-G100188,Vietnam,An Kh‡nh - B_c Giang power station,An Kh‡nh - B_c Giang power station Unit 1,CFB,ANTH,98300,325,announced,2022,0,,,21.23238,106.35375,0.384790514,0.64,53136445.09,46,14,2444276474
-G100189,Vietnam,An Kh‡nh - B_c Giang power station,An Kh‡nh - B_c Giang power station Unit 2,CFB,ANTH,98300,325,announced,2023,0,,,21.23238,106.35375,0.384790514,0.64,53136445.09,46,14,2444276474
+G100188,Vietnam,An Khï¿½nh - B_c Giang power station,An Khï¿½nh - B_c Giang power station Unit 1,CFB,ANTH,98300,325,announced,2022,0,,,21.23238,106.35375,0.384790514,0.64,53136445.09,46,14,2444276474
+G100189,Vietnam,An Khï¿½nh - B_c Giang power station,An Khï¿½nh - B_c Giang power station Unit 2,CFB,ANTH,98300,325,announced,2023,0,,,21.23238,106.35375,0.384790514,0.64,53136445.09,46,14,2444276474
 G110611,Vietnam,Vinh Tan power station,Vinh Tan-1 Unit 1,SUBCR,ANTH,98300,600,construction,2019,0,,,11.317,108.808,0.385007591,0.64,98042742.35,46,14,4509966148
 G110612,Vietnam,Vinh Tan power station,Vinh Tan-1 Unit 2,SUBCR,ANTH,98300,600,construction,2019,0,,,11.317,108.808,0.385007591,0.64,98042742.35,46,14,4509966148
 G110613,Vietnam,Vinh Tan power station,Vinh Tan-2 Unit 1,SUPERC,ANTH,98300,622,operating,2014,0,,,11.317,108.808,0.398449588,0.64,98208820.24,46,14,4517605731
