@@ -91,7 +91,7 @@ var route = [
       plantFile: './data/Database- SK - Project SK 1.csv',
       financierFile: './data/Database- SK - Project SK 2.csv',
       intro: {
-        coverImg: './img/image17.png',
+        coverImg: './img/image17.jpg',
         text: 'Climate Change isn’t just a problem of an individual, city or a country, it matters  to all of us.'
       },
       stories: [
@@ -170,7 +170,7 @@ var route = [
       plantFile: './data/Database- PH - Project PH 1.csv',
       financierFile: './data/Database- PH - Project PH 2.csv',
       intro: {
-        coverImg: './img/image8.png',
+        coverImg: './img/image8.jpg',
         text: 'The most to lose and little to gain.'
       },
       stories: [
