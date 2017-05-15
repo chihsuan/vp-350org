@@ -36,6 +36,8 @@
     Philippines: projection([120.58, 14.35])
   };
 
+  var selfInvestmentData = {};
+
 
   if (isMobile) {
     var opts = activeCountries.slice();
@@ -83,27 +85,38 @@
           return 'rgba(255, 255, 255, 0.75)';
       })
       .on('mouseover', function (d) {
-        if (activeCountries.indexOf(d.properties.name) > -1) {
+        var name = d.properties.name;
+
+        if (activeCountries.indexOf(name) > -1) {
           d3.select(this)
             .style('opacity', 0.8);
 
 
-          d3.selectAll('.' + d.properties.name.replace(' ', '') + '-link')
+          d3.selectAll('.' + name.replace(' ', '') + '-link')
             .style('display', 'block');
+
+          if (selfInvestmentData.hasOwnProperty(name) && selfInvestmentData[name].value) {
+            d3.select('#map-sub-title')
+              .text('Domestic：' + '$ ' + selfInvestmentData[name].value + 
+                ' / Plant No. ' + selfInvestmentData[name].no);
+          }
         }
 
         d3.select('.map-title')
-          .text(d.properties.name);
+          .text(name);
       })
       .on('mouseout', function (d) {
         d3.select(this)
-            .style('opacity', 1);
+          .style('opacity', 1);
 
         d3.select('.map-title')
-            .text('East Asia');
+          .text('East Asia');
 
         d3.selectAll('.' + d.properties.name.replace(' ', '') + '-link')
-            .style('display', 'none');
+          .style('display', 'none');
+
+        d3.select('#map-sub-title')
+          .text('')
       })
       .on('click', function (d) {
         if (activeCountries.indexOf(d.properties.name) > -1) { window.location.href = './' + d.properties.name.toLowerCase(); }
@@ -128,6 +141,19 @@
       .attr('x', function () {
         return isMobile ? width / 2 : width / 6 * 5;
       });
+
+    if (!isMobile) {
+      svg.append('text')
+        .text('12')
+        .attr('id', 'map-sub-title')
+        .attr('text-anchor', 'middle')
+        .attr('y', function () {
+          return height / 2 + 75;
+        })
+        .attr('x', function () {
+          return width / 6 * 5;
+        });
+    }
 
     d3.csv('./data/flow.csv', function(d) {
       d.value = +d.value;
@@ -167,6 +193,13 @@
     });
 
     var linkData = flowData.filter(function (d) {
+      if (d.source == d.destination) {
+        selfInvestmentData[d.source] = {
+          value: d.value,
+          no: d['No.']
+        };
+      }
+
       return eastAsiaCountries.indexOf(d.source) > -1 && d.source !== d.destination;
     });
 
@@ -356,7 +389,6 @@
   }
 
 
-
   function addJPFlows(flowData, features) {
     var legendX = 10;
     var legendY = height - 40;
@@ -379,6 +411,12 @@
     });
 
     var linkData = flowData.filter(function (d) {
+      if (d.source == d.destination) {
+        selfInvestmentData[d.source] = {
+          value: d.value,
+          no: d['No.']
+        };
+      }
       return eastAsiaCountries.indexOf(d.source) > -1 && d.source !== d.destination;
     });
 
