@@ -30,7 +30,7 @@
   var countryCenter = {
     Vietnam: projection([105.51, 21.02]),
     Japan: projection([139.4254, 35.422]),
-    Taiwan: projection([121.564558]),
+    Taiwan: projection([121.564558, 25.105497]),
     'South Korea': projection([126.5841, 37.34]),
     Indonesia: projection([106.48, 6.12]),
     Philippines: projection([120.58, 14.35])
@@ -57,7 +57,7 @@
         .text(function (d) { return d; });
   }
 
-   var linkNameFun = function (d) { return d.destination.replace(' ', '') + '-link'; };
+
 
 
   d3.json('./data/countries.geo.topo.json', function (error, mapData) {
@@ -129,18 +129,28 @@
         return isMobile ? width / 2 : width / 6 * 5;
       });
 
-  d3.csv('./data/flow.csv', function(d) {
-    d.value = +d.value;
-    return d;
-  }, function (linkData) {
-      addFlows(linkData, features);
+    d3.csv('./data/flow.csv', function(d) {
+      d.value = +d.value;
+      return d;
+    }, function (linkData) {
+        addFlows(linkData, features);
+      });
+
+    d3.csv('./data/[ VP ] Sum up Coal Plant No. - mainpage-JP.csv', function(d) {
+      d.value = +d.value;
+      return d;
+    }, function (linkData) {
+        addJPFlows(linkData, features);
     });
+
   });
 
   function addFlows(flowData, features) {
     var legendX = 10;
     var legendY = height - 40;
-
+    var linkNameFun = function (d) { 
+      return d.destination.replace(' ', '') + '-link'; 
+    };
     var maxValue = d3.max(flowData, function (d) { return d.value; });
     var linkScale = d3.scale.linear()
               .domain([0, maxValue])
@@ -166,7 +176,10 @@
       .enter()
       .append('svg:defs');
 
-    var markerNameFun = function (d) { return 'marker' + d.source.replace(' ', '') + d.destination.replace(' ', ''); };
+    var markerNameFun = function (d) { 
+      return 'marker' + d.source.replace(' ', '') + d.destination.replace(' ', ''); 
+    };
+
     // Arrow marker
     defs.append('marker')
       .attr('id', markerNameFun)
@@ -229,7 +242,7 @@
             projection.invert(countryCenter[d.destination])]
         });
       })
-      .attr('marker-end', function (d) { return 'url(#' + markerNameFun(d) + ')'; })
+      //.attr('marker-end', function (d) { return 'url(#' + markerNameFun(d) + ')'; })
       .style('display', 'none');
 
     linkGroup.append('circle')
@@ -273,7 +286,7 @@
       .attr('class', linkNameFun)
       .text(function (d) {
         if (d.value) {
-          return '＄' + d.value;
+          return '＄' + d.value.toFixed(0);
         }
       })
       .style('display', 'none')
@@ -293,34 +306,204 @@
         .text('STOP EAST ASIA FOSSIL FUEL FINANCIAL FLOW!');
     }
 
-    svg.append('circle')
-      .attr('cx', legendX)
-      .attr('cy', legendY)
-      // .attr('x2', legendX + 10)
-      // .attr('y2', legendY)
-      .attr('r', '5px')
-      .attr('stroke', '#b52626')
-      .attr('stroke-width', 12);
-
-    // svg.append('circle')
-    //   .attr('cx', legendX + 4)
-    //   .attr('cy', function () { return isMobile ? legendY + 20 : legendY + 25; })
-    //   .attr('r', '5px')
-    //   .style('fill', '#fff')
-    //   .style('stroke', 'none');
+    svg.append('line')
+      .attr('x1', legendX + 6)
+      .attr('y1', legendY - 43)
+      .attr('x2', legendX + 20)
+      .attr('y2', legendY - 43)
+      .attr('stroke', 'rgb(255,169,2)')
+      .attr('stroke-width', 15);
 
     svg.append('text')
-      .attr('x', legendX + 15)
+      .attr('x', legendX + 25)
+      .attr('y', legendY - 38)
+      .attr('class', 'legend')
+      .text('Investment flows to other countries');
+
+    svg.append('line')
+      .attr('x1', legendX + 6)
+      .attr('y1', legendY - 24)
+      .attr('x2', legendX + 20)
+      .attr('y2', legendY - 24)
+      .attr('stroke', '#b52626')
+      .attr('stroke-width', 15);
+
+    svg.append('text')
+      .attr('x', legendX + 25)
+      .attr('y', legendY - 18)
+      .attr('class', 'legend')
+      .text('Projects being financed from other countries');
+
+    svg.append('text')
+      .attr('x', legendX + 5)
       .attr('y', legendY + 5)
       .attr('class', 'legend')
-      .text('Million USD');
+      .text('$ = Million USD');
 
-    // svg.append('text')
-    //       .attr('x', legendX + 15)
-    //       .attr('y', function () { return isMobile ? legendY + 25 : legendY + 30; })
-    //       .attr('r', '8px')
-    //       .attr('fill', 'red')
-    //       .attr('class', 'legend')
-    //       .text('Data Last Updated：2017');
+    svg.append("svg:image")
+        .attr("xlink:href",  function(d) { 
+          return './img/plant.svg';}
+      )
+      .attr('x', legendX + 5)
+      .attr('y', legendY + 13)
+      .attr('width', 20)
+
+     svg.append('text')
+      .attr('x', legendX + 40)
+      .attr('y', legendY + 27)
+      .attr('class', 'legend')
+      .text('= Coal Plant No.');
+  }
+
+
+
+  function addJPFlows(flowData, features) {
+    var legendX = 10;
+    var legendY = height - 40;
+    var linkNameFun = function (d) { 
+      return d.source.replace(' ', '') + '-link'; 
+    };
+    var maxValue = d3.max(flowData, function (d) { return d.value; });
+    var linkScale = d3.scale.linear()
+              .domain([0, maxValue])
+              .range([5, 15]);
+
+
+    var maxColor = 'rgb(255,169,2)';
+    var minColor = 'rgb(255,169,2)';
+    // var countryCenter = {};
+    features.forEach(function (feature) {
+      if (activeCountries.indexOf(feature.properties.name) === -1) {
+        countryCenter[feature.properties.name] = path.centroid(feature);
+      }
+    });
+
+    var linkData = flowData.filter(function (d) {
+      return eastAsiaCountries.indexOf(d.source) > -1 && d.source !== d.destination;
+    });
+
+    var defs = svg
+      .selectAll('.defs')
+      .data(linkData)
+      .enter()
+      .append('svg:defs');
+
+    var markerNameFun = function (d) { 
+      return 'marker' + d.source.replace(' ', '') + d.destination.replace(' ', ''); 
+    };
+
+    // // Arrow marker
+    // defs.append('marker')
+    //   .attr('id', markerNameFun)
+    //   .attr('viewBox', '0 -5 10 10')
+    //   .attr('refX', 5)
+    //   .attr('refY', 0)
+    //   .attr('orient', 'auto')
+    //   .attr('markerUnits', 'userSpaceOnUse')
+    //   .attr('markerWidth', function (d) { return linkScale(d.value) * 3.5; })
+    //   .attr('markerHeight', function (d) { return linkScale(d.value) * 2.5; })
+    // .append('path')
+    //       .attr('d', 'M0,-5L10,0L0,5')
+    //   .attr('fill', 'rgba(255,169,2, 0.75)');
+    //   .attr('stroke', 'rgba(156, 0, 0, 0.9)');
+
+    var gradientNameFun = function (d) { return 'grd' + d.destination.replace(' ', '') + d.source.replace(' ', ''); };
+    var gradientRefNameFun = function (d) { return 'url(#' + gradientNameFun(d) + ')'; };
+
+    var arcColor = d3.scale.log().domain([1, maxValue]).range([minColor, maxColor]);
+    var strokeFun = function (d) { return arcColor(d.value); };
+
+    var gradient = defs.selectAll('linearGradient')
+      .data(linkData)
+    .enter()
+      .append('svg:linearGradient')
+        .attr('id', gradientNameFun)
+        .attr('gradientUnits', 'userSpaceOnUse')
+        .attr('x1', function (d) { return countryCenter[d.source][0]; })
+        .attr('y1', function (d) { return countryCenter[d.source][1]; })
+        .attr('x2', function (d) { return countryCenter[d.destination][0]; })
+        .attr('y2', function (d) { return countryCenter[d.destination][0]; });
+
+    gradient.append('svg:stop')
+        .attr('offset', '0%')
+        .attr('stop-color', minColor)
+        .attr('stop-opacity', 0.2);
+    gradient.append('svg:stop')
+        .attr('offset', '80%')
+        .attr('stop-color', strokeFun)
+        .attr('stop-opacity', 1.0);
+    gradient.append('svg:stop')
+        .attr('offset', '100%')
+        .attr('stop-color', strokeFun)
+        .attr('stop-opacity', 1.0);
+
+    var arcs = svg.append('g').attr('id', 'arcs');
+    var linkGroup = arcs.selectAll('g')
+        .data(linkData)
+        .enter().append('g');
+
+    var arcNodes = linkGroup.append('path')
+      .attr('stroke', gradientRefNameFun)
+      .attr('stroke-linecap', 'round')
+      .attr('stroke-width', function (d) { return linkScale(d.value); })
+      .attr('class', linkNameFun)
+      .attr('d', function (d) {
+        return path({
+          type: 'LineString',
+          coordinates: [projection.invert(countryCenter[d.source]),
+            projection.invert(countryCenter[d.destination])]
+        });
+      })
+      //.attr('marker-end', function (d) { return 'url(#' + markerNameFun(d) + ')'; })
+      .style('display', 'none');
+
+    linkGroup.append('circle')
+      .attr('cx', function (d) { return countryCenter[d.destination][0]; })
+      .attr('cy', function (d) { return countryCenter[d.destination][1] - 5; })
+      .attr('class', linkNameFun)
+      .attr('r', function (d) {
+        if (d.value > 1000) {
+          return 45;
+        }
+        return 30;
+      })
+      .style('display', 'none')
+      .attr('text-anchor', 'middle')
+      .style('fill', 'rgba(255,169,2, 0.75)')
+      .style('stroke', 'rgb(255,169,2)');
+
+    linkGroup.append("svg:image")
+        .attr("xlink:href",  function(d) { 
+          return './img/plant.svg';}
+        )
+        .attr('x', function (d) { return countryCenter[d.destination][0] - 21; })
+        .attr('y', function (d) { return countryCenter[d.destination][1] - 24; })
+        .attr('class', linkNameFun)
+        .attr("height", 15)
+        .attr("width", 18)
+        .style('display', 'none');
+
+    linkGroup.append('text')
+      .attr('x', function (d) { return countryCenter[d.destination][0]; })
+      .attr('y', function (d) { return countryCenter[d.destination][1] - 10; })
+      .attr('class', linkNameFun)
+      .text(function (d) {
+        if (d['No.']) {
+          return '' + d['No.'];
+        }
+      })
+      .style('display', 'none');
+    
+    linkGroup.append('text')
+      .attr('x', function (d) { return countryCenter[d.destination][0]; })
+      .attr('y', function (d) { return countryCenter[d.destination][1] + 10; })
+      .attr('class', linkNameFun)
+      .text(function (d) {
+        if (d.value) {
+          return '＄' + d.value.toFixed(0);
+        }
+      })
+      .style('display', 'none')
+      .attr('text-anchor', 'middle');
   }
 }(window));
