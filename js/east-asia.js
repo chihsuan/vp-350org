@@ -294,13 +294,13 @@
 
     if (!isMobile) {
       svg.append('text')
-        .attr('x', 50)
+        .attr('x', 25)
         .attr('y', height / 5 * 2.2)
         .attr('class', 'w-title')
         .text('JOIN DIVESTMENT MOVEMENT!');
 
       svg.append('text')
-        .attr('x', 50)
+        .attr('x', 25)
         .attr('y', height / 5 * 2.2 + 26)
         .attr('class', 'w-sub-title')
         .text('STOP EAST ASIA FOSSIL FUEL FINANCIAL FLOW!');
