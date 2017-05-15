@@ -144,7 +144,7 @@
 
     if (!isMobile) {
       svg.append('text')
-        .text('12')
+        .text('')
         .attr('id', 'map-sub-title')
         .attr('text-anchor', 'middle')
         .attr('y', function () {
@@ -172,7 +172,7 @@
   });
 
   function addFlows(flowData, features) {
-    var legendX = 10;
+    var legendX = 15;
     var legendY = height - 40;
     var linkNameFun = function (d) { 
       return d.destination.replace(' ', '') + '-link'; 
@@ -327,13 +327,13 @@
 
     if (!isMobile) {
       svg.append('text')
-        .attr('x', 25)
+        .attr('x', 15)
         .attr('y', height / 5 * 2.2)
         .attr('class', 'w-title')
         .text('JOIN DIVESTMENT MOVEMENT!');
 
       svg.append('text')
-        .attr('x', 25)
+        .attr('x', 15)
         .attr('y', height / 5 * 2.2 + 26)
         .attr('class', 'w-sub-title')
         .text('STOP EAST ASIA FOSSIL FUEL FINANCIAL FLOW!');
