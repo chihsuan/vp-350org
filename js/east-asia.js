@@ -15,8 +15,8 @@
     .attr('width', width)
     .attr('height', height);
 
-  var mapScale = isMobile ? 200 : 450;
-  var center = [107, 25];
+  var mapScale = isMobile ? 240 : 450;
+  var center = [107, 24];
 
   var projection = d3.geo.mercator()
     .scale(mapScale)
@@ -172,7 +172,7 @@
   });
 
   function addFlows(flowData, features) {
-    var legendX = 15;
+    var legendX = 20;
     var legendY = height - 40;
     var linkNameFun = function (d) { 
       return d.destination.replace(' ', '') + '-link'; 
@@ -327,13 +327,13 @@
 
     if (!isMobile) {
       svg.append('text')
-        .attr('x', 15)
+        .attr('x', 20)
         .attr('y', height / 5 * 2.2)
         .attr('class', 'w-title')
         .text('JOIN DIVESTMENT MOVEMENT!');
 
       svg.append('text')
-        .attr('x', 15)
+        .attr('x', 20)
         .attr('y', height / 5 * 2.2 + 26)
         .attr('class', 'w-sub-title')
         .text('STOP EAST ASIA FOSSIL FUEL FINANCIAL FLOW!');
