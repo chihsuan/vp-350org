@@ -176,9 +176,7 @@
             return { value: a.value + b.value };
           });
         }
-        document.getElementById('bank-vis').className = ''
-
-
+        document.getElementById('bank-vis').className = '';
 
         if (bankTotal.value > 0) {
 
@@ -249,6 +247,8 @@
     }
     else {
 
+       document.getElementById('bank-proj-vis').className = '';
+
        d3.csv(dbFile, function (data) {
         var app = new Vue({
           el: '#bank-proj-table',
@@ -267,9 +267,7 @@
             }
           }
         });
-
       });
-
     }
   }
 
