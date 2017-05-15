@@ -36,6 +36,13 @@
     var path = d3.geo.path()
       .projection(projection);
 
+    var plantNumberData = {};
+    d3.csv('./data/[ VP ] Sum up Coal Plant No. - sub-page- Coal Plant No..csv', function (data) {
+      data.forEach(function (d) {
+        plantNumberData[d.Country] = d['Coal Plant No.'];
+      });
+    });
+
 
     d3.json('./data/countries.geo.topo.json', function (error, mapData) {
       d3.csv(plantFile, function (plantData) {
@@ -117,8 +124,9 @@
             return isMobile ? 'middle' : 'end';
           });
 
+        console.log(plantNumberData);
         svg.append('text')
-          .text(function () { return plantMergeData.length + ' Coal Plants'; })
+          .text(function () { return plantNumberData[country] + ' Total Coal Plant No.'; })
           .attr('class', 'map-subtitle')
           .attr('y', function () {
             if (isMobile) {

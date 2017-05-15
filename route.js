@@ -51,7 +51,7 @@ var route = [
       plantFile: './data/Database- TW - Project TW 1.csv',
       financierFile: './data/Database- VN - Project 2.csv',
       intro: {
-        coverImg: './img/image16.png',
+        coverImg: './img/image16.jpg',
         text: 'In 2014, PM 2.5 alone caused more than 6,000 deaths in Taiwan.'
       },
       stories: [
@@ -128,9 +128,9 @@ var route = [
       scale: 1600,
       mobileScale: 740,
       plantFile: './data/Database- JP - Project JP 1.csv',
-      financierFile: './data/Database- VN - Project 2.csv',
+      financierFile: './data/Database- JP - JP financial Insitution.csv',
       intro: {
-        coverImg: './img/image14.png',
+        coverImg: './img/image14.jpg',
         text: 'Once Japan withdrawal its investment in coal, the sky over East Asia became crystal clear.'
       },
       stories: [
@@ -210,7 +210,7 @@ var route = [
       plantFile: './data/Database- IN - Project IN 1.csv',
       financierFile: './data/Database- VN - Project 2.csv',
       intro: {
-        coverImg: './img/vietnam_story.png',
+        coverImg: './img/image4.jpg',
         text: 'Black Clouds cover over Indonesia due to Japanese coal finance.'
       },
       stories: [

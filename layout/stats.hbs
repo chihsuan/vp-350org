@@ -32,7 +32,7 @@
   </head>
   <body>
 
-      <section id="bank-vis" class="">
+      <section id="bank-vis" class="hidden">
         <div id="bank-container" class="container">
           <h2 id="bank-vis-title" class="text-center text-uppercase"></h2><hr class="title-hr">
           <br/>
@@ -59,13 +59,12 @@
                 </tbody>
               </table>
             </div>
-
-
         </div> <br/>
         <div id="bank-treemap"></div>
       </section>
 
-      <section id="flow">
+
+      <section id="flow" class="hidden">
         <h2 id="bank-invest-total" class="text-center text-yellow"></h2>
         <div class="text-center">
           <span class="glyphicon glyphicon-arrow-down arrow-down" aria-hidden="true"></span>
@@ -108,10 +107,39 @@
           </div>
 
         </div><br/>
+      </section>
 
-        <div id="people">
-          <v-client-table :data="tableData" :columns="columns" :options="options"></v-client-table>
-        </div>
+        <section id="bank-proj-vis">
+        <div id="bank-container" class="container">
+          <h2 id="bank-proj-vis-title" class="text-center text-uppercase"></h2><hr class="title-hr">
+          <br/>
+
+            <div class="pre-scrollable table-wrap">
+              <table id="bank-proj-table" class="table table-striped table-responsive">
+                <thead><tr>
+                <th>Recipient Domestic Company</th>
+                <th>Project Country</th>
+                <th>Project Name</th>
+                <th>Unit</th>
+                <th>Types</th>
+                <th>Capacity (MW)</th>
+                <th>Financier</th>
+                </tr></thead>
+                <tbody>
+                  <tr v-for="bank in bankArray">
+                    <td>\{{ bank['Recipeint Domestic Company'] }}</td>
+                    <td>\{{ bank['Project Country'] }}</td>
+                    <td>\{{ bank['Project name'] }}</td>
+                    <td>\{{ bank.Unit }}</td>
+                    <td>\{{ bank.Types }}</td>
+                    <td>\{{ bank['Capacity (MW)'] }}</td>
+                    <td>\{{ bank.Financier }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+        </div> <br/>
+        <div id="bank-treemap"></div>
       </section>
 
 

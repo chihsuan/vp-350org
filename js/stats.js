@@ -31,6 +31,7 @@
 
     document.getElementById('bank-vis-title').innerText = 'Financiers for ' + country + ' Coal Plant';
     document.getElementById('project-vis-title').innerText = 'Coal Plants in ' + country;
+    document.getElementById('bank-proj-vis-title').innerText = 'List of Financing Country and Project';
 
     d3.csv(plantFile, function (plantRawData) {
       var plantData = plantRawData.filter(function (d) {
@@ -123,119 +124,153 @@
     });
 
 
-    d3.csv(dbFile, function (data) {
-      var bankObj = {};
-      var bankArray = [];
+    if (country !== 'Japan') {
+      d3.csv(dbFile, function (data) {
+        var bankObj = {};
+        var bankArray = [];
 
-      // data.forEach(function (d) {
-      //   if (!d['Total Investing Amount'] || !d["Financier's name"]) { return; }
-      //
-      //   if (!bankObj.hasOwnProperty(d["Financier's name"])) {
-      //     bankObj[d["Financier's name"]] = {
-      //       investing: 0,
-      //       countries: [],
-      //       plants: []
-      //     };
-      //   }
-      //   var obj = bankObj[d["Financier's name"]];
-      //
-      //   obj.investing += parseFloat(d['Total Investing Amount']);
-      //   if (d["Financier's countries"] && obj.countries.indexOf(d["Financier's countries"]) === -1) {
-      //     obj.countries.push(d["Financier's countries"]);
-      //   }
-      //
-      //
-      //   if (d['Project Name'] && obj.plants.indexOf(d['Project Name']) === -1) {
-      //     obj.plants.push(d['Project Name']);
-      //   }
-      // });
-      //
-      // for (var key in bankObj) {
-      //   bankArray.push({
-      //     name: key,
-      //     value: bankObj[key].investing,
-      //     countries: bankObj[key].countries.join(', '),
-      //     plants: bankObj[key].plants.join(', ')
-      //   });
-      // }
-      data.forEach(function (d) {
-        d.value = parseFloat(d['Total Investing Amount']);
-        d.name = d["Financier's name"];
-      });
-
-
-      bankArray = data;
-      var bankTotal = {
-        value: 0
-      };
-
-      if (bankArray.length > 0) {
-        bankTotal = bankArray.reduce(function (a, b) {
-          return { value: a.value + b.value };
+        // data.forEach(function (d) {
+        //   if (!d['Total Investing Amount'] || !d["Financier's name"]) { return; }
+        //
+        //   if (!bankObj.hasOwnProperty(d["Financier's name"])) {
+        //     bankObj[d["Financier's name"]] = {
+        //       investing: 0,
+        //       countries: [],
+        //       plants: []
+        //     };
+        //   }
+        //   var obj = bankObj[d["Financier's name"]];
+        //
+        //   obj.investing += parseFloat(d['Total Investing Amount']);
+        //   if (d["Financier's countries"] && obj.countries.indexOf(d["Financier's countries"]) === -1) {
+        //     obj.countries.push(d["Financier's countries"]);
+        //   }
+        //
+        //
+        //   if (d['Project Name'] && obj.plants.indexOf(d['Project Name']) === -1) {
+        //     obj.plants.push(d['Project Name']);
+        //   }
+        // });
+        //
+        // for (var key in bankObj) {
+        //   bankArray.push({
+        //     name: key,
+        //     value: bankObj[key].investing,
+        //     countries: bankObj[key].countries.join(', '),
+        //     plants: bankObj[key].plants.join(', ')
+        //   });
+        // }
+        data.forEach(function (d) {
+          d.value = parseFloat(d['Total Investing Amount']);
+          d.name = d["Financier's name"];
         });
-      }
 
-      bankTotal = bankTotal.value.toFixed(2)
 
-      document.getElementById('bank-invest-total').innerText = bankTotal + ' (mio USD)';
+        bankArray = data;
+        var bankTotal = {
+          value: 0
+        };
 
-      var bankTreemap = d3.layout.treemap()
-        .size([width, 500]);
-
-      var nodes = bankTreemap.nodes({ children: bankArray });
-      nodes = nodes.slice(1, nodes.length);
-
-      var bankSvg = d3.select('#bank-treemap')
-        .append('svg')
-        .attr('width', width)
-        .attr('height', 500);
-
-      var g = bankSvg.selectAll('g')
-        .data(nodes)
-        .enter().append('g')
-        .on('mousemove', function (d) {
-          mousemove(d, '<strong>Bank Name:' + d.name + '</strong>' +
-                       '<p>Investing Amount(mio USD): ' + d.value.toFixed(2) + '</p>');
-        })
-        .on('mouseout', mouseout);
-
-      g.append('rect')
-       .attr({
-         x: function (d) { return d.x; },
-         y: function (d) { return d.y; },
-         width: function (d) { return d.dx; },
-         height: function (d) { return d.dy; },
-         class: 'bank-treemap-rect'
-       });
-
-      g.append('text')
-        .attr({
-          x: function (d) { return d.x + d.dx / 2; },
-          y: function (d) { return d.y + d.dy / 2; },
-          'text-anchor': 'middle',
-          'dominant-baseline': 'central'
-        })
-        .text(function (d) { return d.name; })
-        .each(fontSize);
-
-      var app = new Vue({
-        el: '#bank-table',
-        data: {
-          bank: bankArray
-        },
-        computed: {
-          bankArray: function () {
-            return this.bank.sort(function (a, b) {
-              if (a.name < b.name) return -1;
-              if (a.name > b.name) return 1;
-              if (a.Unit < b.Unit) return -1;
-              if (a.Unit > b.Unit) return 1;
-              return 0;
-            });
-          }
+        if (bankArray.length > 0) {
+          bankTotal = bankArray.reduce(function (a, b) {
+            return { value: a.value + b.value };
+          });
         }
+        document.getElementById('bank-vis').className = ''
+
+
+
+        if (bankTotal.value > 0) {
+
+          bankTotal = bankTotal.value.toFixed(2)
+
+          document.getElementById('bank-invest-total').innerText = bankTotal + ' (mio USD)';
+
+          var bankTreemap = d3.layout.treemap()
+            .size([width, 500]);
+
+          var nodes = bankTreemap.nodes({ children: bankArray });
+          nodes = nodes.slice(1, nodes.length);
+
+          var bankSvg = d3.select('#bank-treemap')
+            .append('svg')
+            .attr('width', width)
+            .attr('height', 500);
+
+          var g = bankSvg.selectAll('g')
+            .data(nodes)
+            .enter().append('g')
+            .on('mousemove', function (d) {
+              mousemove(d, '<strong>Bank Name:' + d.name + '</strong>' +
+                           '<p>Investing Amount(mio USD): ' + d.value.toFixed(2) + '</p>');
+            })
+            .on('mouseout', mouseout);
+
+          g.append('rect')
+           .attr({
+             x: function (d) { return d.x; },
+             y: function (d) { return d.y; },
+             width: function (d) { return d.dx; },
+             height: function (d) { return d.dy; },
+             class: 'bank-treemap-rect'
+           });
+
+          g.append('text')
+            .attr({
+              x: function (d) { return d.x + d.dx / 2; },
+              y: function (d) { return d.y + d.dy / 2; },
+              'text-anchor': 'middle',
+              'dominant-baseline': 'central'
+            })
+            .text(function (d) { return d.name; })
+            .each(fontSize);
+
+        }
+
+        var app = new Vue({
+          el: '#bank-table',
+          data: {
+            bank: bankArray
+          },
+          computed: {
+            bankArray: function () {
+              return this.bank.sort(function (a, b) {
+                if (a['Project Name'] < b['Project Name']) return -1;
+                if (a['Project Name'] > b['Project Name']) return 1;
+                if (a.Unit < b.Unit) return -1;
+                if (a.Unit > b.Unit) return 1;
+                return 0;
+              });
+            }
+          }
+        });
+
       });
-    });
+    }
+    else {
+
+       d3.csv(dbFile, function (data) {
+        var app = new Vue({
+          el: '#bank-proj-table',
+          data: {
+            bank: data
+          },
+          computed: {
+            bankArray: function () {
+              return this.bank.sort(function (a, b) {
+                // if (a['Project Name'] < b['Project Name']) return -1;
+                // if (a['Project Name'] > b['Project Name']) return 1;
+                // if (a.Unit < b.Unit) return -1;
+                // if (a.Unit > b.Unit) return 1;
+                return 0;
+              });
+            }
+          }
+        });
+
+      });
+
+    }
   }
 
   function fontSize(d, i) {

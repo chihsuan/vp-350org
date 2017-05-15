@@ -57,7 +57,7 @@
         .text(function (d) { return d; });
   }
 
-   var linkNameFun = function (d) { return d.target.replace(' ', '') + '-link'; };
+   var linkNameFun = function (d) { return d.destination.replace(' ', '') + '-link'; };
 
 
   d3.json('./data/countries.geo.topo.json', function (error, mapData) {
@@ -129,15 +129,19 @@
         return isMobile ? width / 2 : width / 6 * 5;
       });
 
-    d3.json('./data/flow.json', function (linkData) {
+  d3.csv('./data/flow.csv', function(d) {
+    d.value = +d.value;
+    return d;
+  }, function (linkData) {
       addFlows(linkData, features);
     });
   });
 
-  function addFlows(linkData, features) {
+  function addFlows(flowData, features) {
     var legendX = 10;
     var legendY = height - 40;
-    var maxValue = d3.max(linkData, function (d) { return d.value; });
+
+    var maxValue = d3.max(flowData, function (d) { return d.value; });
     var linkScale = d3.scale.linear()
               .domain([0, maxValue])
               .range([5, 15]);
@@ -152,8 +156,8 @@
       }
     });
 
-    linkData = linkData.filter(function (d) {
-      return eastAsiaCountries.indexOf(d.source) > -1;
+    var linkData = flowData.filter(function (d) {
+      return eastAsiaCountries.indexOf(d.source) > -1 && d.source !== d.destination;
     });
 
     var defs = svg
@@ -162,7 +166,7 @@
       .enter()
       .append('svg:defs');
 
-    var markerNameFun = function (d) { return 'marker' + d.source.replace(' ', '') + d.target.replace(' ', ''); };
+    var markerNameFun = function (d) { return 'marker' + d.source.replace(' ', '') + d.destination.replace(' ', ''); };
     // Arrow marker
     defs.append('marker')
       .attr('id', markerNameFun)
@@ -178,7 +182,7 @@
       .attr('fill', 'rgba(196, 0, 0, 0.75)');
       // .attr('stroke', 'rgba(156, 0, 0, 0.9)');
 
-    var gradientNameFun = function (d) { return 'grd' + d.source.replace(' ', '') + d.target.replace(' ', ''); };
+    var gradientNameFun = function (d) { return 'grd' + d.source.replace(' ', '') + d.destination.replace(' ', ''); };
     var gradientRefNameFun = function (d) { return 'url(#' + gradientNameFun(d) + ')'; };
 
     var arcColor = d3.scale.log().domain([1, maxValue]).range([minColor, maxColor]);
@@ -192,8 +196,8 @@
         .attr('gradientUnits', 'userSpaceOnUse')
         .attr('x1', function (d) { return countryCenter[d.source][0]; })
         .attr('y1', function (d) { return countryCenter[d.source][1]; })
-        .attr('x2', function (d) { return countryCenter[d.target][0]; })
-        .attr('y2', function (d) { return countryCenter[d.target][0]; });
+        .attr('x2', function (d) { return countryCenter[d.destination][0]; })
+        .attr('y2', function (d) { return countryCenter[d.destination][0]; });
 
     gradient.append('svg:stop')
         .attr('offset', '0%')
@@ -222,7 +226,7 @@
         return path({
           type: 'LineString',
           coordinates: [projection.invert(countryCenter[d.source]),
-            projection.invert(countryCenter[d.target])]
+            projection.invert(countryCenter[d.destination])]
         });
       })
       .attr('marker-end', function (d) { return 'url(#' + markerNameFun(d) + ')'; })
@@ -234,19 +238,43 @@
       .attr('class', linkNameFun)
       .attr('r', function (d) {
         if (d.value > 1000) {
-          return 30;
+          return 45;
         }
-        return 25;
+        return 30;
       })
       .style('display', 'none')
       .attr('text-anchor', 'middle');
 
+    linkGroup.append("svg:image")
+        .attr("xlink:href",  function(d) { 
+          return './img/plant.svg';}
+        )
+        .attr('x', function (d) { return countryCenter[d.source][0] - 21; })
+        .attr('y', function (d) { return countryCenter[d.source][1] - 24; })
+        .attr('class', linkNameFun)
+        .attr("height", 15)
+        .attr("width", 18)
+        .style('display', 'none');
+
     linkGroup.append('text')
       .attr('x', function (d) { return countryCenter[d.source][0]; })
-      .attr('y', function (d) { return countryCenter[d.source][1]; })
+      .attr('y', function (d) { return countryCenter[d.source][1] - 10; })
       .attr('class', linkNameFun)
       .text(function (d) {
-        return d.value + '';
+        if (d['No.']) {
+          return '' + d['No.'];
+        }
+      })
+      .style('display', 'none');
+    
+    linkGroup.append('text')
+      .attr('x', function (d) { return countryCenter[d.source][0]; })
+      .attr('y', function (d) { return countryCenter[d.source][1] + 10; })
+      .attr('class', linkNameFun)
+      .text(function (d) {
+        if (d.value) {
+          return '＄' + d.value;
+        }
       })
       .style('display', 'none')
       .attr('text-anchor', 'middle');
