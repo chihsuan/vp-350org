@@ -32,7 +32,7 @@
     Japan: projection([139.4254, 35.422]),
     Taiwan: projection([121.564558, 25.105497]),
     'South Korea': projection([126.5841, 37.34]),
-    Indonesia: projection([106.48, 6.12]),
+    Indonesia: projection([106.48, -6.1]),
     Philippines: projection([120.58, 14.35])
   };
 
