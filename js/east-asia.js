@@ -243,7 +243,8 @@
         .attr('x1', function (d) { return countryCenter[d.source][0]; })
         .attr('y1', function (d) { return countryCenter[d.source][1]; })
         .attr('x2', function (d) { return countryCenter[d.destination][0]; })
-        .attr('y2', function (d) { return countryCenter[d.destination][0]; });
+        .attr('y2', function (d) { return countryCenter[d.destination][0]; })
+        .style('pointer-events', 'none');
 
     gradient.append('svg:stop')
         .attr('offset', '0%')
@@ -276,7 +277,8 @@
         });
       })
       //.attr('marker-end', function (d) { return 'url(#' + markerNameFun(d) + ')'; })
-      .style('display', 'none');
+      .style('display', 'none')
+      .style('pointer-events', 'none');
 
     linkGroup.append('circle')
       .attr('cx', function (d) { return countryCenter[d.source][0]; })
@@ -368,7 +370,7 @@
       .text('Projects being financed from other countries');
 
     svg.append('text')
-      .attr('x', legendX + 5)
+      .attr('x', legendX + 7)
       .attr('y', legendY + 5)
       .attr('class', 'legend')
       .text('$ = Million USD');
@@ -380,10 +382,11 @@
       .attr('x', legendX + 5)
       .attr('y', legendY + 13)
       .attr('width', 20)
+      .attr('height', 20);
 
      svg.append('text')
-      .attr('x', legendX + 40)
-      .attr('y', legendY + 27)
+      .attr('x', legendX + 30)
+      .attr('y', legendY + 30)
       .attr('class', 'legend')
       .text('= Coal Plant No.');
   }
