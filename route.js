@@ -177,7 +177,7 @@ var route = [
         {
           isVideo: false,
           title: 'We stand with Bataan in saying no to coal.',
-          mediaUrl: './img/ph3.jpg',
+          mediaUrl: './img/image19.jpg',
           content: 'Solar and wind energy are now at the same price or even cheaper than new fossil fuels in over 30 countries, according to the World Economic Forum. It is both ironic and tragic then that companies like SMC Consolidated Power Corporation (SMCCPC) continue to operate destructive coal plants and dump bottom ash harmful to nearby communities, such as in Limay, Bataan. Therefore, the Environmental Management Bureau in Central Luzon has already ordered SMCCPC to stop any activity inside its coal plant in the wake of the ash spill that has caused several residents in the nearby communities to fall ill.'
         },
         {
