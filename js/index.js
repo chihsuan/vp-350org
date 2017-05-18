@@ -125,7 +125,7 @@
           });
 
         svg.append('text')
-          .text(function () { return plantNumberData[country] + ' Total Coal Plant No.'; })
+          .text(function () { return plantNumberData[country] + ' Coal Plants'; })
           .attr('class', 'map-subtitle')
           .attr('y', function () {
             if (isMobile) {

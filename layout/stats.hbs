@@ -32,9 +32,33 @@
   </head>
   <body>
 
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+            <p class="stats-intro">
+            We are surveying the financial data about the fossil fuel industries in this region. The relevant data of the country are listed and ranked as below. 
+            <ul>
+              <li>Financiers for the coal plants</li>                
+              <li>Basic information of coal plants list</li>                   
+              <li>List of financing countries and projects</li>
+            </ul>
+            We are hoping to have your support to join us on these information updating and discussion.   
+            
+            </div>
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section id="bank-vis" class="hidden">
         <div id="bank-container" class="container">
-          <h2 id="bank-vis-title" class="text-center text-uppercase"></h2><hr class="title-hr">
+          <h2 id="bank-vis-title" class="text-center text-uppercase"></h2><hr class="title-hr">    
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h4>Scroll the sheet and check who is financing coal in the region!</h4>
+If you would like to know who is financing coal plants of your region, we list the financiers’ information herein.</div>
+          </div><br/>
           <br/>
 
             <div class="pre-scrollable table-wrap">
@@ -60,6 +84,14 @@
               </table>
             </div>
         </div> <br/>
+           
+          <div class="container"><div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h4>Figure out which is the biggest coal financer in your region now!</h4>
+A ranking of the coal financer is provided in the graph in terms of investment amount below. </div>
+          </div>
+          </div>
+<br/>
         <div id="bank-treemap"></div>
       </section>
 
@@ -74,10 +106,22 @@
 
       <section id="proj-vis">
        <h2 id="project-vis-title" class="text-center text-uppercase"></h2><hr class="title-hr">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+          <p><h4>Figure out which is the biggest coal plant in your region now!</h4>
+        A ranking of the coal plants is provided in the graph in terms of installed capacity size below. 
+            </p><br/>
+            </div>
+          </div>
+        </div>
         <div id="proj-treemap"></div>
         <div id="proj-container" class="container">
-        <br/>
-
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h4>Scroll the sheet and check the detail information!</h4>
+If you would like to know more about the specific coal plant, we list coal plants herein. Please contact us if you have any suggestions or ideas.</div>
+          </div><br/>
           <div class="pre-scrollable table-wrap">
             <table id="proj-table" class="table table-striped table-responsive">
               <thead><tr>
@@ -95,7 +139,7 @@
                 <tr v-for="proj in projArray">
                   <td>\{{ proj.name }}</td>
                   <td>\{{ proj.Types }}</td>
-                  <td>\{{ proj['Established date (yr)'] }}</td>
+                  <td>\{{ proj['Established Year'] }}</td>
                   <td>\{{ proj.Status }}</td>
                   <td>\{{ proj['Capacity (MW)'] }}</td>
                   <td>\{{ proj['Domestic owner name'] }}</td>
@@ -112,8 +156,14 @@
         <section id="bank-proj-vis" class="hidden">
         <div id="bank-container" class="container">
           <h2 id="bank-proj-vis-title" class="text-center text-uppercase"></h2><hr class="title-hr">
+          <div class="container"><div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h4>Scroll the sheet and check all coal plants that companies and financiers being involved in the world.
+</h4>
+If you would like to know where and which projects that Japanese financial institutions are financing, we list the locations and the projects they financed.</div>
+          </div>
+          </div>
           <br/>
-
             <div class="pre-scrollable table-wrap">
               <table id="bank-proj-table" class="table table-striped table-responsive">
                 <thead><tr>
@@ -128,7 +178,7 @@
                 <tbody>
                   <tr v-for="bank in bankArray">
                     <td>\{{ bank['Recipeint Domestic Company'] }}</td>
-                    <td>\{{ bank['Project Country'] }}</td>
+                    <td>\{{ bank['Project country'] }}</td>
                     <td>\{{ bank['Project name'] }}</td>
                     <td>\{{ bank.Unit }}</td>
                     <td>\{{ bank.Types }}</td>
