@@ -224,6 +224,9 @@
             .each(fontSize);
 
         }
+        else {
+          $('#bank-treemap-desc').hide();
+        }
 
         var app = new Vue({
           el: '#bank-table',
