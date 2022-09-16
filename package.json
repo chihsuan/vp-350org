@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/chihsuan/vp-350org#readme",
   "dependencies": {
-    "bootstrap": "^3.3.7",
+    "bootstrap": "^3.4.1",
     "d3": "^4.7.4",
     "eslint": "^3.0.1",
     "eslint-config-airbnb-base": "^11.1.3",
